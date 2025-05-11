@@ -1,0 +1,125 @@
+<div id="ezssubConta" style="display: block;position: relative;top: 0px;left: 0px;z-index: 5; width: 1700px;">    
+  <h3 style="display: inline-block;"> EZS. ..</h3>    
+  <div id="ezscontrols" style="display: flex; flex-direction: column; align-items: center;">
+  
+  
+<div id="EZSarmDisArmButs" style="     display: inline-flex;     position: absolute;     left: 130px;     top: 170px; ">
+  <button id="ARMezs" style="width: 100px; height: 50px; margin: 15px; cursor: pointer; text-align: center;" onclick="EZSsendARMdisArm(this)">Arm EZS
+  </button>
+  <button id="DISarmezs" style="width: 100px; height: 50px; margin: 15px; cursor: pointer; text-align: center; display: none;" onclick="EZSsendARMdisArm(this)">Disarm EZS
+  </button>
+</div>
+
+<div id="EZSstornos" style="display: inline-flex;position: absolute;left: 130px;top: 325px;">
+  <button id="Storno" style="width: 100px; height: 50px; margin: 15px; cursor: pointer; text-align: center;" onclick="EZSsendARMdisArm(this)">Storno</button>
+  
+</div>
+  
+  <p style="
+    color: #36d056;
+    text-shadow: 1px 2px 4px #0d0c0ced;
+    font-weight: bold;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+" id="reponsInvalidReason">-</p>   
+<p style="
+    color: #36d056;
+    text-shadow: 1px 2px 4px #0d0c0ced;
+    font-weight: bold;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+">KeyCode:
+    </p> 
+<p id="keyCode" style="display: block;position: relative;height: 20px;color: red;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;"></p>
+    <div id="keypadContainer" style="display: inline-grid; grid-template-columns: auto auto auto; width: 33%;">
+    <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-1" ipid="0x27,0x26,0x28,0x29,0x30">1
+    </button>  
+    <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-2" ipid="0x27,0x26,0x28,0x29,0x30">2
+    </button>
+    <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-3" ipid="0x27,0x26,0x28,0x29,0x30">3
+    </button>
+    <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-4" ipid="0x27,0x26,0x28,0x29,0x30">4
+    </button>  
+    <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-5" ipid="0x27,0x26,0x28,0x29,0x30">5
+    </button>
+    <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-6" ipid="0x27,0x26,0x28,0x29,0x30">6
+    </button>
+     <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-7" ipid="0x27,0x26,0x28,0x29,0x30">7
+    </button>  
+    <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-8" ipid="0x27,0x26,0x28,0x29,0x30">8
+    </button>
+    <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-9" ipid="0x27,0x26,0x28,0x29,0x30">9
+    </button>
+     <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-10" ipid="0x27,0x26,0x28,0x29,0x30">0
+    </button>
+     <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-11" ipid="0x27,0x26,0x28,0x29,0x30">CLR
+    </button>
+    <button style="padding: 15px; margin: 1px; font-size: 30px; text-align: center; cursor: pointer;" onclick="KeyPadCode(this);" booljoin="Bool-12" ipid="0x27,0x26,0x28,0x29,0x30">OK
+    </button>
+    </div>
+    
+  </div>
+      
+<div style="display: block;height: auto;left: 15px;position: relative;">    
+  <p id="secureState" style="
+    color: red;
+    text-shadow: 1px 2px 4px #0d0c0ced;
+    font-weight: bold;
+">UNsecured</p>
+  </div>
+                        
+  <div id="EZSboxColums" style="display: flex;flex-flow: column;width: 100%;height: auto;position: relative;top: 15px;">      
+    
+    <div id="ezsBoxRow01" draggable="true" style="height: 130px;display: flex;flex-direction: row;border: dashed 1px;width: 100%;position: relative; justify-content: space-evenly;">
+      <button id="PIRchodbaUshowRumu" fbactiveclass="lehceRed" booljoin="Bool-621" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">PIRchodba show room</button> 
+      <button id="PIRherDirector" fbactiveclass="lehceRed" booljoin="Bool-622" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">PIRxxx</button> 
+      <button id="PIR_WC" fbactiveclass="lehceRed" booljoin="Bool-623" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; fill: rgb(233, 233, 237); text-align: center;">WC chodba</button> 
+                                       
+      <button id="ezs01" fbactiveclass="lehceRed" booljoin="Bool-641" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs01</button> 
+      <button id="ezs02" fbactiveclass="lehceRed" booljoin="Bool-642" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs02 </button> 
+      <button id="ezs03" fbactiveclass="lehceRed" booljoin="Bool-643" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs03</button> 
+      <button id="ezs04" fbactiveclass="lehceRed" booljoin="Bool-644" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs04</button>
+      <button id="ezs05" fbactiveclass="lehceRed" booljoin="Bool-645" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs05</button>
+      <button id="ezs06" fbactiveclass="lehceRed" booljoin="Bool-646" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs06</button> 
+      <button id="ezs07" fbactiveclass="lehceRed" booljoin="Bool-647" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs07</button> 
+      <button id="ezs08" fbactiveclass="lehceRed" booljoin="Bool-648" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs08</button> 
+      <button id="ezs09" fbactiveclass="lehceRed" booljoin="Bool-649" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs09</button>
+      <button id="ezs10" fbactiveclass="lehceRed" booljoin="Bool-650" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs10</button>                     
+       <button id="ezs11" fbactiveclass="lehceRed" booljoin="Bool-651" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs11</button>
+       <button id="ezs12" fbactiveclass="lehceRed" booljoin="Bool-652" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs12</button>
+       <button id="ezs13" fbactiveclass="lehceRed" booljoin="Bool-653" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs13</button>
+       <button id="ezs14" fbactiveclass="lehceRed" booljoin="Bool-654" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs14</button>
+       <button id="ezs15" fbactiveclass="lehceRed" booljoin="Bool-655" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs15</button>
+       <button id="ezs16" fbactiveclass="lehceRed" booljoin="Bool-656" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs16</button>
+       <button id="ezs17" fbactiveclass="lehceRed" booljoin="Bool-657" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs17</button>
+       <button id="ezs18" fbactiveclass="lehceRed" booljoin="Bool-658" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs18</button>
+      
+                     
+    </div> 
+         
+    <div id="ezsBoxRow02" draggable="true" style="height: 130px;display: flex;flex-direction: row;border: dashed 1px;width: 100%;position: relative; justify-content: space-evenly;">
+    
+      <button id="ezs19" fbactiveclass="lehceRed" booljoin="Bool-659" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs19</button> 
+      <button id="ezs20" fbactiveclass="lehceRed" booljoin="Bool-660" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs20</button> 
+      <button id="ezs21" fbactiveclass="lehceRed" booljoin="Bool-661" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs21</button> 
+      <button id="ezs22" fbactiveclass="lehceRed" booljoin="Bool-662" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs22</button>
+      <button id="ezs23" fbactiveclass="lehceRed" booljoin="Bool-663" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs23</button>
+      <button id="ezs24" fbactiveclass="lehceRed" booljoin="Bool-664" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs24</button> 
+      <button id="ezs25" fbactiveclass="lehceRed" booljoin="Bool-665" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs25</button> 
+      <button id="ezs26" fbactiveclass="lehceRed" booljoin="Bool-666" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs26</button> 
+      <button id="ezs27" fbactiveclass="lehceRed" booljoin="Bool-667" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs27</button>
+      <button id="ezs28" fbactiveclass="lehceRed" booljoin="Bool-668" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs28</button>                     
+       <button id="ezs29" fbactiveclass="lehceRed" booljoin="Bool-669" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs29</button>
+       <button id="ezs30" fbactiveclass="lehceRed" booljoin="Bool-670" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs30</button>
+       <button id="ezs31" fbactiveclass="lehceRed" booljoin="Bool-671" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs31</button>
+       <button id="ezs32" fbactiveclass="lehceRed" booljoin="Bool-672" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs32</button>
+       <button id="ezs33" fbactiveclass="lehceRed" booljoin="Bool-673" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs33</button>
+       <button id="ezs34" fbactiveclass="lehceRed" booljoin="Bool-674" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs34</button>
+       <button id="ezs35" fbactiveclass="lehceRed" booljoin="Bool-675" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs35</button>
+       <button id="ezs36" fbactiveclass="lehceRed" booljoin="Bool-676" class="" ipid="0x27" style="cursor: pointer; width: 5%; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 3px; font-weight: bold; text-align: center;">ezs36</button>
+                 
+    </div>          
+  </div>
+  
+  <div id="delimit" style="display: none;position: absolute;top: 1100px;left: 1100px;width: 1px;height: 1px;">unused for now</div>  
+</div> 

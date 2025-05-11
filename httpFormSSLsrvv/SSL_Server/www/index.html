@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title> Simple SSL Server 
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+    
+<script id="FIRSTkyrych" type="text/javascript">
+globalThis.DAMAGED = false;
+globalThis.errs = [];
+window.addEventListener('error', (event) => {   
+
+    globalThis.DAMAGED = true;
+    console.log("LOADINGERR:",event)
+});
+window.onerror = function(event){
+// This event is only generated for script errors thrown synchronously
+    console.log("window Global ERR:",event);
+  globalThis.errs.push(event); 
+}
+window.addEventListener("unhandledrejection", (event) => {
+// ..the object cannot be reallyy accesed so we have salvagge some keys at least
+if(event.reason)
+{
+  var elErPak ={};
+  elErPak.reason = event.reason.message;
+  elErPak.type = event.type;
+  elErPak.stack = event.reason.stack;
+  elErPak.columnNumber = event.reason.columnNumber; 
+  elErPak.lineNumber = event.reason.lineNumber; 
+  elErPak.event = event;
+  globalThis.errs.push(elErPak); 
+}
+else
+ globalThis.errs.push(event); 
+});
+   
+</script> 
+    
+    <link href="./style/prznistyl.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="./Fonts/cresico/external.css" rel="stylesheet" type="text/css" /> -->	
+  </head>
+  <body>
+  
+  <div id="navbar">
+    <a id="menu_settings" href="#settings" onclick="TOPmenuClick(this);" >Settings</a>
+    <a href="#home" onclick="TOPmenuClick(this);" >Home</a>
+    <a href="#lights" onclick="TOPmenuClick(this);" >Lights</a>
+    <a href="#heating" onclick="TOPmenuClick(this);" >Heating</a>
+    <a href="#ezs" onclick="TOPmenuClick(this);" >Ezs</a>
+    <a href="#attendand" onclick="TOPmenuClick(this);" >Attendance</a>
+    <a href="#cams" onclick="TOPmenuClick(this);" >Cameras</a>
+
+  </div> 
+  
+  <div id="side">
+    <a href="#P3" onclick="LEFTmenuClick(this);" class="sideNavSelected">P3</a>
+    <a href="#P2" onclick="LEFTmenuClick(this);" class="">P2</a>
+    <a href="#P1" onclick="LEFTmenuClick(this);" class="">P1</a>
+  </div>
+  <div id="conCover" style="background-color: #333;z-index: 1001;position: fixed;display: block;width: 52px;height: 10px;left: 0px;top: 40px;"></div>
+  
+  <div id="mainSubContent">
+   
+  <div id="home" loadfrom="./Home/home.html"  style="display: none;" class="subContenntPage"></div> 
+  <div id="lights" loadfrom="./Lights/svs.html"  style="display: none;" class="subContenntPage"></div>
+  <div id="heating" loadfrom="./Heats/heats.html"  style="display: none;" class="subContenntPage"></div>
+  <div id="ezs" loadfrom="./Ezs/ezs.html"  style="display: none;" class="subContenntPage"></div> 
+  <div id="attendand" loadfrom="./Attendance/attendand.html"  style="display: none;" class="subContenntPage"></div>   
+  <div id="cams" loadfrom="./Cams/cams.html"  style="display: none;" class="subContenntPage"></div>
+  <div id="settings" loadfrom="./Settings/MainSettings.html"  style="display: none;" class="subContenntPage"></div>    
+ 
+
+ </div>  
+          
+    <!--  <script src="cr-com-libsPrased.js"></script> 
+      <script src="cr-com-lib.a1bd20ed.js"></script>
+         <script src="rebuzned.js"></script>  
+         <script src="webxpanel.js"></script>      
+         
+         <script src="mykryp.js"></script>      -->   
+<script src="DaareToDrag.js"></script>           
+<script src="multiWrkCipr.js" defer></script>      
+<script src="OtherFunces.js"></script>
+<script src="mediaPlayer_Crpc.js"></script>
+          
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<div id="heats" style="display: block;position: relative;top: 0px;left: 0px;z-index: 5;">    
+  <h2 style="display: inline-block;"> Heats. ..</h2>    
+  <div id="heatcontrols" style="display: block;position: relative;text-align: center;">   
+    <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;font-size: 22px;margin: 0px;">požadovaná:
+    </p>  
+    <p id="desiredTemp" style="color: red;text-shadow: 1px 1px 2px black;font-size: 20px;" ushortjoin="UShort-50">19.0°C</p>  
+    <button class="" onclick="InkrDekrHeatt(this);" booljoin="Bool-521" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; padding: 15px; margin: 5px; width: 60px; box-shadow: rgb(0, 0, 0) 2px 2px 3px; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 4px; font-weight: bold; text-align: center;">UP
+    </button>  
+    <button class="" onclick="InkrDekrHeatt(this);" booljoin="Bool-541" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; padding: 15px; margin: 5px; width: 60px; box-shadow: rgb(0, 0, 0) 2px 2px 3px; text-shadow: rgba(13, 12, 12, 0.93) 1px 2px 4px; font-weight: bold; text-align: center;">DW
+    </button>
+  </div>    
+  <div style="display: block;height: auto;">    
+    <span>venkovni:
+    </span>           
+    <h3 id="OutsideTemp" style="color: red;text-shadow: 1px 1px 2px black;margin: 3px;">12.2°C</h3>         
+  </div>                        
+  <div id="butonHeatBoxColumns" style="display: flex;flex-flow: column;width: 100%;height: auto;">      
+    <div id="butonHeatRow01" draggable="true" style="height: 130px;display: flex;flex-direction: row;border: dashed 1px;width: 100%;position: relative;">                                   
+      <button id="heat01" fbactiveclass="lehceRed" booljoin="Bool-501" ushortjoin="UShort-51" onclick="ButonHeatSelect(this);" class="heatBoxSelect" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">        
+        <p>Smoke Rum
+        </p>        
+        <span class="" id="temp01" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">22.4°C</span>        
+      </button>                 
+      <button id="heat02" fbactiveclass="lehceRed" booljoin="Bool-502" ushortjoin="UShort-52" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">        
+        <p>WC mens
+        </p>        
+        <span class="" id="temp02" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">22.6°C</span>        
+      </button>                        
+      <button id="heat03" fbactiveclass="lehceRed" booljoin="Bool-503" ushortjoin="UShort-53" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>WC ladyes
+        </p>        
+        <span class="" id="temp03" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">23.0°C</span>        
+      </button>                   
+      <button id="heat04" fbactiveclass="lehceRed" booljoin="Bool-504" ushortjoin="UShort-54" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>NA
+        </p>        
+        <span class="" id="temp04" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">0
+        </span>        
+      </button>
+      <button id="heat05" fbactiveclass="lehceRed" booljoin="Bool-505" ushortjoin="UShort-55" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>Kancl Honza
+        </p>        
+        <span class="" id="temp05" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">23.4°C</span>        
+      </button>
+      <button id="heat06" fbactiveclass="lehceRed" booljoin="Bool-506" ushortjoin="UShort-56" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>Kancl Mapa
+        </p>        
+        <span class="" id="temp06" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">22.6°C</span>        
+      </button>
+      <button id="heat07" fbactiveclass="lehceRed" booljoin="Bool-507" ushortjoin="UShort-57" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>my kancl
+        </p>        
+        <span class="" id="temp07" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">22.6°C</span>        
+      </button>
+      <button id="heat08" fbactiveclass="lehceRed" booljoin="Bool-508" ushortjoin="UShort-58" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>sekretariat
+        </p>        
+        <span class="" id="temp08" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">22.0°C</span>        
+      </button>
+      <button id="heat09" fbactiveclass="lehceRed" booljoin="Bool-509" ushortjoin="UShort-59" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>ředitel
+        </p>        
+        <span class="" id="temp09" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">22.0°C</span>        
+      </button>
+      <button id="heat10" fbactiveclass="lehceRed" booljoin="Bool-510" ushortjoin="UShort-60" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>HBC kancl
+        </p>        
+        <span class="" id="temp10" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">21.9°C</span>        
+      </button>                    
+    </div>      
+    <div id="butonHeatRow02" draggable="true" style="height: 130px;display: flex;flex-direction: row;border: dashed 1px;width: 100%;position: relative;">
+    
+     <button id="heat11" fbactiveclass="lehceRed" booljoin="Bool-511" ushortjoin="UShort-61" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>HBC Rest room
+        </p>        
+        <span class="" id="temp11" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">22.6°C</span>        
+      </button>
+      <button id="heat12" fbactiveclass="lehceRed" booljoin="Bool-512" ushortjoin="UShort-62" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>HBC kancl roh
+        </p>        
+        <span class="" id="temp12" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">21.4°C</span>        
+      </button>
+      <button id="heat13" fbactiveclass="lehceRed" booljoin="Bool-513" ushortjoin="UShort-63" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>Unik Exit chodba
+        </p>        
+        <span class="" id="temp13" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">22.5°C</span>        
+      </button>
+      <button id="heat14" fbactiveclass="lehceRed" booljoin="Bool-514" ushortjoin="UShort-64" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>KOTEL
+        </p>        
+        <span class="" id="temp14" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">24.2°C</span>        
+      </button>
+      <button id="heat15" fbactiveclass="lehceRed" booljoin="Bool-515" ushortjoin="UShort-65" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>HBC u vytahu
+        </p>        
+        <span class="" id="temp15" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">22.4°C</span>        
+      </button>
+      <button id="heat16" fbactiveclass="lehceRed" booljoin="Bool-516" ushortjoin="UShort-66" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>HBC Big room
+        </p>        
+        <span class="" id="temp16" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">23.2°C</span>        
+      </button>
+      <button id="heat17" fbactiveclass="lehceRed" booljoin="Bool-517" ushortjoin="UShort-67" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>Zasedačka
+        </p>        
+        <span class="" id="temp17" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">24.4°C</span>        
+      </button>
+      <button id="heat18" fbactiveclass="lehceRed" booljoin="Bool-518" ushortjoin="UShort-68" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>Show Room
+        </p>        
+        <span class="" id="temp18" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">23.5°C</span>        
+      </button>
+      <button id="heat19" fbactiveclass="lehceRed" booljoin="Bool-519" ushortjoin="UShort-69" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>Chodba 
+        </p>        
+        <span class="" id="temp19" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">23.5°C</span>        
+      </button>
+      <button id="heat20" fbactiveclass="lehceRed" booljoin="Bool-520" ushortjoin="UShort-70" onclick="ButonHeatSelect(this);" class="heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" style="cursor: pointer; display: block; position: relative; min-width: 116px; text-shadow: black 1px 1px 2px; font-weight: bolder; text-align: center;">         
+        <p>HBC Kumbaal
+        </p>        
+        <span class="" id="temp20" style="margin-top: 1px; color: red; text-shadow: black 1px 1px 2px;">22.4°C</span>        
+      </button> 
+                     
+    </div>          
+  </div>  
+</div> 

@@ -1,0 +1,200 @@
+                  
+.DjGradiend
+{
+background: linear-gradient(#4a4a49, #07141a);
+color: greenyellow;
+text-shadow: 2px 5px 4px #000000a0;
+font-weight: bold;
+line-height: 32px;
+font-size: 17px;
+border: transparent;
+box-shadow: inset 6px 6px 7px rgba(255, 255, 255, .5), inset -7px -7px 15px rgba(0, 0, 0, .9);
+border-radius: 11px;
+}
+
+.Gardiend_LIN
+{
+background: linear-gradient(#f69d3c, #3f87a6);
+}
+.Gardiend_LINrepeat
+{
+background: repeating-linear-gradient(#f69d3c, #3f87a6 50px);
+}
+
+.Gardiend_LeftRigh
+{
+background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.Gardiend_RAD
+{
+background: radial-gradient(#f69d3c, #3f87a6);
+}
+
+.Gardiend_RADrepeat
+{
+ background: repeating-radial-gradient(#f69d3c, #3f87a6 50px);
+}
+
+.Gardiend_CONnic
+{
+background: conic-gradient(#f69d3c, #3f87a6);
+}
+
+.Gardiend_simple-linear {
+  background: linear-gradient(blue, pink);
+}
+.Gardiend_horizontal-gradient {
+  background: linear-gradient(to right, blue, pink);
+}
+.Gardiend_diagonal-gradient {
+  background: linear-gradient(to bottom right, blue, pink);
+}
+.Gardiend_angled-gradient {
+  background: linear-gradient(70deg, blue, pink);
+}
+.Gardiend_simple-radial {
+  background: radial-gradient(red, blue);
+}
+
+.Gardiend_auto-spaced-linear-gradient {
+  background: linear-gradient(red, yellow, blue, orange);
+}
+.Gardiend_regular-progression {
+  background: linear-gradient(to top, lime, cyan);
+}
+.Gardiend_colorhint-gradient {
+  background: linear-gradient(to top, lime, 20%, cyan);
+}
+.Gardiend_stacked-linear {
+  background:
+      linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.Gardiend_radial-ellipse-side {
+  background: radial-gradient(ellipse closest-side,
+      red, yellow 10%, #1e90ff 50%, beige);
+}
+.Gardiend_radial-ellipse-far {
+  background: radial-gradient(ellipse farthest-corner at 90% 90%,
+      red, yellow 10%, #1e90ff 50%, beige);
+}
+
+
+.SEXaminerFetbuzner
+{
+  box-shadow: rgba(0, 0, 0, 0.84) 3px -3px 4px 2px inset;
+  background: linear-gradient(#ff0505, #d28a8a);
+  font-size: 0.9rem;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  text-shadow: 2px 2px 2px black;
+
+}
+
+/* 
+some from E:\wo\tempVSspace\learning-area-main\css\styling-boxes\advanced_box_effects\box-shadow.html  
+button 
+{
+      width: 150px;
+      font-size: 1.1rem;
+      line-height: 2;
+      border-radius: 10px;
+      border: none;
+      background-image: linear-gradient(to bottom right, #777, #ddd);
+      box-shadow: 1px 1px 1px black,
+                  inset 2px 3px 5px rgba(0,0,0,0.3),
+                  inset -2px -3px 5px rgba(255,255,255,0.5);
+}
+button:focus, button:hover 
+{
+      background-image: linear-gradient(to bottom right, #888, #eee);
+}
+
+button:active 
+{
+      box-shadow: inset 2px 2px 1px black,
+                  inset 2px 3px 5px rgba(0,0,0,0.3),
+                  inset -2px -3px 5px rgba(255,255,255,0.5);
+}
+*/
+.buttonShadBowled
+{
+      width: 150px;
+      font-size: 1.1rem;
+      line-height: 2;
+      border-radius: 10px;
+      border: none;
+      background-image: linear-gradient(to top, #000000, #ddd);
+      box-shadow: 1px 1px 1px black,
+                  inset 2px 3px 5px rgba(0,0,0,0.3),
+                  inset -2px -3px 5px rgba(255,255,255,0.5);
+}
+.buttonShad 
+{
+      width: 150px;
+      font-size: 1.1rem;
+      line-height: 2;
+      border-radius: 10px;
+      border: none;
+      background-image: linear-gradient(to bottom right, #777, #ddd);
+      background-image: linear-gradient(to top, #000000, #ddd);
+      box-shadow: 1px 1px 1px black,
+                  inset 2px 3px 5px rgba(0,0,0,0.3),
+                  inset -2px -3px 5px rgba(255,255,255,0.5);
+}
+
+buttonShad:focus, buttonShad:hover 
+{
+      background-image: linear-gradient(to bottom right, #888, #eee);
+}
+
+buttonShad:active 
+{
+      box-shadow: inset 2px 2px 1px black,
+                  inset 2px 3px 5px rgba(0,0,0,0.3),
+                  inset -2px -3px 5px rgba(255,255,255,0.5);
+}
+.pWithIconAndShadow 
+{
+        font-family: sans-serif;
+        padding: 20px;
+        /* background properties */
+        background-color: yellow;
+        background: url(fire-ball-icon.png) no-repeat 99% center,
+                    linear-gradient(to bottom, yellow, #dddd00 50%, orange);
+}
+
+ 
+
+
+
+
+
+/*  related to file:///E:/wo/tempVSspace/pap03/zlientzide/wsnohing.html ..originaly   */
+.BlackTEXTaras
+{
+color: greenyellow;
+text-shadow: rgba(0, 0, 0, 0.627) 2px 5px 4px;
+background: #0102039c;
+}
+
+
+#d3b textarea
+{
+color: greenyellow;
+background: #0102039c;
+border: solid 1px gray;
+border-radius: 8px;
+letter-spacing: 1px;
+word-break: break-word;
+/*text-shadow: rgba(0, 0, 0, 0.627) 2px 5px 4px;*/
+}
+
+.REDdecent
+{
+border: 0.1vw outset #fe02024d;
+
+} 

@@ -1,0 +1,104 @@
+{
+    "status": 1,
+    "payload": {
+        "18bede75-480b-44f8-b847-9a02a46e4f63": {
+            "name": "3NpZadVchod",
+            "channels": {
+                "0": {
+                    "url": "rtsp://192.168.166.153:554/video1",
+                    "on_demand": true
+                }
+            }
+        },
+        "27aec28e-6181-4753-9acd-0456a75f0289": {
+            "name": "Fenku",
+            "channels": {
+                "0": {
+                    "url": "rtsp://192.168.166.148/video1",
+                    "on_demand": true
+                }
+            }
+        },
+        "51fbee62-2e9a-4c52-99af-49c0bc78039f": {
+            "name": "Storgay",
+            "channels": {
+                "0": {
+                    "url": "rtsp://192.168.166.142/video1",
+                    "on_demand": true
+                }
+            }
+        },
+        "8816eac5-f22f-4931-80bf-33198ed9a10c": {
+            "name": "1NpZadVchod",
+            "channels": {
+                "0": {
+                    "url": "rtsp://192.168.166.154:554/video1",
+                    "on_demand": true
+                }
+            }
+        },
+        "8b736fb5-0d24-45ae-8837-f1fb8c82f8f7": {
+            "name": "DoleVole",
+            "channels": {
+                "0": {
+                    "url": "rtsp://192.168.166.144:554/video1",
+                    "on_demand": true
+                }
+            }
+        },
+        "ad64db5a-4196-4b31-a93d-90bad7d37670": {
+            "name": "Schoudy",
+            "channels": {
+                "0": {
+                    "url": "rtsp://192.168.166.146:554/video1",
+                    "on_demand": true
+                }
+            }
+        },
+        "b28dc461-287d-44ed-b89b-3dbe4232fddb": {
+            "name": "OUTsideParkinsne",
+            "channels": {
+                "0": {
+                    "url": "rtsp://192.168.166.141:554/user=gadmin\u0026password=admin\u0026channel=2\u0026stream=1.sdp?",
+                    "on_demand": true
+                }
+            }
+        },
+        "c0522105-b127-4da7-a0c9-04af8d700a6a": {
+            "name": "Garague",
+            "channels": {
+                "0": {
+                    "url": "rtsp://192.168.166.145:554/video1",
+                    "on_demand": true
+                }
+            }
+        },
+        "c0d53034-61fb-41ea-a6c9-160d7ea8215b": {
+            "name": "malySkladMensi",
+            "channels": {
+                "0": {
+                    "url": "rtsp://192.168.166.143:554/video2",
+                    "on_demand": true
+                }
+            }
+        },
+        "d09abc4d-6925-4c9d-b997-478fc7f2980b": {
+            "name": "DPS",
+            "channels": {
+                "0": {
+                    "url": "rtsp://admin:12345@192.168.167.50/mpeg4/ch1/sub/av_stream  ",
+                    "on_demand": true
+                }
+            }
+        },
+        "e39b2a8d-83c6-48c7-ab85-5f1df2c63ddd": {
+            "name": "3npCorridor",
+            "channels": {
+                "0": {
+                    "url": "rtsp://192.168.166.147:554/video1",
+                    "on_demand": true
+                }
+            }
+        }
+    }
+}

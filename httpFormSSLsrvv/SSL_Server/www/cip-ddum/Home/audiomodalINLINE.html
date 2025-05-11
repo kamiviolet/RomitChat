@@ -1,0 +1,108 @@
+<div id="audio_player_modal" class="TanglesShowaales" draggable="true" style="position: absolute; width: 700px; z-index: 1010; top: 105px; left: 122px; border: 10px ridge; justify-content: flex-start; color: whitesmoke; right: auto; background: rgba(47, 47, 47, 0.79); height: 471px; box-sizing: border-box; display: grid; grid-template-columns: 1fr;">    
+  <div class="close_btn" style="background: rgb(174, 175, 176); width: 100%; display: flex; justify-content: flex-end; height: 26px;">      
+    <button onclick="toggleMediaPlayerW(this);" style="cursor: pointer; width: 2em; height: 100%; border-radius: 0px; text-align: center;">X
+    </button>    
+  </div>
+  <div class="modal_inner" style="max-width: 100%; max-height: calc(420px); height: 100%; display: grid; grid-template-columns: minmax(100px, 270px) auto; grid-template-rows: 2.25em 1.5em auto 50px 50px; gap: 0.2em;">
+    <img src="/cip-ddum/images/album_cover_placeholder.webp" class="" id="al-bamba" style="grid-area: 3 / 1 / 4 / 2; max-width: 100%; height: 100%; place-self: center;">
+    <div class="dropdown_wrapper" style="grid-area: 1 / 1 / 2 / 2; display: flex; justify-content: space-between; align-items: center; height: 100%; min-width: 100px;">
+      <select id="zones" style="padding: 0.75em; width: 48%; color: aliceblue; border: 0px; background: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(0, 0, 0) 58%, rgb(255, 255, 255) 100%); border-radius: 5px; box-shadow: aliceblue 0px 1px 1px; cursor: pointer;">
+        <option value="zone 1" id="zone_1" style="background-color: black;">zone 1
+        </option>
+        <option value="zone 2" id="zone_2" style="background-color: black;">zone 2
+        </option>
+        <option value="zone 3" id="zone_3" style="background-color: black;">zone 3
+        </option>
+        <option value="zone 4" id="zone_4" style="background-color: black;">zone 4
+        </option>
+        <option value="zone 5" id="zone_5" style="background-color: black;">zone 5
+        </option>
+        <option value="zone 6" id="zone_6" style="background-color: black;">zone 6
+        </option>
+        <option value="zone 7" id="zone_7" style="background-color: black;">zone 7
+        </option>
+        <option value="zone 8" id="zone_8" style="background-color: black;">zone 8
+        </option>
+      </select>
+      <select id="sources" style="padding: 0.75em; width: 48%; color: aliceblue; border: 0px; background: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(0, 0, 0) 58%, rgb(255, 255, 255) 100%); border-radius: 5px; box-shadow: aliceblue 0px 1px 1px; cursor: pointer;">
+        <option value="source 1" id="source_1" style="background-color: black;">src 1 TOS
+        </option>
+        <option value="source 2" id="source_2" style="background-color: black;">src 2 TOS
+        </option>
+        <option value="source 3" id="source_3" style="background-color: black;">src 3 SPDIF
+        </option>
+        <option value="source 4" id="source_4" style="background-color: black;">src 4 SPDIF
+        </option>
+        <option value="source 5" id="source_5" style="background-color: black;">src 5 RCA
+        </option>
+        <option value="source 6" id="source_6" style="background-color: black;">src 6 RCA
+        </option>
+        <option value="source 7" id="source_7" style="background-color: black;">src 7 RCA
+        </option>
+        <option value="source 8" id="source_8" style="background-color: black;">src 8 RCA
+        </option>
+        <option value="source 9" id="source_9" style="background-color: black;">Media Player 1
+        </option>
+        <option value="source 10" id="source_10" style="background-color: black;">Media Player 2
+        </option>
+        <option value="source 11" id="source_11" style="background-color: black;">Media Player 3
+        </option>
+        <option value="source 12" id="source_12" style="background-color: black;">Media Player 4
+        </option>
+        <option value="source 13" id="source_13" style="background-color: black;">Media Player 5
+        </option>
+        <option value="source 14" id="source_14" style="background-color: black;">Media Player 6
+        </option>
+        <option value="source 15" id="source_15" style="background-color: black;">Media Player 7
+        </option>
+        <option value="source 16" id="source_16" style="background-color: black;">Media Player 8
+        </option>
+      </select>
+    </div>
+    <div class="" id="al-descr" style="grid-area: 4 / 1 / 5 / 2; font-size: 1.05em; font-weight: 700; line-height: 1.5em;">
+      <p style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden;">      
+      </p>
+    </div>
+    <div class="" id="al-state" style="grid-area: 2 / 1 / 3 / 2; max-width: 100%; height: 100%; text-transform: capitalize;">N/A
+    </div>
+    <div class="" style="grid-area: 5 / 1 / 6 / 2; display: flex; justify-content: center;">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="cursor: pointer; fill: whitesmoke; flex: 1 1 0%;">
+        <path d="M8.0175 19.3984C8.36906 19.3984 8.67375 19.2891 9.07219 19.0547L18.3769 13.6641C19.0722 13.2578 19.3925 12.9141 19.3925 12.3672C19.3925 11.8203 19.0722 11.4766 18.3769 11.0703L9.07219 5.67969C8.67375 5.45312 8.36906 5.33594 8.0175 5.33594C7.33 5.33594 6.80656 5.85938 6.80656 6.71875V18.0234C6.80656 18.875 7.33 19.3984 8.0175 19.3984Z">
+        </path>
+      </svg>
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="cursor: pointer; fill: whitesmoke; flex: 1 1 0%;">
+        <path d="M8.19719 18.9688H10.08C10.8691 18.9688 11.2675 18.5625 11.2675 17.7812V6.94531C11.2675 6.14844 10.8691 5.77344 10.08 5.75781H8.19719C7.40812 5.75781 7.00969 6.15625 7.00969 6.94531V17.7812C7.00187 18.5625 7.40031 18.9688 8.19719 18.9688ZM14.33 18.9688H16.2128C16.9941 18.9688 17.4003 18.5625 17.4003 17.7812V6.94531C17.4003 6.14844 16.9941 5.75781 16.2128 5.75781H14.33C13.5409 5.75781 13.1425 6.15625 13.1425 6.94531V17.7812C13.1425 18.5625 13.5331 18.9688 14.33 18.9688Z">
+        </path>
+      </svg>
+    </div>
+    <div class="" style="overflow: hidden; grid-area: 1 / 2 / 6 / 3; display: grid; padding: 1em 0.5em; box-sizing: border-box; gap: 0.5em; background: rgba(36, 37, 38, 0.87); height: 100%;">
+      <div id="exvol" style="grid-row: 2/6;grid-column: 1/2;max-width: 100%;height: 100%;padding: 0px;margin: 0px;display: flex;flex-flow: column;align-items: end;">
+        <input type="range" id="naxExVol" name="naxExVol" min="0" max="65535" step="100" style="margin: 0.0rem; width: 92%;writing-mode: horizontal-tb;display: block;transform: rotate(-0.5turn);" oninput="naxExVolSet(this)" ushortjoin="UShort-14" ipid="0x27,0x26,0x28,0x29,0x30">
+      </div>
+      <div class="playlist_head">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="cursor: pointer; width: 1.5rem; fill: whitesmoke; float: left;">
+          <path d="M205 34.8c11.5 5.1 19 16.6 19 29.2v64H336c97.2 0 176 78.8 176 176c0 113.3-81.5 163.9-100.2 174.1c-2.5 1.4-5.3 1.9-8.1 1.9c-10.9 0-19.7-8.9-19.7-19.7c0-7.5 4.3-14.4 9.8-19.5c9.4-8.8 22.2-26.4 22.2-56.7c0-53-43-96-96-96H224v64c0 12.6-7.4 24.1-19 29.2s-25 3-34.4-5.4l-160-144C3.9 225.7 0 217.1 0 208s3.9-17.7 10.6-23.8l160-144c9.4-8.5 22.9-10.6 34.4-5.4z">
+          </path>
+        </svg>
+        <p style="display: flex; justify-content: center;">Local stations
+        </p>
+      </div>
+      <div class="" style="overflow: hidden; height: 100%; min-height: 270px;">
+        <ul id="mediaPlayerList" style="overflow-y: scroll; padding: 0px; margin: 0px; height: 100%;">
+          <li selindex="1" onclick="CrpcListItemClicked(this);" mediaplayerindex="4" url="http://192.168.166.242/assets/mediaplayer/services/InternetRadio.png" style="display: block; padding: 1em 0.5em; border-block-end: 1px solid rgb(140, 140, 140); cursor: pointer;">Internet Radio</li>
+          <li selindex="2" onclick="CrpcListItemClicked(this);" mediaplayerindex="4" url="http://192.168.166.242/assets/mediaplayer/services/Podcast.png" style="display: block; padding: 1em 0.5em; border-block-end: 1px solid rgb(140, 140, 140); cursor: pointer;">Podcasts</li>
+        </ul>
+      </div>
+      <div class="" style="display: flex; justify-content: start;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="cursor: pointer; width: 1.5rem; fill: whitesmoke; margin-inline-end: 1em;">
+          <path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z">
+          </path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="cursor: pointer; width: 1.5rem; fill: whitesmoke; margin-inline-end: 1em;">
+          <path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z">
+          </path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,385 @@
+<div id="homehome" style="display: block;position: relative;top: 0px;left: 0px;z-index: 10;">    
+  <h2 style="display: inline-block;"> Home Combo. ..</h2>      
+  <div id="someholder" style="display: inline-block;height: auto; opacity: 0.2;">    
+    <table>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+  </tr>
+</table>
+  </div>  
+<div style="display: block;height: auto;">    
+    <span style="font-weight: bold;">venkovni:</span>           
+    <h3 id="OutsideTemp" style="color: red;text-shadow: 1px 1px 2px black;margin: 3px;">9.4 ° C</h3>         
+</div>
+  
+</div>
+                        
+<div id="homeColumns" style="display: flex;flex-flow: row; width: 200px;height: auto;position: absolute;z-index: 101;left: 1545px;top: 40px;box-shadow: 3px 3px 3px black;">      
+    
+    <div draggable="true" style="display: flex;flex-direction: column;border: dashed 1px;width: 100%;position: relative;top: 0px;left: 0px;" id="homeColumner">
+      
+      <button id="homebut_01" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1701" class="homeCntrl" ipid="0x27" >sig Dump</button>
+      <button id="homebut_02" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1702" class="homeCntrl" ipid="0x27" >DOOR</button>                                     
+      <button id="homebut_03" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1703" class="homeCntrl" ipid="0x27" >GLASS</button>
+      <button id="homebut_04" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1704" class="homeCntrl" ipid="0x27" >Open CIPws</button>
+      <button id="homebut_05" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1705" class="homeCntrl" ipid="0x27" >CLOSE cipWS</button>
+      <button id="homebut_06" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1706" class="homeCntrl" ipid="0x27" >homeBut 06</button>
+      <button id="homebut_07" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1707" class="homeCntrl" ipid="0x27" >dbg Win</button>
+      <button id="homebut_08" fbactiveclass="lehceRed" onclick="HomeSideControlsButs(this);" booljoin="Bool-1708" class="homeCntrl" ipid="0x27" >LOG Pointer</button>
+      <button id="homebut_09" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-320" class="homeCntrl" ipid="0x27" >Audio All OFF</button>
+    
+    </div> 
+                  
+</div>
+
+<div id="fanControlsWraper" class="fanControls relativeControls" style="display: none;flex-flow: row; width: 200px;height: auto;position: absolute;z-index: 101;left: 1525px;top: 610px;box-shadow: 3px 3px 3px black;">      
+  <div id="fanControl_row01" style="display: flex;flex-direction: column;border: dashed 1px;width: 100%;position: relative;top: 0px;left: 0px;">
+     <button id="fanCntrlBut_01" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-451" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;margin-block-end: 4px;">2 mins</button>
+     <button id="fanCntrlBut_02" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-452" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;margin-block-end: 4px;">5 mins</button>
+     <button id="fanCntrlBut_03" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-453" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;margin-block-end: 4px;">10 mins</button>
+     <button id="fanCntrlBut_04" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-454" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;margin-block-end: 4px;">15 mins</button>
+     <button id="fanCntrlBut_05" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-455" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;margin-block-end: 4px;">FAN OFF</button>  
+  </div>
+</div>
+
+<div id="heatControlsWraper" class="heatControls relativeControls" style="display: none;flex-flow: row; width: 200px;height: auto;position: absolute;z-index: 101;left: 1525px;top: 610px;box-shadow: 3px 3px 3px black;">      
+  <div id="heatControl_row01" style="display: flex;flex-direction: column;border: dashed 1px;width: 100%;position: relative;top: 0px;left: 0px;">
+     <button id="desiredTemp" fbactiveclass="lehcePushd" ushortjoin="UShort-50" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;color: red;text-shadow: 1px 1px 2px black;font-size: 20px; font-weight: bold;margin-block-end: 4px;">XX C</button>
+     
+     <button id="heatControl_02" fbactiveclass="lehcePushd" onclick="InkrDekrHeatt(this);" booljoin="Bool-521" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;margin-block-end: 4px;">UP</button>
+     <button id="heatControl_03" fbactiveclass="lehcePushd" onclick="InkrDekrHeatt(this);" booljoin="Bool-541" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;margin-block-end: 4px;">DW</button>
+  </div>
+</div>
+
+<div id="shadeControlsWraper" class="shadeControls relativeControls" style="display: none;flex-flow: row; width: 200px;height: auto;position: absolute;z-index: 101;left: 1525px;top: 610px;box-shadow: 3px 3px 3px black;">      
+  <div id="shadeControls_column01" style="display: flex;flex-direction: column;border: dashed 1px;width: 100%;position: relative;top: 0px;left: 0px;">
+     <button id="shadeCNTRL_UP" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-290" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;margin-block-end: 4px;">UP</button>     
+     <button id="shadeCNTRL_STOP" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-292" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;margin-block-end: 4px;">STOP</button>
+     <button id="shadeCNTRL_DW" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-291" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;margin-block-end: 4px;">DW</button>
+  </div>
+</div>
+ 
+<div id="pudrysWithElements" style="display: inline-block; position: absolute; 
+    top: 210px;
+    left: 10px;
+    height: auto;
+    width: auto;">
+               
+  <div id="pudrys" class="pudryser" style="display: inline-block; position:relative; height: 720px; width: 1500px;top: 0px;left: 0px; ;background-image: url(&quot;./images/Kastanova_grafika_Panely_10_3NP_B.png&quot;);background-repeat: no-repeat; background-color: #0c0c0c7d;background-origin: border-box;background-position-y: top;background-position-x: left;background-size: contain;">
+    </div>
+  
+<div id="freeplacer" style="display: inline-block;position: absolute;top: 800px;left: 120px;width: 50px;height: 50px;text-align: center;" class="REDrumSolid"> 
+<button fbactiveclass="lehceRed" style="display: flex;position: relative;top: 0px;left: 0px;width: 100%;height: 100%;align-items: center;text-align: center;border-radius: 65%;">
+  <span style="display: block;position: relative;align-self: center;width: 100%;">a</span>
+</button>
+</div>
+
+<div style="display: inline-block;position: absolute;top: 200px;left: 965px;width: 50px;height: 50px;text-align: center;" id="DMPSshow" class=""> 
+<button onclick="togeDMPSpanel();" fbactiveclass="lehceRed" style="display: flex;position: relative;top: 0px;left: 0px;width: 100%;height: 100%;align-items: center;text-align: center;border-radius: 65%;box-shadow: 1px 3px 2px #000;">
+  <span style="display: block;position: relative;align-self: center;width: 100%;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;">DMPS</span>
+</button>
+</div>
+
+<div id="glasDoorWrap" style="display: inline-block;position: absolute;top: 359px;left: 1147px;width: 74px;height: 30px;text-align: center; box-shadow: 1px 2px 10px #000;" class=""> 
+<button fbactiveclass="lehceRed" style="display: flex;position: relative;top: 0px;left: 0px;width: 100%;height: 100%;align-items: center;flex-direction: unset;background-color: #e9e9ed42;" onclick="ShotHTTPapi('https://192.168.166.53/cws/flags/TRIG/GLASSshoot');">
+  <span style="display: block;position: relative;align-self: center;text-align: center;width: 100%;height: auto;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;">door</span>
+</button>
+</div>
+
+<div style="display: inline-block;position: absolute;top: 488px;left: 728px;width: 30px;height: 30px;text-align: center;" class="" id="freeplacer2"> 
+<button id="PIRherDirector" fbactiveclass="lehceRed" style="display: flex;position: relative;top: 0px;left: 0px;width: 100%;height: 100%;align-items: center;text-align: center;border-radius: 65%;"> 
+</button>
+</div>
+
+<div id="quickHeatControls" style="display: flex;position: absolute;top: 552px;left: 1086px;height: 60px;width: 180px;flex-direction: row;justify-content: space-between;" class="borderGreyDashed">      
+  <button id="heat07" fbactiveclass="lehceRed" booljoin="Bool-507" ushortjoin="UShort-57" class="custHeatBox" ipid="0x27,0x26,0x28,0x29,0x30" style="top: 0px;left: 0px;height: 60px;">                     
+    <p style="margin: 5px;">actual:</p>                    
+    <span class="tempDisplay" id="temp07" style="margin: 1px;">44 C</span>               
+  </button>
+  <button id="heat07desired" fbactiveclass="lehceRed" booljoin="Bool-507" ushortjoin="UShort-57" class="custHeatBox" ipid="0x27,0x26,0x28,0x29,0x30" style="top: 0px;left: 0px;height: 60px;">                     
+    <p style="margin: 5px;">desired:</p>                    
+    <span class="tempDisplay" id="temp07desired" style="margin: 1px;">44 C</span>               
+  </button>
+  <div id="arowsheat" style="display: flex;flex-direction: column;justify-content: space-evenly;position: relative;">
+    <button onpointerdown="independendHeatArrows(event);" onpointerup="independendHeatArrows(event);" booljoin="Bool-276" ipid="0x27,0x26,0x28,0x29,0x30" style="text-shadow: 1px 1px 2px black;font-weight: bolder;box-shadow: 3px 4px 3px black;border-radius: 5px;padding-block: 5px;">UP</button>
+    <button onpointerdown="independendHeatArrows(event);" onpointerup="independendHeatArrows(event);" booljoin="Bool-277" ipid="0x27,0x26,0x28,0x29,0x30" style="text-shadow: 1px 1px 2px black;font-weight: bolder;box-shadow: 3px 4px 3px black;border-radius: 5px;padding-block: 5px;">DW</button>  
+  </div>
+</div>
+
+
+<button id="heat01" style="top: 117px;left: 1338px;" fbactiveclass="lehceRed" booljoin="Bool-501" onclick="ButonHeatSelect(this);" ushortjoin="UShort-51" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+    <p style="margin: 5px;">actual:</p>                    
+    <span class="tempDisplay" id="temp01" style="margin: 1px;">44 C</span>               
+</button>
+<button id="heat06" style="top: 560px;left: 1326px;" fbactiveclass="lehceRed" booljoin="Bool-506" onclick="ButonHeatSelect(this);" ushortjoin="UShort-56" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+    <p style="margin: 5px;">actual:</p>                    
+    <span class="tempDisplay" id="temp06" style="margin: 1px;">44 C</span>               
+</button>
+<button id="heat19" style="top: 469px;left: 922px;" fbactiveclass="lehceRed" booljoin="Bool-519" onclick="ButonHeatSelect(this);" ushortjoin="UShort-69" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+    <p style="margin: 5px;">actual:</p>                    
+    <span class="tempDisplay" id="temp19" style="margin: 1px;">44 C</span>               
+</button>
+<button id="heat18" style="top: 310px;left: 891px;" fbactiveclass="lehceRed" booljoin="Bool-518" onclick="ButonHeatSelect(this);" ushortjoin="UShort-69" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+    <p style="margin: 5px;">actual:</p>                    
+    <span class="tempDisplay" id="temp19" style="margin: 1px;">44 C</span>               
+</button>
+
+<button  id="sv01" fbactiveclass="lehceYellow" style="top: 179px; left: 1328px;" booljoin="Bool-101" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>      
+<button  id="sv02" fbactiveclass="lehceYellow" style="top: 179px; left: 1418px;" booljoin="Bool-102" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>      
+<button  id="sv03" fbactiveclass="lehceYellow" style="top: 235px; left: 1336px;" booljoin="Bool-103" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>      
+<button  id="sv04" fbactiveclass="lehceYellow" style="top: 278px; left: 1390px;" booljoin="Bool-104" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>      
+<button  id="sv05" fbactiveclass="lehceYellow" style="top: 242px; left: 1450px;" booljoin="Bool-105" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>      
+<button  id="sv06" fbactiveclass="lehceYellow" style="top: 292px; left: 1444px;" booljoin="Bool-106" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+
+<button  id="sv07" fbactiveclass="lehceYellow" style="top: 338px; left: 1331px;" booljoin="Bool-107" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>      
+<button  id="sv08" fbactiveclass="lehceYellow" style="top: 393px; left: 1336px;" booljoin="Bool-108" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>      
+<button  id="sv09" fbactiveclass="lehceYellow" style="top: 363px; left: 1390px;" booljoin="Bool-109" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv10" fbactiveclass="lehceYellow" style="top: 337px; left: 1445px;" booljoin="Bool-110" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv11" fbactiveclass="lehceYellow" style="top: 276px; left: 1285px;z-index: 1;" booljoin="Bool-111" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv12" fbactiveclass="lehceYellow" style="top: 497px; left: 1381px;" booljoin="Bool-112" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv13" fbactiveclass="lehceYellow" style="top: 497px; left: 1454px;" booljoin="Bool-113" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv14" fbactiveclass="lehceYellow" style="top: 627px; left: 1319px;" booljoin="Bool-114" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv15" fbactiveclass="lehceYellow" style="top: 627px; left: 1422px;" booljoin="Bool-115" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<div style="display: inline-block;position: absolute;top: 627px;left: 1211px;width: 30px;height: 30px;text-align: center;" id="freesv16" class=""> 
+  <button id="sv16" fbactiveclass="lehceYellow" style="display: flex;position: relative;top: 0px;left: 0px;width: 100%;height: 100%;align-items: center;text-align: center;border-radius: 65%;box-shadow: 1px 3px 2px #000;" booljoin="Bool-116" onclick="ButonBulbOnclick(this);" class="" ipid="0x26,0x27,0x28,0x29"> </button>
+</div>
+<div style="display: inline-block;position: absolute;top: 627px;left: 1115px;width: 30px;height: 30px;text-align: center;" id="freesv17" class=""> 
+  <button id="sv17" fbactiveclass="lehceYellow" style="display: flex;position: relative;top: 0px;left: 0px;width: 100%;height: 100%;align-items: center;text-align: center;border-radius: 65%;box-shadow: 1px 3px 2px #000;" booljoin="Bool-117" onclick="ButonBulbOnclick(this);" class="" ipid="0x26,0x27,0x28,0x29"> </button>
+</div>
+<button  id="sv18" fbactiveclass="lehceYellow" style="top: 627px; left: 920px;" booljoin="Bool-118" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv19" fbactiveclass="lehceYellow" style="top: 627px; left: 1017px;" booljoin="Bool-119" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv20" fbactiveclass="lehceYellow" style="top: 627px; left: 730px;" booljoin="Bool-120" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv21" fbactiveclass="lehceYellow" style="top: 627px; left: 825px;" booljoin="Bool-121" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv22" fbactiveclass="lehceYellow" style="top: 627px; left:534px;" booljoin="Bool-122" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv23" fbactiveclass="lehceYellow" style="top: 627px; left:625px;" booljoin="Bool-123" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv24" fbactiveclass="lehceYellow" style="top: 603px; left:341px;" booljoin="Bool-124" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv24" fbactiveclass="lehceYellow" style="top: 603px; left:432px;" booljoin="Bool-124" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv25" fbactiveclass="lehceYellow" style="top: 800px; left:410px;" booljoin="Bool-125" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv26" fbactiveclass="lehceYellow" style="top: 443px; left:383px;" booljoin="Bool-126" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv27" fbactiveclass="lehceYellow" style="top: 600px; left: 225px;" booljoin="Bool-127" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv28" fbactiveclass="lehceYellow" style="top: 600px; left: 120px;" booljoin="Bool-128" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv29" fbactiveclass="lehceYellow" style="top: 493px; left:178px;" booljoin="Bool-129" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv30" fbactiveclass="lehceYellow" style="top: 408px; left:166px;" booljoin="Bool-130" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv31" fbactiveclass="lehceYellow" style="top: 285px; left: 134px;" booljoin="Bool-131" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv32" fbactiveclass="lehceYellow" style="top: 193px; left: 134px;" booljoin="Bool-132" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv33" fbactiveclass="lehceYellow" style="top: 195px; left:212px;" booljoin="Bool-133" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv34" fbactiveclass="lehceYellow" style="top: 298px; left:260px;" booljoin="Bool-134" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv35" fbactiveclass="lehceYellow" style="top: 225px; left: 385px;" booljoin="Bool-135" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv36" fbactiveclass="lehceYellow" style="top: 225px; left: 585px;" booljoin="Bool-136" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv37" fbactiveclass="lehceYellow" style="top: 225px; left: 489px;" booljoin="Bool-137" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv38" fbactiveclass="lehceYellow" style="top: 215px; left:715px;" booljoin="Bool-138" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv39" fbactiveclass="lehceYellow" style="top: 215px; left:818px;" booljoin="Bool-139" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv40" fbactiveclass="lehceYellow" style="top: 415px; left:762px;" booljoin="Bool-140" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv41" fbactiveclass="lehceYellow" style="top: 322px; left:1168px;" booljoin="Bool-141" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+<button  id="sv42" fbactiveclass="lehceYellow" style="top: 150px; left:1168px;" booljoin="Bool-142" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+
+
+
+<button  id="Icon1" fbactiveclass="lehceYellow" style="top:800px; left:260px;" booljoin="Bool-140" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox" ipid="0x26,0x27,0x28,0x29,0x30"> <img src="./icons/Speaker 2.svg"> </button>
+<button  id="Icon2" fbactiveclass="lehceYellow" style="top:800px; left:204px;" booljoin="Bool-140" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox assetMaterFontIcon" ipid="0x26,0x27,0x28,0x29,0x30" value="%ue04f"></button>
+
+<button  id="Icon-repro2" fbactiveclass="roundBoxSelected" style="top: 450px;left: 1100px;" booljoin="Bool-312" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox assetMaterFontIcon" ipid="0x26,0x27,0x28,0x29,0x30" value="%ue050"></button>
+<button  id="Icon-repro1" fbactiveclass="roundBoxSelected" style="top:308px; left:1381px;" booljoin="Bool-311" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox assetMaterFontIcon" ipid="0x26,0x27,0x28,0x29,0x30" value="%ue050"></button>
+<button  id="Icon-repro3" fbactiveclass="roundBoxSelected" style="top:261px; left:756px;" booljoin="Bool-313" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox assetMaterFontIcon" ipid="0x26,0x27,0x28,0x29,0x30" value="%ue050"></button>
+
+
+<button id="fan1" fbactiveclass="roundBoxSelected" style="top:272px; left:1481px;" booljoin="Bool-401" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox" ipid="0x26,0x27,0x28,0x29,0x30">
+  <span id="Icon-fan1" style="position: relative;top: 0px;" class="assetMaterBigDesignFontIcon" icon="%ufad4"></span>
+  <span id="fan1_remainTime" style="top: 0px; right:-7px;" class="fanRmnTime"></span>
+</button>
+
+<button id="fan2" fbactiveclass="roundBoxSelected" style="top:330px; left:1481px;" booljoin="Bool-402" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox" ipid="0x26,0x27,0x28,0x29,0x30">
+  <span id="Icon-fan2" style="position: relative;top: 0px;" class="assetMaterBigDesignFontIcon" icon="%ufad4"></span>
+  <span id="fan2_remainTime" style="top: 0px; right:-7px;" class="fanRmnTime"></span>
+</button>
+
+<button id="fan3" fbactiveclass="roundBoxSelected" style="top:279px; left:1321px;" booljoin="Bool-403" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox" ipid="0x26,0x27,0x28,0x29,0x30">
+  <span id="Icon-fan3" style="position: relative;top: 0px;" class="assetMaterBigDesignFontIcon" icon="%ufad4"></span>
+  <span id="fan3_remainTime" style="top: 0px; right:-7px;" class="fanRmnTime"></span>
+</button>                                                                                                                                                                                                  
+
+<div style="display: inline-block;position: absolute;top: 514px;left: 272px;width: 30px;height: 30px;text-align: center;" class="" id="freeplacer6"> 
+<button id="EZSpir05" fbactiveclass="lehceRed" style="display: flex;position: relative;top: 0px;left: 0px;width: 100%;height: 100%;align-items: center;text-align: center;border-radius: 65%;">                                                                                 
+</button>
+</div>
+
+<div style="display: inline-block;position: absolute;top: 425px;left: 980px;width: 30px;height: 30px;text-align: center;" class="" id="freeplacer3"> 
+<button id="PIRchodbaUshowRumu" fbactiveclass="lehceRed" style="display: flex;position: relative;top: 0px;left: 0px;width: 100%;height: 100%;align-items: center;text-align: center;border-radius: 65%;"> 
+</button>
+</div>
+
+<div style="display: inline-block;position: absolute;top: 378px;left: 1244px;width: 30px;height: 30px;text-align: center;" class="" id="freeplacer4"> 
+<button id="EZSpir06" fbactiveclass="lehceRed" style="display: flex;position: relative;top: 0px;left: 0px;width: 100%;height: 100%;align-items: center;text-align: center;border-radius: 65%;">  
+</button>
+</div>
+
+<div style="display: inline-block;position: absolute;top: 304px;left: 1285px;width: 30px;height: 30px;text-align: center;" class="" id="freeplacer5"> 
+<button id="PIR_WC" fbactiveclass="lehceRed" style="display: flex;position: relative;top: 0px;left: 0px;width: 100%;height: 100%;align-items: center;text-align: center;border-radius: 65%;" booljoin="Bool-111" onclick="ButonBulbOnclick(this);" ipid="0x26,0x27,0x28,0x29,0x30">
+</button>
+</div>
+
+
+<button id="Shade02" style="top: 120px;left: 948px;background: #fcfbfb26;" fbactiveclass="lehceRed" booljoin="Bool-202" onclick="ButtonShadeSelect(this);" class="freeHeatBox ShadeSelector" ipid="0x27,0x26,0x28,0x29,0x30">                                        
+    <span class="shadeIconDiplay assetCresHVACFontIcon" id="ShadeIcon" style="margin: 0px;" >A</span>               
+</button>
+<button id="Shade01" style="top: 120px;left: 748px;background: #fcfbfb26;" fbactiveclass="lehceRed" booljoin="Bool-201" onclick="ButtonShadeSelect(this);" class="freeHeatBox ShadeSelector" ipid="0x27,0x26,0x28,0x29,0x30">                                        
+    <span class="shadeIconDiplay assetCresHVACFontIcon" id="ShadeIcon" style="margin: 0px;" >A</span>               
+</button>
+
+</div>
+    
+
+
+
+<div id="matirix" loadfrom="./Home/dmpsPanel.html" style="display: inline-flex;position: absolute;height: 300px;width: 470px;top: 13px;left: 605px;flex-direction: row;border: ridge aliceblue;z-index: 800;background-color: rgba(0, 0, 0, 0.77);">
+</div>
+
+<div id="volSlida" style="display: flex;flex-flow: column-reverse; width: 540px;height: auto;top: 933px;left: 570px;position: absolute;" class="borderRedDashed audioControls">
+  <input id="volumZlida" type="range" min="0" max="100" value="0" step="1" style="width:98%;" ushortjoin="UShort-10" ipid="0x27,0x26,0x28,0x29,0x30" class="exgrungstul" showPercent="volpercentage" onmouseup="" oninput="SliidaPohlaa(this)">
+  <div class="volumDescrs" style="display: flex;flex-direction: row; justify-content: center;">
+         <p class="UsahanHovnots" style="color: white; margin: 6px;"> volume: </p>
+         <p id="volpercentage" class="UsahanHovnots" style="position: relative;left: 50px;color: white;margin: 6px;"> 100% </p>
+    </div> 
+</div>
+
+<div id="audoSources" style="display:flex; flex-direction: row; position: absolute;  top:1006px; left:504px; height: 55px; width: 680px; box-shadow: 3px 4px 3px black; justify-content: space-evenly;"  class="borderRedDashed audioControls">
+<button id="audioSrc1" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-351" ipid="0x26,0x27,0x28,0x29,0x30" onclick="ButonBulbOnclick(this);">zdroj 1</button>
+<button id="audioSrc2" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-352" ipid="0x26,0x27,0x28,0x29,0x30" onclick="ButonBulbOnclick(this);">zdroj 2</button>
+<button id="audioSrc3" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-353" ipid="0x26,0x27,0x28,0x29,0x30" onclick="ButonBulbOnclick(this);">zdroj 3</button>
+<button id="audioSrc4" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-354" ipid="0x26,0x27,0x28,0x29,0x30" onclick="ButonBulbOnclick(this);">zdroj 4</button>
+<button id="audioSrc5" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-355" ipid="0x26,0x27,0x28,0x29,0x30" onclick="ButonBulbOnclick(this);">zdroj 5</button>
+<button id="audioSrc6" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-356" ipid="0x26,0x27,0x28,0x29,0x30" onclick="ButonBulbOnclick(this);">zdroj 6</button>
+
+</div>
+
+
+<div id="dbgWin" style="display:none; flex-direction: column; position:absolute; top:1100px; left:60px; width:1300px; height:500px; z-index: 1500;" class="DashedGreenSoft">
+  <div id="dbgButons" style="display:flex; flex-direction: row; position:relative; top:0px; left:0px; width:100%; height:35px; min-height: 35px; justify-content: space-evenly;">
+    <button id="dbgbut1" onclick="ExeSexuleLokl(null);" class="dbgButs">SexEval</button>
+    <button onclick="CLRoneORmore('dopsat');" class="dbgButs">Clr L</button>
+    <button onclick="CLRoneORmore('dopsat,dopsatTWA');" class="dbgButs">CLR ALL</button>
+    <button onclick="CLRoneORmore('dopsatTWA');" class="dbgButs">Clr R</button>
+    <button onclick="ExeSexuleLokl(Reflect.ownKeys(window)); dopsatTWA.value = dopsatTWA.value.replaceAll(',', '\n');" class="dbgButs">all keys</button>
+    <button onclick="errs.forEach(pikl => { if(typeof pikl != 'string')dopsatTWA.value+=Object.entries(pikl); else dopsatTWA.value+=(pikl + '\n');});" class="dbgButs">errs</button>
+    <button onclick="TaskWorkerWithEval(`ReportReachedState()`);" class="dbgButs">report Reached</button>
+    <button onclick="dopsat.value=prepCustomWokr();" class="dbgButs">workerExp</button>
+    <button onclick="dopsat.value='TaskWorkerWithEval(`ReportReachedState()`, WokersRegistry[\'0x26_mykryp.js\'])' ;" class="dbgButs">taskWorker</button>
+    
+  </div>
+  <div id="textFields" style="display:flex; flex-direction: row; position:relative; width:100%; height:auto; min-height: 88%;">
+    <textarea id="dopsat" type="text" value="" onkeypress="" spellcheck="false" style="margin: 0px;display: flex;position: relative;width: 50%;height: 100%;"></textarea>
+    <textarea id="dopsatTWA" type="text" value="" onkeypress="" spellcheck="false" style="margin: 0px;position: relative; width: 50%;height: 100%;"></textarea>
+  </div>
+</div>
+
+<div id="breathingSpaceDelimiter" style="display: block;position: absolute;top: 2000px;left:200px;height: 1px;width: 1px;opacity: 0.1;"></div>
+
+<script id="homeScript">
+function HomeSideControlsButs(whoo)
+{
+  //console.log("HomeSideControlsButs",whoo);
+  switch(whoo.id)
+  {
+    case "homebut_01":
+      SigREsort(false);
+    break;
+    case "homebut_02":
+      ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/DarovaneDvere');   
+    break;
+    case "homebut_03":
+      ShotHTTPapi('https://192.168.166.53/cws/flags/TRIG/GLASSshoot')
+    break;
+    case "homebut_04":
+    // open ws ... aka manualy triger ciip connecting ..for example when delayedInit have marked not con duuring dev
+      FetuchFailDEBAKANEJ("SigDyk.json", false, true);
+       whoo.classList.toggle("lehcePushd", true); 
+    break;
+    
+    case "homebut_05":
+    // close any wokers..
+    if(globalThis.WokersRegistry)
+    {
+       for (var wico in globalThis.WokersRegistry) {
+        WokersRegistry[wico].terminate();
+        console.log("terminated:",wico);
+        if(dopsatTWA)
+          dopsatTWA.value+= "terminated:" + wico + "\n";
+      }
+    }
+    break;
+    
+    case "homebut_06":
+    break;
+    
+    case "homebut_07":
+    var towokno = document.getElementById("dbgWin");
+    if(towokno)
+      towokno.style.display = towokno.style.display == "none" ? "flex" : "none";
+    break;            
+
+    case "homebut_08":
+    // it has to be 08 because hee have special fbclass defined.. !!
+    tougeMouseLoger(whoo);
+    break;
+    
+    case "homebut_09":
+     ButonBulbOnclick(whoo);
+    break;
+    
+    default:
+    break;    
+  }
+}
+
+function independendHeatArrows(whooeve) {
+ // console.log("ArrowsPress >> ", whooeve, whooeve.buttons);
+  var whoo = whooeve.target ? whooeve.target : whooeve.srcElement;
+  if (whoo.attributes.booljoin) {
+
+    var joinNamee = whoo.attributes.booljoin.value;
+    var targetIPid = "0x27,0x26,0x28,0x29,0x30";
+    if (whoo.hasAttribute("ipId"))
+      targetIPid = whoo.attributes.ipId.value;
+
+    var jenNumbero = joinNamee.split("-").slice(-1)[0];
+
+    if (whooeve.buttons == 0) {
+      // should be pointerup
+      ActivateSig("b", jenNumbero, false, targetIPid);
+    } else if (whooeve.buttons == 1) {
+      // should be pointerdown
+      ActivateSig("b", jenNumbero, true, targetIPid);
+    } else {
+      console.log("...what kind of kakaj thiis is ?? ", whooeve);
+    }
+  }
+}
+
+
+
+
+
+
+document.querySelectorAll(".assetMaterFontIcon").forEach(beee => {
+  if(beee.value)beee.innerHTML = unescape(beee.value);
+})
+
+document.querySelectorAll(".assetMaterBigDesignFontIcon").forEach(beee => {
+  if(beee.value)beee.innerHTML = unescape(beee.value);
+  else if(beee.attributes.icon)beee.innerHTML = unescape(beee.attributes.icon.value); 
+})
+
+
+</script>

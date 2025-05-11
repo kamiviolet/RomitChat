@@ -1,0 +1,21 @@
+#MainSettingsContainer {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+#MainSettingsContainer {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+#settingsMenu {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  box-shadow: 1px 2px 2px 2px #000;
+  border: outset 1px black;
+}

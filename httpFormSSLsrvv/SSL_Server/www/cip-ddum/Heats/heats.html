@@ -1,0 +1,146 @@
+<div id="heats" style="display: block;position: relative;top: 0px;left: 0px;z-index: 5;">    
+  <h2 style="display: inline-block;"> Heats. ..</h2>    
+  <div id="heatcontrols" style="display: block;position: relative;text-align: center;">   
+    <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;font-size: 22px;margin: 0px;">požadovaná:
+    </p>  
+    <p id="desiredTemp" style="color: red;text-shadow: 1px 1px 2px black;font-size: 20px;" ushortjoin="UShort-50">000 C
+    </p>  
+    <button class="heatDesireArrow" onclick="InkrDekrHeatt(this);" booljoin="Bool-521" ipid="0x27,0x26,0x28,0x29,0x30">UP
+    </button>  
+    <button class="heatDesireArrow" onclick="InkrDekrHeatt(this);" booljoin="Bool-541" ipid="0x27,0x26,0x28,0x29,0x30">DW
+    </button>
+  </div>    
+  <div style="display: block;height: auto;">    
+    <span>venkovni:
+    </span>           
+    <h3 id="OutsideTemp" style="color: red;text-shadow: 1px 1px 2px black;margin: 3px;"> </h3>         
+  </div>                        
+  <div id="butonHeatBoxColumns" style="display: flex;flex-flow: column;width: 100%;height: auto;">      
+    <div id="butonHeatRow01" draggable="true" style="height: 130px;display: flex;flex-direction: row;border: dashed 1px;width: 100%;position: relative;">                                   
+      <button id="heat01" fbactiveclass="lehceRed" booljoin="Bool-501" ushortjoin="UShort-51" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxSelect" ipid="0x27,0x26,0x28,0x29,0x30">        
+        <p>Smoke Rum
+        </p>        
+        <span class="tempDisplay" id="temp01">18.5°C
+        </span>        
+      </button>                 
+      <button id="heat02" fbactiveclass="lehceRed" booljoin="Bool-502" ushortjoin="UShort-52" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">        
+        <p>WC mens
+        </p>        
+        <span class="tempDisplay" id="temp02">20.7°C
+        </span>        
+      </button>                        
+      <button id="heat03" fbactiveclass="lehceRed" booljoin="Bool-503" ushortjoin="UShort-53" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>WC ladyes
+        </p>        
+        <span class="tempDisplay" id="temp03">21.5°C
+        </span>        
+      </button>                   
+      <button id="heat04" fbactiveclass="lehceRed" booljoin="Bool-504" ushortjoin="UShort-54" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>NA
+        </p>        
+        <span class="tempDisplay" id="temp04">0
+        </span>        
+      </button>
+      <button id="heat05" fbactiveclass="lehceRed" booljoin="Bool-505" ushortjoin="UShort-55" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>Kancl Honza
+        </p>        
+        <span class="tempDisplay" id="temp05">44 C
+        </span>        
+      </button>
+      <button id="heat06" fbactiveclass="lehceRed" booljoin="Bool-506" ushortjoin="UShort-56" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>Kancl Mapa
+        </p>        
+        <span class="tempDisplay" id="temp06">44 C
+        </span>        
+      </button>
+      <button id="heat07" fbactiveclass="lehceRed" booljoin="Bool-507" ushortjoin="UShort-57" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>my kancl
+        </p>        
+        <span class="tempDisplay" id="temp07">44 C
+        </span>        
+      </button>
+      <button id="heat08" fbactiveclass="lehceRed" booljoin="Bool-508" ushortjoin="UShort-58" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>sekretariat
+        </p>        
+        <span class="tempDisplay" id="temp08">44 C
+        </span>        
+      </button>
+      <button id="heat09" fbactiveclass="lehceRed" booljoin="Bool-509" ushortjoin="UShort-59" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>ředitel
+        </p>        
+        <span class="tempDisplay" id="temp09">44 C
+        </span>        
+      </button>
+      <button id="heat10" fbactiveclass="lehceRed" booljoin="Bool-510" ushortjoin="UShort-60" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>HBC kancl
+        </p>        
+        <span class="tempDisplay" id="temp10">44 C
+        </span>        
+      </button>                    
+    </div>      
+    <div id="butonHeatRow02" draggable="true" style="height: 130px;display: flex;flex-direction: row;border: dashed 1px;width: 100%;position: relative;">
+    
+     <button id="heat11" fbactiveclass="lehceRed" booljoin="Bool-511" ushortjoin="UShort-61" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>HBC Rest room
+        </p>        
+        <span class="tempDisplay" id="temp11">44 C
+        </span>        
+      </button>
+      <button id="heat12" fbactiveclass="lehceRed" booljoin="Bool-512" ushortjoin="UShort-62" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>HBC kancl roh
+        </p>        
+        <span class="tempDisplay" id="temp12">44 C
+        </span>        
+      </button>
+      <button id="heat13" fbactiveclass="lehceRed" booljoin="Bool-513" ushortjoin="UShort-63" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>Unik Exit chodba
+        </p>        
+        <span class="tempDisplay" id="temp13">44 C
+        </span>        
+      </button>
+      <button id="heat14" fbactiveclass="lehceRed" booljoin="Bool-514" ushortjoin="UShort-64" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>KOTEL
+        </p>        
+        <span class="tempDisplay" id="temp14">44 C
+        </span>        
+      </button>
+      <button id="heat15" fbactiveclass="lehceRed" booljoin="Bool-515" ushortjoin="UShort-65" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>HBC u vytahu
+        </p>        
+        <span class="tempDisplay" id="temp15">44 C
+        </span>        
+      </button>
+      <button id="heat16" fbactiveclass="lehceRed" booljoin="Bool-516" ushortjoin="UShort-66" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>HBC Big room
+        </p>        
+        <span class="tempDisplay" id="temp16">44 C
+        </span>        
+      </button>
+      <button id="heat17" fbactiveclass="lehceRed" booljoin="Bool-517" ushortjoin="UShort-67" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>Zasedačka
+        </p>        
+        <span class="tempDisplay" id="temp17">44 C
+        </span>        
+      </button>
+      <button id="heat18" fbactiveclass="lehceRed" booljoin="Bool-518" ushortjoin="UShort-68" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>Show Room
+        </p>        
+        <span class="tempDisplay" id="temp18">44 C
+        </span>        
+      </button>
+      <button id="heat19" fbactiveclass="lehceRed" booljoin="Bool-519" ushortjoin="UShort-69" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>Chodba 
+        </p>        
+        <span class="tempDisplay" id="temp19">44 C
+        </span>        
+      </button>
+      <button id="heat20" fbactiveclass="lehceRed" booljoin="Bool-520" ushortjoin="UShort-70" onclick="ButonHeatSelect(this);" class="oneHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">         
+        <p>HBC Kumbaal
+        </p>        
+        <span class="tempDisplay" id="temp20">44 C
+        </span>        
+      </button> 
+                     
+    </div>          
+  </div>  
+</div> 

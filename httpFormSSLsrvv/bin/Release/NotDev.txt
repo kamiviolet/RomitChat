@@ -1,0 +1,1 @@
+simple Presence of this fil in exe folder will hide useless controls

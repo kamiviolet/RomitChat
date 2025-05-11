@@ -1,0 +1,790 @@
+.home_wrapper {
+  display: grid;
+  grid-template-columns: auto auto minmax(100px, 200px);
+  grid-template-rows: auto auto 1fr;
+}
+
+.home_wrapper > * {
+  margin-inline: 1em;
+}
+
+#PIR_WC,
+button,
+#DMPSshow,
+.assetIconRoundBox,
+.BulbButHomeStyle {
+  cursor: pointer;
+}
+
+/* #homehome */
+
+#homehome {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+/* #homeColumns */
+
+#homeColumns {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+#homeColumner {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff1a;
+
+  padding: .5em;
+  margin-block: 1em;
+
+  max-width: calc(100vw - 52px);
+  flex-wrap: wrap;
+  width: auto;
+
+}
+
+.homeCntrl {
+  height: 55px;
+  font-weight: bold;
+  box-shadow: 0 2px 2px black;
+  margin: .25em;
+  padding-inline: 0.5em;
+  min-width: 110px;
+  border-radius: 0;
+}
+
+.homeCntrl:last-of-type {
+  /* margin-bottom: unset; */
+}
+
+/* SVG floormap */
+
+.pudrysMapWithElements
+{
+  grid-column: 1/4;
+  grid-row: 3/4;
+
+  background: #0000005c;
+  margin: 1em;
+  padding: 10px 5px;
+
+  display: grid;
+  gap:.5rem;
+}
+/*
+#pudrysWithElements {
+  grid-column: 1/4;
+  grid-row: 3/4;
+
+  background: #0000005c;
+  margin: 1em;
+
+  display: grid;
+  gap:.5rem;
+}
+*/
+
+.placeholder_wrapper {
+  display: flex;
+  width: 100%;
+  margin-inline-start: 1rem;
+}
+
+.placeholder_wrapper > * {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 64%;
+  margin-inline-end: 1rem;
+}
+
+.placeholder_wrapper .assetIconRoundBox {
+  position: unset;
+}
+
+#PIR_WC
+{
+  fill: rgb(233, 233, 237);
+}
+.BulbButHomeStyle {
+  fill: rgb(233, 233, 237);
+  filter: drop-shadow(2px 2px 2px #000);
+}
+
+.pudrysMapWithElements > div > svg
+{
+  width: 100%;
+  height: 99%;
+  /*max-height: calc(100vh - 350px);*/
+}
+/*
+#pudrysWithElements > div > svg {
+  width: 100%;
+  height: 99%;  
+}
+*/
+
+#floormap_core path:not([fill="#fff"]) {
+  filter:brightness(0.5) contrast(.8);
+}
+
+#floormap_core path[fill="#fff"] {
+  filter:brightness(0.75);
+}
+ /*
+#floormap_coreP1 path:not([fill="#f3f8fa"]) {
+  filter:brightness(0.5) contrast(.8);
+}  */
+
+#floormap_coreP1 path[fill="#fff"] {
+  filter:brightness(0.75);
+}
+
+
+.blindBtnRect,
+.assetIconRoundBox {
+  fill: #fcfbfb26;
+  stroke: #b2afaf;
+}
+
+.blindBtnIcon {
+  fill: #999;
+  text-shadow: 1px 1px 1px black;
+  font-size: 32px;
+}
+
+#DMPSshow button {
+  width: 100%;
+  height: 100%;
+  border-radius: 65%;
+  padding: 0;
+}
+
+#DMPSshow span {
+  font-weight: bold;
+  font-size: 0.6em;
+  transform: translate(1px, 1px);
+}
+
+.fan_wrapper .assetMaterBigDesignFontIcon {
+  font-size: 23px;
+  fill: #999;
+  text-shadow: 1px 1px 2px black;
+  stroke: none;
+  display: block;
+  transform: translate(-.5px, 0px);
+}
+
+.fanRmnTime {
+  top: 6px;
+  right: 5px;
+  font-size: 12px;
+  transform: translate(6px, -9px);
+  text-shadow: 1px 1px 1px black;
+  color: red;
+  /*padding: 1px 2px;
+  background: #0006;*/
+}
+
+.assetIconRoundBox>text {
+  fill: #999;
+  font-size: 22px;
+  stroke: none;
+}
+
+.heatDesireArrow
+{
+padding: 15px;
+margin: 5px;
+width: 60px;
+box-shadow: 2px 2px 3px #000;
+text-shadow: 1px 2px 4px #0d0c0ced;
+font-weight: bold;
+}
+
+.heatDesireArrow:active
+{
+	box-shadow: 1px 2px 3px 2px #000 inset;
+	background-color: gray;
+	border-radius: 4px;
+}
+
+.ShadeSelector {
+  background: #fcfbfb26;
+  border-radius: 5px;
+  transform: translate(1px, 0);
+}
+
+.ShadeSelector span.shadeIconDiplay
+{
+color: #b2afaf;
+text-shadow: 1px 1px 2px black;
+font-size: 2.2em;
+}
+
+.oneHeatBox
+{
+display: block;
+position: relative;
+min-width: 116px;
+text-shadow: 1px 1px 2px black;
+font-weight: bolder;
+}
+
+#glasDoorWrap,
+#arowsheat button,
+.freeHeatBox,
+.custHeatBox
+{
+display: flex;
+/* position: absolute; */
+flex-flow: column;
+/* text-shadow: 1px 1px 2px black; */
+font-weight: bolder;
+box-shadow: 1px 1px 2px black;
+border-radius: 5px;
+justify-content: center; 
+
+  width: 95%;
+  height: 95%;
+  padding-block: 2px;
+  padding-inline: 0.2em;
+}
+
+.freeHeatBox,
+.custHeatBox {
+  width: 50px;
+  /*height: 30px;*/
+}
+
+#quickHeatControls .custHeatBox
+{
+  width: 46px;
+  height: 34px;
+}
+
+#glasDoorWrap span,
+.custHeatBox p,
+.custHeatBox span,
+.freeHeatBox p,
+.freeHeatBox span {
+  font-size: .7em;
+  margin: 0;
+  width: 100%;
+}
+
+.heatBoxes.smallHeatBox {
+  width: 45px;
+  height: 18px;
+  background-color: #e9e9ed5c;
+  border-color: #e3e3e36e;
+}
+
+.tempDisplay {
+  margin-top: 1px;
+  color: red;
+  text-shadow: 1px 1px 2px black;
+  /* font-size: 16px; */
+}
+
+#arowsheat button {
+  font-size: .6em;
+  margin: 0;
+  align-items: center; /* for chrome */
+  border-radius: 3px;
+}
+
+.HeatBoxSelected
+{
+border: outset 3px red !important;
+border-radius: 5px;
+}
+
+.ShadeeBoxSelected
+{
+border: outset 2px red !important;
+border-radius: 5px;
+}
+
+#glasDoorWrap {
+  padding-inline: unset;
+}
+
+#glasDoorWrap button {
+  background: transparent;
+  font-weight: 700;
+}
+
+.fan_wrapper .assetIconRoundBox,
+.repro_wrapper .assetIconRoundBox {
+  padding: 0;
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  font-size: 23px; 
+  position: unset;
+  box-shadow: unset;
+}
+
+/* Submenu */
+
+.vertical_submenu,
+.horizontal_submenu {
+  grid-column: 1/4;
+  /* margin-block: 1.5em; */
+  overflow: auto;
+}
+
+/* Submenu - vertical*/
+/* Fan | Heat | Shade */
+
+.vertical_submenu > .relativeControls > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Submenu - horizontal */
+.horizontal_submenu > div {
+  padding-block: 1em;
+  /* padding-inline: 1em; */
+  margin-block: 1em;
+}
+
+#audoSources {
+  display: flex;
+  height: 55px;
+  /* box-shadow: 3px 4px 3px black; */
+  justify-content: space-evenly;
+}
+
+#volSlida {
+  display: flex;
+  flex-flow: column-reverse;
+  width: auto;
+}
+
+/* Submenu - matrix */
+
+table {
+  /* border-spacing: .5em 0.25em; */
+  border: 1px solid orange;
+}
+
+td {
+/*! width: 1.5em; 
+height: 28px; */
+background: #d2d2d21f;
+text-align: center;
+vertical-align: middle;
+}
+
+#matirix {
+  display: flex;
+  padding-inline: unset;
+}
+
+#matirix table {
+  border: ridge aliceblue;
+  background-color: rgba(0, 0, 0, 0.77);
+  width: -moz-available;
+}
+
+#matirix thead th:first-of-type {
+  width: 75px;
+}
+
+#matirix .routeOutbox, 
+#matirix .routeInputbox {
+  text-shadow: unset;
+  font-weight: bold;
+  padding-block: .25em;
+  font-size: 10px;
+}
+
+
+#matirix .routeInputbox {
+  word-wrap: break-word;
+}
+
+#matirix input {
+  height: 100%; 
+}
+
+.matrixColumn
+{
+justify-content: space-around;
+height: 82%;
+padding: 0px;
+margin: 0px;
+}
+.matrixColumn > input
+{
+margin-bottom: 0px;
+}
+.matrixColumn > button
+{
+margin-bottom: 6px;
+width: 87px;
+}
+.vuFBmeters
+{
+writing-mode: sideways-lr;
+/*height: 100%;*/
+height:60px;
+width: 10px;
+margin-left: 1px;
+}
+.outColum
+{
+left: 110px;
+margin-right: 40px;
+}
+.routeOutbox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* text-shadow: 1px 2px 4px #0d0c0ced;
+  font-weight: bold;
+  padding-block: 0px; */
+  padding-inline: 3px;
+  margin: 0px;
+  justify-content: center;
+}
+.routeInputbox
+{
+  position: relative;
+  text-shadow: 1px 2px 4px #0d0c0ced;
+  font-weight: bold;
+  width: 100%;
+}
+#matrixTable > tbody > tr
+{
+  height: 28px;
+}
+#matrixTable > thead > tr > th
+{
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+}
+#matrixTable > tbody > tr > th
+{
+  height: 28px;
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #matirix .routeOutbox {
+    width: 60px;
+  /*  height: 40px; */
+  }
+  #matirix thead th:first-of-type,
+  #matirix .routeInputbox {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  #matirix .routeOutbox {
+    width: 58px;
+   /* height: auto;*/
+  }
+  
+  .horizontal_submenu {
+    grid-column: 1/3;
+  }
+
+  .horizontal_submenu > div:not(#dbgWin) {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* #homehome */
+
+  #homehome {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+
+  /* #homeColumns */
+
+  #homeColumns {
+    grid-column: 2/4;
+    grid-row: 1/2;
+
+    place-self: center end;
+  }
+
+  /*#pudrysWithElements {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }*/
+   .pudrysMapWithElements {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+
+  #dbgWin {
+    /*max-width: 900px;*/
+    height:440px;
+  }
+
+  .vertical_submenu {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    padding: .75em 0;
+    margin-inline-start: unset;
+  }
+
+}
+
+/* Modal - audio */
+
+.modal {
+  position: absolute; width: 700px; z-index: 1010; top: 100px; left: 70px;border: ridge 10px; justify-content: flex-start;
+  color: whitesmoke;
+}
+
+.modal .close_btn {
+  background: #aeafb0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  height: 26px;
+}
+
+.modal .close_btn > button {
+  width: 2em;
+  height: 100%;
+  border-radius: 0;
+}
+
+.modal .modal_inner {
+  max-width: 100%;
+  max-height: calc(470px - 50px);
+  height: 100%;
+}
+
+.audio_modal {
+  background: #2f2f2fc9;
+  height: 500px;
+  box-sizing: border-box;
+  display: grid;
+  /* gap: .5em; */
+  grid-template-columns: 1fr;
+}
+
+.audio_modal .modal_inner {
+  display: grid;
+  grid-template-columns: minmax(100px, 270px) auto;
+  grid-template-rows: 2.25em 1.5em auto 50px 50px;
+  height: calc(100% - 26px);
+  gap: 0.2em;
+  max-height: calc(460px - 26px);
+}
+
+.album_cover {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  max-width: 100%;
+  height: 100%;
+  place-self: center;
+}
+
+.audio_modal .dropdown_wrapper {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  min-width: 100px;
+}
+
+.audio_modal svg {
+  cursor: pointer;
+}
+
+.audio_modal svg:hover, .audio_modal svg:active {
+  filter: drop-shadow(0px 0px 4px #fed5ffe5);
+}
+
+.audio_state {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  max-width: 100%;
+  height: 100%;
+  text-transform: capitalize;
+}
+
+.audio_description {
+  grid-row: 4/5;
+  grid-column: 1/2;
+  font-size: 1.05em;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.audio_control {
+  grid-row: 5/6;
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+}
+
+.audio_control svg {
+  fill: whitesmoke;
+  flex: 1;
+}
+
+.playlist_wrapper {
+  overflow: hidden;
+  grid-column: 2/3;
+  grid-row: 1/6;
+  display: grid;
+  padding: 1em .5em;
+  box-sizing: border-box;
+  gap: .5em;
+  background: #242526de;
+  height: 100%;
+}
+
+.playlist_head svg {
+  width: 1.5rem;
+  fill: whitesmoke;
+  float: left;
+}
+
+.playlist_head p {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.playlist_head p {
+  display: flex;
+  justify-content: center;
+}
+
+.playlist_tail {
+  display: flex;
+  justify-content: start;
+}
+
+.playlist_tail svg {
+  width: 1.5rem;
+  fill: whitesmoke;
+  margin-inline-end: 1em;
+}
+.playlist_tail svg:last-of-type {
+  margin-inline-end: unset;
+}
+.playlist {
+  overflow: hidden;
+  height: 100%;
+  min-height: 270px;
+}
+
+.playlist > ul {
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.playlist > ul li {
+  display: block;
+  padding: 1em .5em;
+  border-block-end: 1px solid #8c8c8c;
+  cursor: pointer;
+}
+
+.playlist > ul li:last-of-type {
+  border-block-end: unset;
+}
+
+.playlist > ul li:hover,
+.playlist > ul li:focus,
+.playlist > ul li:active {
+  background: rgb(95, 95, 95);
+}
+
+.audio_modal select {
+  padding: 0.75em;
+  width: 48%;
+  color: aliceblue;
+  border: 0;
+  background: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(0, 0, 0) 58%, rgb(255, 255, 255) 100%);
+  border-radius: 5px;
+  box-shadow: 0 1px 1px aliceblue;
+  cursor: pointer;
+}
+
+.audio_modal option {
+  background-color: black;
+}
+
+select:open {
+  background: black;
+}
+
+#al-descr > p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 720px) {
+  .audio_modal {
+    position: absolute;
+    top: 127px;
+    left: 51px;
+    right: auto;
+    max-width: 70vw;
+    height: 650px;
+  }
+
+  .audio_modal .modal_inner {
+    grid-template-columns: 1fr;
+    height: 100%;
+    max-height: calc(650px - 65px);
+    grid-template-rows: 2.25em 1.5em auto 50px 35px auto;
+  }
+
+  .audio_description {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    max-width: 60vw;
+    width: 100%;
+  }
+
+  .playlist_wrapper {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 30px auto;
+  }
+
+  .playlist_tail {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: end;
+  }
+
+  .playlist_head {
+    grid-row: 1/2;
+  }
+
+  .playlist {
+    grid-column: 1/3;
+    min-height: unset;
+  }
+}

@@ -1,0 +1,86 @@
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\httpFormSSLsrvv.exe.config
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\httpFormSSLsrvv.exe
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\httpFormSSLsrvv.pdb
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.csproj.AssemblyReference.cache
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.Properties.Resources.resources
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.csproj.GenerateResource.cache
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.csproj.CoreCompileInputs.cache
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.exe
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.pdb
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.Form2.resources
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.Form1.resources
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\about.html
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\images\server.jpg
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\index.html
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\server.crt
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\server.key
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\something\data.json
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\cert_export_cert1.crt
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\muycert.pem
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\muykey.pem
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\request.csr
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\server.pfx
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\tujcert.pem
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\tujkey.pem
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\vMargeCA.cer
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\vMargeCA.pvk
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\vMargeSignedByCA.cer
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\myCA.crt
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\myCA.der
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\myCA.pfx
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\about.html
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\images\server.jpg
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\index.html
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\cert_export_cert1.crt
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\muycert.pem
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\muykey.pem
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\myCA.crt
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\myCA.der
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\myCA.pfx
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\request.csr
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\server.crt
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\server.key
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\server.pfx
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\tujcert.pem
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\tujkey.pem
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\vMargeCA.cer
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\vMargeCA.pvk
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\vMargeSignedByCA.cer
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\something\data.json
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\httpFormSSLsrvv.exe.config
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\httpFormSSLsrvv.exe
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\httpFormSSLsrvv.pdb
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.csproj.AssemblyReference.cache
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.Form1.resources
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.Form2.resources
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.Properties.Resources.resources
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.csproj.GenerateResource.cache
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.csproj.CoreCompileInputs.cache
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.exe
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.pdb
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\crtSome - Shortcut.lnk
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\favicon.ico
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\seru_cubu.crt
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\seru_cubu.pfx
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\server_combo.crt
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\server_combo.pfx
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\favicon.ico
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\seru_cubu.crt
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\seru_cubu.pfx
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\server_combo.crt
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\certs\server_combo.pfx
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\crtSome - Shortcut.lnk
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\Newtonsoft.Json.dll
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\Newtonsoft.Json.xml
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpFormSSLsrvv.csproj.CopyComplete
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\Newtonsoft.Json.dll
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Debug\httpForm.17D18477.Up2Date
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\cr-com-lib.js
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\SSL_Server\www\cr-com-lib.js
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\System.Security.Cryptography.OpenSsl.dll
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\System.Security.Cryptography.OpenSsl.xml
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\System.Security.Cryptography.OpenSsl.dll
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\System.Security.Cryptography.OpenSsl.xml
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\Newtonsoft.Json.xml
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\websocket-sharp.dll
+C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\websocket-sharp.pdb

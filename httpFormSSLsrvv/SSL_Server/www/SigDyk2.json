@@ -1,0 +1,8088 @@
+{
+  "107-Bool-2011": {
+    "signalName": "107-Bool-2011",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-Bool-2012": {
+    "signalName": "107-Bool-2012",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-Bool-2013": {
+    "signalName": "107-Bool-2013",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-Bool-2014": {
+    "signalName": "107-Bool-2014",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-Bool-2015": {
+    "signalName": "107-Bool-2015",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-Bool-4011": {
+    "signalName": "107-Bool-4011",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-Bool-4013": {
+    "signalName": "107-Bool-4013",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-Bool-4017": {
+    "signalName": "107-Bool-4017",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-Bool-4019": {
+    "signalName": "107-Bool-4019",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-String-11": {
+    "signalName": "107-String-11",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-String-12": {
+    "signalName": "107-String-12",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-String-13": {
+    "signalName": "107-String-13",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-String-14": {
+    "signalName": "107-String-14",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-String-15": {
+    "signalName": "107-String-15",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-String-16": {
+    "signalName": "107-String-16",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-UShort-13": {
+    "signalName": "107-UShort-13",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-UShort-19": {
+    "signalName": "107-UShort-19",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-UShort-25": {
+    "signalName": "107-UShort-25",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-UShort-28": {
+    "signalName": "107-UShort-28",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-UShort-29": {
+    "signalName": "107-UShort-29",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-UShort-38": {
+    "signalName": "107-UShort-38",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-UShort-39": {
+    "signalName": "107-UShort-39",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "107-UShort-40": {
+    "signalName": "107-UShort-40",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-11": {
+    "signalName": "17-Bool-11",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-12": {
+    "signalName": "17-Bool-12",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-13": {
+    "signalName": "17-Bool-13",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-14": {
+    "signalName": "17-Bool-14",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-15": {
+    "signalName": "17-Bool-15",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-16": {
+    "signalName": "17-Bool-16",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-17": {
+    "signalName": "17-Bool-17",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-18": {
+    "signalName": "17-Bool-18",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-19": {
+    "signalName": "17-Bool-19",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-20": {
+    "signalName": "17-Bool-20",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2011": {
+    "signalName": "17-Bool-2011",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2012": {
+    "signalName": "17-Bool-2012",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2013": {
+    "signalName": "17-Bool-2013",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2014": {
+    "signalName": "17-Bool-2014",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2015": {
+    "signalName": "17-Bool-2015",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2016": {
+    "signalName": "17-Bool-2016",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2017": {
+    "signalName": "17-Bool-2017",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2018": {
+    "signalName": "17-Bool-2018",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2019": {
+    "signalName": "17-Bool-2019",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2020": {
+    "signalName": "17-Bool-2020",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2021": {
+    "signalName": "17-Bool-2021",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2022": {
+    "signalName": "17-Bool-2022",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2023": {
+    "signalName": "17-Bool-2023",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2024": {
+    "signalName": "17-Bool-2024",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2025": {
+    "signalName": "17-Bool-2025",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2026": {
+    "signalName": "17-Bool-2026",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2027": {
+    "signalName": "17-Bool-2027",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2028": {
+    "signalName": "17-Bool-2028",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-2029": {
+    "signalName": "17-Bool-2029",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-21": {
+    "signalName": "17-Bool-21",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-22": {
+    "signalName": "17-Bool-22",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-23": {
+    "signalName": "17-Bool-23",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-24": {
+    "signalName": "17-Bool-24",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-25": {
+    "signalName": "17-Bool-25",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-26": {
+    "signalName": "17-Bool-26",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-27": {
+    "signalName": "17-Bool-27",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-28": {
+    "signalName": "17-Bool-28",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-Bool-29": {
+    "signalName": "17-Bool-29",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-11": {
+    "signalName": "17-String-11",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-12": {
+    "signalName": "17-String-12",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-13": {
+    "signalName": "17-String-13",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-14": {
+    "signalName": "17-String-14",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-15": {
+    "signalName": "17-String-15",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-16": {
+    "signalName": "17-String-16",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-17": {
+    "signalName": "17-String-17",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-18": {
+    "signalName": "17-String-18",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-19": {
+    "signalName": "17-String-19",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-20": {
+    "signalName": "17-String-20",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-21": {
+    "signalName": "17-String-21",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-22": {
+    "signalName": "17-String-22",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-23": {
+    "signalName": "17-String-23",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-24": {
+    "signalName": "17-String-24",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-25": {
+    "signalName": "17-String-25",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-26": {
+    "signalName": "17-String-26",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-27": {
+    "signalName": "17-String-27",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-28": {
+    "signalName": "17-String-28",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-29": {
+    "signalName": "17-String-29",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "17-String-30": {
+    "signalName": "17-String-30",
+    "value": "",
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-11": {
+    "signalName": "18-String-11",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-12": {
+    "signalName": "18-String-12",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-13": {
+    "signalName": "18-String-13",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-14": {
+    "signalName": "18-String-14",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-15": {
+    "signalName": "18-String-15",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-16": {
+    "signalName": "18-String-16",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-17": {
+    "signalName": "18-String-17",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-18": {
+    "signalName": "18-String-18",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-19": {
+    "signalName": "18-String-19",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-20": {
+    "signalName": "18-String-20",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-21": {
+    "signalName": "18-String-21",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-22": {
+    "signalName": "18-String-22",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-23": {
+    "signalName": "18-String-23",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-24": {
+    "signalName": "18-String-24",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-25": {
+    "signalName": "18-String-25",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-26": {
+    "signalName": "18-String-26",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-27": {
+    "signalName": "18-String-27",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-28": {
+    "signalName": "18-String-28",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-29": {
+    "signalName": "18-String-29",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-30": {
+    "signalName": "18-String-30",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-31": {
+    "signalName": "18-String-31",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-32": {
+    "signalName": "18-String-32",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-33": {
+    "signalName": "18-String-33",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-34": {
+    "signalName": "18-String-34",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-35": {
+    "signalName": "18-String-35",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-36": {
+    "signalName": "18-String-36",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-37": {
+    "signalName": "18-String-37",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-38": {
+    "signalName": "18-String-38",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-39": {
+    "signalName": "18-String-39",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-40": {
+    "signalName": "18-String-40",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-41": {
+    "signalName": "18-String-41",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-42": {
+    "signalName": "18-String-42",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-43": {
+    "signalName": "18-String-43",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-44": {
+    "signalName": "18-String-44",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-45": {
+    "signalName": "18-String-45",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-46": {
+    "signalName": "18-String-46",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-47": {
+    "signalName": "18-String-47",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-48": {
+    "signalName": "18-String-48",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-49": {
+    "signalName": "18-String-49",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-50": {
+    "signalName": "18-String-50",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-51": {
+    "signalName": "18-String-51",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-52": {
+    "signalName": "18-String-52",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-53": {
+    "signalName": "18-String-53",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-54": {
+    "signalName": "18-String-54",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-55": {
+    "signalName": "18-String-55",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "hatet_Name"
+  },
+  "18-String-56": {
+    "signalName": "18-String-56",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-57": {
+    "signalName": "18-String-57",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "18-String-58": {
+    "signalName": "18-String-58",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "3-Bool-3": {
+    "signalName": "3-Bool-3",
+    "value": false,
+    "smartObjectId": 3,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "3-String-1": {
+    "signalName": "3-String-1",
+    "value": "",
+    "smartObjectId": 3,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "3-String-3": {
+    "signalName": "3-String-3",
+    "value": "",
+    "smartObjectId": 3,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "35-UShort-11": {
+    "signalName": "35-UShort-11",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "35-UShort-24": {
+    "signalName": "35-UShort-24",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "35-UShort-37": {
+    "signalName": "35-UShort-37",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "35-UShort-50": {
+    "signalName": "35-UShort-50",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "35-UShort-63": {
+    "signalName": "35-UShort-63",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "35-UShort-76": {
+    "signalName": "35-UShort-76",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "51-String-21": {
+    "signalName": "51-String-21",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "51-String-22": {
+    "signalName": "51-String-22",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "51-String-23": {
+    "signalName": "51-String-23",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "51-String-24": {
+    "signalName": "51-String-24",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "51-String-25": {
+    "signalName": "51-String-25",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "51-String-26": {
+    "signalName": "51-String-26",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "51-String-27": {
+    "signalName": "51-String-27",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "6-String-1": {
+    "signalName": "6-String-1",
+    "value": "",
+    "smartObjectId": 6,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "6-String-10": {
+    "signalName": "6-String-10",
+    "value": "",
+    "smartObjectId": 6,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "6-String-2": {
+    "signalName": "6-String-2",
+    "value": "",
+    "smartObjectId": 6,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "6-String-3": {
+    "signalName": "6-String-3",
+    "value": "",
+    "smartObjectId": 6,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "6-String-4": {
+    "signalName": "6-String-4",
+    "value": "",
+    "smartObjectId": 6,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "6-String-5": {
+    "signalName": "6-String-5",
+    "value": "",
+    "smartObjectId": 6,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "6-String-6": {
+    "signalName": "6-String-6",
+    "value": "",
+    "smartObjectId": 6,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "6-String-7": {
+    "signalName": "6-String-7",
+    "value": "",
+    "smartObjectId": 6,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "6-String-8": {
+    "signalName": "6-String-8",
+    "value": "",
+    "smartObjectId": 6,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "6-String-9": {
+    "signalName": "6-String-9",
+    "value": "",
+    "smartObjectId": 6,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "7-String-1": {
+    "signalName": "7-String-1",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "7-String-10": {
+    "signalName": "7-String-10",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "7-String-2": {
+    "signalName": "7-String-2",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "7-String-3": {
+    "signalName": "7-String-3",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "7-String-4": {
+    "signalName": "7-String-4",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "7-String-5": {
+    "signalName": "7-String-5",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "7-String-6": {
+    "signalName": "7-String-6",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "7-String-7": {
+    "signalName": "7-String-7",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "7-String-8": {
+    "signalName": "7-String-8",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "7-String-9": {
+    "signalName": "7-String-9",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "71-UShort-2": {
+    "signalName": "71-UShort-2",
+    "value": 0,
+    "smartObjectId": 71,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-1000": {
+    "signalName": "Bool-1000",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166"
+  },
+  "Bool-101": {
+    "signalName": "Bool-101",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv01",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-102": {
+    "signalName": "Bool-102",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv02",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-103": {
+    "signalName": "Bool-103",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv03",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-104": {
+    "signalName": "Bool-104",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv04",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-105": {
+    "signalName": "Bool-105",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv05",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-106": {
+    "signalName": "Bool-106",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv06",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-107": {
+    "signalName": "Bool-107",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv07",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-108": {
+    "signalName": "Bool-108",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv08",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-109": {
+    "signalName": "Bool-109",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv09",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-11": {
+    "signalName": "Bool-11",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-110": {
+    "signalName": "Bool-110",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv10",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-1102": {
+    "signalName": "Bool-1102",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-111": {
+    "signalName": "Bool-111",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv11",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-1110": {
+    "signalName": "Bool-1110",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-1111": {
+    "signalName": "Bool-1111",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-112": {
+    "signalName": "Bool-112",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv12",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-113": {
+    "signalName": "Bool-113",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv13",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-114": {
+    "signalName": "Bool-114",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv14",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-115": {
+    "signalName": "Bool-115",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv15",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-116": {
+    "signalName": "Bool-116",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv16"
+  },
+  "Bool-1166": {
+    "signalName": "Bool-1166",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "passCorectShowSupbage",
+    "facha": "function(e,t){ if(e)console.log(\" keypad pass OK, go subpage \",e); reponsInvalidReason.innerHTML = \"OK\";  }"
+  },
+  "Bool-117": {
+    "signalName": "Bool-117",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv17"
+  },
+  "Bool-118": {
+    "signalName": "Bool-118",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv18",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-1181": {
+    "signalName": "Bool-1181",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-119": {
+    "signalName": "Bool-119",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv19",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-12": {
+    "signalName": "Bool-12",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-120": {
+    "signalName": "Bool-120",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv20",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-121": {
+    "signalName": "Bool-121",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv21",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-122": {
+    "signalName": "Bool-122",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv22",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-123": {
+    "signalName": "Bool-123",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv23",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-124": {
+    "signalName": "Bool-124",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv24",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-125": {
+    "signalName": "Bool-125",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv25",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-126": {
+    "signalName": "Bool-126",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv26",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-127": {
+    "signalName": "Bool-127",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv27",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-128": {
+    "signalName": "Bool-128",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv28",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-129": {
+    "signalName": "Bool-129",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv29"
+  },
+  "Bool-13": {
+    "signalName": "Bool-13",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-130": {
+    "signalName": "Bool-130",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv30",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-131": {
+    "signalName": "Bool-131",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv31"
+  },
+  "Bool-132": {
+    "signalName": "Bool-132",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv32",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-133": {
+    "signalName": "Bool-133",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv33",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-134": {
+    "signalName": "Bool-134",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv34",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-135": {
+    "signalName": "Bool-135",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv35"
+  },
+  "Bool-136": {
+    "signalName": "Bool-136",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv36"
+  },
+  "Bool-137": {
+    "signalName": "Bool-137",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv37"
+  },
+  "Bool-138": {
+    "signalName": "Bool-138",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv38",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-139": {
+    "signalName": "Bool-139",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv39",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-14": {
+    "signalName": "Bool-14",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-140": {
+    "signalName": "Bool-140",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv40",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-141": {
+    "signalName": "Bool-141",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv41",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-142": {
+    "signalName": "Bool-142",
+    "value": false,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv42",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-143": {
+    "signalName": "Bool-143",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv43",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-144": {
+    "signalName": "Bool-144",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv44",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-145": {
+    "signalName": "Bool-145",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv45",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-146": {
+    "signalName": "Bool-146",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv46",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-147": {
+    "signalName": "Bool-147",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv47"
+  },
+  "Bool-148": {
+    "signalName": "Bool-148",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv48"
+  },
+  "Bool-149": {
+    "signalName": "Bool-149",
+    "value": false,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv49",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-15": {
+    "signalName": "Bool-15",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-150": {
+    "signalName": "Bool-150",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv50",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-151": {
+    "signalName": "Bool-151",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv51",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-152": {
+    "signalName": "Bool-152",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv52",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-153": {
+    "signalName": "Bool-153",
+    "value": false,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv53",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-154": {
+    "signalName": "Bool-154",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-155": {
+    "signalName": "Bool-155",
+    "value": false,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv55",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-156": {
+    "signalName": "Bool-156",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv56",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-157": {
+    "signalName": "Bool-157",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv57",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-158": {
+    "signalName": "Bool-158",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv58"
+  },
+  "Bool-159": {
+    "signalName": "Bool-159",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv59",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-16": {
+    "signalName": "Bool-16",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-160": {
+    "signalName": "Bool-160",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv60",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-161": {
+    "signalName": "Bool-161",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv61",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-162": {
+    "signalName": "Bool-162",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv62",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-163": {
+    "signalName": "Bool-163",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv63",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-164": {
+    "signalName": "Bool-164",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv64",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-165": {
+    "signalName": "Bool-165",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv65",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-166": {
+    "signalName": "Bool-166",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.166",
+    "id": "sv66",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-167": {
+    "signalName": "Bool-167",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv67",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-168": {
+    "signalName": "Bool-168",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv68",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-169": {
+    "signalName": "Bool-169",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv69",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-17": {
+    "signalName": "Bool-17",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-170": {
+    "signalName": "Bool-170",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv70",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-171": {
+    "signalName": "Bool-171",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv71",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-172": {
+    "signalName": "Bool-172",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv72",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-173": {
+    "signalName": "Bool-173",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv73",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-174": {
+    "signalName": "Bool-174",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv74",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-175": {
+    "signalName": "Bool-175",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv75",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-176": {
+    "signalName": "Bool-176",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv76",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-177": {
+    "signalName": "Bool-177",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv77",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-178": {
+    "signalName": "Bool-178",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv78",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-179": {
+    "signalName": "Bool-179",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv79",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-18": {
+    "signalName": "Bool-18",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-180": {
+    "signalName": "Bool-180",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv80",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-181": {
+    "signalName": "Bool-181",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv81",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-182": {
+    "signalName": "Bool-182",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv82",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-183": {
+    "signalName": "Bool-183",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv83",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-184": {
+    "signalName": "Bool-184",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv84",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-185": {
+    "signalName": "Bool-185",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv85",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-186": {
+    "signalName": "Bool-186",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv86",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-187": {
+    "signalName": "Bool-187",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv87",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-188": {
+    "signalName": "Bool-188",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv88",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-189": {
+    "signalName": "Bool-189",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv89",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-19": {
+    "signalName": "Bool-19",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-190": {
+    "signalName": "Bool-190",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv90",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-191": {
+    "signalName": "Bool-191",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv91",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-192": {
+    "signalName": "Bool-192",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv92",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-193": {
+    "signalName": "Bool-193",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv93",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-194": {
+    "signalName": "Bool-194",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv94",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-195": {
+    "signalName": "Bool-195",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv95",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-196": {
+    "signalName": "Bool-196",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv96",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-197": {
+    "signalName": "Bool-197",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv97",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-198": {
+    "signalName": "Bool-198",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv98",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-199": {
+    "signalName": "Bool-199",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "sv99",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }"
+  },
+  "Bool-20": {
+    "signalName": "Bool-20",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-200": {
+    "signalName": "Bool-200",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SomBulbStateChanged(e,t); }",
+    "id": "sv100"
+  },
+  "Bool-2011": {
+    "signalName": "Bool-2011",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2012": {
+    "signalName": "Bool-2012",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2013": {
+    "signalName": "Bool-2013",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2014": {
+    "signalName": "Bool-2014",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2015": {
+    "signalName": "Bool-2015",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2016": {
+    "signalName": "Bool-2016",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2017": {
+    "signalName": "Bool-2017",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2018": {
+    "signalName": "Bool-2018",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2019": {
+    "signalName": "Bool-2019",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2020": {
+    "signalName": "Bool-2020",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2021": {
+    "signalName": "Bool-2021",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2022": {
+    "signalName": "Bool-2022",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2023": {
+    "signalName": "Bool-2023",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2024": {
+    "signalName": "Bool-2024",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2025": {
+    "signalName": "Bool-2025",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2026": {
+    "signalName": "Bool-2026",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2027": {
+    "signalName": "Bool-2027",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2028": {
+    "signalName": "Bool-2028",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2029": {
+    "signalName": "Bool-2029",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2030": {
+    "signalName": "Bool-2030",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2031": {
+    "signalName": "Bool-2031",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2032": {
+    "signalName": "Bool-2032",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2033": {
+    "signalName": "Bool-2033",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2034": {
+    "signalName": "Bool-2034",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2035": {
+    "signalName": "Bool-2035",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2036": {
+    "signalName": "Bool-2036",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2037": {
+    "signalName": "Bool-2037",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2038": {
+    "signalName": "Bool-2038",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2039": {
+    "signalName": "Bool-2039",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2040": {
+    "signalName": "Bool-2040",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2041": {
+    "signalName": "Bool-2041",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2042": {
+    "signalName": "Bool-2042",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2043": {
+    "signalName": "Bool-2043",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2044": {
+    "signalName": "Bool-2044",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2045": {
+    "signalName": "Bool-2045",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2046": {
+    "signalName": "Bool-2046",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2047": {
+    "signalName": "Bool-2047",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2048": {
+    "signalName": "Bool-2048",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2049": {
+    "signalName": "Bool-2049",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2050": {
+    "signalName": "Bool-2050",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2051": {
+    "signalName": "Bool-2051",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2052": {
+    "signalName": "Bool-2052",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2053": {
+    "signalName": "Bool-2053",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2054": {
+    "signalName": "Bool-2054",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2055": {
+    "signalName": "Bool-2055",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2056": {
+    "signalName": "Bool-2056",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2057": {
+    "signalName": "Bool-2057",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2058": {
+    "signalName": "Bool-2058",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2059": {
+    "signalName": "Bool-2059",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2060": {
+    "signalName": "Bool-2060",
+    "value": false,
+    "smartObjectId": 14,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2063": {
+    "signalName": "Bool-2063",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2064": {
+    "signalName": "Bool-2064",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2065": {
+    "signalName": "Bool-2065",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2066": {
+    "signalName": "Bool-2066",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2067": {
+    "signalName": "Bool-2067",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2068": {
+    "signalName": "Bool-2068",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2069": {
+    "signalName": "Bool-2069",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2089": {
+    "signalName": "Bool-2089",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2091": {
+    "signalName": "Bool-2091",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-21": {
+    "signalName": "Bool-21",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-210": {
+    "signalName": "Bool-210",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2105": {
+    "signalName": "Bool-2105",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2121": {
+    "signalName": "Bool-2121",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-2131": {
+    "signalName": "Bool-2131",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-2132": {
+    "signalName": "Bool-2132",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-2133": {
+    "signalName": "Bool-2133",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-2134": {
+    "signalName": "Bool-2134",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-2188": {
+    "signalName": "Bool-2188",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-2189": {
+    "signalName": "Bool-2189",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-2190": {
+    "signalName": "Bool-2190",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-22": {
+    "signalName": "Bool-22",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-22902": {
+    "signalName": "Bool-22902",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-23": {
+    "signalName": "Bool-23",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-24": {
+    "signalName": "Bool-24",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2471": {
+    "signalName": "Bool-2471",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2472": {
+    "signalName": "Bool-2472",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2473": {
+    "signalName": "Bool-2473",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2474": {
+    "signalName": "Bool-2474",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2477": {
+    "signalName": "Bool-2477",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2478": {
+    "signalName": "Bool-2478",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2479": {
+    "signalName": "Bool-2479",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2480": {
+    "signalName": "Bool-2480",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-25": {
+    "signalName": "Bool-25",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-250": {
+    "signalName": "Bool-250",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-2563": {
+    "signalName": "Bool-2563",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-26": {
+    "signalName": "Bool-26",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-2604": {
+    "signalName": "Bool-2604",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-261": {
+    "signalName": "Bool-261",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SecureStateCanged(e,t);  }",
+    "id": "secureState"
+  },
+  "Bool-262": {
+    "signalName": "Bool-262",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ SecureStateCanged(!e,t);  }",
+    "id": "secureState"
+  },
+  "Bool-264": {
+    "signalName": "Bool-264",
+    "value": false,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-265": {
+    "signalName": "Bool-265",
+    "value": false,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-27": {
+    "signalName": "Bool-27",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-270": {
+    "signalName": "Bool-270",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function whenEZSarmDisarmButsEnabled(e,t) { console.log(\"EZS disamr button temporialy Enabled\",e);\n    if(t.id){  var ezsVolatileButs = document.getElementById(t.id); if(ezsVolatileButs)ezsVolatileButs.style.display = e ? \"inline-block\" : \"none\"; }\n}",
+    "id": "DISarmezs"
+  },
+  "Bool-271": {
+    "signalName": "Bool-271",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-27217": {
+    "signalName": "Bool-27217",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-27219": {
+    "signalName": "Bool-27219",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-27220": {
+    "signalName": "Bool-27220",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-27221": {
+    "signalName": "Bool-27221",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-27261": {
+    "signalName": "Bool-27261",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-28": {
+    "signalName": "Bool-28",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-29": {
+    "signalName": "Bool-29",
+    "value": false,
+    "smartObjectId": 17,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-3": {
+    "signalName": "Bool-3",
+    "value": false,
+    "smartObjectId": 3,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-301": {
+    "signalName": "Bool-301",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-302": {
+    "signalName": "Bool-302",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-317": {
+    "signalName": "Bool-317",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "Pohasl"
+  },
+  "Bool-320": {
+    "signalName": "Bool-320",
+    "value": false,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-351": {
+    "signalName": "Bool-351",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-352": {
+    "signalName": "Bool-352",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-388": {
+    "signalName": "Bool-388",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-4011": {
+    "signalName": "Bool-4011",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-4013": {
+    "signalName": "Bool-4013",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-4015": {
+    "signalName": "Bool-4015",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4017": {
+    "signalName": "Bool-4017",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-4019": {
+    "signalName": "Bool-4019",
+    "value": false,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-4021": {
+    "signalName": "Bool-4021",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4033": {
+    "signalName": "Bool-4033",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4034": {
+    "signalName": "Bool-4034",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4039": {
+    "signalName": "Bool-4039",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4045": {
+    "signalName": "Bool-4045",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4050": {
+    "signalName": "Bool-4050",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4051": {
+    "signalName": "Bool-4051",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4052": {
+    "signalName": "Bool-4052",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4056": {
+    "signalName": "Bool-4056",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4057": {
+    "signalName": "Bool-4057",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4058": {
+    "signalName": "Bool-4058",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-4062": {
+    "signalName": "Bool-4062",
+    "value": false,
+    "smartObjectId": 9,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-431": {
+    "signalName": "Bool-431",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-432": {
+    "signalName": "Bool-432",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-444": {
+    "signalName": "Bool-444",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-47": {
+    "signalName": "Bool-47",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-501": {
+    "signalName": "Bool-501",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-502": {
+    "signalName": "Bool-502",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-503": {
+    "signalName": "Bool-503",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-504": {
+    "signalName": "Bool-504",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-505": {
+    "signalName": "Bool-505",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-506": {
+    "signalName": "Bool-506",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-507": {
+    "signalName": "Bool-507",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-508": {
+    "signalName": "Bool-508",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-509": {
+    "signalName": "Bool-509",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-510": {
+    "signalName": "Bool-510",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-511": {
+    "signalName": "Bool-511",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-512": {
+    "signalName": "Bool-512",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-513": {
+    "signalName": "Bool-513",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-514": {
+    "signalName": "Bool-514",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-515": {
+    "signalName": "Bool-515",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-516": {
+    "signalName": "Bool-516",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-517": {
+    "signalName": "Bool-517",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-518": {
+    "signalName": "Bool-518",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-519": {
+    "signalName": "Bool-519",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-521": {
+    "signalName": "Bool-521",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-522": {
+    "signalName": "Bool-522",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-523": {
+    "signalName": "Bool-523",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-524": {
+    "signalName": "Bool-524",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-526": {
+    "signalName": "Bool-526",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-527": {
+    "signalName": "Bool-527",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-528": {
+    "signalName": "Bool-528",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-541": {
+    "signalName": "Bool-541",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-590": {
+    "signalName": "Bool-590",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Bool-600": {
+    "signalName": "Bool-600",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-601": {
+    "signalName": "Bool-601",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-602": {
+    "signalName": "Bool-602",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-603": {
+    "signalName": "Bool-603",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-604": {
+    "signalName": "Bool-604",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-605": {
+    "signalName": "Bool-605",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "EZSpir05",
+    "facha": "function(e,t){ PIRincoming(e,t); }"
+  },
+  "Bool-606": {
+    "signalName": "Bool-606",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "EZSpir06",
+    "facha": "function(e,t){ PIRincoming(e,t); }"
+  },
+  "Bool-607": {
+    "signalName": "Bool-607",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-608": {
+    "signalName": "Bool-608",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-609": {
+    "signalName": "Bool-609",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "Bool-610": {
+    "signalName": "Bool-610",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-621": {
+    "signalName": "Bool-621",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "PIRchodbaUshowRumu",
+    "facha": "function(e,t){ PIRincoming(e,t); }"
+  },
+  "Bool-622": {
+    "signalName": "Bool-622",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "PIRherDirector",
+    "facha": "function(e,t){ PIRincoming(e,t); }"
+  },
+  "Bool-623": {
+    "signalName": "Bool-623",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ PIRincoming(e,t); }",
+    "id": "PIR_WC"
+  },
+  "Bool-641": {
+    "signalName": "Bool-641",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ PIRincoming(e,t); }",
+    "id": "ezs01"
+  },
+  "Bool-642": {
+    "signalName": "Bool-642",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ PIRincoming(e,t); }",
+    "id": "ezs02"
+  },
+  "Bool-644": {
+    "signalName": "Bool-644",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ PIRincoming(e,t); }",
+    "id": "ezs04"
+  },
+  "Bool-649": {
+    "signalName": "Bool-649",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-650": {
+    "signalName": "Bool-650",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-668": {
+    "signalName": "Bool-668",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-674": {
+    "signalName": "Bool-674",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-679": {
+    "signalName": "Bool-679",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-80": {
+    "signalName": "Bool-80",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-859": {
+    "signalName": "Bool-859",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "Bool-96": {
+    "signalName": "Bool-96",
+    "value": false,
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "Csig.State_Synchronization": {
+    "signalName": "Csig.State_Synchronization",
+    "value": "",
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ ONafterSyncSigs(t.hisIPID, t); }"
+  },
+  "String-1": {
+    "signalName": "String-1",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-10": {
+    "signalName": "String-10",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-1001": {
+    "signalName": "String-1001",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-1040": {
+    "signalName": "String-1040",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-1042": {
+    "signalName": "String-1042",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-105": {
+    "signalName": "String-105",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-106": {
+    "signalName": "String-106",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-107": {
+    "signalName": "String-107",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-108": {
+    "signalName": "String-108",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-109": {
+    "signalName": "String-109",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-11": {
+    "signalName": "String-11",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-110": {
+    "signalName": "String-110",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-111": {
+    "signalName": "String-111",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-1168": {
+    "signalName": "String-1168",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-1169": {
+    "signalName": "String-1169",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "keyCode",
+    "facha": "function(e,t){ incomingCodeByKey(e,t); }"
+  },
+  "String-117": {
+    "signalName": "String-117",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-1170": {
+    "signalName": "String-1170",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-12": {
+    "signalName": "String-12",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-121": {
+    "signalName": "String-121",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-122": {
+    "signalName": "String-122",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-13": {
+    "signalName": "String-13",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-14": {
+    "signalName": "String-14",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-1461": {
+    "signalName": "String-1461",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-1462": {
+    "signalName": "String-1462",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-15": {
+    "signalName": "String-15",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-16": {
+    "signalName": "String-16",
+    "value": "",
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-17": {
+    "signalName": "String-17",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-18": {
+    "signalName": "String-18",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-19": {
+    "signalName": "String-19",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ reportCodeykeyFaillureAndClr(e,t); }",
+    "id": "reponsInvalidReason"
+  },
+  "String-2": {
+    "signalName": "String-2",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-20": {
+    "signalName": "String-20",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ incomingCodeByKey(e,t); }",
+    "id": "keyCode"
+  },
+  "String-201": {
+    "signalName": "String-201",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-202": {
+    "signalName": "String-202",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-203": {
+    "signalName": "String-203",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-204": {
+    "signalName": "String-204",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-205": {
+    "signalName": "String-205",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2051": {
+    "signalName": "String-2051",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2052": {
+    "signalName": "String-2052",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2053": {
+    "signalName": "String-2053",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2054": {
+    "signalName": "String-2054",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2055": {
+    "signalName": "String-2055",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2056": {
+    "signalName": "String-2056",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2057": {
+    "signalName": "String-2057",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2058": {
+    "signalName": "String-2058",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2059": {
+    "signalName": "String-2059",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-206": {
+    "signalName": "String-206",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2060": {
+    "signalName": "String-2060",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2061": {
+    "signalName": "String-2061",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2062": {
+    "signalName": "String-2062",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2063": {
+    "signalName": "String-2063",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2064": {
+    "signalName": "String-2064",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2065": {
+    "signalName": "String-2065",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2066": {
+    "signalName": "String-2066",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2067": {
+    "signalName": "String-2067",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2068": {
+    "signalName": "String-2068",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2069": {
+    "signalName": "String-2069",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-207": {
+    "signalName": "String-207",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2070": {
+    "signalName": "String-2070",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2071": {
+    "signalName": "String-2071",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2072": {
+    "signalName": "String-2072",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2073": {
+    "signalName": "String-2073",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2074": {
+    "signalName": "String-2074",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2075": {
+    "signalName": "String-2075",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2076": {
+    "signalName": "String-2076",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2077": {
+    "signalName": "String-2077",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2078": {
+    "signalName": "String-2078",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2079": {
+    "signalName": "String-2079",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-208": {
+    "signalName": "String-208",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2080": {
+    "signalName": "String-2080",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2081": {
+    "signalName": "String-2081",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-2082": {
+    "signalName": "String-2082",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-209": {
+    "signalName": "String-209",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-21": {
+    "signalName": "String-21",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-210": {
+    "signalName": "String-210",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-22": {
+    "signalName": "String-22",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-23": {
+    "signalName": "String-23",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-24": {
+    "signalName": "String-24",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-25": {
+    "signalName": "String-25",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-26": {
+    "signalName": "String-26",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-27": {
+    "signalName": "String-27",
+    "value": "",
+    "smartObjectId": 51,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-28": {
+    "signalName": "String-28",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-29": {
+    "signalName": "String-29",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-298": {
+    "signalName": "String-298",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3": {
+    "signalName": "String-3",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-30": {
+    "signalName": "String-30",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-301": {
+    "signalName": "String-301",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-302": {
+    "signalName": "String-302",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3030": {
+    "signalName": "String-3030",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3031": {
+    "signalName": "String-3031",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-305": {
+    "signalName": "String-305",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-306": {
+    "signalName": "String-306",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3090": {
+    "signalName": "String-3090",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3091": {
+    "signalName": "String-3091",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-31": {
+    "signalName": "String-31",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3100": {
+    "signalName": "String-3100",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3101": {
+    "signalName": "String-3101",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3102": {
+    "signalName": "String-3102",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3103": {
+    "signalName": "String-3103",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3104": {
+    "signalName": "String-3104",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3105": {
+    "signalName": "String-3105",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3106": {
+    "signalName": "String-3106",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-3107": {
+    "signalName": "String-3107",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-311": {
+    "signalName": "String-311",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-312": {
+    "signalName": "String-312",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-313": {
+    "signalName": "String-313",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-314": {
+    "signalName": "String-314",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-315": {
+    "signalName": "String-315",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-316": {
+    "signalName": "String-316",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-317": {
+    "signalName": "String-317",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-318": {
+    "signalName": "String-318",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-319": {
+    "signalName": "String-319",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-32": {
+    "signalName": "String-32",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-320": {
+    "signalName": "String-320",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-321": {
+    "signalName": "String-321",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-322": {
+    "signalName": "String-322",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-323": {
+    "signalName": "String-323",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-324": {
+    "signalName": "String-324",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-325": {
+    "signalName": "String-325",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-326": {
+    "signalName": "String-326",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-33": {
+    "signalName": "String-33",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-34": {
+    "signalName": "String-34",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-341": {
+    "signalName": "String-341",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-342": {
+    "signalName": "String-342",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-343": {
+    "signalName": "String-343",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-344": {
+    "signalName": "String-344",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-345": {
+    "signalName": "String-345",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-346": {
+    "signalName": "String-346",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-347": {
+    "signalName": "String-347",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-348": {
+    "signalName": "String-348",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-349": {
+    "signalName": "String-349",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-35": {
+    "signalName": "String-35",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-350": {
+    "signalName": "String-350",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-351": {
+    "signalName": "String-351",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-352": {
+    "signalName": "String-352",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-353": {
+    "signalName": "String-353",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-354": {
+    "signalName": "String-354",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-355": {
+    "signalName": "String-355",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-356": {
+    "signalName": "String-356",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-36": {
+    "signalName": "String-36",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-361": {
+    "signalName": "String-361",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-362": {
+    "signalName": "String-362",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-363": {
+    "signalName": "String-363",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-364": {
+    "signalName": "String-364",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-365": {
+    "signalName": "String-365",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-366": {
+    "signalName": "String-366",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-367": {
+    "signalName": "String-367",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-368": {
+    "signalName": "String-368",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-369": {
+    "signalName": "String-369",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-37": {
+    "signalName": "String-37",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-370": {
+    "signalName": "String-370",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-371": {
+    "signalName": "String-371",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-372": {
+    "signalName": "String-372",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-373": {
+    "signalName": "String-373",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-374": {
+    "signalName": "String-374",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-375": {
+    "signalName": "String-375",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-376": {
+    "signalName": "String-376",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-377": {
+    "signalName": "String-377",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-378": {
+    "signalName": "String-378",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-379": {
+    "signalName": "String-379",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-38": {
+    "signalName": "String-38",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-380": {
+    "signalName": "String-380",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-381": {
+    "signalName": "String-381",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-382": {
+    "signalName": "String-382",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-383": {
+    "signalName": "String-383",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-384": {
+    "signalName": "String-384",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-385": {
+    "signalName": "String-385",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-386": {
+    "signalName": "String-386",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-387": {
+    "signalName": "String-387",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-388": {
+    "signalName": "String-388",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-389": {
+    "signalName": "String-389",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-39": {
+    "signalName": "String-39",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-390": {
+    "signalName": "String-390",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-391": {
+    "signalName": "String-391",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-392": {
+    "signalName": "String-392",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-4": {
+    "signalName": "String-4",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-40": {
+    "signalName": "String-40",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-401": {
+    "signalName": "String-401",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-402": {
+    "signalName": "String-402",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-403": {
+    "signalName": "String-403",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-404": {
+    "signalName": "String-404",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-405": {
+    "signalName": "String-405",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-406": {
+    "signalName": "String-406",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-407": {
+    "signalName": "String-407",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-408": {
+    "signalName": "String-408",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-409": {
+    "signalName": "String-409",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-41": {
+    "signalName": "String-41",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-410": {
+    "signalName": "String-410",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-411": {
+    "signalName": "String-411",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-412": {
+    "signalName": "String-412",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-413": {
+    "signalName": "String-413",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-414": {
+    "signalName": "String-414",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-415": {
+    "signalName": "String-415",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-416": {
+    "signalName": "String-416",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-417": {
+    "signalName": "String-417",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-418": {
+    "signalName": "String-418",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-419": {
+    "signalName": "String-419",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-42": {
+    "signalName": "String-42",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-420": {
+    "signalName": "String-420",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-421": {
+    "signalName": "String-421",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-422": {
+    "signalName": "String-422",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-423": {
+    "signalName": "String-423",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-424": {
+    "signalName": "String-424",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-425": {
+    "signalName": "String-425",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-426": {
+    "signalName": "String-426",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-427": {
+    "signalName": "String-427",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-428": {
+    "signalName": "String-428",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-429": {
+    "signalName": "String-429",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-43": {
+    "signalName": "String-43",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-430": {
+    "signalName": "String-430",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-431": {
+    "signalName": "String-431",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-432": {
+    "signalName": "String-432",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-44": {
+    "signalName": "String-44",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-45": {
+    "signalName": "String-45",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-46": {
+    "signalName": "String-46",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-47": {
+    "signalName": "String-47",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-48": {
+    "signalName": "String-48",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-49": {
+    "signalName": "String-49",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-5": {
+    "signalName": "String-5",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){  if(16<3)console.log(\"incoming tring\",t.signalName,t.hisIPID,e); }"
+  },
+  "String-50": {
+    "signalName": "String-50",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-51": {
+    "signalName": "String-51",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-52": {
+    "signalName": "String-52",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-53": {
+    "signalName": "String-53",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-54": {
+    "signalName": "String-54",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-55": {
+    "signalName": "String-55",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "hated_name",
+    "facha": "function(e,t){ console.log(\" keypad login name:\",e,e.signalName); if(e)reponsInvalidReason.innerHTML=\"loged OK: \" + e; }"
+  },
+  "String-56": {
+    "signalName": "String-56",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-57": {
+    "signalName": "String-57",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-58": {
+    "signalName": "String-58",
+    "value": "",
+    "smartObjectId": 18,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-59": {
+    "signalName": "String-59",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-6": {
+    "signalName": "String-6",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-60": {
+    "signalName": "String-60",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-61": {
+    "signalName": "String-61",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-62": {
+    "signalName": "String-62",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-63": {
+    "signalName": "String-63",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-64": {
+    "signalName": "String-64",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-65": {
+    "signalName": "String-65",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-66": {
+    "signalName": "String-66",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-67": {
+    "signalName": "String-67",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-68": {
+    "signalName": "String-68",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-69": {
+    "signalName": "String-69",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-7": {
+    "signalName": "String-7",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-70": {
+    "signalName": "String-70",
+    "value": "",
+    "smartObjectId": 56,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "String-8": {
+    "signalName": "String-8",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-80": {
+    "signalName": "String-80",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-81": {
+    "signalName": "String-81",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-820": {
+    "signalName": "String-820",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-821": {
+    "signalName": "String-821",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-9": {
+    "signalName": "String-9",
+    "value": "",
+    "smartObjectId": 7,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-90": {
+    "signalName": "String-90",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-91": {
+    "signalName": "String-91",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-92": {
+    "signalName": "String-92",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-93": {
+    "signalName": "String-93",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-94": {
+    "signalName": "String-94",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-95": {
+    "signalName": "String-95",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-96": {
+    "signalName": "String-96",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "String-97": {
+    "signalName": "String-97",
+    "value": "",
+    "smartObjectId": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-1": {
+    "signalName": "UShort-1",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-102": {
+    "signalName": "UShort-102",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "",
+    "id": "outsideTempFeelsLike"
+  },
+  "UShort-1027": {
+    "signalName": "UShort-1027",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ CPutilCPUreport(e,t); }",
+    "id": "CPcpuUtil"
+  },
+  "UShort-1028": {
+    "signalName": "UShort-1028",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-11": {
+    "signalName": "UShort-11",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-119": {
+    "signalName": "UShort-119",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "SV47_48_botomVAL"
+  },
+  "UShort-12": {
+    "signalName": "UShort-12",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "",
+    "smartObjectId": 9
+  },
+  "UShort-127": {
+    "signalName": "UShort-127",
+    "value": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "UShort-13": {
+    "signalName": "UShort-13",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-130": {
+    "signalName": "UShort-130",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-14": {
+    "signalName": "UShort-14",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "",
+    "smartObjectId": 9
+  },
+  "UShort-15": {
+    "signalName": "UShort-15",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "",
+    "smartObjectId": 9
+  },
+  "UShort-16": {
+    "signalName": "UShort-16",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "",
+    "smartObjectId": 9
+  },
+  "UShort-17": {
+    "signalName": "UShort-17",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "",
+    "smartObjectId": 9
+  },
+  "UShort-18": {
+    "signalName": "UShort-18",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "",
+    "smartObjectId": 9
+  },
+  "UShort-19": {
+    "signalName": "UShort-19",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ OnUSHtoSLiida(e,t); }",
+    "id": "evilgrung01"
+  },
+  "UShort-196": {
+    "signalName": "UShort-196",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-20": {
+    "signalName": "UShort-20",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ OnUSHtoSLiida(e,t); }",
+    "id": "evilgrung02"
+  },
+  "UShort-201": {
+    "signalName": "UShort-201",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-202": {
+    "signalName": "UShort-202",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-203": {
+    "signalName": "UShort-203",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2055": {
+    "signalName": "UShort-2055",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2061": {
+    "signalName": "UShort-2061",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2063": {
+    "signalName": "UShort-2063",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-207": {
+    "signalName": "UShort-207",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-208": {
+    "signalName": "UShort-208",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-209": {
+    "signalName": "UShort-209",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-21": {
+    "signalName": "UShort-21",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ OnUSHtoSLiida(e,t); }",
+    "id": "evilgrung03"
+  },
+  "UShort-211": {
+    "signalName": "UShort-211",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-212": {
+    "signalName": "UShort-212",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2121": {
+    "signalName": "UShort-2121",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-2122": {
+    "signalName": "UShort-2122",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-2123": {
+    "signalName": "UShort-2123",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-2124": {
+    "signalName": "UShort-2124",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2125": {
+    "signalName": "UShort-2125",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2128": {
+    "signalName": "UShort-2128",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2129": {
+    "signalName": "UShort-2129",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-213": {
+    "signalName": "UShort-213",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2130": {
+    "signalName": "UShort-2130",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2133": {
+    "signalName": "UShort-2133",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2134": {
+    "signalName": "UShort-2134",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2135": {
+    "signalName": "UShort-2135",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2138": {
+    "signalName": "UShort-2138",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2139": {
+    "signalName": "UShort-2139",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2140": {
+    "signalName": "UShort-2140",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2143": {
+    "signalName": "UShort-2143",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-2144": {
+    "signalName": "UShort-2144",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2145": {
+    "signalName": "UShort-2145",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2148": {
+    "signalName": "UShort-2148",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-2149": {
+    "signalName": "UShort-2149",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-2150": {
+    "signalName": "UShort-2150",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-22": {
+    "signalName": "UShort-22",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ OnUSHtoSLiida(e,t); }",
+    "id": "evilgrung04"
+  },
+  "UShort-23": {
+    "signalName": "UShort-23",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ OnUSHtoSLiida(e,t); }",
+    "id": "evilgrung05"
+  },
+  "UShort-24": {
+    "signalName": "UShort-24",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ OnUSHtoSLiida(e,t); }",
+    "id": "evilgrung06"
+  },
+  "UShort-25": {
+    "signalName": "UShort-25",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-250": {
+    "signalName": "UShort-250",
+    "value": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "UShort-27104": {
+    "signalName": "UShort-27104",
+    "value": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "UShort-28": {
+    "signalName": "UShort-28",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-29": {
+    "signalName": "UShort-29",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-3": {
+    "signalName": "UShort-3",
+    "value": 0,
+    "smartObjectId": 1,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "UShort-33": {
+    "signalName": "UShort-33",
+    "value": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "UShort-33300": {
+    "signalName": "UShort-33300",
+    "value": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "UShort-37": {
+    "signalName": "UShort-37",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-370": {
+    "signalName": "UShort-370",
+    "value": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "UShort-371": {
+    "signalName": "UShort-371",
+    "value": 0,
+    "hisIPID": "0x60",
+    "hisIPhost": "192.168.166.166",
+    "facha": ""
+  },
+  "UShort-38": {
+    "signalName": "UShort-38",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-39": {
+    "signalName": "UShort-39",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-40": {
+    "signalName": "UShort-40",
+    "value": 0,
+    "smartObjectId": 107,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-401": {
+    "signalName": "UShort-401",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-402": {
+    "signalName": "UShort-402",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-404": {
+    "signalName": "UShort-404",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-41": {
+    "signalName": "UShort-41",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-415": {
+    "signalName": "UShort-415",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-416": {
+    "signalName": "UShort-416",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-417": {
+    "signalName": "UShort-417",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-418": {
+    "signalName": "UShort-418",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-421": {
+    "signalName": "UShort-421",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-422": {
+    "signalName": "UShort-422",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-423": {
+    "signalName": "UShort-423",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-424": {
+    "signalName": "UShort-424",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-430": {
+    "signalName": "UShort-430",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-431": {
+    "signalName": "UShort-431",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-434": {
+    "signalName": "UShort-434",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-435": {
+    "signalName": "UShort-435",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-436": {
+    "signalName": "UShort-436",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-437": {
+    "signalName": "UShort-437",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-49": {
+    "signalName": "UShort-49",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "OutsideTemp"
+  },
+  "UShort-50": {
+    "signalName": "UShort-50",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "desiredTemp"
+  },
+  "UShort-51": {
+    "signalName": "UShort-51",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp01"
+  },
+  "UShort-52": {
+    "signalName": "UShort-52",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp02"
+  },
+  "UShort-53": {
+    "signalName": "UShort-53",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp03"
+  },
+  "UShort-55": {
+    "signalName": "UShort-55",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp05"
+  },
+  "UShort-56": {
+    "signalName": "UShort-56",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp06"
+  },
+  "UShort-57": {
+    "signalName": "UShort-57",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp07"
+  },
+  "UShort-58": {
+    "signalName": "UShort-58",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp08"
+  },
+  "UShort-59": {
+    "signalName": "UShort-59",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp09"
+  },
+  "UShort-60": {
+    "signalName": "UShort-60",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp10"
+  },
+  "UShort-61": {
+    "signalName": "UShort-61",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp11"
+  },
+  "UShort-610": {
+    "signalName": "UShort-610",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-62": {
+    "signalName": "UShort-62",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp12"
+  },
+  "UShort-63": {
+    "signalName": "UShort-63",
+    "value": 0,
+    "smartObjectId": 35,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp13"
+  },
+  "UShort-64": {
+    "signalName": "UShort-64",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp14"
+  },
+  "UShort-65": {
+    "signalName": "UShort-65",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp15"
+  },
+  "UShort-66": {
+    "signalName": "UShort-66",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp16"
+  },
+  "UShort-67": {
+    "signalName": "UShort-67",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp17"
+  },
+  "UShort-68": {
+    "signalName": "UShort-68",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp18"
+  },
+  "UShort-69": {
+    "signalName": "UShort-69",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp19"
+  },
+  "UShort-70": {
+    "signalName": "UShort-70",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": "function(e,t){ FromShitUSH16ZbliitToTemperature(e,t); }",
+    "id": "temp20"
+  },
+  "UShort-71": {
+    "signalName": "UShort-71",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat01",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-72": {
+    "signalName": "UShort-72",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat02",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-73": {
+    "signalName": "UShort-73",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat03",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-74": {
+    "signalName": "UShort-74",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-75": {
+    "signalName": "UShort-75",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat05",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-76": {
+    "signalName": "UShort-76",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat06",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-77": {
+    "signalName": "UShort-77",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat07",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-78": {
+    "signalName": "UShort-78",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat08",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-79": {
+    "signalName": "UShort-79",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat09",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-80": {
+    "signalName": "UShort-80",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat10",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-81": {
+    "signalName": "UShort-81",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat11",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-82": {
+    "signalName": "UShort-82",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat12",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-83": {
+    "signalName": "UShort-83",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat13",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-84": {
+    "signalName": "UShort-84",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat14",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-85": {
+    "signalName": "UShort-85",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat15",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-86": {
+    "signalName": "UShort-86",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat16",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-87": {
+    "signalName": "UShort-87",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat17",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-88": {
+    "signalName": "UShort-88",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat18",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-89": {
+    "signalName": "UShort-89",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "heat19",
+    "facha": "function(e,t){ RepresentHeatingStateANAL(e,t); }"
+  },
+  "UShort-892": {
+    "signalName": "UShort-892",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-893": {
+    "signalName": "UShort-893",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-896": {
+    "signalName": "UShort-896",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-898": {
+    "signalName": "UShort-898",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "out01",
+    "facha": "function(e,t){ onIncomingAVrouteChange(e,t); }"
+  },
+  "UShort-899": {
+    "signalName": "UShort-899",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "out02",
+    "facha": "function(e,t){ onIncomingAVrouteChange(e,t); }"
+  },
+  "UShort-9": {
+    "signalName": "UShort-9",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-900": {
+    "signalName": "UShort-900",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "out03",
+    "facha": "function(e,t){ onIncomingAVrouteChange(e,t); }"
+  },
+  "UShort-901": {
+    "signalName": "UShort-901",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "id": "out04",
+    "facha": "function(e,t){ onIncomingAVrouteChange(e,t); }"
+  },
+  "UShort-902": {
+    "signalName": "UShort-902",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-903": {
+    "signalName": "UShort-903",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-904": {
+    "signalName": "UShort-904",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-905": {
+    "signalName": "UShort-905",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54"
+  },
+  "UShort-91": {
+    "signalName": "UShort-91",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-92": {
+    "signalName": "UShort-92",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-94": {
+    "signalName": "UShort-94",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-95": {
+    "signalName": "UShort-95",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-96": {
+    "signalName": "UShort-96",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "UShort-97": {
+    "signalName": "UShort-97",
+    "value": 0,
+    "hisIPID": "0x27",
+    "hisIPhost": "192.168.166.54",
+    "facha": ""
+  },
+  "connection": {
+    "socket_27": {
+      "ip": "192.168.166.54",
+      "ipid": "0x27",
+      "jwturl": "https://192.168.166.54/cws/flags/get/getwebsocketokenNF",
+      "debug": false
+    },
+    "socket_51": {
+      "ip": "192.168.166.53",
+      "ipid": "0x51",
+      "jwturl": "https://192.168.166.53/cws/flags/get/getwebsocketokenNF",
+      "debug": false,
+      "SigDyk": {
+        "Csig.State_Synchronization": {
+          "signalName": "Csig.State_Synchronization",
+          "value": "{\"state\":\"EndOfUpdate\"}",
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-3": {
+          "signalName": "String-3",
+          "value": "Středa, 12. Březen. 2025",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-5": {
+          "signalName": "String-5",
+          "value": "Řehoř\r",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-22": {
+          "signalName": "String-22",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-23": {
+          "signalName": "String-23",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-90": {
+          "signalName": "String-90",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1075": {
+          "signalName": "String-1075",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1095": {
+          "signalName": "String-1095",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1101": {
+          "signalName": "String-1101",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1105": {
+          "signalName": "String-1105",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1106": {
+          "signalName": "String-1106",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1107": {
+          "signalName": "String-1107",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1108": {
+          "signalName": "String-1108",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1109": {
+          "signalName": "String-1109",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1110": {
+          "signalName": "String-1110",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1111": {
+          "signalName": "String-1111",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1112": {
+          "signalName": "String-1112",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1113": {
+          "signalName": "String-1113",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1114": {
+          "signalName": "String-1114",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1115": {
+          "signalName": "String-1115",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1125": {
+          "signalName": "String-1125",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1126": {
+          "signalName": "String-1126",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1128": {
+          "signalName": "String-1128",
+          "value": "Adam Potáč",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1131": {
+          "signalName": "String-1131",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1134": {
+          "signalName": "String-1134",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1135": {
+          "signalName": "String-1135",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-1136": {
+          "signalName": "String-1136",
+          "value": "",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-11": {
+          "signalName": "Bool-11",
+          "value": true,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-106": {
+          "signalName": "Bool-106",
+          "value": true,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-116": {
+          "signalName": "Bool-116",
+          "value": true,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-200": {
+          "signalName": "Bool-200",
+          "value": true,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-321": {
+          "signalName": "Bool-321",
+          "value": true,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-388": {
+          "signalName": "Bool-388",
+          "value": true,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-1249": {
+          "signalName": "Bool-1249",
+          "value": true,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-10": {
+          "signalName": "UShort-10",
+          "value": 13893,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-12": {
+          "signalName": "UShort-12",
+          "value": 13,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-13": {
+          "signalName": "UShort-13",
+          "value": 2,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-14": {
+          "signalName": "UShort-14",
+          "value": 2,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-15": {
+          "signalName": "UShort-15",
+          "value": 3,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-16": {
+          "signalName": "UShort-16",
+          "value": 2,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-17": {
+          "signalName": "UShort-17",
+          "value": 2,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-18": {
+          "signalName": "UShort-18",
+          "value": 2,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-40": {
+          "signalName": "UShort-40",
+          "value": 14,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-41": {
+          "signalName": "UShort-41",
+          "value": 50,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-45": {
+          "signalName": "UShort-45",
+          "value": 88,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-46": {
+          "signalName": "UShort-46",
+          "value": 91,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-50": {
+          "signalName": "UShort-50",
+          "value": 205,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-67": {
+          "signalName": "UShort-67",
+          "value": 232,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-434": {
+          "signalName": "UShort-434",
+          "value": 25,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-15": {
+          "signalName": "5-Bool-15",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-16": {
+          "signalName": "5-Bool-16",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-17": {
+          "signalName": "5-Bool-17",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-18": {
+          "signalName": "5-Bool-18",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-2011": {
+          "signalName": "5-Bool-2011",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-2012": {
+          "signalName": "5-Bool-2012",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-2013": {
+          "signalName": "5-Bool-2013",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-2014": {
+          "signalName": "5-Bool-2014",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-2015": {
+          "signalName": "5-Bool-2015",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-2016": {
+          "signalName": "5-Bool-2016",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-2017": {
+          "signalName": "5-Bool-2017",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-Bool-2018": {
+          "signalName": "5-Bool-2018",
+          "value": true,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-UShort-15": {
+          "signalName": "5-UShort-15",
+          "value": 3,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-UShort-16": {
+          "signalName": "5-UShort-16",
+          "value": 2,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-UShort-17": {
+          "signalName": "5-UShort-17",
+          "value": 4,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "5-UShort-18": {
+          "signalName": "5-UShort-18",
+          "value": 7,
+          "smartObjectId": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "13-String-21": {
+          "signalName": "13-String-21",
+          "value": "Dveře",
+          "smartObjectId": 13,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "13-String-22": {
+          "signalName": "13-String-22",
+          "value": "Showroom",
+          "smartObjectId": 13,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "13-String-23": {
+          "signalName": "13-String-23",
+          "value": "Lobby",
+          "smartObjectId": 13,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "13-String-24": {
+          "signalName": "13-String-24",
+          "value": "Sklad",
+          "smartObjectId": 13,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "13-String-25": {
+          "signalName": "13-String-25",
+          "value": "DPS Víťa Straka",
+          "smartObjectId": 13,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "13-String-26": {
+          "signalName": "13-String-26",
+          "value": "Technik",
+          "smartObjectId": 13,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "13-String-27": {
+          "signalName": "13-String-27",
+          "value": "Class room",
+          "smartObjectId": 13,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "13-String-28": {
+          "signalName": "13-String-28",
+          "value": "Volat vsem",
+          "smartObjectId": 13,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-21": {
+          "signalName": "221-String-21",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-22": {
+          "signalName": "221-String-22",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-23": {
+          "signalName": "221-String-23",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-24": {
+          "signalName": "221-String-24",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-25": {
+          "signalName": "221-String-25",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-26": {
+          "signalName": "221-String-26",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-27": {
+          "signalName": "221-String-27",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-28": {
+          "signalName": "221-String-28",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-29": {
+          "signalName": "221-String-29",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-30": {
+          "signalName": "221-String-30",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-31": {
+          "signalName": "221-String-31",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-32": {
+          "signalName": "221-String-32",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-33": {
+          "signalName": "221-String-33",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-34": {
+          "signalName": "221-String-34",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-35": {
+          "signalName": "221-String-35",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-36": {
+          "signalName": "221-String-36",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-37": {
+          "signalName": "221-String-37",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-38": {
+          "signalName": "221-String-38",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-40": {
+          "signalName": "221-String-40",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-39": {
+          "signalName": "221-String-39",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-41": {
+          "signalName": "221-String-41",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-42": {
+          "signalName": "221-String-42",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-44": {
+          "signalName": "221-String-44",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-43": {
+          "signalName": "221-String-43",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-45": {
+          "signalName": "221-String-45",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-46": {
+          "signalName": "221-String-46",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-47": {
+          "signalName": "221-String-47",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-48": {
+          "signalName": "221-String-48",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-49": {
+          "signalName": "221-String-49",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-50": {
+          "signalName": "221-String-50",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-51": {
+          "signalName": "221-String-51",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-52": {
+          "signalName": "221-String-52",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-53": {
+          "signalName": "221-String-53",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-54": {
+          "signalName": "221-String-54",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-55": {
+          "signalName": "221-String-55",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-56": {
+          "signalName": "221-String-56",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-57": {
+          "signalName": "221-String-57",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-58": {
+          "signalName": "221-String-58",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-59": {
+          "signalName": "221-String-59",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-60": {
+          "signalName": "221-String-60",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-61": {
+          "signalName": "221-String-61",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-62": {
+          "signalName": "221-String-62",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-63": {
+          "signalName": "221-String-63",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-64": {
+          "signalName": "221-String-64",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-65": {
+          "signalName": "221-String-65",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-66": {
+          "signalName": "221-String-66",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-67": {
+          "signalName": "221-String-67",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-68": {
+          "signalName": "221-String-68",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-69": {
+          "signalName": "221-String-69",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-70": {
+          "signalName": "221-String-70",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-71": {
+          "signalName": "221-String-71",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-72": {
+          "signalName": "221-String-72",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-73": {
+          "signalName": "221-String-73",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-74": {
+          "signalName": "221-String-74",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-75": {
+          "signalName": "221-String-75",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-76": {
+          "signalName": "221-String-76",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-77": {
+          "signalName": "221-String-77",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-78": {
+          "signalName": "221-String-78",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-79": {
+          "signalName": "221-String-79",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-80": {
+          "signalName": "221-String-80",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-81": {
+          "signalName": "221-String-81",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-82": {
+          "signalName": "221-String-82",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-83": {
+          "signalName": "221-String-83",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-84": {
+          "signalName": "221-String-84",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-85": {
+          "signalName": "221-String-85",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-86": {
+          "signalName": "221-String-86",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-87": {
+          "signalName": "221-String-87",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-88": {
+          "signalName": "221-String-88",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-89": {
+          "signalName": "221-String-89",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-90": {
+          "signalName": "221-String-90",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-91": {
+          "signalName": "221-String-91",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-92": {
+          "signalName": "221-String-92",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-93": {
+          "signalName": "221-String-93",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-94": {
+          "signalName": "221-String-94",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-95": {
+          "signalName": "221-String-95",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-96": {
+          "signalName": "221-String-96",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-97": {
+          "signalName": "221-String-97",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-98": {
+          "signalName": "221-String-98",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-99": {
+          "signalName": "221-String-99",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-100": {
+          "signalName": "221-String-100",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-101": {
+          "signalName": "221-String-101",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-102": {
+          "signalName": "221-String-102",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-103": {
+          "signalName": "221-String-103",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-104": {
+          "signalName": "221-String-104",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-105": {
+          "signalName": "221-String-105",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-106": {
+          "signalName": "221-String-106",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-107": {
+          "signalName": "221-String-107",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-108": {
+          "signalName": "221-String-108",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-109": {
+          "signalName": "221-String-109",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-110": {
+          "signalName": "221-String-110",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-111": {
+          "signalName": "221-String-111",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-112": {
+          "signalName": "221-String-112",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-113": {
+          "signalName": "221-String-113",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-114": {
+          "signalName": "221-String-114",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-115": {
+          "signalName": "221-String-115",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-116": {
+          "signalName": "221-String-116",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-117": {
+          "signalName": "221-String-117",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-118": {
+          "signalName": "221-String-118",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-119": {
+          "signalName": "221-String-119",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-120": {
+          "signalName": "221-String-120",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-121": {
+          "signalName": "221-String-121",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "221-String-122": {
+          "signalName": "221-String-122",
+          "value": "",
+          "smartObjectId": 221,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "String-28600": {
+          "signalName": "String-28600",
+          "value": "www.google.com",
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-28500": {
+          "signalName": "Bool-28500",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-28511": {
+          "signalName": "Bool-28511",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-28524": {
+          "signalName": "Bool-28524",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-28525": {
+          "signalName": "Bool-28525",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-28600": {
+          "signalName": "Bool-28600",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-28601": {
+          "signalName": "Bool-28601",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-28604": {
+          "signalName": "Bool-28604",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-28606": {
+          "signalName": "Bool-28606",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-28607": {
+          "signalName": "Bool-28607",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-27219": {
+          "signalName": "Bool-27219",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-27220": {
+          "signalName": "Bool-27220",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-27221": {
+          "signalName": "Bool-27221",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-27257": {
+          "signalName": "Bool-27257",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "Bool-27261": {
+          "signalName": "Bool-27261",
+          "value": false,
+          "smartObjectId": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-27104": {
+          "signalName": "UShort-27104",
+          "value": 5,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-17307": {
+          "signalName": "UShort-17307",
+          "value": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        },
+        "UShort-9": {
+          "signalName": "UShort-9",
+          "value": 0,
+          "hisIPID": "0x51",
+          "hisIPhost": "192.168.166.53"
+        }
+      }
+    }
+  }
+}

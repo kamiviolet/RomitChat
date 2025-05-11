@@ -1,0 +1,193 @@
+<div id="ezssubConta" style="display: block;position: relative;top: 0px;left: 0px;z-index: 5; width: 1700px;">    
+  <h3 style="display: inline-block;"> EZS. ..</h1>    
+  <div id="ezscontrols" style="display: flex; flex-direction: column; align-items: center;">
+  
+  
+<div id="EZSarmDisArmButs" style="     display: inline-flex;     position: absolute;     left: 130px;     top: 170px; ">
+  <button id="ARMezs" style="     width: 100px;     height: 50px;     margin: 15px;" onclick="EZSsendARMdisArm(this)" >Arm EZS
+  </button>
+  <button id="DISarmezs" style="     width: 100px;     height: 50px;     margin: 15px;" onclick="EZSsendARMdisArm(this)" >Disarm EZS
+  </button>
+</div>
+
+<div id="EZSstornos" style="display: inline-flex;position: absolute;left: 130px;top: 325px;">
+  <button id="Storno" style="     width: 100px;     height: 50px;     margin: 15px;" onclick="EZSsendARMdisArm(this)">Storno</button>
+  
+</div>
+  
+  <p style="
+    color: #36d056;
+    text-shadow: 1px 2px 4px #0d0c0ced;
+    font-weight: bold;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+" id="reponsInvalidReason">-</p>   
+<p style="
+    color: #36d056;
+    text-shadow: 1px 2px 4px #0d0c0ced;
+    font-weight: bold;
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+">KeyCode:
+    </p> 
+<p id="keyCode" style="display: block;position: relative;height: 20px;color: red;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;"></p>
+    <div id="keypadContainer">
+    <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-1" ipid="0x27,0x26,0x28,0x29,0x30">1
+    </button>  
+    <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-2" ipid="0x27,0x26,0x28,0x29,0x30">2
+    </button>
+    <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-3" ipid="0x27,0x26,0x28,0x29,0x30">3
+    </button>
+    <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-4" ipid="0x27,0x26,0x28,0x29,0x30">4
+    </button>  
+    <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-5" ipid="0x27,0x26,0x28,0x29,0x30">5
+    </button>
+    <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-6" ipid="0x27,0x26,0x28,0x29,0x30">6
+    </button>
+     <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-7" ipid="0x27,0x26,0x28,0x29,0x30">7
+    </button>  
+    <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-8" ipid="0x27,0x26,0x28,0x29,0x30">8
+    </button>
+    <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-9" ipid="0x27,0x26,0x28,0x29,0x30">9
+    </button>
+     <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-10" ipid="0x27,0x26,0x28,0x29,0x30">0
+    </button>
+     <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-11" ipid="0x27,0x26,0x28,0x29,0x30">CLR
+    </button>
+    <button style="padding: 15px;margin: 1px;" onclick="KeyPadCode(this);" booljoin="Bool-12" ipid="0x27,0x26,0x28,0x29,0x30">OK
+    </button>
+    </div>
+    
+  </div>
+      
+<div style="display: block;height: auto;left: 15px;position: relative;">    
+  <p id="secureState" style="
+    color: red;
+    text-shadow: 1px 2px 4px #0d0c0ced;
+    font-weight: bold;
+">secure state</p>
+  </div>
+                        
+  <div id="EZSboxColums" style="display: flex;flex-flow: column;width: 100%;height: auto;position: relative;top: 15px;">      
+    
+    <div id="ezsBoxRow01" draggable="true" style="height: 130px;display: flex;flex-direction: row;border: dashed 1px;width: 100%;position: relative; justify-content: space-evenly;">
+      <button id="PIRchodbaUshowRumu" fbactiveclass="lehceRed" booljoin="Bool-621" class="oneEZSbox" ipid="0x27" >PIRchodba show room</button> 
+      <button id="PIRherDirector" fbactiveclass="lehceRed" booljoin="Bool-622" class="oneEZSbox" ipid="0x27" >PIRxxx</button> 
+      <button id="PIR_WC" fbactiveclass="lehceRed" booljoin="Bool-623" class="oneEZSbox" ipid="0x27" class="ezsBox">WC chodba</button> 
+                                       
+      <button id="ezs01" fbactiveclass="lehceRed" booljoin="Bool-641" class="oneEZSbox" ipid="0x27" >ezs01</button> 
+      <button id="ezs02" fbactiveclass="lehceRed" booljoin="Bool-642" class="oneEZSbox" ipid="0x27" >ezs02 </button> 
+      <button id="ezs03" fbactiveclass="lehceRed" booljoin="Bool-643" class="oneEZSbox" ipid="0x27" >ezs03</button> 
+      <button id="ezs04" fbactiveclass="lehceRed" booljoin="Bool-644" class="oneEZSbox" ipid="0x27" >ezs04</button>
+      <button id="ezs05" fbactiveclass="lehceRed" booljoin="Bool-645" class="oneEZSbox" ipid="0x27" >ezs05</button>
+      <button id="ezs06" fbactiveclass="lehceRed" booljoin="Bool-646" class="oneEZSbox" ipid="0x27" >ezs06</button> 
+      <button id="ezs07" fbactiveclass="lehceRed" booljoin="Bool-647" class="oneEZSbox" ipid="0x27" >ezs07</button> 
+      <button id="ezs08" fbactiveclass="lehceRed" booljoin="Bool-648" class="oneEZSbox" ipid="0x27" >ezs08</button> 
+      <button id="ezs09" fbactiveclass="lehceRed" booljoin="Bool-649" class="oneEZSbox" ipid="0x27" >ezs09</button>
+      <button id="ezs10" fbactiveclass="lehceRed" booljoin="Bool-650" class="oneEZSbox" ipid="0x27" >ezs10</button>                     
+       <button id="ezs11" fbactiveclass="lehceRed" booljoin="Bool-651" class="oneEZSbox" ipid="0x27">ezs11</button>
+       <button id="ezs12" fbactiveclass="lehceRed" booljoin="Bool-652" class="oneEZSbox" ipid="0x27">ezs12</button>
+       <button id="ezs13" fbactiveclass="lehceRed" booljoin="Bool-653" class="oneEZSbox" ipid="0x27">ezs13</button>
+       <button id="ezs14" fbactiveclass="lehceRed" booljoin="Bool-654" class="oneEZSbox" ipid="0x27">ezs14</button>
+       <button id="ezs15" fbactiveclass="lehceRed" booljoin="Bool-655" class="oneEZSbox" ipid="0x27">ezs15</button>
+       <button id="ezs16" fbactiveclass="lehceRed" booljoin="Bool-656" class="oneEZSbox" ipid="0x27">ezs16</button>
+       <button id="ezs17" fbactiveclass="lehceRed" booljoin="Bool-657" class="oneEZSbox" ipid="0x27">ezs17</button>
+       <button id="ezs18" fbactiveclass="lehceRed" booljoin="Bool-658" class="oneEZSbox" ipid="0x27">ezs18</button>
+      
+                     
+    </div> 
+         
+    <div id="ezsBoxRow02" draggable="true" style="height: 130px;display: flex;flex-direction: row;border: dashed 1px;width: 100%;position: relative; justify-content: space-evenly;">
+    
+      <button id="ezs19" fbactiveclass="lehceRed" booljoin="Bool-659" class="oneEZSbox" ipid="0x27" >ezs19</button> 
+      <button id="ezs20" fbactiveclass="lehceRed" booljoin="Bool-660" class="oneEZSbox" ipid="0x27" >ezs20</button> 
+      <button id="ezs21" fbactiveclass="lehceRed" booljoin="Bool-661" class="oneEZSbox" ipid="0x27" >ezs21</button> 
+      <button id="ezs22" fbactiveclass="lehceRed" booljoin="Bool-662" class="oneEZSbox" ipid="0x27" >ezs22</button>
+      <button id="ezs23" fbactiveclass="lehceRed" booljoin="Bool-663" class="oneEZSbox" ipid="0x27" >ezs23</button>
+      <button id="ezs24" fbactiveclass="lehceRed" booljoin="Bool-664" class="oneEZSbox" ipid="0x27" >ezs24</button> 
+      <button id="ezs25" fbactiveclass="lehceRed" booljoin="Bool-665" class="oneEZSbox" ipid="0x27" >ezs25</button> 
+      <button id="ezs26" fbactiveclass="lehceRed" booljoin="Bool-666" class="oneEZSbox" ipid="0x27" >ezs26</button> 
+      <button id="ezs27" fbactiveclass="lehceRed" booljoin="Bool-667" class="oneEZSbox" ipid="0x27" >ezs27</button>
+      <button id="ezs28" fbactiveclass="lehceRed" booljoin="Bool-668" class="oneEZSbox" ipid="0x27" >ezs28</button>                     
+       <button id="ezs29" fbactiveclass="lehceRed" booljoin="Bool-669" class="oneEZSbox" ipid="0x27">ezs29</button>
+       <button id="ezs30" fbactiveclass="lehceRed" booljoin="Bool-670" class="oneEZSbox" ipid="0x27">ezs30</button>
+       <button id="ezs31" fbactiveclass="lehceRed" booljoin="Bool-671" class="oneEZSbox" ipid="0x27">ezs31</button>
+       <button id="ezs32" fbactiveclass="lehceRed" booljoin="Bool-672" class="oneEZSbox" ipid="0x27">ezs32</button>
+       <button id="ezs33" fbactiveclass="lehceRed" booljoin="Bool-673" class="oneEZSbox" ipid="0x27">ezs33</button>
+       <button id="ezs34" fbactiveclass="lehceRed" booljoin="Bool-674" class="oneEZSbox" ipid="0x27">ezs34</button>
+       <button id="ezs35" fbactiveclass="lehceRed" booljoin="Bool-675" class="oneEZSbox" ipid="0x27">ezs35</button>
+       <button id="ezs36" fbactiveclass="lehceRed" booljoin="Bool-676" class="oneEZSbox" ipid="0x27">ezs36</button>
+                 
+    </div>          
+  </div>
+  
+  <div id="doorEntryLogWrap" style="display:flex; position:relative; border: outset 2px #800080; width:800px;height:290px;left: 80px;top: 60px; background-color: #0000006b;flex-flow: column;" class="doorLog">
+    <div id="doorEntryLogListFrame" style="position:relative;display:flex; border: outset 1px #ff0000;flex-flow: row;margin: 5px;height: 100%;width: auto;color: greenyellow;overflow: scroll;">
+      <ul id="doorLogList" style="letter-spacing: 1px;">
+        <li class="doorLogListItem"> Mr dovnitr vešel </li>
+        
+      </ul>
+    </div>
+    <button id="doorlistRefresh" onclick="trigerRefreshDoorLogAndPopul(this);" booljoin="Bool-258" ipid="0x27,0x26,0x28,0x29,0x30">Refresh</button>
+  </div>
+  
+  <div id="delimit" style="display: none;position: absolute;top: 1100px;left: 1100px;width: 1px;height: 1px;">unused for now</div>  
+</div> 
+
+<script id="EzsPageScript">
+
+function trigerRefreshDoorLogAndPopul(whoo)
+{
+  var targetIPid = "0x27,0x26,0x28,0x29,0x30";
+  var joinNum = "258";
+  if(whoo)
+  {
+    if(whoo.attributes["ipid"])targetIPid = whoo.attributes["ipid"].value;
+    if(whoo.attributes["booljoin"])joinNum = whoo.attributes["booljoin"].value.split("-").slice(-1)[0];  
+  }
+    ActivateSig("b", joinNum, true, targetIPid);
+    ActivateSig("b", joinNum, false, targetIPid);
+  
+  setTimeout(() => {
+     populateDoorLogFromBrigSigApi();
+  }, 750); 
+}
+
+function populateDoorLogFromBrigSigApi()
+{
+ // http://192.168.166.54:8888/BrigSig/AC/3
+ // http://192.168.166.53:8888/BrigSig/af/3
+  // http://192.168.166.54:8888/BrigSig/AC/3/out+61+62+63+64+65+66+67+68+69+70"  ...sadly the strings are preformated to FONT element for panels !!
+  // TODO:  we have to implement brigsig api to fucking cws in order to use https !!
+  //  https://192.168.166.166/cws/flags/BrigSig/AC/3/out+61+62+63+64+65+66+67+68+69+70
+  fetch("https://192.168.166.54/cws/flags/BrigSig/AC/3/out+61+62+63+64+65+66+67+68+69+70").then(respen =>{
+    respen.text().then(rtxt =>{
+//    console.log(rtxt)
+     if(!rtxt)return;
+     var arrofFontedLines = rtxt.split("\n").filter(jenZvalou => jenZvalou);
+     var arrofTexts = arrofFontedLines.map(najinou => getRidOfShitHTMLformating(najinou));
+     // form some reason it starts with \ufeff ... so lets cut it out
+     arrofTexts = arrofTexts.map(trymle =>  trymle.substring(1));
+     populateDoorLogFromTXTarr(arrofTexts);
+  });
+ })
+}
+function populateDoorLogFromTXTarr(arrOfLinesForList)
+{
+  if(!arrOfLinesForList)return;
+  if(arrOfLinesForList.length == null)return;
+  var listDmnt = document.getElementById("doorLogList");
+  if(!listDmnt)return;
+  var comboHtmlTxt = "";
+  listDmnt.innerHTML = "";
+  arrOfLinesForList.forEach(oneLogLine => {
+    if (oneLogLine) {
+      var oneRowCompose = `<li class="doorLogListItem"> ${oneLogLine} </li>
+      `;
+      comboHtmlTxt += oneRowCompose;
+    } 
+  });
+  listDmnt.innerHTML = comboHtmlTxt
+} 
+
+</script> 

@@ -1,0 +1,480 @@
+<table id="matrixTable">
+  <thead>
+    <tr>
+      <th></th>
+      <th>
+        <button id="d_out01" outputxinfo="1" class="routeOutbox" onclick="infoAboutAVinput(this);">out Hdmi 1</button>
+      </th>
+      <th>
+        <button id="d_out02" outputxinfo="2" class="routeOutbox" onclick="infoAboutAVinput(this);">out Hdmi 2</button>
+      </th>
+      <th>
+        <button id="d_out03" outputxinfo="3" class="routeOutbox" onclick="infoAboutAVinput(this);">out DM 1</button>
+      </th>
+      <th>
+        <button id="d_out04" outputxinfo="4" class="routeOutbox" onclick="infoAboutAVinput(this);">out DM 2</button>
+      </th>
+      <th>
+        <button id="d_out05" outputxinfo="5" class="routeOutbox" onclick="infoAboutAVinput(this);">out Amp repro
+        <meter id="progout_VUfb" min="0" max="8" class="vuFBmeters" value="0"></meter>
+        </button>
+      </th>
+      <th>
+        <button id="d_out06" outputxinfo="6" class="routeOutbox" onclick="infoAboutAVinput(this);">out AUX 1
+        <meter id="aux01_VUfb" min="0" max="8" class="vuFBmeters" value="0"></meter>
+        </button>       
+      </th>
+      <th>
+        <button id="d_out07" outputxinfo="7" class="routeOutbox" onclick="infoAboutAVinput(this);">out AUX 2
+        <meter id="aux02_VUfb" min="0" max="8" class="vuFBmeters" value="0"></meter>
+        </button>
+      </th>
+      <th>
+        <button id="d_out08" outputxinfo="8" class="routeOutbox" onclick="infoAboutAVinput(this);">out digi MIX 1
+         <meter id="digiMix01_VUfb" min="0" max="8" class="vuFBmeters" value="0"></meter>
+        </button>
+      </th>
+      <th>
+        <button id="d_out09" outputxinfo="9" class="routeOutbox" onclick="infoAboutAVinput(this);">out digi MIX 2
+         <meter id="digiMix02_VUfb" min="0" max="8" class="vuFBmeters" value="0"></meter>
+        </button>
+      </th>
+      <th>
+        <button id="d_vol01" outputxinfo="8" class="routeOutbox" onclick="infoAboutAVinput(this);">Denon Vol      
+        </button>
+      </th>
+      <!--
+      <th>
+        <button id="d_vol02" outputxinfo="9" class="routeOutbox" onclick="infoAboutAVinput(this);">digMix Vol      
+        </button>
+      </th>
+      -->
+    </tr>
+  </thead>
+  
+  <tbody>
+    <tr id="in01">
+      <th>
+        <button id="d_in01" inputx="1" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">Hdmi 01</button>
+      </th>
+      <td>
+        <input type="checkbox" id="o01_in01" name="route_o1" outputx="1" inputx="1" class="routebox routebox_o01" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">
+      </td>
+      <td>
+        <input type="checkbox" id="o02_in01" name="route_o2" outputx="2" inputx="1" class="routebox routebox_o02" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o03_in01" name="route_o3" outputx="3" inputx="1" class="routebox routebox_o03" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o04_in01" name="route_o4" outputx="4" inputx="1" class="routebox routebox_o04" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in01" name="route_o5" outputx="5" inputx="6" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in01" name="route_o6" outputx="6" inputx="6" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in01" name="route_o7" outputx="7" inputx="6" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in01" name="route_o8" outputx="8" inputx="6" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in01" name="route_o9" outputx="9" inputx="6" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td rowspan="14">
+        <!-- <input id="denonVolBar" type="range" min="0" max="100" value="0" step="1" style="width:10px; writing-mode: tb; transform: rotate(180deg); height: 400px;" ushortjoin="UShort-196" ipid="0x27,0x26,0x28,0x29,0x30" class="volbar" onmouseup="" oninput="SlyydaGo(this)" showPercent=""> -->
+         <input id="denonVolBar" type="range" min="0" max="100" value="0" step="1" style="width:10px; writing-mode: sideways-lr; height: 400px;" ushortjoin="UShort-196" ipid="0x27,0x26,0x28,0x29,0x30" class="volbar" onmouseup="" oninput="SlyydaGo(this)" showPercent=""> 
+      </td>
+       <!--
+      <td rowspan="14">
+        <input id="digMix01VolBar" type="range" min="0" max="100" value="0" step="1" style="width:10px; writing-mode: vertical-lr; height: 400px;" ushortjoin="UShort-196" ipid="0x27,0x26,0x28,0x29,0x30" class="volbar" onmouseup="" oninput="SliidaPohlaa(this)" showPercent=""> 
+      </td>
+      -->      
+    </tr>
+
+    <tr id="in02">
+      <th>
+        <button id="d_in02" inputx="2" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">Hdmi 02</button>
+      </th>
+      <td>
+        <input type="checkbox" id="o01_in02" name="route_o1" outputx="1" inputx="2" class="routebox routebox_o01" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">
+      </td>
+      <td>
+        <input type="checkbox" id="o02_in02" name="route_o2" outputx="2" inputx="2" class="routebox routebox_o02" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o03_in02" name="route_o3" outputx="3" inputx="2" class="routebox routebox_o03" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o04_in02" name="route_o4" outputx="4" inputx="2" class="routebox routebox_o04" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in02" name="route_o5" outputx="5" inputx="7" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in02" name="route_o6" outputx="6" inputx="7" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in02" name="route_o7" outputx="7" inputx="7" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in02" name="route_o8" outputx="8" inputx="7" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in02" name="route_o9" outputx="9" inputx="7" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">
+      </td>      
+    </tr>
+
+    <tr  id="in03">
+      <th>
+        <button id="d_in03" inputx="3" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">Hd3 NVR</button>
+      </th>
+      <td>
+        <input type="checkbox" id="o01_in03" name="route_o1" outputx="1" inputx="3" class="routebox routebox_o01" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">
+      </td>
+      <td>
+        <input type="checkbox" id="o02_in03" name="route_o2" outputx="2" inputx="3" class="routebox routebox_o02" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o03_in03" name="route_o3" outputx="3" inputx="3" class="routebox routebox_o03" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o04_in03" name="route_o4" outputx="4" inputx="3" class="routebox routebox_o04" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in03" name="route_o5" outputx="5" inputx="8" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in03" name="route_o6" outputx="6" inputx="8" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in03" name="route_o7" outputx="7" inputx="8" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in03" name="route_o8" outputx="8" inputx="8" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in03" name="route_o9" outputx="9" inputx="8" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">
+      </td>  
+    </tr>
+
+    <tr id="in04">
+      <th>
+        <button id="d_in04" inputx="4" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">Hd4 BR</button>
+      </th>
+      <td>
+        <input type="checkbox" id="o01_in04" name="route_o1" outputx="1" inputx="4" class="routebox routebox_o01" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29"v>
+      </td>
+      <td>
+        <input type="checkbox" id="o02_in04" name="route_o2" outputx="2" inputx="4" class="routebox routebox_o02" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o03_in04" name="route_o3" outputx="3" inputx="4" class="routebox routebox_o03" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o04_in04" name="route_o4" outputx="4" inputx="4" class="routebox routebox_o04" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in04" name="route_o5" outputx="5" inputx="9" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in04" name="route_o6" outputx="6" inputx="9" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in04" name="route_o7" outputx="7" inputx="9" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in04" name="route_o8" outputx="8" inputx="9" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in04" name="route_o9" outputx="9" inputx="9" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">
+      </td>  
+    </tr>
+
+    <tr id="in05">
+      <th>
+        <button id="d_in05" inputx="5" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">Hdmi 05</button>
+      </th>
+      <td>
+        <input type="checkbox" id="o01_in05" name="route_o1" outputx="1" inputx="5" class="routebox routebox_o01" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">
+      </td>
+      <td>
+        <input type="checkbox" id="o02_in05" name="route_o2" outputx="2" inputx="5" class="routebox routebox_o02" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o03_in05" name="route_o3" outputx="3" inputx="5" class="routebox routebox_o03" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o04_in05" name="route_o4" outputx="4" inputx="5" class="routebox routebox_o04" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in05" name="route_o5" outputx="5" inputx="10" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in05" name="route_o6" outputx="6" inputx="10" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in05" name="route_o7" outputx="7" inputx="10" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in05" name="route_o8" outputx="8" inputx="10" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in05" name="route_o9" outputx="9" inputx="10" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">
+      </td>  
+    </tr>
+
+    <tr id="in06">
+      <th>
+        <button id="d_in06" inputx="6" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">Hdmi 06</button>
+      </th>
+      <td>
+        <input type="checkbox" id="o01_in06" name="route_o1" outputx="1" inputx="6" class="routebox routebox_o01" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">
+      </td>
+      <td>
+        <input type="checkbox" id="o02_in06" name="route_o2" outputx="2" inputx="6" class="routebox routebox_o02" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o03_in06" name="route_o3" outputx="3" inputx="6" class="routebox routebox_o03" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o04_in06" name="route_o4" outputx="4" inputx="6" class="routebox routebox_o04" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in06" name="route_o5" outputx="5" inputx="11" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in06" name="route_o6" outputx="6" inputx="11" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in06" name="route_o7" outputx="7" inputx="11" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in06" name="route_o8" outputx="8" inputx="11" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in06" name="route_o9" outputx="9" inputx="11" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">
+      </td>  
+    </tr>
+
+    <tr id="in07">
+      <th>
+        <button id="d_in07" inputx="7" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">DMi 07</button>
+      </th>
+      <td>
+        <input type="checkbox" id="o01_in07" name="route_o1" outputx="1" inputx="7" class="routebox routebox_o01" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">
+      </td>
+      <td>
+        <input type="checkbox" id="o02_in07" name="route_o2" outputx="2" inputx="7" class="routebox routebox_o02" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o03_in07" name="route_o3" outputx="3" inputx="7" class="routebox routebox_o03" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o04_in07" name="route_o4" outputx="4" inputx="7" class="routebox routebox_o04" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in07" name="route_o5" outputx="5" inputx="12" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in07" name="route_o6" outputx="6" inputx="12" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in07" name="route_o7" outputx="7" inputx="12" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in07" name="route_o8" outputx="8" inputx="12" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in07" name="route_o9" outputx="9" inputx="12" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">
+      </td>  
+    </tr>
+
+    <tr id="in08">
+      <th>
+        <button id="d_in08" inputx="8" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">DMi 08</button>
+      </th>
+      <td>
+        <input type="checkbox" id="o01_in08" name="route_o1" outputx="1" inputx="8" class="routebox routebox_o01" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">
+      </td>
+      <td>
+        <input type="checkbox" id="o02_in08" name="route_o2" outputx="2" inputx="8" class="routebox routebox_o02" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o03_in08" name="route_o3" outputx="3" inputx="8" class="routebox routebox_o03" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o04_in08" name="route_o4" outputx="4" inputx="8" class="routebox routebox_o04" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in08" name="route_o5" outputx="5" inputx="13" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in08" name="route_o6" outputx="6" inputx="13" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in08" name="route_o7" outputx="7" inputx="13" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in08" name="route_o8" outputx="8" inputx="13" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in08" name="route_o9" outputx="9" inputx="13" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">
+      </td>  
+    </tr>
+
+    <tr id="in09">
+      <th>
+        <button id="d_in09" inputx="9" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">AirMEdia</button>      
+      </th>
+      <td>
+        <input type="checkbox" id="o01_in09" name="route_o1" outputx="1" inputx="9" class="routebox routebox_o01" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">       
+      </td>
+      <td>
+        <input type="checkbox" id="o02_in09" name="route_o2" outputx="2" inputx="9" class="routebox routebox_o02" onchange="MatrixCHKboxCHangge(this);">       
+      </td>
+      <td>
+        <input type="checkbox" id="o03_in09" name="route_o3" outputx="3" inputx="9" class="routebox routebox_o03" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o04_in09" name="route_o4" outputx="4" inputx="9" class="routebox routebox_o04" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in09" name="route_o5" outputx="5" inputx="14" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in09" name="route_o6" outputx="6" inputx="14" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in09" name="route_o7" outputx="7" inputx="14" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in09" name="route_o8" outputx="8" inputx="14" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in09" name="route_o9" outputx="9" inputx="14" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">        
+      </td>  
+    </tr>
+    
+    <tr id="inAnalAud01">
+      <th>
+        <button id="d_in_A01" inputx="1" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">A audio 1</button>      
+      </th>
+      
+      <td colspan="4">     
+      </td>
+      
+      <td>        
+        <input type="checkbox" id="o05_in_Aa01" name="route_o5" outputx="5" inputx="1" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">        
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in_Aa01" name="route_o6" outputx="6" inputx="1" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in_Aa01" name="route_o7" outputx="7" inputx="1" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in_Aa01" name="route_o8" outputx="8" inputx="1" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in_Aa01" name="route_o9" outputx="9" inputx="1" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">        
+      </td>  
+    </tr>    
+    <tr id="inAnalAud02">
+      <th>
+        <button id="d_in_A02" inputx="2" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">A audio 2</button>      
+      </th>
+      <td colspan="4">     
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in_Aa02" name="route_o5" outputx="5" inputx="2" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">        
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in_Aa02" name="route_o6" outputx="6" inputx="2" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in_Aa02" name="route_o7" outputx="7" inputx="2" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in_Aa02" name="route_o8" outputx="8" inputx="2" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in_Aa02" name="route_o9" outputx="9" inputx="2" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">        
+      </td>  
+    </tr>
+    
+    <tr id="inAnalAud03">
+      <th>
+        <button id="d_in_A03" inputx="3" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">A audio 3</button>      
+      </th>
+      <td colspan="4">     
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in_Aa03" name="route_o5" outputx="5" inputx="3" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">        
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in_Aa03" name="route_o6" outputx="6" inputx="3" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in_Aa03" name="route_o7" outputx="7" inputx="3" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in_Aa03" name="route_o8" outputx="8" inputx="3" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in_Aa03" name="route_o9" outputx="9" inputx="3" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">        
+      </td>  
+    </tr>
+    <tr id="inAnalAud04">
+      <th>
+        <button id="d_in_A04" inputx="4" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">A audio 4</button>      
+      </th>
+        <td colspan="4">     
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in_Aa04" name="route_o5" outputx="5" inputx="4" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">        
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in_Aa04" name="route_o6" outputx="6" inputx="4" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in_Aa04" name="route_o7" outputx="7" inputx="4" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in_Aa04" name="route_o8" outputx="8" inputx="4" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in_Aa04" name="route_o9" outputx="9" inputx="4" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">        
+      </td>  
+    </tr>    
+    
+    <tr id="inAnalAud05">
+      <th>
+        <button id="d_in_A05" inputx="5" class="routeInputbox" fbActiveClass="lehceGreen" onclick="infoAboutAVinput(this);">A audio 5</button>      
+      </th>
+      <td colspan="4">     
+      </td>
+      <td>
+        <input type="checkbox" id="o05_in_Aa05" name="route_o5" outputx="5" inputx="5" class="routebox routebox_o05" onchange="MatrixCHKboxCHangge(this);" ipid="0x26,0x27,0x28,0x29">        
+      </td>
+      <td>
+        <input type="checkbox" id="o06_in_Aa05" name="route_o6" outputx="6" inputx="5" class="routebox routebox_o06" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o07_in_Aa05" name="route_o7" outputx="7" inputx="5" class="routebox routebox_o07" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o08_in_Aa05" name="route_o8" outputx="8" inputx="5" class="routebox routebox_o08" onchange="MatrixCHKboxCHangge(this);">        
+      </td>
+      <td>
+        <input type="checkbox" id="o09_in_Aa05" name="route_o9" outputx="9" inputx="5" class="routebox routebox_o09" onchange="MatrixCHKboxCHangge(this);">        
+      </td>  
+    </tr>
+
+    
+  </tbody>
+</table>
+

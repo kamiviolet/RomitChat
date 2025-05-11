@@ -1,0 +1,183 @@
+@import "./prznistyl.css";
+@import "./home.css";
+@import "./settings.css";
+
+/* Main frame */
+
+body {
+  margin: 0;
+  background-color: #0c0c0cba;
+  
+  display: grid;
+  grid-template: 
+    "concover navbar" 43px 
+    "side main" 100% / 52px 1fr;
+  width: 100vw;
+
+  overflow-x: clip;
+  overflow-y: hidden;
+  grid-template-areas:
+    "concover navbar"  
+    "side main"; 
+  grid-template-rows: 43px;
+  grid-template-columns: 52px;
+}
+
+#side {
+  grid-area: side;
+  background-color: #333;
+  width: 52px;
+  height: calc(100% + 5px);
+  box-shadow: 2px 2px 5px black;
+  transform: translateY(-4px);
+  text-shadow: 1px 1px 2px black;
+}
+#side a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#side a:active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#mainSubContent {
+  /* padding: .5em 1em; */
+  overflow: auto;
+  height: calc(100vh - 43px);
+}
+
+#mainSubContent > * {
+  height: max-content;
+}
+
+/* Navbar links */
+.concover {
+  grid-area: concover;
+  background: #333;
+  z-index: 20;
+}
+
+#navbar {
+  grid-area: navbar;
+  background-color: #333;
+  box-shadow: 2px 2px 5px black;
+  height: 42px;
+  display: grid;
+
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+#navbar > button {
+  color: #f2f2f2;
+  background: #333;
+  text-align: end;
+  padding: 12px;
+  justify-self: end;
+}
+
+.navlink_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 10px 2px 5px black;
+
+  z-index: 10;
+  width: calc(100vw - 53px);
+  justify-self: end;
+  border: 1px solid aliceblue;
+  background: #262626;
+
+  flex-flow: column-reverse;
+}
+
+.navlink_wrapper.hidden {
+  display: none;
+}
+
+.navlink_wrapper a {
+  float: right;
+  display: block;
+
+  color: #f2f2f2;
+  background: inherit;
+
+  text-align: center;
+  padding-inline: 14px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+}
+
+.navlink_wrapper a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navlink_wrapper a:active {
+  background-color: #04AA6D;
+  color: white;
+}
+.topNavSelected
+{
+  background-color: #04AA6D !important;
+  color: white;
+}
+.sideNavSelected
+{
+  background-color: #04AA6D;
+  color: white;
+}
+
+@media screen and (min-width: 640px) {
+  #navbar {
+    display: unset;
+  }
+
+  #navbar > button {
+    display: none;
+  }
+
+  .navlink_wrapper.hidden {
+    display: flex;
+  }
+
+  .navlink_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    box-shadow: unset;
+
+    width: unset;
+    border: unset;
+    z-index: unset;
+
+    flex-flow: row-reverse;
+    background: transparent;
+  }
+}
+
+
+/* Side links */
+
+#side a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  padding-block: 15px;
+  text-shadow: 1px 2px 2px #0d0c0ced;
+  font-weight: bold;
+}
+
+.hide {
+  display: none !important;
+}
+
+button {
+  text-align: center;
+}

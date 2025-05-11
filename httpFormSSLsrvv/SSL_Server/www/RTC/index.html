@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles.css" rel="stylesheet">
+  <title>RomitChat</title>
+</head>
+<body style="display:none">
+  <!-- Profile Toolbar -->
+  <section id="user_profile">
+    <div class="user_profile_wrapper">
+      <div class="hide" >
+        <p style="min-width: 150px;"></p>
+        <input id="logOutAliasBut" type="submit" value="Log out"/>
+      </div>
+      <form class="user_registration_form">
+        <label for="username">Username: </label>
+        <input id="usernamebox" name="username" type="text" value="User name X">
+        <input id="loginAliasBut" type="submit" value="Submit"/>
+      </form>
+      <div>
+        <a id="criticalUrl_1" href="https://91.139.6.78:9995/kunda" target="_blank" rel="noopener noreferrer" class="critiHrefs canBeMaybeRemoved">ws exeption</a>
+        <button id="wsconsignal">WS STATUS</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- User List -->
+  <section id="user_list">
+    <div class="overflow-wrapper">
+      <h3>Who's online:</h3>
+      <div class="overflow-inner-wrapper"></div>
+    </div>
+  </section>
+  
+  <!-- System Logs -->
+  <section id="syslog">
+    <div class="overflow-wrapper">
+      <h3>System logs:</h3>
+      <div id="sysloginner" class="overflow-inner-wrapper"></div>
+    </div>
+  </section>
+
+  <!-- Msg -->
+  <section id="podium_inner_text">
+    <div id="podium_inner_common">
+      <div class="overflow-wrapper"><table id="podium_inner_common_table">
+            <thead><tr><td></td><td></td></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+    </div>
+    <div>
+      <button id="clearHistoryBtn">Clear chatroom history</button>
+    </div>
+    <form>
+        <label for="message_input">Message: </label>
+        <textarea id="message_input" name="message_input" ></textarea>
+        <span>
+          <input id="singlemsgsendbut" type="submit" value="Submit"/>
+          <input type="reset" value="Clear"/>
+          <button id="brodcastbut">brodcast</button>
+        </span>
+      </form>
+  </section>
+
+  <!-- Video -->
+  <section id="podium_inner_cam">
+    <video id="local_cam" poster="../images/standby.png" autoplay></video>
+    <video id="remote_cam" poster="../images/standby.png"  autoplay></video>
+    <div>
+      <button id="init_vid_btn">Video</button>
+      <button id="call_btn" disabled>Call</button>
+      <button id="hangup_btn" disabled>End call</button>
+    </div>
+  </section>
+
+  <!-- Tabs -->
+  <section id="responsive_menu">
+    <button data-link="user_list">Who's online</button>
+    <button data-link="syslog">System logs</button>
+    <button data-link="podium_inner_text">Chatroom</button>
+    <button data-link="podium_inner_cam">Video meeting</button>
+  </section>
+
+  <script src="./Users.js"></script>
+  <script src="./Chatroom.js"></script>
+  <script src="./Frontend.js"></script>
+  <script src="./RTCConnection.js"></script>
+  <script src="./script.js"></script>
+  <script src="./websuck.js" defer=""></script>
+</body>
+</html>

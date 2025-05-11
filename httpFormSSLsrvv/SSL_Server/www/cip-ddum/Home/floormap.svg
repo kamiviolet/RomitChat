@@ -1,0 +1,370 @@
+<svg id="floormap_2F" version="1.1" viewBox="0 0 950 425" xmlns="http://www.w3.org/2000/svg">
+  <g id="floormap_core">
+    <!-- Floormap - 2/F -->
+    <path id="path1" transform="translate(125)" d="m0 0h60v69h746v356h-882v-9h-49v-120h49v-227h76zm9 9v60h25v4h17v-64zm546 63v3l7-2v-1zm-678 226v36h47v-36zm0 38v11h21v37h4v-48zm27 0v5h20v-5zm0 7v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v5h19v-5zm27 0v5h20v-5zm-27 7v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v28h47v-28z" fill="#ad9578"/>
+    <path id="path2" transform="translate(799,139)" d="m0 0c3-.08 5-.1 8-.2l2-.08 9 .3v7h3v16h-3v43h5v-32h28v60h-28v-12h-5v24h3v19h-3v45h5v-35h99v12h9v139h-612v-8h-16v-75h57v-5h-3v-3h-2v-39h2v-4h184v-15h-3v-39h2v-6h89v2h163v58h5v-58h5v-17h-5v-74h2z" fill="#6d4a4a"/>
+    <path id="path3" transform="translate(443,69)" d="m0 0h488v217h-9v-12h-99v35h-5v-45h3v-19h-3v-24h5v12h28v-60h-28v32h-5v-43h3v-16h-3v-4.7l-3-.3v-2h-16v3h-2v74h5v17h-5v58h-5v-58h-163v-2h-89v6h-2v39h-2v10h-126v-208h33zm237 3v3l7-2v-1z" fill="#85603b"/>
+    <path id="path4" transform="translate(654,69)" d="m0 0h277v217h-9v-12h-99v35h-5v-45h3v-19h-3v-24h5v12h28v-60h-28v32h-5v-43h3v-16h-3v-4.8l-3-.2v-2h-16v3h-2v74h5v17h-5v58h-5v-58h-126v-17h5v-131h-4v-7h-13zm26 3v3l7-2v-1z" fill="#cacbcb"/>
+    <path id="path5" transform="translate(159,73)" d="m0 0h17v5h12v100h3v39h-3v42h3v19h-3v17h3v39h-3v3h-54v5h54v75h-30v8h-87v-8h-14v-75h57v-5h-57v-7h-8v-21h8v-17h98v-24h-3v-19h3v-32h-3v-39h3v-33h-3v-29h3v-38h3z" fill="#6e4a4a"/>
+    <path id="path6" transform="translate(380,337)" d="m0 0h72v2h19v-2h113v2h19v-2h152v5h-82v75h18v8h-285v-8h16v-75h-42z" fill="#74485c"/>
+    <path id="path7" transform="translate(57,78)" d="m0 0h68v96h25v4h2v39h3v32h-3v19h3v24h-98v17h-8v-11h-47v36h47v-4h8v7h57v5h-57v75h14v8h-22v-9h-49v-120h49v-186l8 1zm-55 258v11h21v37h4v-48zm27 0v5h20v-5zm0 7v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v5h19v-5zm27 0v5h20v-5zm-27 7v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v28h47v-28z" fill="#ac9578"/>
+    <path id="path8" transform="translate(567,69)" d="m0 0h87v9h13v7h4v131h-5v17h-37v-2h-88v-153h26z" fill="#84603b"/>
+    <path id="path9" transform="translate(823,274)" d="m0 0h99v12h9v139h-153v-8h14v-75h-17v-5h43v-9h2v-19h3z" fill="#74475c"/>
+    <path id="path10" transform="translate(823,142)" d="m0 0h65v4h5v-4h29l1 12h8v132h-9v-12h-99v35h-5v-45h3v-19h-3v-24h5v12h28v-60h-28v32h-5v-43h3v-16h2z" fill="#009de3"/>
+    <path id="path11" transform="translate(603,337)" d="m0 0h152v5h-82v75h18v8h-124v-8h-16v-75h33v-3h19z" fill="#74485c"/>
+    <path id="path12" transform="translate(114,337)" d="m0 0 1 2h19v3h54v75h-30v8h-87v-8h-14v-75h57z" fill="#75475b"/>
+    <path id="path13" transform="translate(49,197)" d="m0 0h8v28h93v-8h5v32h-3v19h3v24h-98v17h-8v-11h-47v36h47v-4h8v7h57v5h-57v75h14v8h-22v-9h-49v-120h49zm-47 139v11h21v37h4v-48zm27 0v5h20v-5zm0 7v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v5h19v-5zm27 0v5h20v-5zm-27 7v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v28h47v-28z" fill="#dfdb0a"/>
+    <path id="path14" transform="translate(774,337)" d="m0 0h1v5h17v75h-14v8h-87v-8h-18v-75h82v-3h19z" fill="#74485c"/>
+    <path id="path15" transform="translate(379,337)" d="m0 0h1v5h42v75h-16v8h-87v-8h-16v-75h57v-3h19z" fill="#74485c"/>
+    <path id="path16" transform="translate(810,72)" d="m0 0 87-.09v6l25 .09v59h-107v2h-16v-2h-2v-59h13z" fill="#dfdb0a"/>
+    <path id="path17" transform="translate(125)" d="m0 0h60v69h10v9h-2v100h-5v-100h-12v-69h-42v60h25l.1 8.9-4.1.1v38h-3v29h3v33h-5v-4h-25v-96h-68v33h-8v-42h76z" fill="#fff"/>
+    <path id="path18" transform="translate(680,69)" d="m0 0h89v9h23v35h-116v-35h4z" fill="#888"/>
+    <path id="path19" transform="translate(823,142)" d="m0 0h65v4h5v-4h29l1 12h8v24h-20l1 4 10 1v19h-29v-19h2v-5h-2v-16h-5v40h-32v-34h-33v-6h-2v-16h2z" fill="#009de3"/>
+    <path id="path20" transform="translate(49,197)" d="m0 0h8v28h93v-8h5v32h-5v-20h-93v58h93v-19h5v24h-98v17h-8v-11h-47v36h47v-4h8v7h57v5h-57v75h14v8h-22v-9h-49v-120h49zm-47 139v11h21v37h4v-48zm27 0v5h20v-5zm0 7v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v5h19v-5zm27 0v5h20v-5zm-27 7v4h19v-4zm27 0v4h20v-4zm-27 6v4h19v-4zm27 0v4h20v-4zm-27 6v28h47v-28z" fill="#d6d7d7"/>
+    <path id="path21" transform="translate(676,195)" d="m0 0h116v34h-38v4h-39v-4h-39z" fill="#898989"/>
+    <path id="path22" transform="translate(716,114)" d="m0 0h36v80h-76v-24h40z" fill="#898989"/>
+    <path id="path23" transform="translate(769,69)" d="m0 0h162v85h-9v-12h-29v4h-5v-4h-65v4h-5l-.2-5-3-.2v-4h107v-59l-25-.09v-6l-87.2.09v6h-13v59h2v5h-2v74.2h5v17h-5v58h-5v-58h-38v-4h38v-151h-23z" fill="#fff"/>
+    <path id="path24" transform="translate(654,69)" d="m0 0h26v9h-4v116h76v-50h40v51h-116v34h39v4h-49v-17h5v-131h-4v-7h-13z" fill="#cccdcd"/>
+    <path id="path25" transform="translate(406,69)" d="m-1 .09 38-.09v9h-33v208h126v-10h5v15h-184v4h-4v-9h52z" fill="#fff"/>
+    <path id="path26" transform="translate(818,162)" d="m0 0h5v6h33v34h32v-40h5v16h2v5h-2v19h29v-19h-10l-1-5h20v67l-9-.1v-13.9h-10l-.1-4.9 10.1-.1v-19h-29v19h2v5h-7v-24h-32v30h-33v8h-5v-24h5v12h28v-60h-28v32h-5z" fill="#fff"/>
+    <path id="path27" transform="translate(49,197)" d="m0 0h8v28h93v-8h5v32h-5v-20h-93v58h93v-19h5v24h-98v17h-8z" fill="#fff"/>
+    <path id="path28" transform="translate(129,78)" d="m0 0h21v38h2v29h-2v24h-21z" fill="#dfdb0d"/>
+    <path id="path29" transform="translate(823,173)" d="m0 0h28v60h-28v-12h-3v-16h3z" fill="#545b1f"/>
+    <path id="path30" transform="translate(897,69)" d="m0 0h34v85h-9v-12h-29v4h-5v-4h-65v4h-5v-5l-3-.3v-4h107v-59l-25-.1z" fill="#fff"/>
+    <path id="path31" transform="translate(604,337)" d="m0 0h151v5h-82v75h18v8h-37v-8h14v-75h-64z" fill="#fff"/>
+    <path id="path32" transform="translate(922,335)" d="m0 0h9v90h-29v-8h20v-75h-78v-5h78z" fill="#fff"/>
+    <path id="path33" transform="translate(189,218)" d="m-2-1 5-.3.3 8h110v70h-5v-62h-105v26l-5 .3z" fill="#fff"/>
+    <path id="path34" transform="translate(654,69)" d="m-1 0h27v9h-4v151h39v4h-49v-17h5v-131h-4v-7h-14z" fill="#fff"/>
+    <path id="path35" transform="translate(472,337)" d="m0 0h112v5h-33v75h16v8h-37v-8h16v-75h-74z" fill="#fff"/>
+    <path id="path36" transform="translate(49,330)" d="m0 0h8v7h57v5h-57v75h14v8h-22z" fill="#fff"/>
+    <path id="path37" transform="translate(530,69)" d="m-1 0h38v9h-26v159h-4.96v-159h-7z" fill="#fff"/>
+    <path id="path38" transform="translate(380,337)" d="m0 0h72v5h-25v75h16v8h-37v-8h16v-75h-42z" fill="#fff"/>
+    <path id="path39" transform="translate(298,334)" d="m0 0h5v3h50v-3h4v3h3v5h-57v75h16v8l-38-.1-.2-8h17z" fill="#fff"/>
+    <path id="path40" transform="translate(188,334)" d="m0 0h5v83h2v8h-37v-8h30v-75h-54v-5h54z" fill="#fff"/>
+    <path id="path41" transform="translate(818,328)" d="m0 0h5v9h2v5h-28v75h18v8h-37v-8h14v-75h-17v-5h43z" fill="#fff"/>
+    <path id="path42" transform="translate(818,264)" d="m0 0h5v5h108v17h-9v-12h-99v35h-5z" fill="#fff"/>
+    <path id="path43" transform="translate(753,176)" d="m0 0h39v12h-39z" fill="#bebebe"/>
+    <path id="path44" transform="translate(676,120)" d="m0 0h39v12h-39z" fill="#bebebe"/>
+    <path id="path45" transform="translate(282,69)" d="m0 0h37v9h-37z" fill="#fff"/>
+    <path id="path46" transform="translate(680,69)" d="m0 0h89l-.1 3h-89z" fill="#6392ae"/>
+    <path id="path47" transform="translate(567,69)" d="m0 0 86 .1-.1 3h-86z" fill="#6392ad"/>
+    <path id="path48" transform="translate(443,69)" d="m0 0 86 .1.2 3h-86z" fill="#6392ad"/>
+    <path id="path49" transform="translate(810,69)" d="m0 0h87v3h-87z" fill="#6191ad"/>
+    <path id="path50" transform="translate(319,69)" d="m0 0 86 .09v3l-86-.09z" fill="#6191ad"/>
+    <path id="path51" transform="translate(195,69)" d="m0 0h87v3h-87z" fill="#6191ad"/>
+    <path id="path52" transform="translate(753,189)" d="m0 0h39v5h-39z" fill="#8f8f8f"/>
+    <path id="path53" transform="translate(753,145)" d="m0 0h39v5h-39z" fill="#8f8f8f"/>
+    <path id="path54" transform="translate(676,145)" d="m0 0 38 .1v5l-38-.1z" fill="#8f8f8f"/>
+    <path id="path55" transform="translate(676,133)" d="m0 0h38v5h-38z" fill="#8e8e8e"/>
+    <path id="path56" transform="translate(676,114)" d="m0 0h39v5h-39z" fill="#8b8b8b"/>
+    <path id="path57" transform="translate(754,170)" d="m0 0h38v5h-38z" fill="#898989"/>
+    <path id="path58" transform="translate(754,164)" d="m0 0h38v5h-38z" fill="#898989"/>
+    <path id="path59" transform="translate(676,164)" d="m0 0h38v5h-38z" fill="#898989"/>
+    <path id="path60" transform="translate(754,139)" d="m0 0h38v5h-38z" fill="#898989"/>
+    <path id="path61" transform="translate(676,139)" d="m0 0h38v5h-38z" fill="#898989"/>
+    <path id="path62" transform="translate(754,133)" d="m0 0h38v5h-38z" fill="#8d8d8d"/>
+    <path id="path63" transform="translate(754,114)" d="m0 0h38v5h-38z" fill="#8a8a8a"/>
+    <path id="path64" transform="translate(157,417)" d="m.9 5 .1 3h-87v-3z" fill="#6399b3"/>
+    <path id="path65" transform="translate(752,114)" d="m0 0h2v5h38v1h-39v12h39v1h-38v5h38v1h-38v5h-2z" fill="#cfd0d0"/>
+    <path id="path66" transform="translate(923,286)" d="m8 0v49h-3l-.06-49z" fill="#6793ac"/>
+    <path id="path67" transform="translate(754,183)" d="m0 0h38v4h-38z" fill="#898989"/>
+    <path id="path68" transform="translate(754,177)" d="m0 0h38v4h-38z" fill="#898989"/>
+    <path id="path69" transform="translate(754,158)" d="m0 0h38v4h-38z" fill="#898989"/>
+    <path id="path70" transform="translate(676,158)" d="m0 0h38v4h-38z" fill="#898989"/>
+    <path id="path71" transform="translate(754,152)" d="m0 0h38v4h-38z" fill="#898989"/>
+    <path id="path72" transform="translate(676,152)" d="m0 0h38v4h-38z" fill="#898989"/>
+    <path id="path73" transform="translate(754,127)" d="m0 0h38v4h-38z" fill="#898989"/>
+    <path id="path74" transform="translate(676,127)" d="m0 0h38v4h-38z" fill="#898989"/>
+    <path id="path75" transform="translate(754,121)" d="m0 0h38v4h-38z" fill="#898989"/>
+    <path id="path76" transform="translate(676,121)" d="m0 0h38v4h-38z" fill="#898989"/>
+    <path id="path77" transform="translate(929,245)" d="m-1 0h3v24h-3c-.03-4-.05-8-.06-11l-.03-3-.01-3-.02-3z" fill="#599ab7"/>
+    <path id="path78" transform="translate(929,154)" d="m-1 .02 3-.02v24h-3c-.03-4-.05-8-.06-11l-.03-3-.01-3-.02-3z" fill="#599ab7"/>
+    <path id="path79" d="m188 278h5v19h-5z" fill="#fff"/>
+  </g>
+
+  <circle id="PIR_WC" cx="807" cy="198" r="9" fbactiveclass="lehceRedSVG" booljoin="Bool-111" onclick="ButonBulbOnclick(this);" ipid="0x26,0x27,0x28,0x29,0x30" />
+
+  <!-- Bulbs -->
+  <circle id="sv01" fbactiveclass="lehceYellowSVG" booljoin="Bool-101" onclick="ButonBulbOnclick(this)" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30" cx="826" cy="119" r="9"></circle>
+  <circle id="sv02" fbactiveclass="lehceYellowSVG" booljoin="Bool-102" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30" cx="890" cy="119" r="9" />
+  <circle id="sv03" fbactiveclass="lehceYellowSVG" booljoin="Bool-103" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="837" cy="156" r="9" />
+  <circle id="sv04" fbactiveclass="lehceYellowSVG" booljoin="Bool-104" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30" cx="871" cy="176" r="9" />
+  <circle id="sv05" fbactiveclass="lehceYellowSVG" booljoin="Bool-105" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="908" cy="156" r="9"/>
+  <circle id="sv06" fbactiveclass="lehceYellowSVG" booljoin="Bool-106" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="906" cy="191" r="9"/>
+  <circle id="sv07" fbactiveclass="lehceYellowSVG" booljoin="Bool-107" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="836" cy="217" r="9" />
+  <circle id="sv08" fbactiveclass="lehceYellowSVG" booljoin="Bool-108" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="836" cy="254" r="9" />
+  <circle id="sv09" fbactiveclass="lehceYellowSVG" booljoin="Bool-109" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30" cx="871" cy="229" r="9"/>
+  <circle id="sv10" fbactiveclass="lehceYellowSVG" booljoin="Bool-110" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="906" cy="217" r="9" />
+  <circle id="sv11" fbactiveclass="lehceYellowSVG" booljoin="Bool-111" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="807" cy="175" r="9" />
+  <circle id="sv12" fbactiveclass="lehceYellowSVG" booljoin="Bool-112" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="861" cy="316" r="9" />
+  <circle id="sv13" fbactiveclass="lehceYellowSVG" booljoin="Bool-113" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="910" cy="316" r="9" />
+  <circle id="sv14" fbactiveclass="lehceYellowSVG" booljoin="Bool-114" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="824" cy="395" r="9" />
+  <circle id="sv15" fbactiveclass="lehceYellowSVG" booljoin="Bool-115" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="885" cy="395" r="9" />
+  <circle id="sv16" fbactiveclass="lehceYellowSVG" booljoin="Bool-116" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29"  cx="763" cy="395" r="9"/>
+  <circle id="sv17" fbactiveclass="lehceYellowSVG" booljoin="Bool-117" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29"  cx="702" cy="395" r="9" />
+  <circle id="sv18" fbactiveclass="lehceYellowSVG" booljoin="Bool-118" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="581" cy="395" r="9" />
+  <circle id="sv19" fbactiveclass="lehceYellowSVG" booljoin="Bool-119" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="641" cy="395" r="9" />
+  <circle id="sv20" fbactiveclass="lehceYellowSVG" booljoin="Bool-120" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="459" cy="395" r="9" />
+  <circle id="sv21" fbactiveclass="lehceYellowSVG" booljoin="Bool-121" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="520" cy="395" r="9" />
+  <circle id="sv22" fbactiveclass="lehceYellowSVG" booljoin="Bool-122" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="337" cy="395" r="9" />
+  <circle id="sv23" fbactiveclass="lehceYellowSVG" booljoin="Bool-123" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="398" cy="395" r="9" />
+  <circle id="sv24" fbactiveclass="lehceYellowSVG" booljoin="Bool-124" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30" cx="271" cy="395" r="9" />
+  <circle id="sv24"  fbactiveclass="lehceYellowSVG" booljoin="Bool-124" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="222" cy="395" r="9" />
+  <circle id="sv26" fbactiveclass="lehceYellowSVG" booljoin="Bool-126" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="244" cy="278" r="9" />
+  <circle id="sv27" fbactiveclass="lehceYellowSVG"  booljoin="Bool-127" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="158" cy="395" r="9" />
+  <circle id="sv28" fbactiveclass="lehceYellowSVG" booljoin="Bool-128" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="86" cy="395" r="9" />
+  <circle id="sv29" fbactiveclass="lehceYellowSVG" booljoin="Bool-129" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="122" cy="315" r="9" />
+  <circle id="sv30" fbactiveclass="lehceYellowSVG" booljoin="Bool-130" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="90" cy="259" r="9" />
+  <circle id="sv31" fbactiveclass="lehceYellowSVG" booljoin="Bool-131" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30" cx="92" cy="188" r="9" />
+  <circle id="sv32" fbactiveclass="lehceYellowSVG" booljoin="Bool-132" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="92" cy="128" r="9" />
+  <circle id="sv33" fbactiveclass="lehceYellowSVG" booljoin="Bool-133" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="140" cy="128" r="9"/>
+  <circle id="sv34" fbactiveclass="lehceYellowSVG" booljoin="Bool-134" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="172" cy="189" r="9" />
+  <circle id="sv35" fbactiveclass="lehceYellowSVG" booljoin="Bool-135" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="234" cy="140" r="9" />
+  <circle id="sv36" fbactiveclass="lehceYellowSVG" booljoin="Bool-136" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="361" cy="140" r="9" />
+  <circle id="sv37" fbactiveclass="lehceYellowSVG" booljoin="Bool-137" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="297" cy="140" r="9" />
+  <circle id="sv38" fbactiveclass="lehceYellowSVG" booljoin="Bool-138" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="439" cy="140" r="9" />
+  <circle id="sv39" fbactiveclass="lehceYellowSVG" booljoin="Bool-139" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="510" cy="140" r="9" />
+  <circle id="sv40" fbactiveclass="lehceYellowSVG" booljoin="Bool-140" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="474" cy="250" r="9" />
+  <circle id="sv41" fbactiveclass="lehceYellowSVG" booljoin="Bool-141" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30" cx="733" cy="213" r="9" />
+  <circle id="sv42" fbactiveclass="lehceYellowSVG" booljoin="Bool-142" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="733" cy="88" r="9" />
+  
+  <circle id="sv45" fbactiveclass="lehceYellowSVG" booljoin="Bool-145" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30" cx="581" cy="140" r="9" />
+  <circle id="sv46" fbactiveclass="lehceYellowSVG" booljoin="Bool-146" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="631" cy="140" r="9" />
+  <circle id="sv47" fbactiveclass="lehceYellowSVG" booljoin="Bool-147" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="731" cy="290" r="9" />
+  <circle id="sv48" fbactiveclass="lehceYellowSVG" booljoin="Bool-148" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"  cx="491" cy="313" r="9" />
+
+  <!-- projector screen? -->
+  <foreignObject width="10" height="140" y="84" x="541">
+    <button id="sv54" class="freeHeatBox ShadeSelector" ipid="0x27,0x26,0x28,0x29,0x30" style="width: 90%;height: 95%;" onclick="ButonBulbOnclick(this);" fbactiveclass="lehceYellow" booljoin="Bool-154" >                     
+    </button>
+  </foreignObject>
+  <foreignObject width="10" height="140" y="84" x="660">
+    <button id="sv54" class="freeHeatBox ShadeSelector" ipid="0x27,0x26,0x28,0x29,0x30" style="width: 90%;height: 95%;" onclick="ButonBulbOnclick(this);" fbactiveclass="lehceYellow" booljoin="Bool-154" >        
+    </button>
+  </foreignObject> 
+
+  <!-- DMPS -->
+  <foreignObject id="DMPSshow" x="593" y="147" width="30" height="30" class="" style="filter: drop-shadow(2px 2px 1px #000);">
+    <button onclick="togeDMPSpanel();" fbactiveclass="lehceRed">
+      <span>DMPS</span>
+    </button>
+  </foreignObject>
+
+  <!-- Temperature -->
+  <foreignObject x="832" y="74" width="53" height="33">
+    <button id="heat01" fbactiveclass="lehceRed" booljoin="Bool-501" onclick="ButonHeatSelect(this);" ushortjoin="UShort-51" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+        <p>actual:</p>                    
+        <span class="tempDisplay" id="temp01">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="828" y="346" width="53" height="33">
+    <button id="heat06" fbactiveclass="lehceRed" booljoin="Bool-506" onclick="ButonHeatSelect(this);" ushortjoin="UShort-56" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+      <p>actual:</p>                    
+      <span class="tempDisplay" id="temp06">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <g id="quickHeatControls">
+    <foreignObject x="673" y="345" width="47" height="34" >
+      <button id="heat07" fbactiveclass="lehceRed" booljoin="Bool-507" ushortjoin="UShort-57" class="custHeatBox" ipid="0x27,0x26,0x28,0x29,0x30">                     
+        <p>actual:</p>                    
+        <span class="tempDisplay" id="temp07">44 C</span>               
+      </button>
+    </foreignObject>
+
+    <foreignObject x="718" y="345" width="47" height="34">
+      <button id="heat07desired" fbactiveclass="lehceRed" booljoin="Bool-507" ushortjoin="UShort-57" class="custHeatBox" ipid="0x27,0x26,0x28,0x29,0x30">                     
+        <p>desired:</p>                    
+        <span class="tempDisplay" id="temp07desired">44 C</span>               
+      </button>
+    </foreignObject>
+
+    <g id="arowsheat">
+      <foreignObject x="764" y="345" width="30" height="17.5">
+        <button onpointerdown="independendHeatArrows(event);" onpointerup="independendHeatArrows(event);" booljoin="Bool-276" ipid="0x27,0x26,0x28,0x29,0x30" >UP</button>
+      </foreignObject>
+
+      <foreignObject x="764" y="363" width="30" height="17.5" >
+        <button onpointerdown="independendHeatArrows(event);" onpointerup="independendHeatArrows(event);" booljoin="Bool-277" ipid="0x27,0x26,0x28,0x29,0x30" >DW</button>  
+      </foreignObject>
+    </g>
+  </g>
+
+  <foreignObject x="583" y="192" width="53" height="33">
+    <button id="heat18" fbactiveclass="lehceRed" booljoin="Bool-518" onclick="ButonHeatSelect(this);" ushortjoin="UShort-69" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+      <p>actual:</p>                    
+      <span class="tempDisplay" id="temp19">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="566" y="290" width="53" height="33">
+    <button id="heat19" fbactiveclass="lehceRed" booljoin="Bool-519" onclick="ButonHeatSelect(this);" ushortjoin="UShort-69" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+      <p>actual:</p>                    
+      <span class="tempDisplay" id="temp19">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject width="53" height="33" y="346" x="588">
+    <button fbactiveclass="lehceRed" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes HeatBoxSelected" ipid="0x27,0x26,0x28,0x29,0x30" id="heat08" booljoin="Bool-508" ushortjoin="UShort-58">                     
+      <p>actual:</p>                    
+      <span class="tempDisplay" id="temp08">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject width="53" height="33" y="346" x="462">
+    <button id="heat09" fbactiveclass="lehceRed" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" booljoin="Bool-509" ushortjoin="UShort-59">                     
+      <p>actual:</p>                    
+      <span class="tempDisplay" id="temp09">99 C</span>               
+    </button>
+  </foreignObject>  
+
+  <foreignObject width="53" height="33" y="346" x="343">
+    <button id="heat10" fbactiveclass="lehceRed" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30" booljoin="Bool-510" ushortjoin="UShort-60">                     
+      <p>actual:</p>                    
+      <span class="tempDisplay" id="temp10">99 C</span>               
+    </button>
+  </foreignObject>  
+
+    <foreignObject x="832" y="74" width="53" height="33">
+    <button id="heat01" fbactiveclass="lehceRed" booljoin="Bool-501" onclick="ButonHeatSelect(this);" ushortjoin="UShort-51" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+        <p>actual:</p>                    
+        <span class="tempDisplay" id="temp01">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="333" y="179" width="53" height="33">
+    <button id="heat16" fbactiveclass="lehceRed" booljoin="Bool-516" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+        <p>actual:</p>                    
+        <span class="tempDisplay" id="temp16">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="451" y="203" width="53" height="33">
+    <button id="heat17" fbactiveclass="lehceRed" booljoin="Bool-517" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+        <p>actual:</p>                    
+        <span class="tempDisplay" id="temp17">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="222" y="332" width="53" height="33">
+    <button id="heat11" fbactiveclass="lehceRed" booljoin="Bool-511" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+        <p>actual:</p>                    
+        <span class="tempDisplay" id="temp11">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="99" y="352" width="53" height="33">
+    <button id="heat12" fbactiveclass="lehceRed" booljoin="Bool-512" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes" ipid="0x27,0x26,0x28,0x29,0x30">                     
+        <p>actual:</p>                    
+        <span class="tempDisplay" id="temp12">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="73.8" y="149" width="53" height="25">
+    <button id="heat15"  fbactiveclass="lehceRed" booljoin="Bool-515" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes smallHeatBox" ipid="0x27,0x26,0x28,0x29,0x30">
+      <span class="tempDisplay" id="temp15">44 C</span>
+    </button>
+  </foreignObject>
+
+  <foreignObject x="102" y="231" width="53" height="25">
+    <button id="heat14" fbactiveclass="lehceRed" booljoin="Bool-514" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes smallHeatBox" ipid="0x27,0x26,0x28,0x29,0x30">
+      <span class="tempDisplay" id="temp14">44 C</span>               
+  </button>
+  </foreignObject>
+
+  <foreignObject x="140" y="295" width="53" height="25">
+    <button id="heat13" fbactiveclass="lehceRed" booljoin="Bool-513" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes smallHeatBox" ipid="0x27,0x26,0x28,0x29,0x30">
+      <span class="tempDisplay" id="temp13">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="851" y="143" width="53" height="25">
+    <button id="heat02" fbactiveclass="lehceRed" booljoin="Bool-502" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes smallHeatBox" ipid="0x27,0x26,0x28,0x29,0x30">
+        <span class="tempDisplay" id="temp02" >44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="851" y="248" width="53" height="25">
+    <button id="heat03" fbactiveclass="lehceRed" booljoin="Bool-503" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes smallHeatBox" ipid="0x27,0x26,0x28,0x29,0x30">
+        <span class="tempDisplay" id="temp03" >44 C</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="851" y="280" width="53" height="25">
+    <button id="heat05" fbactiveclass="lehceRed" booljoin="Bool-505" onclick="ButonHeatSelect(this);" class="freeHeatBox heatBoxes smallHeatBox" ipid="0x27,0x26,0x28,0x29,0x30">
+        <span class="tempDisplay" id="temp05">44 C</span>               
+    </button>
+  </foreignObject>
+
+  <!-- Shade -->
+
+  <foreignObject x="458" y="76" width="53" height="33">
+    <button id="Shade01"  fbactiveclass="lehceRed" booljoin="Bool-201" onclick="ButtonShadeSelect(this);" class="freeHeatBox ShadeSelector" ipid="0x27,0x26,0x28,0x29,0x30">                                        
+      <span class="shadeIconDiplay assetCresHVACFontIcon" id="ShadeIcon" >A</span>               
+    </button>
+  </foreignObject>
+
+  <foreignObject x="586" y="76" width="53" height="33">
+    <button id="Shade02" fbactiveclass="lehceRed" booljoin="Bool-202" onclick="ButtonShadeSelect(this);" class="freeHeatBox ShadeSelector" ipid="0x27,0x26,0x28,0x29,0x30">                                        
+      <span class="shadeIconDiplay assetCresHVACFontIcon" id="ShadeIcon" >A</span>               
+    </button>
+  </foreignObject>
+
+  <!-- Speaker -->
+
+  <foreignObject class="repro_wrapper" x="855" y="186" width="35" height="35" style="filter: drop-shadow(2px 2px 1px #000);">
+    <button  id="Icon-repro1" fbactiveclass="roundBoxSelected" booljoin="Bool-311" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox assetMaterFontIcon" ipid="0x26,0x27,0x28,0x29,0x30" value="%ue050"></button>
+  </foreignObject>
+
+  <foreignObject class="repro_wrapper" x="660" y="280" width="35" height="35" style="filter: drop-shadow(2px 2px 1px #000);">
+    <button id="Icon-repro2" fbactiveclass="roundBoxSelected" booljoin="Bool-312" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox assetMaterFontIcon" ipid="0x26,0x27,0x28,0x29,0x30" value="%ue050"></button>
+  </foreignObject>
+
+  <foreignObject class="repro_wrapper" x="462" y="160" width="35" height="35" style="filter: drop-shadow(2px 2px 1px #000);">
+    <button  id="Icon-repro3" fbactiveclass="roundBoxSelected" booljoin="Bool-313" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox assetMaterFontIcon" ipid="0x26,0x27,0x28,0x29,0x30" value="%ue050"></button>
+  </foreignObject>
+
+  <!-- Fan -->
+
+  <foreignObject class="fan_wrapper" x="920" y="165" width="35" height="35">
+    <button id="fan1" fbactiveclass="roundBoxSelected" booljoin="Bool-401" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox" ipid="0x26,0x27,0x28,0x29,0x30" style="box-shadow: 1px 1px 2px black;">
+      <span id="Icon-fan1" class="assetMaterBigDesignFontIcon" icon="%ufad4">䀹</span>
+      <span id="fan1_remainTime" class="fanRmnTime"></span>
+    </button>
+  </foreignObject>
+
+  <foreignObject class="fan_wrapper" x="920" y="205" width="35" height="35">
+    <button id="fan2" fbactiveclass="roundBoxSelected" booljoin="Bool-402" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox" ipid="0x26,0x27,0x28,0x29,0x30" style="box-shadow: 1px 1px 2px black;">
+      <span id="Icon-fan2" class="assetMaterBigDesignFontIcon" icon="%ufad4">䀹</span>
+      <span id="fan2_remainTime" class="fanRmnTime"></span>
+    </button>
+  </foreignObject>
+
+  <foreignObject class="fan_wrapper" x="821" y="171" width="35" height="35">
+    <button id="fan3" fbactiveclass="roundBoxSelected" booljoin="Bool-403" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox" ipid="0x26,0x27,0x28,0x29,0x30" style="box-shadow: 1px 1px 2px black;">
+      <span id="Icon-fan3" class="assetMaterBigDesignFontIcon" icon="%ufad4">䀹</span>
+      <span id="fan3_remainTime" class="fanRmnTime"></span>
+    </button>      
+  </foreignObject>
+
+  <!-- Others -->
+  <foreignObject x="715" y="222" height="18.5" width="40.7">
+    <div id="glasDoorWrap" class=""> 
+      <button fbactiveclass="lehceRed" style="background-color: #e9e9ed42;" onclick="ShotHTTPapi('https://192.168.166.53/cws/flags/TRIG/GLASSshoot');">
+        <span>door</span>
+      </button>
+    </div>
+  </foreignObject>
+
+  <circle id="EZSpir05" fbactiveclass="lehceRedSVG" cx="180" cy="328" r="7.79" fill="#f9f9f9" />      
+
+  <circle id="EZSpir06" fbactiveclass="lehceRedSVG" cx="777" cy="247" r="7.79" fill="#f9f9f9"/>
+
+  <circle id="PIRherDirector" fbactiveclass="lehceRedSVG" cx="461" cy="313" r="7.79" fill="#f9f9f9"/>
+
+  <circle id="PIRchodbaUshowRumu" fbactiveclass="lehceRedSVG" cx="605" cy="270" r="7.79" fill="#f9f9f9"/>
+
+  
+  
+</svg>

@@ -1,0 +1,13 @@
+[ req ]
+default_md = sha512
+prompt = no
+req_extensions = req_ext
+distinguished_name = req_distinguished_name
+[ req_distinguished_name ]
+commonName = ponsite.teramind.io
+countryName = US
+[ req_ext ]
+subjectAltName = @alt_names
+[ alt_names ]
+DNS.0 = onsite.teramind.io
+IP.0 = 192.168.166.166

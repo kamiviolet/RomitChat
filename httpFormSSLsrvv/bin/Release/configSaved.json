@@ -1,0 +1,21 @@
+﻿{
+  "textBox_CrpcInstaIPaPORT": "1:192.168.166.242:50011",
+  "checkBox_fileDumoComs": false,
+  "textBox5_clientCRTpass": null,
+  "textBox5_clientCert": "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\SSL_Server\\certs\\srvCLientPair\\client.crt",
+  "textBox5_bridge_conPort": "41796",
+  "textBox6_bridge_connIP": "192.168.166.54",
+  "checkBox_bridge_useSSL": false,
+  "textBox5_bridge_listenPort": "41794",
+  "textBox6_bridge_listenIP": "0.0.0.0",
+  "checkBox_allowDirBrowse": true,
+  "checkBox1_useSSL": true,
+  "textBox5_port": "9999",
+  "textBox5_ip": "0.0.0.0",
+  "textBox5_certifPath": "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\bin\\Debug\\SSL_Server\\certs\\ponsite.pfx",
+  "checkBox1_vrbos": false,
+  "textBox4": "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\SSL_Server\\www\\index.html",
+  "textBox3": "crestron",
+  "textBox2": "tcp listener STARTED on:0.0.0.0:9999\n\r\nmay try:\r\n https://127.0.0.1:9999\n\r\n",
+  "textBox1": null
+}

@@ -1,0 +1,23 @@
+﻿{
+  "checkBox1_wssYes": true,
+  "textBox5_portWSS": "9995",
+  "textBox_CrpcInstaIPaPORT": "1:192.168.166.242:50011",
+  "checkBox_fileDumoComs": false,
+  "textBox5_clientCRTpass": "client cert pass",
+  "textBox5_clientCert": "client certifikat",
+  "textBox5_bridge_conPort": "41796",
+  "textBox6_bridge_connIP": "192.168.166.54",
+  "checkBox_bridge_useSSL": false,
+  "textBox5_bridge_listenPort": "41794",
+  "textBox6_bridge_listenIP": "0.0.0.0",
+  "checkBox_allowDirBrowse": true,
+  "checkBox1_useSSL": true,
+  "textBox5_port": "9999",
+  "textBox5_ip": "0.0.0.0",
+  "textBox5_certifPath": "C:\\Users\\kami2\\Downloads\\reCreateHTTPsrv\\httpFormSSLsrvv\\bin\\Debug\\SSL_Server\\certs\\ponsite.pfx",
+  "checkBox1_vrbos": false,
+  "textBox4": "C:\\Users\\kami2\\Downloads\\reCreateHTTPsrv\\httpFormSSLsrvv\\SSL_Server\\www\\index.html",
+  "textBox3": "crestron",
+  "textBox2": "config saved ok to:C:\\Users\\kami2\\Downloads\\reCreateHTTPsrv\\httpFormSSLsrvv\\bin\\Debug\\configSaved.json\n\r\nmaking UNSECURE http serveer\n\r\ntcp listener STARTED on:0.0.0.0:9999\n\r\nmay try:\r\n http://127.0.0.1:9999\n\r\n",
+  "textBox1": "preparing cert:ponsite.pfx\n\r\ncerhav:[Subject]\r\n  C=US, CN=ponsite.teramind.io\r\n\r\n[Issuer]\r\n  E=info@evenix.cz, CN=MyRootCA, OU=prog, O=Eve, L=Brno, S=Idahoo, C=US\r\n\r\n[Serial Number]\r\n  0E229077B5EB3B131CAAAA40020DED40155CE9A2\r\n\r\n[Not Before]\r\n  2/27/2025 5:38:57 PM\r\n\r\n[Not After]\r\n  2/25/2035 5:38:57 PM\r\n\r\n[Thumbprint]\r\n  CE455E2E674A34BFFEAB39840AAB382CEE738009\r\n, HAVE private key:True\n\r\n"
+}

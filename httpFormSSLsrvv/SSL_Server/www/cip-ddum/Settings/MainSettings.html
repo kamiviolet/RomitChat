@@ -1,0 +1,478 @@
+<div id="MainSettingsContainer" > SETTINGS </h1>
+       
+  <div id="settingsMenu" class=""> 
+     <button id="set_panel" onclick="MenuClick(this);" class="setingsMenuBut">Panel</button>
+     <button id="set_lights" onclick="MenuClick(this);" class="setingsMenuBut">Lights</button>
+     <button id="set_audio" onclick="MenuClick(this);" class="setingsMenuBut">Audio</button>
+     <button id="set_fans" onclick="MenuClick(this);" class="setingsMenuBut">Fans</button>
+     <button id="set_wtf" onclick="MenuClick(this);" class="setingsMenuBut">Wtf</button>
+  </div>
+
+  <div id="subSettingsContent"  style="display:flex; flex-flow: column; position:relative; top:10px;left:5px;width: 100%;height: 700px;min-width: 900px;" class="selBulShitRamec">
+    
+    <div id="subSet_01" name="set_panel" style="display:flex; flex-direction: column; position:absolute; top:0px;left:0px; width:100%; height:460px; z-index: 1;justify-content: space-evenly; visibility: hidden;" class="subSetingsPages selRamec SubSettingsBackgroundDimm">
+      <button style="text-shadow: 1px 2px 3px #0d0c0ced;font-weight: bold;height: 50px;word-break: break-all;">
+          <p style="margin: 0px;">Need to be opened by user manualy</p>
+          <p style="margin: 0px;">then accept the browser security issue</p>
+      </button>
+      <a id="criticalUrl_3" href="https://192.168.166.213:8084/stream/27aec28e-6181-4753-9acd-0456a75f0289/channel/0/mse?uuid=27aec28e-6181-4753-9acd-0456a75f0289&channel=0" target="_blank" rel="noopener noreferrer" class="critiHrefs">socket ip 213 Streams</a>
+      
+      <a id="criticalUrl_1" href="https://192.168.166.54:49200" target="_blank" rel="noopener noreferrer" class="critiHrefs canBeMaybeRemoved">socket ip 54 Main</a>
+      <a id="criticalUrl_2" href="https://192.168.166.53:49200" target="_blank" rel="noopener noreferrer" class="critiHrefs canBeMaybeRemoved">socket ip 53 Ezs</a>
+      <a id="criticalUrl_4" href="https://192.168.166.54/cws/flags/get/getwebsocketokenNF" target="_blank" rel="noopener noreferrer" class="critiHrefs canBeMaybeRemoved">socket ip 54 token </a>
+      <a id="criticalUrl_5" href="https://192.168.166.53/cws/flags/get/getwebsocketokenNF" target="_blank" rel="noopener noreferrer" class="critiHrefs canBeMaybeRemoved">socket ip 53 token </a>      
+      <a id="criticalUrl_6" href="https://192.168.166.54/cws/flags/TRIG/TestApiOpen" target="_blank" rel="noopener noreferrer" class="critiHrefs canBeMaybeRemoved">socket ip 54 Api triger </a>
+      <a id="criticalUrl_7" href="https://192.168.166.53/cws/flags/TRIG/TestApiOpen" target="_blank" rel="noopener noreferrer" class="critiHrefs canBeMaybeRemoved">socket ip 53 Api triger </a>
+    </div>
+    
+    <div id="subSet_02" name="set_lights" style="display:flex; flex-direction: column; position:absolute; top:0px;left:0px; width:100%; height:500px; z-index: 2; visibility: hidden;" class="subSetingsPages selRamec SubSettingsBackgroundDimm">
+      <button style="text-shadow: 1px 2px 3px #0d0c0ced;font-weight: bold; margin-bottom: 20px;" >Automatic Lights</button>
+      
+      <div class="svLightsOneRow" style="display: inline-flex; flex-flow: row; position:relative; align-items: center; height: 50px;"> 
+        <div class="descrWrap" style="display: inline-flex;flex-flow: column; justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 120px;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 95px;display:  flex;justify-content: center;"> Sklad </p>
+        </div>        
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-371" ipid="0x26,0x27,0x28,0x29,0x30">+</button>
+        <div class="valueWrap" style="display: inline-flex;flex-flow: column;justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 100px;">
+          <p id="svTimeSet_1" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;display: flex;justify-content: center;"> X mins </p>
+        </div>
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-379" ipid="0x26,0x27,0x28,0x29,0x30">-</button>        
+        <div class="oneCheckBoxWrap" style="display: inline-flex;flex-flow: row; align-items: center; height: 36px;position: relative;margin-block: 11px;">
+          <input type="checkbox" id="svSet_1" class="svCheckBox" style="width: 55px;height: 24px;margin-left: 50px;" onchange="CheckBoxerSend(this);" booljoin="Bool-390" ipid="0x26,0x27,0x28,0x29,0x30" />
+          <label for="svSet_1" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >By Sunlight </label>
+        </div>                     
+      </div>
+      
+      <div class="svLightsOneRow" style="display: inline-flex; flex-flow: row; position:relative; align-items: center; height: 50px;"> 
+        <div class="descrWrap" style="display: inline-flex;flex-flow: column; justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 120px;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 95px;display:  flex;justify-content: center;"> Zadní vchod </p>
+        </div>        
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-372" ipid="0x26,0x27,0x28,0x29,0x30">+</button>
+        <div class="valueWrap" style="display: inline-flex;flex-flow: column;justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 100px;">
+          <p id="svTimeSet_2" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;display: flex;justify-content: center;"> X mins </p>
+        </div>
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-380" ipid="0x26,0x27,0x28,0x29,0x30">-</button>        
+        <div class="oneCheckBoxWrap" style="display: inline-flex;flex-flow: row; align-items: center; height: 36px;position: relative;margin-block: 11px;">
+          <input type="checkbox" id="svSet_2" class="svCheckBox" style="width: 55px;height: 24px;margin-left: 50px;" onchange="CheckBoxerSend(this);" booljoin="Bool-391" ipid="0x26,0x27,0x28,0x29,0x30" />
+          <label for="svSet_2" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >By Sunlight </label>
+        </div>                     
+      </div>
+      
+      <div class="svLightsOneRow" style="display: inline-flex; flex-flow: row; position:relative; align-items: center; height: 50px;"> 
+        <div class="descrWrap" style="display: inline-flex;flex-flow: column; justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 120px;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 95px;display:  flex;justify-content: center;"> Hlavní vstup </p>
+        </div>        
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-374" ipid="0x26,0x27,0x28,0x29,0x30">+</button>
+        <div class="valueWrap" style="display: inline-flex;flex-flow: column;justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 100px;">
+          <p id="svTimeSet_3" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;display: flex;justify-content: center;"> X mins </p>
+        </div>
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-382" ipid="0x26,0x27,0x28,0x29,0x30">-</button>        
+        <div class="oneCheckBoxWrap" style="display: inline-flex;flex-flow: row; align-items: center; height: 36px;position: relative;margin-block: 11px;">
+          <input type="checkbox" id="svSet_3" class="svCheckBox" style="width: 55px;height: 24px;margin-left: 50px;" onchange="CheckBoxerSend(this);" booljoin="Bool-388" ipid="0x26,0x27,0x28,0x29,0x30" />
+          <label for="svSet_3" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >By Sunlight </label>
+        </div>                     
+      </div>
+      
+      <div class="svLightsOneRow" style="display: inline-flex; flex-flow: row; position:relative; align-items: center; height: 50px;"> 
+        <div class="descrWrap" style="display: inline-flex;flex-flow: column; justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 120px;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 95px;display:  flex;justify-content: center;"> 3np vstup </p>
+        </div>        
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-373" ipid="0x26,0x27,0x28,0x29,0x30">+</button>
+        <div class="valueWrap" style="display: inline-flex;flex-flow: column;justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 100px;">
+          <p id="svTimeSet_4" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;display: flex;justify-content: center;"> X mins </p>
+        </div>
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-381" ipid="0x26,0x27,0x28,0x29,0x30">-</button>        
+        <div class="oneCheckBoxWrap" style="display: inline-flex;flex-flow: row; align-items: center; height: 36px;position: relative;margin-block: 11px;">
+          <input type="checkbox" id="svSet_4" class="svCheckBox" style="width: 55px;height: 24px;margin-left: 50px;" onchange="CheckBoxerSend(this);" booljoin="Bool-392" ipid="0x26,0x27,0x28,0x29,0x30" />
+          <label for="svSet_4" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >By Sunlight </label>
+        </div>                     
+      </div>
+      
+      <div class="svLightsOneRow" style="display: inline-flex; flex-flow: row; position:relative; align-items: center; height: 50px;"> 
+        <div class="descrWrap" style="display: inline-flex;flex-flow: column; justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 120px;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 95px;display:  flex;justify-content: center;"> 3np chodba </p>
+        </div>        
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-375" ipid="0x26,0x27,0x28,0x29,0x30">+</button>
+        <div class="valueWrap" style="display: inline-flex;flex-flow: column;justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 100px;">
+          <p id="svTimeSet_5" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;display: flex;justify-content: center;"> X mins </p>
+        </div>
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-383" ipid="0x26,0x27,0x28,0x29,0x30">-</button>        
+        <div class="oneCheckBoxWrap" style="display: inline-flex;flex-flow: row; align-items: center; height: 36px;position: relative;margin-block: 11px;">
+          <input type="checkbox" id="svSet_5" class="svCheckBox" style="width: 55px;height: 24px;margin-left: 50px;" onchange="CheckBoxerSend(this);" booljoin="Bool-393" ipid="0x26,0x27,0x28,0x29,0x30" />
+          <label for="svSet_5" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >By Sunlight </label>
+        </div>                     
+      </div>
+
+      <div class="svLightsOneRow" style="display: inline-flex; flex-flow: row; position:relative; align-items: center; height: 50px;"> 
+        <div class="descrWrap" style="display: inline-flex;flex-flow: column; justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 120px;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 110px;display:  flex;justify-content: center;"> 3np zadní vchod</p>
+        </div>        
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-376" ipid="0x26,0x27,0x28,0x29,0x30">+</button>
+        <div class="valueWrap" style="display: inline-flex;flex-flow: column;justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 100px;">
+          <p id="svTimeSet_6" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;display: flex;justify-content: center;"> X mins </p>
+        </div>
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-384" ipid="0x26,0x27,0x28,0x29,0x30">-</button>        
+        <div class="oneCheckBoxWrap" style="display: inline-flex;flex-flow: row; align-items: center; height: 36px;position: relative;margin-block: 11px;">
+          <input type="checkbox" id="svSet_6" class="svCheckBox" style="width: 55px;height: 24px;margin-left: 50px;" onchange="CheckBoxerSend(this);" booljoin="Bool-396" ipid="0x26,0x27,0x28,0x29,0x30" />
+          <label for="svSet_6" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >By Sunlight </label>
+        </div>                     
+      </div>
+
+      <div class="svLightsOneRow" style="display: inline-flex; flex-flow: row; position:relative; align-items: center; height: 50px;"> 
+        <div class="descrWrap" style="display: inline-flex;flex-flow: column; justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 120px;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 110px;display:  flex;justify-content: center;"> 3np chodba WC</p>
+        </div>        
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-377" ipid="0x26,0x27,0x28,0x29,0x30">+</button>
+        <div class="valueWrap" style="display: inline-flex;flex-flow: column;justify-content: center; height: 36px;position: relative;margin-block: 11px; align-items: center; width: 100px;">
+          <p id="svTimeSet_7" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;display: flex;justify-content: center;"> X mins </p>
+        </div>
+        <button style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; height: 90%;width: 60px;font-size: 31px;box-shadow: 2px 2px 2px black; margin-inline: 20px;" onclick="SvTimSetInkrDekr(this);" booljoin="Bool-385" ipid="0x26,0x27,0x28,0x29,0x30">-</button>        
+        <div class="oneCheckBoxWrap" style="display: inline-flex;flex-flow: row; align-items: center; height: 36px;position: relative;margin-block: 11px;">
+          <input type="checkbox" id="svSet_7" class="svCheckBox" style="width: 55px;height: 24px;margin-left: 50px;" onchange="CheckBoxerSend(this);" booljoin="Bool-394" ipid="0x26,0x27,0x28,0x29,0x30" />
+          <label for="svSet_7" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >By Sunlight </label>
+        </div>                     
+      </div>
+      
+      <div class="svLightsExtraRow" style="display: inline-flex; flex-flow: row; position:relative; align-items: center; height: 50px; top: 40px; justify-content: center;">
+        <div class="oneCheckBoxWrap" style="display: inline-flex;flex-flow: row; align-items: center; height: 36px;position: relative;">
+          <input type="checkbox" id="svSet_200" class="svCheckBox" style="width: 55px;height: 24px;margin-left: 50px;" onchange="CheckBoxerSend(this);" booljoin="Bool-200" ipid="0x26,0x27,0x28,0x29,0x30" />
+          <label for="svSet_200" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >Enlight parking lot when dark, turn OFF at 22</label>
+        </div>
+      </div> 
+
+    </div>
+    
+    <div id="subSet_03" name="set_audio" style="display:flex; flex-direction: column; position:absolute; top:0px;left:0px; width:100%; height:460px; z-index: 2; visibility: hidden;" class="subSetingsPages selRamec SubSettingsBackgroundDimm">
+      <button style="text-shadow: 1px 2px 3px #0d0c0ced;font-weight: bold; margin-bottom: 20px;" >Audio settings</button>
+                                                                              
+      <div id="oneAudZoneRow_1" style="display: inline-flex; flex-flow: row; position:relative;">        
+        <div style="display: inline-flex;flex-flow: column;height: 56px;position: relative;margin-block: 11px; align-items: center;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;"> Chodba: </p>
+        </div>
+        <div class="AudioEquSlidaColum">
+          <label for="audioSet_bass_1" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >bass z1<span id="audioSet_bass_1_valinfo" style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>dB</label>
+          <input type="range" id="audioSet_bass_1" name="audioSet_bass_1" min="-120" max="120" step="1" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-208" ipid="0x27,0x26,0x28,0x29,0x30" showValNum="audioSet_bass_1_valinfo" />
+        </div>
+        
+        <div class="AudioEquSlidaColum">
+          <label for="audioSet_treble_1" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >trebble z1<span id="audioSet_treble_1_valInfo" style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>dB</label>
+          <input type="range" id="audioSet_treble_1" name="audioSet_treble_1" min="-120" max="120" step="1" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-212" ipid="0x27,0x26,0x28,0x29,0x30" showValNum="audioSet_treble_1_valInfo" />
+        </div>        
+        
+        <div class="AudioEquSlidaColum">
+          <label for="audioSet_defVol_1" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >default volume z1<span id="audioSet_defVol_1_valInfo" style="left: 5px;position: relative;color: #0060df;margin-right: 10px;"> 300</span>%</label>
+          <input type="range" id="audioSet_defVol_1" name="audioSet_defVol_1" min="0" max="32767" step="100" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-201" ipid="0x27,0x26,0x28,0x29,0x30" showValNum="audioSet_defVol_1_valInfo"  showValPrcnt="audioSet_defVol_1_valInfo" />
+        </div>        
+      </div>
+
+      <div id="oneAudZoneRow_2" style="display: inline-flex; flex-flow: row; position:relative;">        
+        <div style="display: inline-flex;flex-flow: column;height: 56px;position: relative;margin-block: 11px; align-items: center;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 85px;"> WC woman/man: </p>
+        </div>
+        <div class="AudioEquSlidaColum">
+          <label for="audioSet_bass_2" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >bass z2<span id="audioSet_bass_2_valinfo" style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>dB</label>
+          <input type="range" id="audioSet_bass_2" name="audioSet_bass_2" min="-120" max="120" step="1" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-207" ipid="0x27,0x26,0x28,0x29,0x30" showValNum="audioSet_bass_2_valinfo" />
+        </div>
+        
+        <div class="AudioEquSlidaColum">
+          <label for="audioSet_treble_2" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >trebble z2<span id="audioSet_treble_2_valInfo" style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>dB</label>
+          <input type="range" id="audioSet_treble_2" name="audioSet_treble_2" min="-120" max="120" step="1" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-211" ipid="0x27,0x26,0x28,0x29,0x30" showValNum="audioSet_treble_2_valInfo" />
+        </div>        
+        
+        <div class="AudioEquSlidaColum">
+          <label for="audioSet_defVol_2" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >default volume z2<span id="audioSet_defVol_2_valInfo" style="left: 5px;position: relative;color: #0060df;margin-right: 10px;"> 300</span>%</label>
+          <input type="range" id="audioSet_defVol_2" name="audioSet_defVol_2" min="0" max="32767" step="100" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-202" ipid="0x27,0x26,0x28,0x29,0x30" showValPrcnt="audioSet_defVol_2_valInfo" />
+        </div>        
+      </div>      
+
+      <div id="oneAudZoneRow_3" style="display: inline-flex; flex-flow: row; position:relative;">        
+        <div style="display: inline-flex;flex-flow: column;height: 56px;position: relative;margin-block: 11px; align-items: center;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 85px;"> conference room: </p>
+        </div>
+        <div class="AudioEquSlidaColum">
+          <label for="audioSet_bass_3" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >bass z2<span id="audioSet_bass_3_valinfo" style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>dB</label>
+          <input type="range" id="audioSet_bass_3" name="audioSet_bass_3" min="-120" max="120" step="1" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-209" ipid="0x27,0x26,0x28,0x29,0x30" showValNum="audioSet_bass_3_valinfo" />
+        </div>
+        
+        <div class="AudioEquSlidaColum">
+          <label for="audioSet_treble_3" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >trebble z2<span id="audioSet_treble_3_valInfo" style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>dB</label>
+          <input type="range" id="audioSet_treble_3" name="audioSet_treble_3" min="-120" max="120" step="1" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-211" ipid="0x27,0x26,0x28,0x29,0x30" showValNum="audioSet_treble_3_valInfo" />
+        </div>        
+        
+        <div class="AudioEquSlidaColum">
+          <label for="audioSet_defVol_3" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >default volume z2<span id="audioSet_defVol_3_valInfo" style="left: 5px;position: relative;color: #0060df;margin-right: 10px;"> 300</span>%</label>
+          <input type="range" id="audioSet_defVol_3" name="audioSet_defVol_3" min="0" max="32767" step="100" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-202" ipid="0x27,0x26,0x28,0x29,0x30" showValPrcnt="audioSet_defVol_3_valInfo" />
+        </div>        
+      </div> 
+      
+    </div>
+    
+    <div id="subSet_04" name="set_fans" style="display:flex; flex-direction: column; position:absolute; top:0px;left:0px; width:100%; height:500px; z-index: 3; visibility: hidden;" class="subSetingsPages selRamec SubSettingsBackgroundDimm">
+       <button style="text-shadow: 1px 2px 3px #0d0c0ced;font-weight: bold; margin-bottom: 20px;" >Fan settings</button>
+       
+       <div id="oneFanZone_1" style="display: inline-flex; flex-flow: row; position:relative;">        
+        <div style="display: inline-flex;flex-flow: column;height: 56px;position: relative;margin-block: 11px; align-items: center;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;"> WC muži: </p>
+        </div>
+        <div class="AudioEquSlidaColum">
+          <label for="fanSet_1" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >doběh: <span id="fanSet_1_valinfo" ushortjoin="UShort-415"  style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>min</label>
+          <input type="range" id="fanSet_1" name="fanSet_1" min="0" max="65535" step="100" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-421" ipid="0x27,0x26,0x28,0x29,0x30" />
+        </div>              
+      </div>
+
+       <div id="oneFanZone_2" style="display: inline-flex; flex-flow: row; position:relative;">        
+        <div style="display: inline-flex;flex-flow: column;height: 56px;position: relative;margin-block: 11px; align-items: center;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;"> WC ženy: </p>
+        </div>
+        <div class="AudioEquSlidaColum">
+          <label for="fanSet_2" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >doběh: <span id="fanSet_2_valinfo" ushortjoin="UShort-416"  style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>min</label>
+          <input type="range" id="fanSet_2" name="fanSet_2" min="0" max="65535" step="100" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-422" ipid="0x27,0x26,0x28,0x29,0x30" />
+        </div>              
+      </div>
+
+       <div id="oneFanZone_3" style="display: inline-flex; flex-flow: row; position:relative;">        
+        <div style="display: inline-flex;flex-flow: column;height: 56px;position: relative;margin-block: 11px; align-items: center;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;"> kuchyň: </p>
+        </div>
+        <div class="AudioEquSlidaColum">
+          <label for="fanSet_3" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >doběh: <span id="fanSet_3_valinfo" ushortjoin="UShort-417"  style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>min</label>
+          <input type="range" id="fanSet_3" name="fanSet_3" min="0" max="65535" step="100" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-423" ipid="0x27,0x26,0x28,0x29,0x30" />
+        </div>              
+      </div>
+      
+      <div id="oneFanZone_4" style="display: inline-flex; flex-flow: row; position:relative;">        
+        <div style="display: inline-flex;flex-flow: column;height: 56px;position: relative;margin-block: 11px; align-items: center;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;"> lakovna: </p>
+        </div>
+        <div class="AudioEquSlidaColum">
+          <label for="fanSet_4" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >doběh: <span id="fanSet_4_valinfo" ushortjoin="UShort-418"  style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>min</label>
+          <input type="range" id="fanSet_4" name="fanSet_4" min="0" max="65535" step="100" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-424" ipid="0x27,0x26,0x28,0x29,0x30" />
+        </div>              
+      </div>
+       <button style="text-shadow: 1px 2px 3px #0d0c0ced;font-weight: bold; margin-bottom: 20px;" >delayed start</button>
+      
+      <div id="oneFanZone_x99" style="display: inline-flex; flex-flow: row; position:relative;">        
+        <div style="display: inline-flex;flex-flow: column;height: 56px;position: relative;margin-block: 11px; align-items: center;">
+          <p style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; width: 85px;"> all: </p>
+        </div>
+        <div class="AudioEquSlidaColum">
+          <label for="fanSet_99" style="text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;" >delayed start after light is on: <span id="fanSet_99_valinfo" ushortjoin="UShort-430"  style="left: 5px;position: relative;color: #0060df;margin-right: 10px;">0</span>min</label>
+          <input type="range" id="fanSet_99" name="fanSet_99" min="0" max="65535" step="100" style="margin: 0.4rem; width: 100%;" oninput="SliidaSetovaaa(this)" ushortjoin="UShort-431" ipid="0x27,0x26,0x28,0x29,0x30" />
+        </div>              
+      </div>
+       
+    </div>
+    
+    <div id="subSet_05" name="set_wtf" style="display:flex; position:absolute; top:0px;left:0px; width:100%; height:500px; z-index: 4; visibility: hidden;" class="subSetingsPages selRamec SubSettingsBackgroundDimm">
+      <button>SET IT RIGHT 4</button>
+    </div>
+    
+  </div>
+
+
+<div id="atendandDelimiter" style="display: none;position: absolute;top: 1000px;left:1000px;height: 1px;width: 1px;opacity: 0.1;"></div>
+</div>
+
+
+
+
+
+<script id="pageSetingsScript">
+ // not settings UI related funces..
+
+
+function MenuClick(whoo)
+{
+var FromIDtoNameQuery ="[name='"+whoo.id+"']";
+
+subSettingsContent.querySelectorAll(".subSetingsPages").forEach(so => so.style.visibility = "hidden");
+subSettingsContent.querySelectorAll(FromIDtoNameQuery).forEach(so => so.style.visibility = "visible");
+settingsMenu.querySelectorAll(".setingsMenuBut").forEach(bubu => bubu.classList.toggle("setingsMenuButSelected",(bubu.id==whoo.id)));
+
+// aditional program kind code may folow..
+}
+
+
+var CriticalLinksAlreadyGenerated = false;
+function PrelinearyOfCriticalURLcompose(goAgainNomatterWhat)
+{
+  // called from topmenu click
+  // it would have to be runned quite delayed..
+  // hisIPhost
+  if(goAgainNomatterWhat == undefined || goAgainNomatterWhat == null)
+    goAgainNomatterWhat = false;
+    
+  if(CriticalLinksAlreadyGenerated == true && goAgainNomatterWhat != true)return;
+    
+  if(globalThis.WokersRegistry)
+  {
+   
+   for(var wik in globalThis.WokersRegistry)
+   {
+      var oneWokerInsta =  globalThis.WokersRegistry[wik];
+       if (oneWokerInsta.hisIPhost && oneWokerInsta.hisIPid) {
+       
+        GenerateCriticalUralsFromThese(oneWokerInsta.hisIPhost, oneWokerInsta.hisIPid);        
+      }       
+   }
+   CriticalLinksAlreadyGenerated = true;
+   document.querySelectorAll(".canBeMaybeRemoved").forEach( hcLink => { hcLink.remove(); });    
+  }
+  else if(SigDyk && SigDyk.connection)
+  {
+    var preSockedata = Object.values(SigDyk.connection);
+    preSockedata.forEach(oneSuck => {
+       if(oneSuck.ip && oneSuck.ipid)
+       {
+        GenerateCriticalUralsFromThese(oneSuck.ip, oneSuck.ipid);      
+       }    
+    });
+    
+    CriticalLinksAlreadyGenerated = true;
+    document.querySelectorAll(".canBeMaybeRemoved").forEach( hcLink => { hcLink.remove(); });       
+  }
+}
+
+function GenerateCriticalUralsFromThese(hisIPhost, hisIPid)
+{
+  if(hisIPhost != undefined && hisIPhost != null && hisIPhost != "" && hisIPid != undefined && hisIPid != null && hisIPid != "")
+  {
+         var whereToputDements = document.getElementById("subSet_01");
+         if(!whereToputDements)
+            whereToputDements = document.body;
+    
+         var asumedPreviousID = "criticalUrl_ws_" + hisIPhost + "_" +hisIPid;           // like  criticalUrl_ws_192.168.166.54_0x27
+         var previousDement = document.getElementById(asumedPreviousID);
+         if(previousDement)
+          previousDement.remove();
+          
+          var tobeComposeed = `<a id="${asumedPreviousID}" href="https://${hisIPhost}:49200" target="_blank" rel="noopener noreferrer" class="critiHrefs">ws cip socket ${hisIPhost} ipid:${hisIPid}</a>`;
+          var freshDement = CreeAteDement(tobeComposeed);
+          if(freshDement) 
+             whereToputDements.append(freshDement);
+             
+             
+          asumedPreviousID = "criticalUrl_cwsToken_" + hisIPhost + "_" + hisIPid;
+          previousDement = null;
+          previousDement = document.getElementById(asumedPreviousID);
+          if(previousDement)
+            previousDement.remove();
+            
+          tobeComposeed = `<a id="${asumedPreviousID}" href="https://${hisIPhost}/cws/flags/get/getwebsocketokenNF" target="_blank" rel="noopener noreferrer" class="critiHrefs">api ws token ${hisIPhost} ipid:${hisIPid} </a>`;
+          freshDement = null;
+          freshDement = CreeAteDement(tobeComposeed);
+          if(freshDement) 
+             whereToputDements.append(freshDement); 
+             
+          // and third comuplsory for EX api trigering..  should not be actualy needed..
+          asumedPreviousID = "criticalUrl_cwsTrigApi_" + hisIPhost + "_" + hisIPid;
+          previousDement = null;
+          previousDement = document.getElementById(asumedPreviousID);
+          if(previousDement)
+            previousDement.remove();
+            
+          tobeComposeed = `<a id="${asumedPreviousID}" href="https://${hisIPhost}/cws/flags/TRIG/TestApiOpen" target="_blank" rel="noopener noreferrer" class="critiHrefs">Api triger ${hisIPhost} ipid:${hisIPid} </a>`;
+          freshDement = null;
+          freshDement = CreeAteDement(tobeComposeed);
+          if(freshDement) 
+             whereToputDements.append(freshDement);    
+                                    
+  }
+}
+
+
+function SliidaSetovaaa(whoo)
+{
+   var joinNamee = whoo.attributes.ushortjoin.value;  
+   var targetIPid = "0x27";
+   targetIPid = whoo.attributes.ipId.value;
+   var jenNumbero = joinNamee.split("-")[1];
+  
+   var targtetSendVal = whoo.value;
+   
+   // if not to realy of system fb...simulate local then
+   if(!globalThis.WokersRegistry)
+   {
+     // if has defined ID of dement where to imidietly put ranged value ...eg dont wait for fb from cp
+     if(whoo.hasAttribute("showValPrcnt"))
+     {
+              // folowing is kind of conflicting with incoming fb value doing the same !!! 
+           //  check  SliidaSetovaaa
+        var howPrcent  = 0;
+        if(targtetSendVal > 0)
+            howPrcent = (targtetSendVal / 65535) * 100;
+        var idOfWhereoPutIt = whoo.attributes["showValPrcnt"].value;
+        document.querySelectorAll("#" + idOfWhereoPutIt).forEach(shod => { 
+          shod.innerHTML = howPrcent.toFixed(1); 
+        });
+     }
+     else if(whoo.hasAttribute("showValNum"))
+     {
+        
+        var idOfWhereoPutIt = whoo.attributes["showValNum"].value;
+        document.querySelectorAll("#" + idOfWhereoPutIt).forEach(shod => { 
+          shod.innerHTML = targtetSendVal; 
+        });
+     }
+   }
+
+  if(whoo.max <= 100)
+  {
+      targtetSendVal = targtetSendVal * 655;
+  }
+  else if (whoo.max == 65535 && whoo.step == 100)
+  {
+    if(targtetSendVal >= 65500)
+        targtetSendVal = 65535;
+  }  
+   
+   ActivateSig("n", jenNumbero, targtetSendVal, targetIPid);
+}
+
+function CheckBoxerSend(whoo)
+{
+  //we just need standart pulse
+  SvTimSetInkrDekr(whoo);
+}
+function SvTimSetInkrDekr(whoo)
+{
+  if (whoo.attributes.booljoin) {
+
+    var joinNamee = whoo.attributes.booljoin.value;
+    var targetIPid = "0x26,0x27,0x28,0x29,0x30";
+    if(whoo.hasAttribute("ipId"))
+      targetIPid = whoo.attributes.ipId.value;
+
+    var jenNumbero = joinNamee.split("-").slice(-1)[0];  // joinNamee.split("-")[1];
+    ActivateSig("b", jenNumbero, true, targetIPid);
+    ActivateSig("b", jenNumbero, false, targetIPid);
+  }
+}
+function OnSvCheckBoxStateIncoming(e,data)
+{
+if(!data.id)return;
+document.querySelectorAll("#" + data.id).forEach(oneRbox => {
+         oneRbox.checked = (e == true);
+   });
+}
+
+function OnSvTimeSetChanged(e,data)
+{
+if(!data.id)return;
+document.querySelectorAll("#" + data.id).forEach(oneDmnt => {oneDmnt.innerHTML = e + " min";});
+
+}
+
+function onFanTimesChanged(e,data)
+{
+if(!data.id)return;
+document.querySelectorAll("#" + data.id).forEach(oneDmnt => {oneDmnt.innerHTML = "" + e ;});
+}
+function onFanTimesChangedSlider(e,data)
+{
+if(!data.id)return;
+document.querySelectorAll("#" + data.id).forEach(oneDmnt => {oneDmnt.value = e;});
+}
+
+</script>
+

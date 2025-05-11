@@ -1,0 +1,82 @@
+/*
+.FontfuckFacezample {
+  @font-face {
+    font-family: MyHelvetica;
+    src: local("Helvetica Neue Bold"),
+         local("HelveticaNeue-Bold"),
+         url(HelveticaNeue.ttf);
+    font-weight: bold;
+  }
+}
+*/
+
+ @font-face {
+      font-family: "Bitstream Vera Serif Bold";
+      src: url("VeraSeBd.ttf");
+    }
+
+  @font-face {
+    font-family: "CrestronLightingHVAC";
+    src: url("CrestronLightingHVAC.ttf");
+    font-weight: bold;
+  }
+    @font-face {
+    font-family: "heydingsBUcontrols";
+    src: url("heydings_controls.ttf")  format("truetype");
+    font-weight: bold;
+  }
+  
+      @font-face {
+    font-family: "WebSymbolsRegularr";
+    src: url("WebSymbolsRegular.otf");
+    font-weight: bold;
+  }
+    @font-face {
+    font-family: "materialdesigniconsWebfont";
+    src: url("materialdesignicons-webfont.ttf");
+    font-weight: bold;
+  }
+  
+    @font-face {
+    font-family: "fontawesomeWebfont";
+    src: url("fontawesome-webfont.ttf");
+    font-weight: bold;
+  }
+  
+      @font-face {
+    font-family: "olinJepuss";
+    src: url("Olympos.f0205c026a0d0e57216a.ttf");
+    font-weight: bold;
+  }
+  
+.FONTshitrsnHVAC {
+   font-family: "CrestronLightingHVAC";
+}
+
+.FONTshitVYjebaneVrtani {
+   font-family: "CrestronLightingHVAC";
+
+color: greenyellow;
+text-shadow: -4px 4px 4px black;
+}
+
+.FONThidousing {
+    font-family: "heydingsBUcontrols";
+}
+
+
+
+
+
+.FONTmatorss {
+    font-family: "materialdesigniconsWebfont";
+}
+
+
+
+.FONTwysomre {
+    font-family: "fontawesomeWebfont";
+}
+
+
+

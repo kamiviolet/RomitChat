@@ -1,0 +1,451 @@
+<div id="camerasWrap" style="display: block;position: relative;top: 0px;left: 0px;z-index: 5;">
+
+<div id="camscams" style="display: block;position: relative;top: 0px;left: 0px;z-index: 10;">    
+  <h2 style="display: inline-block;"> Cameras </h2>      
+  <div id="someholder" style="display: inline-block;height: auto;">    
+  </div>  
+
+</div>
+                        
+<div id="cameraColums" class="REDrum" style="display: flex;flex-flow: column;width: 200px;height: auto;position: absolute;z-index: 101;left: 1216px;top: 68px;box-shadow: 3px 3px 3px black;">      
+    
+    <div id="cameracolumer" draggable="true" style="display: flex;flex-direction: column;border: dashed 1px;width: 100%;position: relative;top: 0px;left: 0px;">
+      
+      <button id="camerbut_01" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="3NpZadVchod" booljoin="Bool-1901" class="cameraSelectbut" ipid="0x27" >3NP Zadní vchod</button>
+      <button id="camerbut_02" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="Fenku" booljoin="Bool-1902" class="cameraSelectbut" ipid="0x27" >Exterier</button>                                     
+      <button id="camerbut_03" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="Storgay" booljoin="Bool-1903" class="cameraSelectbut" ipid="0x27" >Sklad velký</button>
+      <button id="camerbut_04" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="1NpZadVchod" booljoin="Bool-1904" class="cameraSelectbut" ipid="0x27" >1NP Zadní vchod</button>
+      <button id="camerbut_05" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="DoleVole" booljoin="Bool-1905" class="cameraSelectbut" ipid="0x27" >Lobby</button>
+      <button id="camerbut_06" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="Schoudy" booljoin="Bool-1906" class="cameraSelectbut" ipid="0x27" >Schodiště</button>
+      <button id="camerbut_07" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="OUTsideParkinsne" booljoin="Bool-1907" class="cameraSelectbut" ipid="0x27" >Parkoviště</button>
+      <button id="camerbut_08" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="Garague" booljoin="Bool-1908" class="cameraSelectbut" ipid="0x27" >Garáž</button>
+      <button id="camerbut_09" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="malySkladMensi" booljoin="Bool-1909" class="cameraSelectbut" ipid="0x27" >Sklad malý</button>
+      <button id="camerbut_10" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="3npCorridor" booljoin="Bool-1910" class="cameraSelectbut" ipid="0x27" >3Np Vstup</button>
+      <button id="camerbut_11" fbactiveclass="lehcePushd" onclick="CamerSelButton(this);" camlink="2NinterCom" booljoin="Bool-1911" class="cameraSelectbut" ipid="0x27" >InterKom</button>
+    
+    </div> 
+                  
+</div>
+ 
+<div id="streamWindow" class="REDrumSolid" style="width: 1200px;height: auto;display: flex; flex-flow: column; position: relative;left: 10px;top: 0px;">
+    <section id="predef" uniqn="02" gouda="8b736fb5-0d24-45ae-8837-f1fb8c82f8f7" type="hidden"></section>
+    
+    <div id="multikrochna" class="krochny" style="display:flex;flex-direction: column; justify-content: space-between;">
+    
+     <span  style="display: flex; height: 56px;" >
+      <input id="videoWSurl" type="hidden" name="mse-url" id="mse-url" style="min-width:75%" 
+        value="ws://192.168.166.213:8083/stream/ad64db5a-4196-4b31-a93d-90bad7d37670/channel/0/mse?uuid=ad64db5a-4196-4b31-a93d-90bad7d37670&channel=0">
+        
+        <button id="fvbut1" name="b1-01" onclick="fewBuchtonsLocal(event, 'NA')" class="CamlistButl" style="display: none;" >func1</button>
+        <button id="fvbut2" name="b2-02" onclick="fewBuchtonsLocal(event, '')" class="CamlistButl" style="display: none;" >func2</button>
+        <button id="fvbut3" name="b3-03" onclick="fewBuchtonsLocal(event, '')" class="CamlistButl" style="display: none;" >func3</button>
+        <button id="fvbut4" name="b4-04" onclick="fewBuchtonsLocal(event, '')" class="CamlistButl" style="display: none;" >func4</button>        
+        <button id="fvbut5" name="b5-05" onclick="fewBuchtonsLocal(event, '')" class="CamlistButl" style="display: none;" >func5</button>     
+        <button id="fvbut6" name="b6-06" onclick="fewBuchtonsLocal(event, '')" class="CamlistButl" style="display: none;" >func6</button>
+        
+        <button id="fvbut7" name="b7-06" onclick="" ipid="0x26,0x27,0x28,0x29,0x30" class="CamlistButl" style="display: none; margin-left: 40px;" >left</button>
+        <button id="fvbut8" name="b8-06" onclick="" ipid="0x26,0x27,0x28,0x29,0x30" class="CamlistButl" style="display: none;" >up</button>
+        <button id="fvbut9" name="b9-06" onclick="" ipid="0x26,0x27,0x28,0x29,0x30" class="CamlistButl" style="display: none;" >righ</button>
+        <button id="fvbut10" name="b10-06" onclick="" ipid="0x26,0x27,0x28,0x29,0x30" class="CamlistButl" style="display: none;" >down</button>
+        
+        <button id="fvbut11" name="b11-06" ipid="0x26,0x27,0x28,0x29,0x30" class="CamlistButl" style="display: none;" >Z+</button>
+        <button id="fvbut12" name="b12-06" ipid="0x26,0x27,0x28,0x29,0x30" class="CamlistButl" style="display: none;" >Z-</button>
+        
+     </span>   
+    
+    
+    <video id="mse-video" autoplay muted playsinline controls style="max-width: 100%; max-height: 100%;"></video>
+
+    <a id="dbgUrl" href="#settings" target="_blank" rel="noopener noreferrer">TENURAL</a>
+    </div>
+
+
+</div>
+
+
+
+<div id="breathingSpaceDelimiter" style="display: block;position: absolute;top: 2000px;left:200px;height: 1px;width: 1px;opacity: 0.1;"></div>
+
+</div>
+<script id="smain" src="./Cams/mainVideo.js"></script>
+
+<script id="homeScript">
+ // not shuuting... :(((
+//camscams.addEventListener('DOMContentLoaded', function () {  console.log("domloded")});
+//camscams.parentElement.addEventListener("show", function () {  console.log("domloded")});
+//respondToVisibility(camscams.parentElement, function(){  console.log("displayed changed...") });
+
+
+function obzerver()
+{
+  var targetNode = document.getElementById('camerasWrap').parentElement;
+  var observer = new MutationObserver(function(){
+      if(targetNode.style.display != 'none'){
+          // doSomething
+         // console.log("---displayed changed..?? tho show ", targetNode.id)
+         if(globalThis.StartPlay)
+          globalThis.StartPlay();
+      }
+      else
+      {
+         globalThis.StopPlay();
+      }
+  });
+  
+  observer.observe(targetNode, { attributes: true, childList: true });  // subtree: true 
+}
+
+var LastSelected_camlink = "Schoudy";
+
+
+function CamerSelButton(whoo) {
+  //console.log("HomeSideControlsButs",whoo);
+  var targetGUid = "";
+  var directName = "";
+  if (whoo.hasAttribute("camlink")) {
+    directName = whoo.attributes["camlink"].value;
+  }
+  if (globalThis["_REconfig"]) {
+    // in case the GETandProserMSEstreams ..actuyaly works (depens on fucking limitin ruless of shitstrons CP nativve http servver)
+    // or from local dumped file streams.json   by ReadMSEstreamsFromLocalJson
+    if (globalThis["_REconfig"][directName]) {
+      targetGUid = globalThis["_REconfig"][directName];
+    } else {
+      targetGUid = hardCamsDef[directName];
+    }
+  }
+  // if failed anyway 
+  if (targetGUid.length < 2) {
+    // if indeed button acttuallysupplyed some clue
+    if (directName.length > 1) {
+      // ...but if not in local hardef..then put hope in to the dynamic definition obtain..
+      if (!hardCamsDef[directName]) {
+        // but onnly if isnt grabed already
+        if (!globalThis["_REconfig"]) {
+          // atempt to obtain definition by some of these..
+          ReadMSEstreamsFromLocalJson();
+          //ThirdJsonObtain()
+          //GETandProserMSEstreams()
+          alert("..try it again");
+          return;
+        }
+      }
+      else
+       targetGUid = hardCamsDef[directName]; 
+    }
+  }
+
+  // theen aggain check if somehow got it..
+  if (targetGUid.length < 2) {
+    // failed two ways to obtain the param for ws creation
+    return;
+  }
+  LastSelected_camlink = directName;
+  globalThis.DEBUG 
+    console.log("les video with:", targetGUid);
+  // var wsStreamUrl = composeWSstreamUralFromGUID(targetGUid);
+  HadovaVychazka(targetGUid, "mse-video-0", true);
+  //   HadovaVychazka("ad64db5a-4196-4b31-a93d-90bad7d37670", "mse-video-0"); 
+  //   globalThis.StartPlay("wss://192.168.166.213:8084/stream/ad64db5a-4196-4b31-a93d-90bad7d37670/channel/0/mse?uuid=ad64db5a-4196-4b31-a93d-90bad7d37670&channel=0");
+  prepareIndividualfewButons(directName);
+  document.getElementById("dbgUrl").href = document.getElementById("mse-video-0").dbgUrl.replace("wss://","https://");
+}
+
+// functions special for each stream....
+function fewBuchtonsLocal(eve,someWho)
+{
+  // overide of originaly used fun  fewBuchtons()
+  var blb = eve.target != null ? eve.target : eve.srcElement;
+  if(blb)
+  {
+   var jehoBlbeejmeno = blb.name;   // eg  b1-02   b2-02
+   var namAnam = jehoBlbeejmeno.split("-"); 
+   jehoBlbeejmeno = namAnam[0];   // b1  b2 ..
+   var subname = namAnam[1];    // 01, 02, ... 
+   
+   // ..lets depend on selected cam 
+   // LastSelected_camlink  ..eg Schoudy as default
+       
+  }
+}
+function prepareIndividualfewButons(whichCamlink) {
+  //attributes["onclick"].value = "alert('ahoj')";
+  if (camButsParams[whichCamlink]) {
+    var butdeflyy = camButsParams[whichCamlink];
+    for (var bar = 1; bar <= 13; bar++) {
+      var butId = "fvbut" + bar;
+      var tenbuut = document.getElementById(butId);
+      if (tenbuut) {
+        var defex = bar -1;
+        if (!butdeflyy[defex]) {
+          tenbuut.style.display = "none";
+        } else {
+          tenbuut.style.display = "inline-block";
+          tenbuut.innerHTML = butdeflyy[defex].text;
+          if(butdeflyy[defex].facha)
+            tenbuut.attributes["onclick"].value = butdeflyy[defex].facha;
+          else if(butdeflyy[defex].kacha)
+            {
+              var txtkafal = butdeflyy[defex].kacha;
+              //tenbuut.setAttribute("onmouseup", txtkafal)
+              //tenbuut.setAttribute("onmousedown", txtkafal);
+              tenbuut.setAttribute("onpointerup", txtkafal)
+              tenbuut.setAttribute("onpointerdown", txtkafal);
+              
+            }
+
+        }
+      }
+    }
+  }
+  else
+  {
+    document.querySelectorAll(".CamlistButl").forEach(blul => {
+      blul.style.display = "none";
+    });  
+  }
+}
+
+//  "cam01" : "wss://192.168.166.213:8084/stream/ad64db5a-4196-4b31-a93d-90bad7d37670/channel/0/mse?uuid=ad64db5a-4196-4b31-a93d-90bad7d37670&channel=0",
+// consider using GETandProserMSEstreams() and _REconfig["1NpZadVchod"][0]
+var hardCamsDef ={
+  "3NpZadVchod" : "18bede75-480b-44f8-b847-9a02a46e4f63",
+  "Fenku" : "27aec28e-6181-4753-9acd-0456a75f0289",
+  "Storgay" : "51fbee62-2e9a-4c52-99af-49c0bc78039f",
+  "1NpZadVchod" : "8816eac5-f22f-4931-80bf-33198ed9a10c",
+  "DoleVole" : "8b736fb5-0d24-45ae-8837-f1fb8c82f8f7",
+  "Schoudy" : "ad64db5a-4196-4b31-a93d-90bad7d37670",
+  "OUTsideParkinsne" : "b28dc461-287d-44ed-b89b-3dbe4232fddb",
+  "Garague" : "c0522105-b127-4da7-a0c9-04af8d700a6a",
+  "malySkladMensi" : "c0d53034-61fb-41ea-a6c9-160d7ea8215b",
+  "3npCorridor" : "e39b2a8d-83c6-48c7-ab85-5f1df2c63ddd",
+  "2NinterCom" : "fb97deff-7188-47da-a967-a8a1b42a90f6"
+};
+var camButsParams = {
+  "3NpZadVchod" : [],
+  "Fenku" : [
+    {
+      text:"SV Lobby",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_317_LobySV');"
+    },
+    {
+      text:"SV Park",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_324_parkSV');"
+    },    
+    {
+      text:"SV Lobby a Park",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_SV_lobyApark');"
+    },
+    {
+      text:"Doors",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/DarovaneDvere');"
+    },
+    {
+      text:"Cam preset",
+      facha: "camPresetCycler()"
+    },
+    {
+      text:"Cam ZERO",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/ACanalogX5/nul/290/2');"
+    },
+    {
+      text:"Left",
+      kacha: "PTZmover('613',event);"
+    },
+    {
+      text:"Up",
+      kacha: "PTZmover('614',event);"
+    },
+    {
+      text:"Right",
+      kacha: "PTZmover('615',event);"
+    },
+    {
+      text:"Down",
+      kacha: "PTZmover('616',event);"
+    },
+    {
+      text:"Zoom+",
+      kacha: "PTZmover('632',event);"
+    },                  
+    {
+      text:"Zoom-",
+      kacha: "PTZmover('633',event);"
+    }                                                          
+  ],
+  "Schoudy" :[
+    {
+      text:"Glass door",
+      facha: "ShotHTTPapi('https://192.168.166.53/cws/flags/TRIG/GLASSshoot');"
+    },
+    {
+      text:"SV Schody",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/ShodneShorneOFFFSvetlo');"
+    }       
+  ],
+  "Garague" :[
+    {
+      text:"Garage door",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/ZasraniGaraznici');"
+    },
+    {
+      text:"SV Sklad",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_323_Garage');"
+    }       
+  ],
+  "Storgay" :[
+    {
+      text:"SV Sklad",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_323_Garage');"
+    }       
+  ],
+  "malySkladMensi" :[
+    {
+      text:"SV Sklad",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_323_Garage');"
+    }       
+  ], 
+  "3npCorridor" :[
+    {
+      text:"All SV OFF",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/TotalZatmavoval');"
+    },
+    {
+      text:"Dark mode tg",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/TOGGeDARKmode');"
+    }        
+  ],    
+  "2NinterCom" : [
+    {
+      text:"SV Lobby",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_317_LobySV');"
+    },
+    {
+      text:"SV Park",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_324_parkSV');"
+    },    
+    {
+      text:"SV Lobby a Park",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_SV_lobyApark');"
+    },
+    {
+      text:"Doors",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/DarovaneDvere');"
+    }       
+  ],
+  "OUTsideParkinsne" : [
+    {
+      text:"SV Lobby",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_317_LobySV');"
+    },
+    {
+      text:"SV Park",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_324_parkSV');"
+    },    
+    {
+      text:"SV Lobby a Park",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_SV_lobyApark');"
+    },
+    {
+      text:"Doors",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/DarovaneDvere');"
+    }       
+  ],  
+  "DoleVole" : [
+    {
+      text:"SV Lobby",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_317_LobySV');"
+    },
+    {
+      text:"SV Park",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_324_parkSV');"
+    },    
+    {
+      text:"SV Lobby a Park",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/Toggle_SV_lobyApark');"
+    },
+    {
+      text:"Doors",
+      facha: "ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/DarovaneDvere');"
+    }       
+  ] 
+};
+//SarajeveClensed(JSON.stringify(camButsParams), "buttons.json")
+// also aviable in /Cams/buttons.json ...but not used so far..
+
+
+
+ // rtsp://192.168.166.80/media?vcodec=h264&vres=640x480&fps=15&vbr=2048&audio=1
+ //rtsp://192.168.166.80:554/h264_stream
+function composeWSstreamUralFromGUID(txtguid)
+{  
+if(!txtguid)
+  txtguid ="ad64db5a-4196-4b31-a93d-90bad7d37670";
+  // ..in local mutation of mainVideo.js
+  return Docpytamhnus(txtguid, StreamMedianSRVip);
+}
+
+function camPresetCycler() {
+  if (document.PrevCAMPRsetMEM == undefined || document.PrevCAMPRsetMEM == null) {
+    document.PrevCAMPRsetMEM = {};
+    document.PrevCAMPRsetMEM.PrasoPrsets = [2, 3, 33, 34, 35, 36, 37, 38, 39];
+    document.PrevCAMPRsetMEM.Shiftex = 1;
+  } else {
+    document.PrevCAMPRsetMEM.Shiftex++
+  }
+  if (document.PrevCAMPRsetMEM.PrasoPrsets.length <= document.PrevCAMPRsetMEM.Shiftex)
+    document.PrevCAMPRsetMEM.Shiftex = 0;
+
+  var tragex = document.PrevCAMPRsetMEM.PrasoPrsets[document.PrevCAMPRsetMEM.Shiftex];
+
+//  fetch(RslvHTTPS("http://192.168.166.54:8888/TRIG/ACanalogX5/nul/290/" + tragex));
+   ShotHTTPapi("https://192.168.166.54/cws/flags/TRIG/ACanalogX5/nul/290/" + tragex);
+}
+
+function PTZmover(whaat, event)
+{
+  //console.log("PTZmovveer",whaat,event);
+  var onendement = event.target ? event.target : event.srcElement;
+  var ipid = "0x27";
+  if(onendement.ipid)
+    ipid = onendement.ipid;
+  if(event.buttons == 0)
+  {
+    // mouseup 
+     ActivateSig("b", whaat, false, ipid); 
+  
+  }
+  else if(event.buttons == 1)
+  {
+      // mousedown 
+       ActivateSig("b", whaat, true, ipid); 
+  }
+  else
+  {
+    console.log("what event is it ??? ",event, whaat );
+  }
+}
+
+
+
+
+
+
+
+
+if(globalThis.location.href.startsWith("https"))
+{
+  if(videoWSurl)
+  {
+    videoWSurl.value ="wss://192.168.166.213:8084/stream/ad64db5a-4196-4b31-a93d-90bad7d37670/channel/0/mse?uuid=ad64db5a-4196-4b31-a93d-90bad7d37670&channel=0";
+  }
+}
+
+setTimeout(()=>{
+
+obzerver();
+
+
+}, 100);
+
+</script>

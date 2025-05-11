@@ -1,0 +1,237 @@
+<div class="home_wrapper">
+  <div id="homehome">    
+    <h2 style="display: inline-block;"> Home Combo. ..</h2>      
+    <div style="display: block;height: auto;">    
+      <span style="font-weight: bold;">venkovni:</span>           
+      <h3 id="OutsideTemp" style="color: red;text-shadow: 1px 1px 2px black;margin: 3px;">8.6°C</h3>         
+  </div>
+    
+  </div>
+                          
+  <div id="homeColumns">      
+    <div draggable="true" id="homeColumner">
+      <button id="homebut_01" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1701" class="homeCntrl" ipid="0x27" >sig Dump</button>
+      <button id="homebut_02" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1702" class="homeCntrl" ipid="0x27" >DOOR</button>                                     
+      <button id="homebut_03" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1703" class="homeCntrl" ipid="0x27" >GLASS</button>
+      <button id="homebut_04" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1704" class="homeCntrl" ipid="0x27" >Open CIPws</button>
+      <button id="homebut_05" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1705" class="homeCntrl" ipid="0x27" >CLOSE cipWS</button>
+      <button id="homebut_06" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1706" class="homeCntrl" ipid="0x27" >miniVID</button>
+      <button id="homebut_07" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1707" class="homeCntrl" ipid="0x27" >dbg Win</button>
+      <button id="homebut_08" fbactiveclass="lehceRed" onclick="HomeSideControlsButs(this);" booljoin="Bool-1708" class="homeCntrl" ipid="0x27" >LOG Pointer</button>
+      <button id="homebut_09" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-320" class="homeCntrl" ipid="0x27" >Audio All OFF</button>
+      <button id="homebut_10" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1985" class="homeCntrl" ipid="0x27" > scale</button>
+      <button id="homebut_11" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1985" class="homeCntrl" ipid="0x27" > show Clicked</button>
+      <button id="KAMII" fbactiveclass="lehcePushd" onclick="HomeSideControlsButs(this);" booljoin="Bool-1985" class="homeCntrl" ipid="0x27" > + KKKAMIIII +</button>
+
+    </div>          
+  </div>
+  
+  <div id="pudrysWithElements" class="pudrysMapWithElements pudrysP3" floor="P3">
+    <div loadFrom="./Home/floormap.svg"></div>
+
+    <div class="placeholder_wrapper hide">
+      <div id="freeplacer" style="width: 50px;height: 50px;text-align: center;" class="REDrumSolid"> 
+        <button fbactiveclass="lehceRed" style="display: flex;width: 100%;height: 100%;align-items: center;text-align: center;border-radius: 65%;">
+          <span style="display: block;align-self: center;width: 100%;">a</span>
+        </button>
+      </div>
+      <button  id="sv25" fbactiveclass="lehceYellow" booljoin="Bool-125" onclick="ButonBulbOnclick(this);" class="BulbButHomeStyle" ipid="0x26,0x27,0x28,0x29,0x30"> </button>
+      <button  id="Icon1" fbactiveclass="lehceYellow" booljoin="Bool-140" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox" ipid="0x26,0x27,0x28,0x29,0x30"> <img src="./icons/Speaker 2.svg"> </button>
+      <button  id="Icon2" fbactiveclass="lehceYellow" booljoin="Bool-140" onclick="ButonBulbOnclick(this);" class="assetIconRoundBox assetMaterFontIcon" ipid="0x26,0x27,0x28,0x29,0x30" value="%ue04f"></button>
+    </div>
+
+  </div>
+  
+  <div id="pudrysWithElementsP2" class="pudrysMapWithElements pudrysP2" style="display:none;" floor="P2">
+    <!-- <div loadFrom="./Home/floormapP2.svg"></div> -->
+  </div>
+  
+  <div id="pudrysWithElementsP1" class="pudrysMapWithElements pudrysP1" style="display:none;" floor="P1">
+     <div loadFrom="./Home/1NP_aa.svg"></div> 
+  </div>
+  
+  <div id="pudrysWithElementsE0" class="pudrysMapWithElements pudrysE0" style="display:none;" floor="E0">
+    <!-- <div loadFrom="./Home/floormapE0.svg"></div> -->
+  </div>
+
+  <div class="submenu vertical_submenu" style="display: flex;flex-flow: column;justify-content: space-around;max-height: 700px;">
+    <div id="fanControlsWraper" class="fanControls relativeControls" style="display: none;position: relative;top: 0px;">
+      <div id="fanControl_row01" >
+         <button id="fanCntrlBut_01" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-451" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" >2 mins</button>
+         <button id="fanCntrlBut_02" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-452" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" >5 mins</button>
+         <button id="fanCntrlBut_03" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-453" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30">10 mins</button>
+         <button id="fanCntrlBut_04" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-454" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" >15 mins</button>
+         <button id="fanCntrlBut_05" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-455" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" >FAN OFF</button>  
+      </div>
+    </div>
+    
+    <div id="heatControlsWraper" class="heatControls relativeControls" style="display: none;position: relative;top: 0px;">
+      <div id="heatControl_row01" >
+         <button id="desiredTemp" fbactiveclass="lehcePushd" ushortjoin="UShort-50" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" style="height: 55px;color: red;text-shadow: 1px 1px 2px black;font-size: 20px; font-weight: bold;margin-block-end: 4px;" >XX C</button>
+         
+         <button id="heatControl_02" fbactiveclass="lehcePushd" onclick="InkrDekrHeatt(this);" booljoin="Bool-521" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" >UP</button>
+
+         <button id="heatControl_03" fbactiveclass="lehcePushd" onclick="InkrDekrHeatt(this);" booljoin="Bool-541" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" >DW</button>
+      </div>
+    </div>
+    
+    <div id="shadeControlsWraper" class="shadeControls relativeControls" style="display: none;position: relative;top: 0px;">
+      <div id="shadeControls_column01">
+         <button id="shadeCNTRL_UP" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-290" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" >UP</button>     
+         <button id="shadeCNTRL_STOP" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-292" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" >STOP</button>
+         <button id="shadeCNTRL_DW" fbactiveclass="lehcePushd" onclick="ButonBulbOnclick(this);" booljoin="Bool-291" class="homeCntrl" ipid="0x27,0x26,0x28,0x29,0x30" >DW</button>
+      </div>
+    </div>
+
+    <div id="breathingSpaceDelimiter" style="display: block;height: 1px;width: 1px;opacity: 0.1;"></div>
+  </div>
+
+  <div class="submenu horizontal_submenu">
+    
+    <div id="volSlida" class="borderRedDashed audioControls">
+      <input id="volumZlida" type="range" min="0" max="100" value="0" step="1" style="width:98%;" ushortjoin="UShort-10" ipid="0x27,0x26,0x28,0x29,0x30" class="exgrungstul" showPercent="volpercentage" onmouseup="" oninput="SliidaPohlaa(this)">
+      <div class="volumDescrs" style="display: flex;flex-direction: row; justify-content: center;">
+        <p class="UsahanHovnots" style="color: white; margin: 6px;"> volume: </p>
+        <p id="volpercentage" class="UsahanHovnots" style="position: relative;left: 50px;color: white;margin: 6px;"> 100% </p>
+      </div> 
+    </div>
+    
+    <div id="audoSources"  class="borderRedDashed audioControls">
+      <button id="audioSrc1" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-351" ipid="0x26,0x27,0x28,0x29,0x30" mediaPlayerIndex="1" onclick="AudioSRCselected(this);">zdroj 1</button>
+      <button id="audioSrc2" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-352" ipid="0x26,0x27,0x28,0x29,0x30" mediaPlayerIndex="2" onclick="AudioSRCselected(this);">zdroj 2</button>
+      <button id="audioSrc3" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-353" ipid="0x26,0x27,0x28,0x29,0x30" mediaPlayerIndex="3" onclick="AudioSRCselected(this);">zdroj 3</button>
+      <button id="audioSrc4" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-354" ipid="0x26,0x27,0x28,0x29,0x30" mediaPlayerIndex="4" onclick="AudioSRCselected(this);">zdroj 4</button>
+      <button id="audioSrc5" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-355" ipid="0x26,0x27,0x28,0x29,0x30" mediaPlayerIndex="5" onclick="AudioSRCselected(this);">zdroj 5</button>
+      <button id="audioSrc6" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" booljoin="Bool-356" ipid="0x26,0x27,0x28,0x29,0x30" mediaPlayerIndex="6" onclick="AudioSRCselected(this);">zdroj 6</button>
+      <button id="KAMII" class="audioSrcBut" fbactiveclass="VystuuplyPraslyBut" onclick="HomeSideControlsButs(this);">Media Player</button>
+    </div>
+
+
+
+    <div id="matirix" loadfrom="./Home/matirix.html"></div>
+
+    <div id="dbgWin" style="display:none; flex-direction: column; min-height:440px;" class="DashedGreenSoft" >
+      <div id="dbgButons" style="display:flex; flex-direction: row; position:relative; top:0px; left:0px; width:100%; height:35px; min-height: 35px; justify-content: space-evenly;">
+        <button id="dbgbut1" onclick="ExeSexuleLokl(null);" class="dbgButs">SexEval</button>
+        <button onclick="CLRoneORmore('dopsat');" class="dbgButs">Clr L</button>
+        <button onclick="CLRoneORmore('dopsat,dopsatTWA');" class="dbgButs">CLR ALL</button>
+        <button onclick="CLRoneORmore('dopsatTWA');" class="dbgButs">Clr R</button>
+        <button onclick="ExeSexuleLokl(Reflect.ownKeys(window)); dopsatTWA.value = dopsatTWA.value.replaceAll(',', '\n');" class="dbgButs">all keys</button>
+        <button onclick="errs.forEach(pikl => { if(typeof pikl != 'string')dopsatTWA.value+=Object.entries(pikl); else dopsatTWA.value+=(pikl + '\n');});" class="dbgButs">errs</button>
+        <button onclick="TaskWorkerWithEval(`ReportReachedState()`);" class="dbgButs">report Reached</button>
+        <button onclick="dopsat.value=prepCustomWokr();" class="dbgButs">workerExp</button>
+        <button onclick="dopsat.value=prepCustomWokr('-nojwt-');" class="dbgButs">wrk NO jwt</button>
+        <button onclick="dopsat.value='TaskWorkerWithEval(`ReportReachedState()`, WokersRegistry[\'0x26_mykryp.js\'])' ;" class="dbgButs">taskWorker</button>
+        
+      </div>
+      <div id="textFields" style="display:flex; flex-direction: row; position:relative; width:100%; height:400px; min-height: 88%;">
+        <textarea id="dopsat" type="text" value="" onkeypress="" spellcheck="false" style="margin: 0px;display: flex;position: relative;width: 50%;height: 100%;"></textarea>
+        <textarea id="dopsatTWA" type="text" value="" onkeypress="" spellcheck="false" style="margin: 0px;position: relative; width: 50%;height: 100%;"></textarea>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script id="homeScript">
+function HomeSideControlsButs(whoo)
+{
+  //console.log("HomeSideControlsButs",whoo);
+  switch(whoo.id)
+  {
+    case "homebut_01":
+      SigREsort(false);
+    break;
+    case "homebut_02":
+      ShotHTTPapi('https://192.168.166.54/cws/flags/TRIG/DarovaneDvere');   
+    break;
+    case "homebut_03":
+      ShotHTTPapi('https://192.168.166.53/cws/flags/TRIG/GLASSshoot')
+    break;
+    case "homebut_04":
+    // open ws ... aka manualy triger ciip connecting ..for example when delayedInit have marked not con duuring dev
+      FetuchFailDEBAKANEJ("SigDyk.json", false, true);
+       whoo.classList.toggle("lehcePushd", true); 
+    break;
+    
+    case "homebut_05":
+    // close any wokers..
+    if(globalThis.WokersRegistry)
+    {
+       for (var wico in globalThis.WokersRegistry) {
+        WokersRegistry[wico].terminate();
+        console.log("terminated:",wico);
+        if(dopsatTWA)
+          dopsatTWA.value+= "terminated:" + wico + "\n";
+      }
+    }
+    break;
+    
+    case "homebut_06":
+     //prepVidDragWokno();
+   prepVidDragWokno("3npCorridor");
+    break;
+    
+    case "homebut_07":
+    var towokno = document.getElementById("dbgWin");
+    if(towokno)
+      towokno.style.display = towokno.style.display == "none" ? "flex" : "none";
+    break;            
+
+    case "homebut_08":
+    // it has to be 08 because hee have special fbclass defined.. !!
+    tougeMouseLoger(whoo);
+    break;
+    
+    case "homebut_09":
+     ButonBulbOnclick(whoo);
+    break;
+    
+    case "homebut_10":
+        //MemoAboutScaling();
+        CustoScale(document.querySelector("#mainSubContent"), 0.65);
+    break;
+
+    case "KAMII":
+    toggleMediaPlayerW(whoo);
+    break;
+    
+    default:
+    break;    
+  }
+}
+
+function independendHeatArrows(whooeve) {
+ // console.log("ArrowsPress >> ", whooeve, whooeve.buttons);
+  var whoo = whooeve.target ? whooeve.target : whooeve.srcElement;
+  if (whoo.attributes.booljoin) {
+
+    var joinNamee = whoo.attributes.booljoin.value;
+    var targetIPid = "0x27,0x26,0x28,0x29,0x30";
+    if (whoo.hasAttribute("ipId"))
+      targetIPid = whoo.attributes.ipId.value;
+
+    var jenNumbero = joinNamee.split("-").slice(-1)[0];
+
+    if (whooeve.buttons == 0) {
+      // should be pointerup
+      ActivateSig("b", jenNumbero, false, targetIPid);
+    } else if (whooeve.buttons == 1) {
+      // should be pointerdown
+      ActivateSig("b", jenNumbero, true, targetIPid);
+    } else {
+      console.log("...what kind of kakaj thiis is ?? ", whooeve);
+    }
+  }
+}
+
+document.querySelectorAll(".assetMaterFontIcon").forEach(beee => {
+  if(beee.value)beee.innerHTML = unescape(beee.value);
+})
+
+document.querySelectorAll(".assetMaterBigDesignFontIcon").forEach(beee => {
+  if(beee.value)beee.innerHTML = unescape(beee.value);
+  else if(beee.attributes.icon)beee.innerHTML = unescape(beee.attributes.icon.value); 
+})
+
+</script>

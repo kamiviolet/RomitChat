@@ -1,0 +1,87 @@
+<div id="atendanceWrap" style="display: block;position: relative;top: 0px;left: 0px;z-index: 5;">
+
+<div id="subattendand" style="display: block;position: relative;top: 0px;left: 0px;z-index: 10;">    
+  <h2 style="display: inline-block;"> Evenix attendandance </h2>      
+</div>
+                        
+<div id="attendandadColumns" style="display: flex;flex-flow: column;width: 220px;height: auto;position: absolute;z-index: 101;left: 138px;top: 80px;box-shadow: 3px 3px 3px black; align-items: center;"> 
+  <div style="display: flex;flex-flow: column;align-items: center;">
+    <p style="color: #36d056; text-shadow: 1px 2px 4px #0d0c0ced; font-weight: bold; margin-block-start: 2px; margin-block-end: 2px; " id="atendaResult">-</p>
+    <p style="color: #36d056; text-shadow: 1px 2px 4px #0d0c0ced; font-weight: bold; margin-block-start: 2px; margin-block-end: 2px; " id="atendadName"></p>
+  </div>
+  
+  <div>  
+  <p style="color: #36d056; text-shadow: 1px 2px 4px #0d0c0ced; font-weight: bold; margin-block-start: 2px; margin-block-end: 2px; ">KeyCode:     
+  </p>
+  </div>
+  
+  <div>
+  <p id="atendkeyCode" style="display: block;position: relative;height: 20px;color: red;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold; margin: 10px;"></p>
+  </div>
+
+</div>
+ 
+<div id="SombeHevyPlace" style="display: inline-block; position: absolute; top: 210px; left: 10px; height: 400px; width: 500px;" class="borderGreyDashed">
+
+  <div style="position: relative;display: inline-grid;grid-template-columns: auto auto auto;width: auto;left: 70px;" id="UniAckeypadContainer">
+    <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-1" ipid="0x51" class="uniAcBut" >1
+    </button>  
+    <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-2" ipid="0x51" class="uniAcBut">2
+    </button>
+    <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-3" ipid="0x51" class="uniAcBut">3
+    </button>
+    <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-4" ipid="0x51" class="uniAcBut">4
+    </button>  
+    <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-5" ipid="0x51" class="uniAcBut">5
+    </button>
+    <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-6" ipid="0x51" class="uniAcBut">6
+    </button>
+     <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-7" ipid="0x51" class="uniAcBut">7
+    </button>  
+    <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-8" ipid="0x51" class="uniAcBut">8
+    </button>
+    <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-9" ipid="0x51" class="uniAcBut">9
+    </button>
+     <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-10" ipid="0x51" class="uniAcBut">0
+    </button>
+     <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-11" ipid="0x51" class="uniAcBut">CLR
+    </button>
+    <button style="padding: 15px;margin: 1px;" onclick="UniacessKeyPadCode(this);" booljoin="Bool-12" ipid="0x51" class="uniAcBut">OK
+    </button>
+  </div>
+
+  <button id="uniacesStorno" onclick="ButonBulbOnclick(this);" booljoin="Bool-1307" ipid="0x51" style="display: block;position: relative; top: 40px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 100px;height: 60px;box-shadow: 3px 3px 3px black;left: 450px;z-index: 600;" class="">STORNO</button>
+  
+</div>
+
+<div id="nextplace" style="display: inline-block; position: absolute; top: 210px; left: 510px; height: 400px; width: 600px;" class="borderGreyDashed">
+  <div id="flexspac" style="display: flex;flex-direction: column;position: relative;align-items: center;justify-content: center;height: 300px;">
+    <button id="atendadName" style="display: block;position: relative; text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 280px;height: 45px;box-shadow: 3px 3px 3px black;margin: 5px;color: #36d056;background-color: transparent;border-radius: 10px;" class=""></button>
+    <button onclick="ButonBulbOnclick(this);" booljoin="Bool-1314" ipid="0x51" style="display: block;position: relative; text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 110px;height: 45px;box-shadow: 3px 3px 3px black;margin: 5px;" class="">Dochazka</button>
+    <button onclick="ButonBulbOnclick(this);" booljoin="Bool-1315" ipid="0x51" style="display: block;position: relative; text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 110px;height: 45px;box-shadow: 3px 3px 3px black;margin: 5px;" class="">EZS</button>
+  </div>   
+</div>    
+<div id="Dochazing" style="display: inline-block; position: absolute; top: 610px; left: 510px; height: 400px; width: 600px;" class="borderGreyDashed">
+  <div id="flexspac" style="display: flex;flex-direction: column;position: relative;align-items: center;justify-content: center;height: 400px;">
+    <button id="userInfo" style="display: block;position: relative; text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 280px;height: 80px;box-shadow: 3px 3px 3px black;margin: 5px;color: #36d056;background-color: transparent;border-radius: 10px;" class="">userInfo</button>
+    <input type="text" id="TextActivity" stringjoin="String-1132"  ipid="0x51" style="display: block;position: relative;width: 500px;height: 30px;" onchange="TXTfieldOnChange(this);" >
+    <button onclick="ButonBulbOnclick(this);" booljoin="Bool-1241" ipid="0x51" style="display: block;position: relative; text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 110px;height: 45px;box-shadow: 3px 3px 3px black;margin: 5px;" class="">Update activity</button>    
+    <button onclick="ButonBulbOnclick(this);" booljoin="Bool-1261" ipid="0x51" style="display: block;position: relative; text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 110px;height: 45px;box-shadow: 3px 3px 3px black;margin: 5px;" class="">Arrival</button>
+    <button onclick="ButonBulbOnclick(this);" booljoin="Bool-1262" ipid="0x51" style="display: block;position: relative; text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 110px;height: 45px;box-shadow: 3px 3px 3px black;margin: 5px;" class="">Leaving</button> 
+    
+    <button id="dochaStorno" onclick="ButonBulbOnclick(this);" booljoin="Bool-1264" ipid="0x51" style="display: block;position: absolute; top: 300px;text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 100px;height: 60px;box-shadow: 3px 3px 3px black;left: 0px;z-index: 600;" class="">STORNO</button>    
+  </div>   
+</div>
+<div id="EZSarming" style="display: inline-block; position: absolute; top: 610px; left: 10px; height: 400px; width: 500px;" class="borderGreyDashed">
+  <div id="flexspac" style="display: flex;flex-direction: column;position: relative;align-items: center;justify-content: center;height: 300px;">
+    <button id="ezsArmedState" style="display: block;position: relative; text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 280px;height: 50px;box-shadow: 3px 3px 3px black;margin: 5px;color: #36d056;background-color: transparent;border-radius: 10px;" class="" fbActiveClass="redForeColor"></button>
+    <button onclick="ButonBulbOnclick(this);" booljoin="Bool-1333" ipid="0x51" style="display: block;position: relative; text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 110px;height: 45px;box-shadow: 3px 3px 3px black;margin: 5px;" class="">ARM</button>
+    <button onclick="ButonBulbOnclick(this);" booljoin="Bool-1334" ipid="0x51" style="display: block;position: relative; text-shadow: 1px 2px 4px #0d0c0ced;font-weight: bold;width: 110px;height: 45px;box-shadow: 3px 3px 3px black;margin: 5px;" class="">disARM</button>
+  </div>    
+</div>
+
+
+
+<div id="atendandDelimiter" style="display: none;position: absolute;top: 2000px;left:200px;height: 1px;width: 1px;opacity: 0.1;"></div>
+</div>
+
