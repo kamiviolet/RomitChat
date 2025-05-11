@@ -69,7 +69,7 @@ const Users = new function() {
 
   this.setCookie = function(key, value) {
     var now = new Date();
-    now.setTime(now.getTime() + 3 * 3600 * 1000);
+    now.setTime(now.getTime() + 4 * 3600 * 1000);
 
     document.cookie = key + "=" + value;
     document.cookie = "expires=" + now.toUTCString() + ";"
