@@ -84,14 +84,16 @@ namespace httpFormSSLsrvv
             this.button20_stop_ws = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
+            this.checkBox_autoStartServer = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // Start_Server
             // 
             this.Start_Server.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.Start_Server.Location = new System.Drawing.Point(14, 12);
+            this.Start_Server.Location = new System.Drawing.Point(9, 8);
+            this.Start_Server.Margin = new System.Windows.Forms.Padding(2);
             this.Start_Server.Name = "Start_Server";
-            this.Start_Server.Size = new System.Drawing.Size(105, 48);
+            this.Start_Server.Size = new System.Drawing.Size(70, 31);
             this.Start_Server.TabIndex = 0;
             this.Start_Server.Text = "Start Server";
             this.Start_Server.UseVisualStyleBackColor = true;
@@ -101,9 +103,10 @@ namespace httpFormSSLsrvv
             // 
             this.Stop_Server.Enabled = false;
             this.Stop_Server.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Stop_Server.Location = new System.Drawing.Point(1551, 12);
+            this.Stop_Server.Location = new System.Drawing.Point(1034, 8);
+            this.Stop_Server.Margin = new System.Windows.Forms.Padding(2);
             this.Stop_Server.Name = "Stop_Server";
-            this.Stop_Server.Size = new System.Drawing.Size(105, 48);
+            this.Stop_Server.Size = new System.Drawing.Size(70, 31);
             this.Stop_Server.TabIndex = 1;
             this.Stop_Server.Text = "Stop";
             this.Stop_Server.UseVisualStyleBackColor = true;
@@ -116,20 +119,21 @@ namespace httpFormSSLsrvv
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.HideSelection = false;
-            this.textBox1.Location = new System.Drawing.Point(14, 82);
+            this.textBox1.Location = new System.Drawing.Point(9, 53);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.MaxLength = 9632767;
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(920, 300);
+            this.textBox1.Size = new System.Drawing.Size(624, 238);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBoxXX_TextChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(312, 18);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(208, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 35);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
             this.button1.Text = "preloadCert";
             this.button1.UseVisualStyleBackColor = true;
@@ -137,10 +141,9 @@ namespace httpFormSSLsrvv
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1414, 12);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(943, 8);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 35);
+            this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 4;
             this.button2.Text = "comboCert";
             this.button2.UseVisualStyleBackColor = true;
@@ -148,10 +151,9 @@ namespace httpFormSSLsrvv
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1294, 12);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button3.Location = new System.Drawing.Point(863, 8);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(112, 35);
+            this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 5;
             this.button3.Text = "loadCERT";
             this.button3.UseVisualStyleBackColor = true;
@@ -161,21 +163,21 @@ namespace httpFormSSLsrvv
             // 
             this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(940, 82);
-            this.textBox2.MaxLength = 532767;
+            this.textBox2.Location = new System.Drawing.Point(636, 53);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox2.MaxLength = 9632767;
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(710, 300);
+            this.textBox2.Size = new System.Drawing.Size(475, 238);
             this.textBox2.TabIndex = 6;
             // 
             // button4
             // 
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.Location = new System.Drawing.Point(946, 391);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button4.Location = new System.Drawing.Point(640, 296);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(112, 35);
+            this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 7;
             this.button4.Text = "CLR";
             this.button4.UseVisualStyleBackColor = true;
@@ -183,10 +185,9 @@ namespace httpFormSSLsrvv
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(550, 18);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button5.Location = new System.Drawing.Point(367, 12);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(112, 35);
+            this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 8;
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
@@ -195,19 +196,17 @@ namespace httpFormSSLsrvv
             // textBox3
             // 
             this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox3.Location = new System.Drawing.Point(14, 568);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox3.Location = new System.Drawing.Point(9, 411);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(679, 26);
+            this.textBox3.Size = new System.Drawing.Size(454, 20);
             this.textBox3.TabIndex = 9;
             this.textBox3.Text = "crestron";
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(429, 18);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button6.Location = new System.Drawing.Point(286, 12);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(112, 35);
+            this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 10;
             this.button6.Text = "prldCert2";
             this.button6.UseVisualStyleBackColor = true;
@@ -215,10 +214,9 @@ namespace httpFormSSLsrvv
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(776, 18);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button7.Location = new System.Drawing.Point(517, 12);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(45, 35);
+            this.button7.Size = new System.Drawing.Size(30, 23);
             this.button7.TabIndex = 11;
             this.button7.Text = "b7";
             this.button7.UseVisualStyleBackColor = true;
@@ -226,10 +224,9 @@ namespace httpFormSSLsrvv
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(722, 18);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button8.Location = new System.Drawing.Point(481, 12);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(45, 35);
+            this.button8.Size = new System.Drawing.Size(30, 23);
             this.button8.TabIndex = 12;
             this.button8.Text = "b8";
             this.button8.UseVisualStyleBackColor = true;
@@ -237,10 +234,9 @@ namespace httpFormSSLsrvv
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(668, 18);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button9.Location = new System.Drawing.Point(445, 12);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(45, 35);
+            this.button9.Size = new System.Drawing.Size(30, 23);
             this.button9.TabIndex = 13;
             this.button9.Text = "b9";
             this.button9.UseVisualStyleBackColor = true;
@@ -250,10 +246,9 @@ namespace httpFormSSLsrvv
             // 
             this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Location = new System.Drawing.Point(14, 437);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox4.Location = new System.Drawing.Point(9, 326);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(1626, 26);
+            this.textBox4.Size = new System.Drawing.Size(1094, 20);
             this.textBox4.TabIndex = 14;
             this.textBox4.Text = "wwwPath";
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
@@ -263,10 +258,9 @@ namespace httpFormSSLsrvv
             // 
             this.checkBox1_vrbos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox1_vrbos.AutoSize = true;
-            this.checkBox1_vrbos.Location = new System.Drawing.Point(18, 407);
-            this.checkBox1_vrbos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.checkBox1_vrbos.Location = new System.Drawing.Point(12, 305);
             this.checkBox1_vrbos.Name = "checkBox1_vrbos";
-            this.checkBox1_vrbos.Size = new System.Drawing.Size(118, 24);
+            this.checkBox1_vrbos.Size = new System.Drawing.Size(82, 17);
             this.checkBox1_vrbos.TabIndex = 15;
             this.checkBox1_vrbos.Text = "vrbose Print";
             this.checkBox1_vrbos.UseVisualStyleBackColor = true;
@@ -276,10 +270,9 @@ namespace httpFormSSLsrvv
             // 
             this.textBox5_certifPath.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox5_certifPath.Location = new System.Drawing.Point(14, 526);
-            this.textBox5_certifPath.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox5_certifPath.Location = new System.Drawing.Point(9, 383);
             this.textBox5_certifPath.Name = "textBox5_certifPath";
-            this.textBox5_certifPath.Size = new System.Drawing.Size(1344, 26);
+            this.textBox5_certifPath.Size = new System.Drawing.Size(906, 20);
             this.textBox5_certifPath.TabIndex = 16;
             this.textBox5_certifPath.Text = "server certifikat";
             this.textBox5_certifPath.DoubleClick += new System.EventHandler(this.textBox5_certifPath_DoubleClick);
@@ -287,10 +280,9 @@ namespace httpFormSSLsrvv
             // button10
             // 
             this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button10.Location = new System.Drawing.Point(1369, 523);
-            this.button10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button10.Location = new System.Drawing.Point(922, 382);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(112, 35);
+            this.button10.Size = new System.Drawing.Size(75, 23);
             this.button10.TabIndex = 17;
             this.button10.Text = "Load it";
             this.button10.UseVisualStyleBackColor = true;
@@ -299,10 +291,9 @@ namespace httpFormSSLsrvv
             // button11_SaveSFG
             // 
             this.button11_SaveSFG.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button11_SaveSFG.Location = new System.Drawing.Point(14, 853);
-            this.button11_SaveSFG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button11_SaveSFG.Location = new System.Drawing.Point(9, 596);
             this.button11_SaveSFG.Name = "button11_SaveSFG";
-            this.button11_SaveSFG.Size = new System.Drawing.Size(112, 35);
+            this.button11_SaveSFG.Size = new System.Drawing.Size(75, 23);
             this.button11_SaveSFG.TabIndex = 18;
             this.button11_SaveSFG.Text = "Save";
             this.button11_SaveSFG.UseVisualStyleBackColor = true;
@@ -311,10 +302,9 @@ namespace httpFormSSLsrvv
             // button12_LoadCFG
             // 
             this.button12_LoadCFG.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button12_LoadCFG.Location = new System.Drawing.Point(135, 853);
-            this.button12_LoadCFG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button12_LoadCFG.Location = new System.Drawing.Point(90, 596);
             this.button12_LoadCFG.Name = "button12_LoadCFG";
-            this.button12_LoadCFG.Size = new System.Drawing.Size(112, 35);
+            this.button12_LoadCFG.Size = new System.Drawing.Size(75, 23);
             this.button12_LoadCFG.TabIndex = 19;
             this.button12_LoadCFG.Text = "Load";
             this.button12_LoadCFG.UseVisualStyleBackColor = true;
@@ -322,10 +312,9 @@ namespace httpFormSSLsrvv
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(174, 18);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button11.Location = new System.Drawing.Point(116, 12);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(135, 35);
+            this.button11.Size = new System.Drawing.Size(90, 23);
             this.button11.TabIndex = 20;
             this.button11.Text = "extraHeaders";
             this.button11.UseVisualStyleBackColor = true;
@@ -334,10 +323,9 @@ namespace httpFormSSLsrvv
             // textBox5_ip
             // 
             this.textBox5_ip.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox5_ip.Location = new System.Drawing.Point(14, 479);
-            this.textBox5_ip.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox5_ip.Location = new System.Drawing.Point(9, 353);
             this.textBox5_ip.Name = "textBox5_ip";
-            this.textBox5_ip.Size = new System.Drawing.Size(235, 26);
+            this.textBox5_ip.Size = new System.Drawing.Size(158, 20);
             this.textBox5_ip.TabIndex = 21;
             this.textBox5_ip.Text = "0.0.0.0";
             this.textBox5_ip.TextChanged += new System.EventHandler(this.textBox5_ip_TextChanged);
@@ -345,10 +333,9 @@ namespace httpFormSSLsrvv
             // textBox5_port
             // 
             this.textBox5_port.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox5_port.Location = new System.Drawing.Point(333, 479);
-            this.textBox5_port.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox5_port.Location = new System.Drawing.Point(226, 353);
             this.textBox5_port.Name = "textBox5_port";
-            this.textBox5_port.Size = new System.Drawing.Size(120, 26);
+            this.textBox5_port.Size = new System.Drawing.Size(81, 20);
             this.textBox5_port.TabIndex = 22;
             this.textBox5_port.Text = "9999";
             this.textBox5_port.TextChanged += new System.EventHandler(this.textBox5_port_TextChanged);
@@ -357,10 +344,9 @@ namespace httpFormSSLsrvv
             // 
             this.checkBox1_useSSL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox1_useSSL.AutoSize = true;
-            this.checkBox1_useSSL.Location = new System.Drawing.Point(260, 484);
-            this.checkBox1_useSSL.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.checkBox1_useSSL.Location = new System.Drawing.Point(173, 355);
             this.checkBox1_useSSL.Name = "checkBox1_useSSL";
-            this.checkBox1_useSSL.Size = new System.Drawing.Size(75, 24);
+            this.checkBox1_useSSL.Size = new System.Drawing.Size(52, 17);
             this.checkBox1_useSSL.TabIndex = 23;
             this.checkBox1_useSSL.Text = "https:";
             this.checkBox1_useSSL.UseVisualStyleBackColor = true;
@@ -370,10 +356,9 @@ namespace httpFormSSLsrvv
             // 
             this.checkBox_allowDirBrowse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox_allowDirBrowse.AutoSize = true;
-            this.checkBox_allowDirBrowse.Location = new System.Drawing.Point(466, 484);
-            this.checkBox_allowDirBrowse.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.checkBox_allowDirBrowse.Location = new System.Drawing.Point(311, 355);
             this.checkBox_allowDirBrowse.Name = "checkBox_allowDirBrowse";
-            this.checkBox_allowDirBrowse.Size = new System.Drawing.Size(189, 24);
+            this.checkBox_allowDirBrowse.Size = new System.Drawing.Size(130, 17);
             this.checkBox_allowDirBrowse.TabIndex = 24;
             this.checkBox_allowDirBrowse.Text = "allow directory browse";
             this.checkBox_allowDirBrowse.UseVisualStyleBackColor = true;
@@ -383,10 +368,9 @@ namespace httpFormSSLsrvv
             // 
             this.checkBox_bridge_useSSL.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox_bridge_useSSL.AutoSize = true;
-            this.checkBox_bridge_useSSL.Location = new System.Drawing.Point(400, 767);
-            this.checkBox_bridge_useSSL.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.checkBox_bridge_useSSL.Location = new System.Drawing.Point(267, 539);
             this.checkBox_bridge_useSSL.Name = "checkBox_bridge_useSSL";
-            this.checkBox_bridge_useSSL.Size = new System.Drawing.Size(54, 24);
+            this.checkBox_bridge_useSSL.Size = new System.Drawing.Size(38, 17);
             this.checkBox_bridge_useSSL.TabIndex = 27;
             this.checkBox_bridge_useSSL.Text = "ssl";
             this.checkBox_bridge_useSSL.UseVisualStyleBackColor = true;
@@ -395,30 +379,27 @@ namespace httpFormSSLsrvv
             // textBox5_bridge_listenPort
             // 
             this.textBox5_bridge_listenPort.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox5_bridge_listenPort.Location = new System.Drawing.Point(264, 766);
-            this.textBox5_bridge_listenPort.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox5_bridge_listenPort.Location = new System.Drawing.Point(176, 539);
             this.textBox5_bridge_listenPort.Name = "textBox5_bridge_listenPort";
-            this.textBox5_bridge_listenPort.Size = new System.Drawing.Size(120, 26);
+            this.textBox5_bridge_listenPort.Size = new System.Drawing.Size(81, 20);
             this.textBox5_bridge_listenPort.TabIndex = 26;
             this.textBox5_bridge_listenPort.Text = "41794";
             // 
             // textBox6_bridge_listenIP
             // 
             this.textBox6_bridge_listenIP.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox6_bridge_listenIP.Location = new System.Drawing.Point(14, 766);
-            this.textBox6_bridge_listenIP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox6_bridge_listenIP.Location = new System.Drawing.Point(9, 539);
             this.textBox6_bridge_listenIP.Name = "textBox6_bridge_listenIP";
-            this.textBox6_bridge_listenIP.Size = new System.Drawing.Size(235, 26);
+            this.textBox6_bridge_listenIP.Size = new System.Drawing.Size(158, 20);
             this.textBox6_bridge_listenIP.TabIndex = 25;
             this.textBox6_bridge_listenIP.Text = "0.0.0.0";
             // 
             // button12_bridgeGo
             // 
             this.button12_bridgeGo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button12_bridgeGo.Location = new System.Drawing.Point(842, 759);
-            this.button12_bridgeGo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button12_bridgeGo.Location = new System.Drawing.Point(561, 535);
             this.button12_bridgeGo.Name = "button12_bridgeGo";
-            this.button12_bridgeGo.Size = new System.Drawing.Size(112, 42);
+            this.button12_bridgeGo.Size = new System.Drawing.Size(75, 27);
             this.button12_bridgeGo.TabIndex = 28;
             this.button12_bridgeGo.Text = "bridge Start";
             this.button12_bridgeGo.UseVisualStyleBackColor = true;
@@ -427,20 +408,18 @@ namespace httpFormSSLsrvv
             // textBox5_bridge_conPort
             // 
             this.textBox5_bridge_conPort.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox5_bridge_conPort.Location = new System.Drawing.Point(712, 766);
-            this.textBox5_bridge_conPort.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox5_bridge_conPort.Location = new System.Drawing.Point(475, 539);
             this.textBox5_bridge_conPort.Name = "textBox5_bridge_conPort";
-            this.textBox5_bridge_conPort.Size = new System.Drawing.Size(120, 26);
+            this.textBox5_bridge_conPort.Size = new System.Drawing.Size(81, 20);
             this.textBox5_bridge_conPort.TabIndex = 30;
             this.textBox5_bridge_conPort.Text = "41796";
             // 
             // textBox6_bridge_connIP
             // 
             this.textBox6_bridge_connIP.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox6_bridge_connIP.Location = new System.Drawing.Point(466, 766);
-            this.textBox6_bridge_connIP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox6_bridge_connIP.Location = new System.Drawing.Point(311, 539);
             this.textBox6_bridge_connIP.Name = "textBox6_bridge_connIP";
-            this.textBox6_bridge_connIP.Size = new System.Drawing.Size(235, 26);
+            this.textBox6_bridge_connIP.Size = new System.Drawing.Size(158, 20);
             this.textBox6_bridge_connIP.TabIndex = 29;
             this.textBox6_bridge_connIP.Text = "192.168.166.54";
             // 
@@ -448,10 +427,9 @@ namespace httpFormSSLsrvv
             // 
             this.textBox5_clientCert.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox5_clientCert.Location = new System.Drawing.Point(14, 806);
-            this.textBox5_clientCert.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox5_clientCert.Location = new System.Drawing.Point(9, 565);
             this.textBox5_clientCert.Name = "textBox5_clientCert";
-            this.textBox5_clientCert.Size = new System.Drawing.Size(1229, 26);
+            this.textBox5_clientCert.Size = new System.Drawing.Size(830, 20);
             this.textBox5_clientCert.TabIndex = 31;
             this.textBox5_clientCert.Text = "client certifikat";
             this.textBox5_clientCert.DoubleClick += new System.EventHandler(this.textBox5_clientCert_DoubleClick);
@@ -461,18 +439,18 @@ namespace httpFormSSLsrvv
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Location = new System.Drawing.Point(4, 745);
+            this.panel1.Location = new System.Drawing.Point(3, 526);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1649, 4);
+            this.panel1.Size = new System.Drawing.Size(1110, 4);
             this.panel1.TabIndex = 32;
             // 
             // button12_bridgeSTOP
             // 
             this.button12_bridgeSTOP.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button12_bridgeSTOP.Location = new System.Drawing.Point(975, 759);
-            this.button12_bridgeSTOP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button12_bridgeSTOP.Location = new System.Drawing.Point(650, 535);
             this.button12_bridgeSTOP.Name = "button12_bridgeSTOP";
-            this.button12_bridgeSTOP.Size = new System.Drawing.Size(112, 42);
+            this.button12_bridgeSTOP.Size = new System.Drawing.Size(75, 27);
             this.button12_bridgeSTOP.TabIndex = 33;
             this.button12_bridgeSTOP.Text = "STOP";
             this.button12_bridgeSTOP.UseVisualStyleBackColor = true;
@@ -481,10 +459,9 @@ namespace httpFormSSLsrvv
             // textBox5_clientCRTpass
             // 
             this.textBox5_clientCRTpass.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox5_clientCRTpass.Location = new System.Drawing.Point(1250, 806);
-            this.textBox5_clientCRTpass.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox5_clientCRTpass.Location = new System.Drawing.Point(842, 565);
             this.textBox5_clientCRTpass.Name = "textBox5_clientCRTpass";
-            this.textBox5_clientCRTpass.Size = new System.Drawing.Size(390, 26);
+            this.textBox5_clientCRTpass.Size = new System.Drawing.Size(261, 20);
             this.textBox5_clientCRTpass.TabIndex = 34;
             this.textBox5_clientCRTpass.Text = "client cert pass";
             // 
@@ -492,10 +469,9 @@ namespace httpFormSSLsrvv
             // 
             this.checkBox_fileDumoComs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox_fileDumoComs.AutoSize = true;
-            this.checkBox_fileDumoComs.Location = new System.Drawing.Point(1112, 770);
-            this.checkBox_fileDumoComs.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.checkBox_fileDumoComs.Location = new System.Drawing.Point(741, 541);
             this.checkBox_fileDumoComs.Name = "checkBox_fileDumoComs";
-            this.checkBox_fileDumoComs.Size = new System.Drawing.Size(224, 24);
+            this.checkBox_fileDumoComs.Size = new System.Drawing.Size(155, 17);
             this.checkBox_fileDumoComs.TabIndex = 35;
             this.checkBox_fileDumoComs.Text = "record forwarded To cache";
             this.checkBox_fileDumoComs.UseVisualStyleBackColor = true;
@@ -504,10 +480,9 @@ namespace httpFormSSLsrvv
             // button12
             // 
             this.button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button12.Location = new System.Drawing.Point(1112, 843);
-            this.button12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button12.Location = new System.Drawing.Point(741, 590);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(102, 35);
+            this.button12.Size = new System.Drawing.Size(68, 23);
             this.button12.TabIndex = 36;
             this.button12.Text = "Dump IT";
             this.button12.UseVisualStyleBackColor = true;
@@ -515,10 +490,9 @@ namespace httpFormSSLsrvv
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(830, 18);
-            this.button13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button13.Location = new System.Drawing.Point(553, 12);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(51, 35);
+            this.button13.Size = new System.Drawing.Size(34, 23);
             this.button13.TabIndex = 37;
             this.button13.Text = "b13";
             this.button13.UseVisualStyleBackColor = true;
@@ -526,10 +500,9 @@ namespace httpFormSSLsrvv
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(885, 14);
-            this.button14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button14.Location = new System.Drawing.Point(590, 9);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(72, 43);
+            this.button14.Size = new System.Drawing.Size(48, 28);
             this.button14.TabIndex = 38;
             this.button14.Text = "crpc C";
             this.button14.UseVisualStyleBackColor = true;
@@ -537,10 +510,9 @@ namespace httpFormSSLsrvv
             // 
             // button15
             // 
-            this.button15.Location = new System.Drawing.Point(975, 14);
-            this.button15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button15.Location = new System.Drawing.Point(650, 9);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(72, 43);
+            this.button15.Size = new System.Drawing.Size(48, 28);
             this.button15.TabIndex = 39;
             this.button15.Text = "crpc S";
             this.button15.UseVisualStyleBackColor = true;
@@ -549,10 +521,9 @@ namespace httpFormSSLsrvv
             // button16
             // 
             this.button16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button16.Location = new System.Drawing.Point(822, 391);
-            this.button16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button16.Location = new System.Drawing.Point(557, 296);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(112, 35);
+            this.button16.Size = new System.Drawing.Size(75, 23);
             this.button16.TabIndex = 40;
             this.button16.Text = "CLR";
             this.button16.UseVisualStyleBackColor = true;
@@ -560,10 +531,9 @@ namespace httpFormSSLsrvv
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(1234, 12);
-            this.button17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button17.Location = new System.Drawing.Point(823, 8);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(51, 35);
+            this.button17.Size = new System.Drawing.Size(34, 23);
             this.button17.TabIndex = 41;
             this.button17.Text = "b17";
             this.button17.UseVisualStyleBackColor = true;
@@ -571,10 +541,9 @@ namespace httpFormSSLsrvv
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(1174, 12);
-            this.button18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button18.Location = new System.Drawing.Point(783, 8);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(51, 35);
+            this.button18.Size = new System.Drawing.Size(34, 23);
             this.button18.TabIndex = 42;
             this.button18.Text = "b18";
             this.button18.UseVisualStyleBackColor = true;
@@ -582,10 +551,9 @@ namespace httpFormSSLsrvv
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(1116, 12);
-            this.button19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button19.Location = new System.Drawing.Point(744, 8);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(51, 35);
+            this.button19.Size = new System.Drawing.Size(34, 23);
             this.button19.TabIndex = 43;
             this.button19.Text = "b19";
             this.button19.UseVisualStyleBackColor = true;
@@ -594,20 +562,20 @@ namespace httpFormSSLsrvv
             // comboBox1
             // 
             this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.Location = new System.Drawing.Point(1130, 394);
+            this.comboBox1.Location = new System.Drawing.Point(762, 298);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.MaxDropDownItems = 12;
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(510, 28);
+            this.comboBox1.Size = new System.Drawing.Size(341, 21);
             this.comboBox1.TabIndex = 44;
             this.comboBox1.SelectionChangeCommitted += new System.EventHandler(this.comboBox1_SelectionChangeCommitted);
             // 
             // textBox_CrpcInstaIPaPORT
             // 
             this.textBox_CrpcInstaIPaPORT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox_CrpcInstaIPaPORT.Location = new System.Drawing.Point(1306, 479);
-            this.textBox_CrpcInstaIPaPORT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox_CrpcInstaIPaPORT.Location = new System.Drawing.Point(880, 353);
             this.textBox_CrpcInstaIPaPORT.Name = "textBox_CrpcInstaIPaPORT";
-            this.textBox_CrpcInstaIPaPORT.Size = new System.Drawing.Size(336, 26);
+            this.textBox_CrpcInstaIPaPORT.Size = new System.Drawing.Size(225, 20);
             this.textBox_CrpcInstaIPaPORT.TabIndex = 45;
             this.textBox_CrpcInstaIPaPORT.Text = "1:192.168.166.242:50011";
             this.textBox_CrpcInstaIPaPORT.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -617,18 +585,18 @@ namespace httpFormSSLsrvv
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Location = new System.Drawing.Point(9, 622);
+            this.panel2.Location = new System.Drawing.Point(6, 446);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1649, 4);
+            this.panel2.Size = new System.Drawing.Size(1110, 4);
             this.panel2.TabIndex = 46;
             // 
             // textBox5_portWSS
             // 
             this.textBox5_portWSS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textBox5_portWSS.Location = new System.Drawing.Point(765, 479);
-            this.textBox5_portWSS.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox5_portWSS.Location = new System.Drawing.Point(512, 353);
             this.textBox5_portWSS.Name = "textBox5_portWSS";
-            this.textBox5_portWSS.Size = new System.Drawing.Size(120, 26);
+            this.textBox5_portWSS.Size = new System.Drawing.Size(81, 20);
             this.textBox5_portWSS.TabIndex = 47;
             this.textBox5_portWSS.Text = "9995";
             // 
@@ -636,10 +604,9 @@ namespace httpFormSSLsrvv
             // 
             this.checkBox1_wssYes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox1_wssYes.AutoSize = true;
-            this.checkBox1_wssYes.Location = new System.Drawing.Point(698, 484);
-            this.checkBox1_wssYes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.checkBox1_wssYes.Location = new System.Drawing.Point(465, 355);
             this.checkBox1_wssYes.Name = "checkBox1_wssYes";
-            this.checkBox1_wssYes.Size = new System.Drawing.Size(66, 24);
+            this.checkBox1_wssYes.Size = new System.Drawing.Size(47, 17);
             this.checkBox1_wssYes.TabIndex = 48;
             this.checkBox1_wssYes.Text = "wss:";
             this.checkBox1_wssYes.UseVisualStyleBackColor = true;
@@ -648,9 +615,10 @@ namespace httpFormSSLsrvv
             // 
             this.button20_ws_start.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button20_ws_start.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button20_ws_start.Location = new System.Drawing.Point(9, 631);
+            this.button20_ws_start.Location = new System.Drawing.Point(6, 452);
+            this.button20_ws_start.Margin = new System.Windows.Forms.Padding(2);
             this.button20_ws_start.Name = "button20_ws_start";
-            this.button20_ws_start.Size = new System.Drawing.Size(105, 48);
+            this.button20_ws_start.Size = new System.Drawing.Size(70, 31);
             this.button20_ws_start.TabIndex = 49;
             this.button20_ws_start.Text = "Start WS";
             this.button20_ws_start.UseVisualStyleBackColor = true;
@@ -660,9 +628,10 @@ namespace httpFormSSLsrvv
             // 
             this.button20_stop_ws.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button20_stop_ws.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button20_stop_ws.Location = new System.Drawing.Point(120, 631);
+            this.button20_stop_ws.Location = new System.Drawing.Point(80, 452);
+            this.button20_stop_ws.Margin = new System.Windows.Forms.Padding(2);
             this.button20_stop_ws.Name = "button20_stop_ws";
-            this.button20_stop_ws.Size = new System.Drawing.Size(105, 48);
+            this.button20_stop_ws.Size = new System.Drawing.Size(70, 31);
             this.button20_stop_ws.TabIndex = 50;
             this.button20_stop_ws.Text = "STOP ws";
             this.button20_stop_ws.UseVisualStyleBackColor = true;
@@ -672,9 +641,10 @@ namespace httpFormSSLsrvv
             // 
             this.button20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button20.Location = new System.Drawing.Point(279, 631);
+            this.button20.Location = new System.Drawing.Point(186, 452);
+            this.button20.Margin = new System.Windows.Forms.Padding(2);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(112, 48);
+            this.button20.Size = new System.Drawing.Size(75, 31);
             this.button20.TabIndex = 51;
             this.button20.Text = "send to WS";
             this.button20.UseVisualStyleBackColor = true;
@@ -684,19 +654,32 @@ namespace httpFormSSLsrvv
             // 
             this.button21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button21.Location = new System.Drawing.Point(400, 631);
+            this.button21.Location = new System.Drawing.Point(267, 452);
+            this.button21.Margin = new System.Windows.Forms.Padding(2);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(112, 48);
+            this.button21.Size = new System.Drawing.Size(75, 31);
             this.button21.TabIndex = 52;
             this.button21.Text = "resync users";
             this.button21.UseVisualStyleBackColor = true;
             this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
+            // checkBox_autoStartServer
+            // 
+            this.checkBox_autoStartServer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.checkBox_autoStartServer.AutoSize = true;
+            this.checkBox_autoStartServer.Location = new System.Drawing.Point(367, 460);
+            this.checkBox_autoStartServer.Name = "checkBox_autoStartServer";
+            this.checkBox_autoStartServer.Size = new System.Drawing.Size(140, 17);
+            this.checkBox_autoStartServer.TabIndex = 53;
+            this.checkBox_autoStartServer.Text = "AutoStart HTTPS+WSS";
+            this.checkBox_autoStartServer.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1669, 897);
+            this.ClientSize = new System.Drawing.Size(1122, 625);
+            this.Controls.Add(this.checkBox_autoStartServer);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button20_stop_ws);
@@ -750,6 +733,7 @@ namespace httpFormSSLsrvv
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Stop_Server);
             this.Controls.Add(this.Start_Server);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Form1";
@@ -814,5 +798,6 @@ namespace httpFormSSLsrvv
         private Button button20_stop_ws;
         private Button button20;
         private Button button21;
+        public CheckBox checkBox_autoStartServer;
     }
 }

@@ -7,16 +7,20 @@ const Users = new function() {
     //var logINorLOGout = true;   
     //Users.anouseAliasName(logINorLOGout);
     let name = document.querySelector('#usernamebox').value;
+    if (name.includes("<") || name.includes(">")) 
+        name = getRidOfElementChars(name);
     Users.userLogin(name);
   }
 
   this.LogOutSubmitButonEvent = async function(e)
   {
     e.preventDefault();
-    //Users.anouseAliasName(false); 
+    //Users.anouseAliasName(false);
+    var curentDryedName = Users.getCookie("username")
+    if(gl_lastUsedName == curentDryedName) 
+        document.cookie = 'username=';
+        
     Users.userLogout();
-
-    document.cookie = 'username=';
   }
 
   // this.anouseAliasName = async function(logYnOrLogOut) {    
@@ -55,7 +59,7 @@ const Users = new function() {
 
     document.querySelector('.user_profile_wrapper > div > p').innerHTML = "Hello, " + username + "!";
 
-    WsAnouceLoginAliasName(name);
+    WsAnouceLoginAliasName(username);
 
     Users.setCookie('username',username);
   }
@@ -64,12 +68,12 @@ const Users = new function() {
     document.querySelector('.user_profile_wrapper > div').classList.add('hide');
     document.querySelector('.user_registration_form').classList.remove('hide');
 
-    WsAnouceLogOUTbyAliasName();
+    WsAnouceLogOUTbyAliasName(gl_lastUsedName);
   }
 
   this.setCookie = function(key, value) {
     var now = new Date();
-    now.setTime(now.getTime() + 4 * 3600 * 1000);
+    now.setTime(now.getTime() + 3 * 3600 * 1000);
 
     document.cookie = key + "=" + value;
     document.cookie = "expires=" + now.toUTCString() + ";"

@@ -84,3 +84,5 @@ D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\h
 C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\Newtonsoft.Json.xml
 C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\websocket-sharp.dll
 C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\websocket-sharp.pdb
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\websocket-sharp.dll
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Debug\websocket-sharp.pdb

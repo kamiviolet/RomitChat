@@ -28,7 +28,6 @@ D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\h
 D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Release\httpFormSSLsrvv.pdb
 D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Release\Newtonsoft.Json.dll
 D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Release\Newtonsoft.Json.xml
-D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Release\httpFormSSLsrvv.csproj.AssemblyReference.cache
 D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Release\httpFormSSLsrvv.Form1.resources
 D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Release\httpFormSSLsrvv.Form2.resources
 D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\obj\Release\httpFormSSLsrvv.Properties.Resources.resources
@@ -82,3 +81,7 @@ C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Release\httpFormSSLsrvv.csproj
 C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Release\httpForm.17D18477.Up2Date
 C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Release\httpFormSSLsrvv.exe
 C:\WLOZ\wo\V4\reCreateHTTPsrv\httpFormSSLsrvv\obj\Release\httpFormSSLsrvv.pdb
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Release\System.Security.Cryptography.OpenSsl.dll
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Release\websocket-sharp.dll
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Release\System.Security.Cryptography.OpenSsl.xml
+D:\WLOZ\wo\ITS\Crestron SW\sharp\_exportCWS\Cawsar\CuwaV4\Libs\reCreateHTTPsrv\httpFormSSLsrvv\bin\Release\websocket-sharp.pdb

@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="height=device-height, initial-scale=1.0">
   <link href="./styles.css" rel="stylesheet">
   <title>RomitChat</title>
 </head>
-<body style="display:none">
+<body>
   <!-- Profile Toolbar -->
   <section id="user_profile">
     <div class="user_profile_wrapper">
@@ -15,11 +16,11 @@
         <input id="logOutAliasBut" type="submit" value="Log out"/>
       </div>
       <form class="user_registration_form">
-        <label for="username">Username: </label>
-        <input id="usernamebox" name="username" type="text" value="User name X">
-        <input id="loginAliasBut" type="submit" value="Submit"/>
+        <label for="usernamebox">Username: </label>
+        <input id="usernamebox" name="usernamebox" type="text" value="User name X">
+        <input id="loginAliasBut" type="submit" value="Log in"/>
       </form>
-      <div>
+      <div id="statusRowInfo">
         <a id="criticalUrl_1" href="https://91.139.6.78:9995/kunda" target="_blank" rel="noopener noreferrer" class="critiHrefs canBeMaybeRemoved">ws exeption</a>
         <button id="wsconsignal">WS STATUS</button>
       </div>
@@ -46,7 +47,7 @@
   <section id="podium_inner_text">
     <div id="podium_inner_common">
       <div class="overflow-wrapper"><table id="podium_inner_common_table">
-            <thead><tr><td></td><td></td></tr></thead>
+            <thead><tr><td></td><td></td><td></td></tr></thead>
             <tbody></tbody>
           </table>
         </div>
@@ -58,7 +59,7 @@
         <label for="message_input">Message: </label>
         <textarea id="message_input" name="message_input" ></textarea>
         <span>
-          <input id="singlemsgsendbut" type="submit" value="Submit"/>
+          <input id="singlemsgsendbut" type="submit" value="Send"/>
           <input type="reset" value="Clear"/>
           <button id="brodcastbut">brodcast</button>
         </span>
@@ -67,28 +68,30 @@
 
   <!-- Video -->
   <section id="podium_inner_cam">
-    <video id="local_cam" poster="../images/standby.png" autoplay></video>
+    <video id="local_cam" poster="../images/standby.png" autoplay="" muted=""></video>
     <video id="remote_cam" poster="../images/standby.png"  autoplay></video>
-    <div>
+    <div style="grid-template-columns: 31% 31% 31%;">
       <button id="init_vid_btn">Video</button>
-      <button id="call_btn" disabled>Call</button>
-      <button id="hangup_btn" disabled>End call</button>
+      <button id="call_btn">Call</button>
+      <button id="hangup_btn">End call</button>
     </div>
   </section>
 
   <!-- Tabs -->
   <section id="responsive_menu">
-    <button data-link="user_list">Who's online</button>
-    <button data-link="syslog">System logs</button>
-    <button data-link="podium_inner_text">Chatroom</button>
-    <button data-link="podium_inner_cam">Video meeting</button>
+    <button style="height: 3.3em;" data-link="user_list">Who's online</button>
+    <button style="height: 3.3em;" data-link="syslog">System logs</button>
+    <button style="height: 3.3em;" data-link="podium_inner_text">Chatroom</button>
+    <button style="height: 3.3em;" data-link="podium_inner_cam">Video meeting</button>
   </section>
 
   <script src="./Users.js"></script>
   <script src="./Chatroom.js"></script>
-  <script src="./Frontend.js"></script>
-  <script src="./RTCConnection.js"></script>
+  <script src="./Frontend.js"></script>  
   <script src="./script.js"></script>
   <script src="./websuck.js" defer=""></script>
+  <script src="./adapter-latest.js"></script>
+  <!-- <script src="./RTCConnection.js"></script>  
+  <script src="./adapter.js"></script>  -->
 </body>
 </html>

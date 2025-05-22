@@ -785,7 +785,8 @@ namespace httpFormSSLsrvv
 
             if (idxStart < 0)
             {
-                WPA("other method than GET is not implemented !! >> {0} , len:{1}", messageData, messageData.Length);
+                if (vrbosePrint)
+                    WPA("other method than GET is not implemented !! >> msgData:\"{0}\", len:{1}", messageData, messageData.Length);
                 idxStart = 0;                
             }
             if (messageData.Length > 0)
@@ -840,6 +841,8 @@ namespace httpFormSSLsrvv
                 try
                 {
 
+                    // in any browser ....make sure you added the security exeption that browseer dictate to confirm ...about wrong selsigned untrustworty certificaate ..
+                    // ..this is most critical part...
                     sslStream.AuthenticateAsServer(
                         sslCertificate,
                         clientCertificateRequired: false,
@@ -875,18 +878,37 @@ namespace httpFormSSLsrvv
 
 
                 }
+                catch (System.InvalidOperationException syr)
+                {
+                    if (vrbosePrint)
+                        WPA("err invalidOper ..duringgg AuthenticateAsServer: {0}, inner:{1}\r\n", syr.Message, syr.InnerException);
+                }
                 catch (System.Security.Authentication.AuthenticationException aur)
                 {
                     if (vrbosePrint)
-                        WPA("err AuthenticationException: {0}, inner:{1}", aur.Message, aur.InnerException.ToString());
+                        WPA("err AuthenticationException: {0}, inner:{1}\r\n", aur.Message, aur.InnerException.ToString());
+                    else
+                        WPA("err AuthenticationException: {0}", aur.Message);
                     // whhen chhrome is conecting ...it produces a LOOOT of tthese
                     //A call to SSPI failed, see inner exception., inner:System.ComponentModel.Win32Exception (0x80004005): An unknown error occurred while processing the certificate
                     // anyway ...wen chrome is connecting(or anything else tham firefox) it will hevilly spam with throwed errors..
                     //...luckily the comunication seems still going...kind of usable...
                 }
+                catch (System.IO.IOException ioex)
+                {
+                    // most common ...Authentication failed because the remote party has closed the transport stream.
+                    // ..happens in chromee and apparently it gous on ...
+                    if (vrbosePrint)
+                        WPA("err IO.IOException of AuthenticateAsServer: {0}, inner:{1} \r\n", ioex.Message, ioex.ToString());
+                    else
+                        WPA("err IO.IOException of AuthenticateAsServer: {0}", ioex.Message);
+                }
                 catch (Exception ouuur)
                 {
-                    WPA("err during AuthenticateAsServer: {0}, inner:{1}", ouuur.Message, ouuur.ToString());
+                    // in chrom ..you will get a looot of theeese >>>
+                    // err during AuthenticateAsServer: Authentication failed because the remote party has closed the transport stream.... ..folowed by
+                    // err during AuthenticateAsServer: Unable to read data from the transport connection: An established connection was aborted by the software in your host machine
+                    WPA("err during AuthenticateAsServer: {0}, inner:{1}\r\n", ouuur.Message, ouuur.ToString());
                 }
 
                 this.BeginInvoke(
@@ -1190,6 +1212,29 @@ namespace httpFormSSLsrvv
         private TcpListener tcpListener;
         private volatile bool keepThreadAlive = true;
 
+
+        void delayedAfterStart()
+        {
+           // WPB("..delayed AfterStart... we are background: {0}", Thread.CurrentThread.IsBackground);
+          
+            if (checkBox_autoStartServer.Checked)
+            //if (checkBox_autoStartServer.boolCheckBoxSafeReader())
+            {
+                WPB("going to auto start https + wss ...");
+                SUFLER(StartServersPlural);
+            }
+
+        }
+
+        /// <summary>
+        /// combo starter...
+        /// </summary>
+        public void StartServersPlural()
+        {
+            StartServer();
+            if (checkBox1_wssYes.Checked)
+                SUFLER_ASN(syyysWStest, string.Empty);
+        }       
         public void StartServer()
         {
             //  certPath = rootPathUrl + "/certs";
@@ -1346,11 +1391,9 @@ namespace httpFormSSLsrvv
         Action<TcpClient> asyPreperSimple = null;
         private void Start_Server_Click(object sender, EventArgs e)
         {
-            StartServer();
-            if (checkBox1_wssYes.Checked)
-                SUFLER_ASN(syyysWStest,string.Empty);
+            // StartServer();
+            StartServersPlural();
 //             SUFLER_ASN(syyysWStest, "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\bin\\Debug\\SSL_Server\\certs\\ponsite.pfx;crestron");
-
         }
 
         private void Stop_Server_Click(object sender, EventArgs e)
@@ -1380,8 +1423,136 @@ namespace httpFormSSLsrvv
             hideShowShamefullControls();
 
             poluteCRPCoferbox();
-          //  attachsomeTooltips();
+            //  attachsomeTooltips();
+
+            //   Action<int> waitHolder = new Action<int>(tukejTakDluuho);       // << async thread waiter
+            //   var kapsaNaToApakNaAkcii = new object[] { waitHolder, new Action(delayedAfterStart) };      // ..what to do after in callback when waiter finishes..
+            //   waitHolder.BeginInvoke(1500, new AsyncCallback(tukejKalba), kapsaNaToApakNaAkcii);
+            plaanLateRun(1500, delayedAfterStart);
         }
+
+
+        // little research ....how to go to NOT backround NOT asynchronous call back to normal one...
+        #region someWay to async wait and then continue SYNC passed method
+        public void plaanLateRun(int msTowait, Action toBeRunnedAfterThat, params object[] opionalTopass)
+        {
+            Delegate gaate = toBeRunnedAfterThat;
+            plaanLateRun(msTowait, gaate, opionalTopass);
+        }
+        public void plaanLateRun(int msTowait, Action<object> toBeRunnedAfterThat, params object[] opionalTopass)
+        {
+            Delegate gaate = toBeRunnedAfterThat;
+            plaanLateRun(msTowait, gaate, opionalTopass);
+        }
+        public void plaanLateRun(int msTowait, Action<object[]> toBeRunnedAfterThat, params object[] opionalTopass)
+        {
+            Delegate gaate = toBeRunnedAfterThat;
+            plaanLateRun(msTowait, gaate, opionalTopass);
+        }
+        public void plaanLateRun(int msTowait, Delegate toBeRunnedAfterThat, params object[] opionalTopass)
+        {
+            Action<int> waitHolder = new Action<int>(tukejTakDluuho);       // << async thread waiter
+            List<object> prepakl = new List<object>();
+            prepakl.Add(waitHolder);
+            prepakl.Add(toBeRunnedAfterThat);
+            if (opionalTopass != null && opionalTopass.Length > 0)
+                prepakl.AddRange(opionalTopass);
+            var kapsaNaToApakNaAkcii = prepakl.ToArray();      // ..what to do after in callback when waiter finishes..
+
+            waitHolder.BeginInvoke(1500, new AsyncCallback(tukejKalba), kapsaNaToApakNaAkcii);
+        }
+        void tukejTakDluuho(int msTowait)
+        {
+            //   WPB("tukej waiting go for:{0}", msTowait);
+            Thread.Sleep(msTowait);
+            //   WPA("tukej... after sleep ..is background:{0}", Thread.CurrentThread.IsBackground);
+            return;
+        }
+        void tukejKalba(IAsyncResult arsen)
+        {
+            object[] kapsa = (object[])arsen.AsyncState;
+            Action<int> waitHolder = (Action<int>)kapsa[0];
+            waitHolder.EndInvoke(arsen);        // ..not helping...
+
+            //   WPA("..tukej kalba .. isbackgoundThread:{0}, arsen.CompletedSynchronously:{1}", Thread.CurrentThread.IsBackground, arsen.CompletedSynchronously);      // ..sadly ..is TRUE... is background !!!
+            // Action<object> normalovaa = new Action<object>(netukejKurwa);
+            //normalovaa.Invoke(kapsa[1]);          // ..ee
+            // normalovaa.DynamicInvoke(kapsa[1]);      // ..ee
+
+            // ...>>> that way go back tomain thread...
+            //     Form1.meForm1.Invoke(normalovaa, kapsa[1]);       // ..ok
+
+            // if (kapsa[1] is Delegate)
+            //   WPA("..jjo j to degeen... {0}", kapsa[1].GetType().Name);     // ..indeeed it reports to be delegate !!
+            // ... so ...lets try to formulate some posibly reusable mechanics..
+            if (kapsa.Length > 1 && kapsa[1] != null)
+            {
+                var txtFormName = kapsa[1].GetType().Name;      // ..to resolve if Action or Func
+                if (txtFormName.IndexOf("Func", StringComparison.InvariantCultureIgnoreCase) < 0)
+                {
+                    if (kapsa[1] is Action)
+                    {
+                        Action aa = (Action)kapsa[1];
+                        //SUFLER(aa);
+                        Form1.meForm1.Invoke(aa);
+                    }
+                    else if (kapsa[1] is Action<object>)
+                    {
+                        Action<object> aa = (Action<object>)kapsa[1];
+                        if (kapsa.Length > 2)
+                            Form1.meForm1.Invoke(aa, kapsa[2]);
+                        else
+                            Form1.meForm1.Invoke(aa, null);
+                    }
+                    else if (kapsa[1] is Action<object, object>)
+                    {
+                        Action<object, object> aa = (Action<object, object>)kapsa[1];
+                        if (kapsa.Length > 3)
+                            Form1.meForm1.Invoke(aa, kapsa[2], kapsa[3]);
+                        else
+                            Form1.meForm1.Invoke(aa, null, null);
+                    }
+                    if (kapsa[1] is Action<object[]>)
+                    {
+                        Action<object[]> aa = (Action<object[]>)kapsa[1];
+                        if (kapsa.Length > 2)
+                        {
+                            object[] prasans = new object[kapsa.Length - 2];
+
+                            Array.Copy(kapsa, 2, prasans, 0, prasans.Length);
+                            Form1.meForm1.Invoke(aa, prasans);
+                        }
+                        else
+                            Form1.meForm1.Invoke(aa, null);
+                    }
+                    //...and so on...
+                }
+                else
+                {
+                    WPA("after kalbing of Func type degen NOT IMPL YET.. its>> {0}", txtFormName);
+                    if (kapsa[1] is Func<object, object>)
+                    {
+                        Func<object, object> ff = (Func<object, object>)kapsa[1];
+                        if (kapsa.Length > 2)
+                        {
+                            Form1.meForm1.Invoke(ff, kapsa[2]);
+                            //ff.Invoke(kapsa[2]);
+                        }
+                        else
+                            Form1.meForm1.Invoke(ff, null);
+
+                    }
+                }
+            }
+        }
+        /*
+        void netukejKurwa(object neco)
+        {
+            WPA("netukejKurwa.....is background:{0}", Thread.CurrentThread.IsBackground);   // ...still saying its background !!!
+        }
+        */
+
+        #endregion someWay to async wait and then continue SYNC passed method...of.
 
         private void poluteCRPCoferbox()
         {
@@ -4284,13 +4455,16 @@ namespace httpFormSSLsrvv
             WPA("file:{0}\r\n curentHisDira> {1}\r\n parent> {2}\r\n posibleUP:{3}", jenFilename, jenHisResidingDira, parterent.FullName, uperLocation);
 
             */
+            /*
             var testFilePatha = Directory.GetCurrentDirectory() + "\\ZALconfigSaved.json";
             var freslyFoundedTreasure = string.Empty;
             if (Extaazions.ClaimUPandSearchForFile(testFilePatha, 33, ref freslyFoundedTreasure))
                 WPA("founded upper:{0}", freslyFoundedTreasure);
             else
                 WPA("KEINE upper power... ");
-
+            */
+            var tadiira = Directory.GetParent(Directory.GetCurrentDirectory()).FullName + "\\ponsite.pfx";
+            WPA("je tam? >> {0} , {1}", tadiira, File.Exists(tadiira));
                      
         }
 
@@ -4339,8 +4513,10 @@ namespace httpFormSSLsrvv
         // C:\WLOZ\gstreamer\webRTC\KK\RTC
         private void button20_ws_start_Click(object sender, EventArgs e)
         {
-            SUFLER_ASN(syyysWStest, "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\bin\\Debug\\SSL_Server\\certs\\ponsite.pfx;crestron");
-           
+            //  SUFLER_ASN(syyysWStest, "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\bin\\Debug\\SSL_Server\\certs\\ponsite.pfx;crestron");
+            //  SUFLER_ASN(syyysWStest, "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\bin\\ponsite.pfx;crestron");
+            // or ..justt
+            SUFLER_ASN(syyysWStest, string.Empty);
         }
 
         private void button20_stop_ws_Click(object sender, EventArgs e)
@@ -4413,7 +4589,11 @@ namespace httpFormSSLsrvv
             if (someparams.isNullOrEmpty())
             {
                 // C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\bin\\Debug\\SSL_Server\\certs\\ponsite.pfx
-                var hopefulySomeLocation = Directory.GetCurrentDirectory() + "\\SSL_Server\\certs\\ponsite.pfx";
+                var hopefulySomeLocation = Directory.GetParent(Directory.GetCurrentDirectory()).FullName + "\\ponsite.pfx";
+                if (File.Exists(hopefulySomeLocation))
+                    someparams = hopefulySomeLocation;
+                else
+                    hopefulySomeLocation = Directory.GetCurrentDirectory() + "\\SSL_Server\\certs\\ponsite.pfx";    // originaly used..
                 if (File.Exists(hopefulySomeLocation))
                     someparams = hopefulySomeLocation;
                 certpass = "crestron";
@@ -4448,8 +4628,8 @@ namespace httpFormSSLsrvv
             {
                 // this suprisingly  ..firing when clients disconect... eg ..close tab..
                 // eg it gous lik>> "The closing was clean? True (sent: True received: True)"
-
-                WPA("wsskunda LOG:{0}", lugrdata.Message.Replace("\x0A", "\x0A\x0D"));
+                if (vrbosePrint)
+                    WPA("wsskunda LOG:{0}", lugrdata.Message.Replace("\x0A", "\x0A\x0D"));
                 // if onclose event inside behavior lakunda wont suffice... we may supply it heere ...
                 // ...not using for now ...
                 //if (lugrdata.Message.Contains("closing was clean"))
@@ -4464,10 +4644,13 @@ namespace httpFormSSLsrvv
             wsskunda.SslConfiguration.ClientCertificateRequired = false;
 
             wsskunda.SslConfiguration.ClientCertificateValidationCallback = (sender, certificatete, chain, sslPolicyErrors) => {
-                if (certificatete == null)
-                    WPA("incoming wss client certificate is NULL !!");
-                else
-                    WPA("..on client cert validution buk {0}, {1}", certificatete.Issuer, certificatete.Subject);
+                if (vrbosePrint)
+                {
+                    if (certificatete == null)
+                        WPA("incoming wss client certificate is NULL !!");
+                    else
+                        WPA("..on client cert validution buk {0}, {1}", certificatete.Issuer, certificatete.Subject);
+                }
                 return true;
             };
 
@@ -4661,7 +4844,8 @@ namespace httpFormSSLsrvv
 
 
                         logedWSchatusers.ADuD(desiredSlanderName, relatedHavior);
-                        WPA("ws client login Name:>> {0}, currentTotal users count:{1}", desiredSlanderName, logedWSchatusers.Count);
+                        if (vrbosePrint)
+                            WPA("ws client login Name:>> {0}, currentTotal users count:{1}", desiredSlanderName, logedWSchatusers.Count);
                    
                         SUFLER_ASN(resyncSrvClientsWithAliasNames);
                         // distrubuteLogedUsersList();
@@ -4697,7 +4881,8 @@ namespace httpFormSSLsrvv
                                 logedWSchatusers.Remove(posiblepreviousAlias);
                         }
 
-                        WPA("ws client Name:>> {0} LOGout, currentTotal users count:{1}", desiredSlanderName, logedWSchatusers.Count);
+                        if (vrbosePrint)
+                            WPA("ws client Name:>> {0} LOGout, currentTotal users count:{1}", desiredSlanderName, logedWSchatusers.Count);
                         
                         SUFLER_ASN(resyncSrvClientsWithAliasNames);
                     }
@@ -4792,9 +4977,29 @@ namespace httpFormSSLsrvv
                     break;
 
 
+                    // rtc stuff
+                case "candidate":
+                    {
+                        //  var targetNameOrAll = someDyked["targetname"].ToString();
+
+                        oneWSuserSendingRTCstuffToOneOther(normatype, someDyked, e, relatedHavior);
+                    }
+                    break;
+                case "offer":
+                    {
+                        oneWSuserSendingRTCstuffToOneOther(normatype, someDyked, e, relatedHavior);
+                    }
+                    break;
+                case "answer":
+                    {
+                        oneWSuserSendingRTCstuffToOneOther(normatype, someDyked, e, relatedHavior);
+                    }
+                    break;
+
+
                 default:
                     {
-
+                        oneWSuserSendingRTCstuffToOneOther(normatype, someDyked, e, relatedHavior);
                     }
                     break;
             }
@@ -4866,7 +5071,8 @@ namespace httpFormSSLsrvv
                 try
                 {
                     jenTaprvni.Invoke(this, fuparams);
-                    WPA("Done reflexive execute of >> {0} done", jenTaprvni.Name);
+                    if (vrbosePrint)
+                        WPA("Done reflexive execute of >> {0} done", jenTaprvni.Name);
                 }
                 catch (Exception rex)
                 {
@@ -4948,7 +5154,6 @@ namespace httpFormSSLsrvv
 
         public void distrubuteLogedUsersList()
         {
-
             var serverClientsIdes = wsskunda.WebSocketServices["/kunda"].Sessions.IDs.ToArray();
             var partizanedListKeys = logedWSchatusers.Keys.ToArray();
 
@@ -4958,16 +5163,14 @@ namespace httpFormSSLsrvv
             {
                 //  WPA("heErr ... soft clients list count:{0}, does NOT ewal server sessions count:{1}", partizanedListKeys.Length, serverClientsIdes.Length);
                 // ...as it is now ... the connected wsock user may not be yet loged...so ..
-                WPA("heErr ...difr between loged users count:{0}, connected users count:{1}", partizanedListKeys.Length, serverClientsIdes.Length);
+                if (vrbosePrint)
+                    WPA("heErr ...difr between loged users count:{0}, connected users count:{1}", partizanedListKeys.Length, serverClientsIdes.Length);
             }
 
             normOb krabicehoven = new normOb();
             krabicehoven.type = "userslist";
             krabicehoven.value = partizanedList;
-            krabicehoven.name = null;
-
-          
-        
+            krabicehoven.name = null;                 
 
             var posranedPack = JsonConvert.SerializeObject(krabicehoven, Formatting.None);
 
@@ -4985,10 +5188,14 @@ namespace httpFormSSLsrvv
                 if (srvSejsna.UserName.isNOTNullOrEmpty())
                 {
                     tmpusersList.ADuD(srvSejsna.UserName, srvSejsna);
-                    WPB("ws loged user: {0}  uid:{1}", srvSejsna.UserName, srvSejsna.ID);
+                    if (vrbosePrint)
+                        WPB("ws loged user: {0}  uid:{1}", srvSejsna.UserName, srvSejsna.ID);
                 }
                 else
-                    WPB("ws NOTloged user: {0} >> {1}", srvSejsna.ID, srvSejsna.uuserEndPoint);
+                {
+                    if (vrbosePrint)
+                        WPB("ws NOTloged user: {0} >> {1}", srvSejsna.ID, srvSejsna.uuserEndPoint);
+                }
             }
             lock (semaforingProtectorForLogedWSdyk)
             {
@@ -5001,6 +5208,52 @@ namespace httpFormSSLsrvv
         public object semaforingProtectorForLogedWSdyk = new object();
         public Dictionary<string, Lakunda> logedWSchatusers = new Dictionary<string, Lakunda>();
 
+
+        #region  RTChandlingMethods
+
+        //  combo for sendin candidates, offers, answears
+        public void oneWSuserSendingRTCstuffToOneOther(string referedTask, IDictionary<string, JToken> someDyked, WebSocketSharp.MessageEventArgs e, Lakunda relatedHavior_source)
+        {
+            if (relatedHavior_source == null) return;        
+            if(referedTask.isNullOrEmpty())
+                referedTask = someDyked["type"].ToString();
+            if (!someDyked.ContainsKey("targetname"))
+            {
+                WPA("desired task:{0}, does NOT have targetname !!!!!, preData:{1}", referedTask, e.Data);               
+                return;
+            }
+
+            string targetUserName = someDyked["targetname"].ToString();
+
+            if (logedWSchatusers.ContainsKey(targetUserName))
+            {
+
+                var relatedHavior_target = logedWSchatusers[targetUserName];
+
+                relatedHavior_target.Seend(e.Data);
+                // ...as respons only, otherwise lets resend the whole packet as it came from ws js                 
+                normOb krabicehoven = new normOb();
+
+                krabicehoven.type = "response";
+                krabicehoven.name = referedTask;// "candidate";
+                krabicehoven.value = "-sended-";
+                var posranedPack = JsonConvert.SerializeObject(krabicehoven, Formatting.None);
+                if (relatedHavior_source != null)
+                    relatedHavior_source.Seend(posranedPack);
+            }
+            else
+            {
+                WPA("desired user namer:{0} for sending:{1} NOT found !!! ", targetUserName, referedTask);
+            }
+        }
+
+
+
+
+
+
+
+        #endregion  RTChandlingMethods of...
 
 
 
@@ -5070,7 +5323,8 @@ namespace httpFormSSLsrvv
 
             protected override void OnOpen()
             {
-                gWPA("lakunda on ooopen isAlive:{0}, ID:{1}", this.IsAlive, this.ID);
+                if (vrbosePrint)
+                    gWPA("lakunda on ooopen isAlive:{0}, ID:{1}", this.IsAlive, this.ID);
                 base.OnOpen();
 
             //    _mwebSocket = this.WebSockett;
@@ -5080,8 +5334,9 @@ namespace httpFormSSLsrvv
             }
             protected override void OnClose(WebSocketSharp.CloseEventArgs e)
             {
-                // seems this is sadly NOT firing !!!!
-                gWPA("lakunda on close:{0}", e.Reason);
+                // seems this is sadly NOT firing !!!!.....well ..it does.. but not always..
+                if (vrbosePrint)
+                    gWPA("lakunda on close:{0}", e.Reason);
                 Form1.meForm1.SUFLER_ASN(Form1.meForm1.resyncSrvClientsWithAliasNames);
 
                 base.OnClose(e);
@@ -5148,6 +5403,24 @@ namespace httpFormSSLsrvv
 
 
         #endregion websocket devising of....
+
+
+        // autoclearing textboxes...
+        // ...questionn is ...is it worthy??
+        int ourMaxlenConst = 65535;
+        private void textBoxXX_TextChanged(object sender, EventArgs e)
+        {
+            // WPA or WPB output box got some ...
+            if (sender != null)
+            {
+                var tenbox = (TextBoxBase)sender;
+                //tenbox.MaxLength
+                if (tenbox.TextLength > ourMaxlenConst)
+                    tenbox.Clear();
+            }
+        }
+
+
 
     }
 

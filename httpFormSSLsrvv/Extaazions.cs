@@ -124,6 +124,29 @@ namespace httpFormSSLsrvv
             }
         }
 
+        public static bool boolCheckBoxSafeReader(this CheckBox toRead)
+        {
+            if (toRead != null)
+            {
+                if (toRead.InvokeRequired)
+                {
+                    object necovratil = toRead.Invoke(new Func<CheckBox, bool>(boolCheckBoxSafeReader), new object[] { toRead });
+                    if (necovratil != null)
+                    {
+                        if (necovratil is bool)
+                            return (bool)necovratil;
+                        else
+                            return necovratil.ToString().EndsWith("rue");
+                    }
+                }
+                else
+                {
+                   return toRead.Checked;
+                }
+            }
+            return false;
+        }
+
         public static string txtBoxSafeReader(this TextBoxBase toRead)
         {
             if (toRead != null)

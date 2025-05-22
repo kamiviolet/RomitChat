@@ -46,7 +46,7 @@ const RTCConnection = new function() {
     const hangupBtn = document.querySelector('#hangup_btn');
 
     callBtn.disabled = true;
-    hangupBtn.disabled = false;
+   // hangupBtn.disabled = false;
 
     RTCConnection.startTime = window.performance.now();
 
@@ -102,6 +102,7 @@ const RTCConnection = new function() {
   this.hangTheFuckingFooneEndCaal = function(e)
   {
       e.preventDefault();
+      stopLocalStreams();
   }
 
 

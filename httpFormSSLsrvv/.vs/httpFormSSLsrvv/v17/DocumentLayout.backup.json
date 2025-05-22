@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9209C0FD-FDF5-4D48-8844-49E772486C1B}|httpFormSSLsrvv.csproj|C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9209C0FD-FDF5-4D48-8844-49E772486C1B}|httpFormSSLsrvv.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9209C0FD-FDF5-4D48-8844-49E772486C1B}|httpFormSSLsrvv.csproj|c:\\wloz\\wo\\v4\\recreatehttpsrv\\httpformsslsrvv\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9209C0FD-FDF5-4D48-8844-49E772486C1B}|httpFormSSLsrvv.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9209C0FD-FDF5-4D48-8844-49E772486C1B}|httpFormSSLsrvv.csproj|C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9209C0FD-FDF5-4D48-8844-49E772486C1B}|httpFormSSLsrvv.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9209C0FD-FDF5-4D48-8844-49E772486C1B}|httpFormSSLsrvv.csproj|C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\extaazions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -38,28 +38,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAGUTAAAAAAAAAAAwwHQTAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAJsTAAAAAAAAAAAwwLkTAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T21:51:19.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\WLOZ\\wo\\V4\\reCreateHTTPsrv\\httpFormSSLsrvv\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T15:52:42.508Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-15T15:52:42.508Z"
             }
           ]
         }
