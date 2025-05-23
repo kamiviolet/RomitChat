@@ -11,7 +11,7 @@ body {
   grid-template-rows: auto 4fr 1fr auto;
   grid-template-columns: 1fr 3fr 2fr;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  height: 100vh;
+  height: 93vh;
 }
 
 a {
@@ -22,19 +22,24 @@ form {
   display: grid;
 }
 
-input[type="text"] {
+input[type="text"], select {
   line-height: 2em;
   padding-block: .3em;
 }
 
 button {
+  text-transform: capitalize;
   border-radius: 5px;
+}
+
+select {
+  width: 200px;
 }
 
 video {
   width: 95%;
   height: 95%;
-  max-height: 400px; 
+  max-height: 40vh;
   place-self: center;
   background: black;
 }
@@ -63,6 +68,7 @@ video {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 #user_profile form {
@@ -202,6 +208,7 @@ section h3 {
   grid-column: 3/4;
   grid-row: 2/4;
   background: black;
+  position: relative;
 }
 
 #podium_inner_cam > div {
@@ -221,7 +228,7 @@ justify-content: space-around;
   padding-block: 0 0.7em;
 }
 
-input[type="submit"], input[type="reset"], button {
+input[type="submit"], input[type="reset"], button, select {
   max-width: 200px;
   padding: .5em 1em;
   height: 3em;
@@ -274,9 +281,66 @@ body > section.expand {
 color: greenyellow;
 }
 
-@media screen and (min-width: 960px) {
+.on-call {
+  position: relative;
+}
+
+.on-call #local_cam {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  height: auto;
+}
+
+.maximise-btn {
+  width: min-content;
+  padding: .25rem;
+  height: unset;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 1rem;
+  opacity: 0.7;
+  z-index: 5; 
+}
+
+ #remote_cam {
+   display:none;
+ }
+
+ .on-call #remote_cam {
+  display: block;
+ }
+
+ .maximise {
+  grid-row: 1/4 !important;
+ }
+
+ .maximise video {
+  max-height: unset;
+ }
+
+ .maximise #remote_cam {
+  width: 100%;
+  height: 100%;
+ }
+
+ #user_profile #cudecParams {
+  display: none;
+ }
+
+ @media screen and (min-width: 960px) {
+  body {
+    height: 100vh;
+  }
+
   #responsive_menu {
     display: none;
+  }
+
+  #user_profile #cudecParams {
+    display: flex;
   }
   
   body > section.expand {
@@ -288,6 +352,11 @@ color: greenyellow;
   #podium_inner_cam > div {
     display: grid;
     justify-items: center;
+    grid-template-columns: 31% 31% 31%;
+  }
+
+  .maximise#podium_inner_cam > div {
+    grid-column: 1/3;
   }
 
   #local_cam {
@@ -295,22 +364,37 @@ color: greenyellow;
     grid-column: 1 / 2;
   }
 
+  .on-call #local_cam {
+    position: unset;
+    width: 95%;
+    height: 95%;
+  }
+
   #remote_cam {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+    display: block;
+  }
+  
+  .maximise#podium_inner_cam {
+    grid-column: 1/4;
+    grid-template-rows: 1fr auto;
+    place-items: center;
   }
 
-}
+  .maximise #local_cam {
+    grid-column: 1/2;
+    grid-row: 1/2;
 
-@media screen and (max-width: 960px) {
- #local_cam {
- display:none;
- }
-}
+    width: 100%;
+    height: 100%;
+  }
 
-@media screen and (max-height: 799px) {
- body {
-height: fit-content !important;
- }
+  .maximise #remote_cam {
+    grid-column: 2/3;
+    grid-row: 1/2;
 
+    width: 100%;
+    height: 100%;
+  }
 }

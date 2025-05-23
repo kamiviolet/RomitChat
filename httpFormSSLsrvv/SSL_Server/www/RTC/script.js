@@ -91,7 +91,8 @@ clearHistoryBtn.addEventListener('click', Chatroom.clearChatHistory);
 const tabMenu = document.getElementById('responsive_menu');
 tabMenu.addEventListener('click', Frontend.expandSectionViaButton);
 
-
+const maximizeBtn = document.querySelector('#podium_inner_cam > .maximise-btn');
+maximizeBtn.addEventListener('click', Chatroom.maximizeCam);
 
 
 // the link for confirming security exeption will be better generaten based on current location

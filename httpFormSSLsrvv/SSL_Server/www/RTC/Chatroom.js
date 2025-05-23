@@ -25,4 +25,9 @@ const Chatroom = new function() {
     SendMSGtoSelectedUsers(e);
   }
 
+  this.maximizeCam = function(e) {
+    e.preventDefault();
+    document.querySelector('#podium_inner_cam').classList.toggle('maximise');
+  }
+
 }

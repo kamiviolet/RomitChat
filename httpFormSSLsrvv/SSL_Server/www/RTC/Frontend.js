@@ -3,6 +3,7 @@ const Frontend = new function() {
     if (e.target.nodeName !== 'button' && e.target.nodeName !== 'BUTTON') return;
 
     document.querySelector('.expand').classList.remove('expand');
+    document.querySelector('.maximise')?.classList.remove('maximise');
 
     document.querySelectorAll('#responsive_menu > button')?.forEach(btn => btn.disabled = "");
     
@@ -19,9 +20,16 @@ const Frontend = new function() {
     
     let defaultSection = document.getElementById(defaultSectionId);
     let currentExpanded = document.querySelector('.expand');
+
+     let isMaximised = document.querySelector('.maximise');
     
     if (window.innerWidth < 960) {
       if (currentExpanded) return;
+
+      if (isMaximised) {
+        defaultSectionId = 'podium_inner_cam';
+        defaultSection = document.getElementById(defaultSectionId);
+      }
 
       defaultSection?.classList.add('expand');
 

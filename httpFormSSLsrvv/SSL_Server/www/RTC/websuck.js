@@ -34,7 +34,8 @@ const publicStuns = [
     { urls: "stun:stun3.l.google.com:3478" },
     { urls: "stun:stun3.l.google.com:5349" },
     { urls: "stun:stun4.l.google.com:19302" },
-    { urls: "stun:stun4.l.google.com:5349" }
+    { urls: "stun:stun4.l.google.com:5349" },
+    { urls: "stun:stun.services.mozilla.com"}
 ];              
         
         
@@ -191,12 +192,9 @@ function Wos_onMessage(mesuge)
          // ..DO NOTHING ..specialy dont respond with ack otherwise infinite lethat cyclying starts...
          return;
       }
-                 
-      processWSmessage(mesuge);
-      
+      processWSmessage(mesuge);      
    }
 }
-
 
 function prepRecconectWosock(uniqueDelay)
 {
@@ -228,7 +226,6 @@ function Wos_ResolveSendHearBeat()
     {
       if(globalThis.gl_wosocko.readyState == 1)
       {
-         // TODO: push it to some kind of queue buffer send front..
          // ...otherwise is only matter of time when this accidentaly colide with at the moment sending desire ...
          globalThis.gl_wosocko.send(cipACK);   
       }
@@ -248,9 +245,8 @@ function Wos_ResolveSendHearBeat()
 
 
 
-
-
- // main incoming fun called from websock event handler..
+ // main pieace of chain of incoming fun called from websock event handler..
+ // this one calls safe parse and call further with type name
 function processWSmessage(mesuge)
 {
    if(!mesuge)return;
@@ -261,8 +257,7 @@ function processWSmessage(mesuge)
       var normalizedType = ojebanyObjekt["type"];
       if(normalizedType)
       {
-         // TODO: some funct with hevier switch case ..
-         //   // type ... letsay >> general, broadcast, chat, login, invite, offer, answear, candidates, refresh
+         // type ... letsay >> general, broadcast, chat, login, invite, offer, answear, candidates, refresh
         processProtocoledOb(ojebanyObjekt, normalizedType);
       }
    }
@@ -271,6 +266,7 @@ function processWSmessage(mesuge)
     console.log("not parsed ? >>", mesuge);
    }           
 }
+// ment to be main incoming msg switch ...curently bypassed on behalf of stepping atempt..
 function processProtocoledOb(prasedPizdaload, normalizedType)
 {
    // type ... letsay >> general, broadcast, chat, login, invite, offer, answear, candidates, refresh, userslist
@@ -287,17 +283,9 @@ function processProtocoledOb(prasedPizdaload, normalizedType)
            var whichTaskIsReferingTo = prasedPizdaload.name;   // eg chat
            var explanationResult = prasedPizdaload.value;      // it may stars and end with -sended-
            var targnam = prasedPizdaload.targetname ? prasedPizdaload.targetname : "";
-           if(explanationResult.startsWith("-") && explanationResult.endsWith("-"))
-           {
-              // printToLogScreen(whichTaskIsReferingTo + " to:" + targnam + ", " + explanationResult);
-               // TODO: replace with >>
-               printMessageOnScreen(prasedPizdaload);
-           }
-           else
-           {
-               //printToLogScreen(whichTaskIsReferingTo + " " + targnam + ", " + explanationResult);
-                printMessageOnScreen(prasedPizdaload);
-           }
+       //    if(explanationResult.startsWith("-") && explanationResult.endsWith("-"))
+           
+           printMessageOnScreen(prasedPizdaload);
            
       }break;
       
@@ -347,7 +335,6 @@ function processProtocoledOb(prasedPizdaload, normalizedType)
                // return;
             }
          }      
-         // printToLogScreen("from:" + possibleAddmitingOFshamefulName + " " + prasedPizdaload["value"]);
          printMessageOnScreen(prasedPizdaload);
       }break;
       
@@ -355,8 +342,35 @@ function processProtocoledOb(prasedPizdaload, normalizedType)
       {
         var maybeZlemmi = safeZaaval(prasedPizdaload["value"])
         if(maybeZlemmi != null)
-            console.log("resulz of OK eval of:%s, is:%o",prasedPizdaload["value"],maybeZlemmi); 
-      
+        {
+            var optionalNameOfOrigin = prasedPizdaload["name"] ? prasedPizdaload["name"] : "";
+            console.log("resulz of OK eval of:%s, is:%o",prasedPizdaload["value"],maybeZlemmi);
+
+            if (optionalNameOfOrigin != "") {
+              // logic prepared for possible extra serializing ...eg functions body, extra delimiters char etc...
+              // ...but now its pointles as the whole ob is stringifed before sending...
+              var carryBox = maybeZlemmi;
+              /*
+              var retuba = typeof maybeZlemmi;              
+              if(retuba == 'number' || retuba == 'string')
+                carryBox = maybeZlemmi;
+              else
+                carryBox = JSON.stringify(maybeZlemmi);
+              */
+              sendToServer({
+                name: gl_lastUsedName,
+                type: "eval-response",
+                targetname: optionalNameOfOrigin,
+                value: carryBox
+            });
+          }
+        }      
+      }break;
+      case "eval-response":
+      { 
+        var optionalNameOfOrigin = prasedPizdaload["name"] ? prasedPizdaload["name"] : "";
+        console.log("..some EVAL respons: %o , from:%s", prasedPizdaload["value"], optionalNameOfOrigin);
+
       }break;
       
       case "userslist":
@@ -457,6 +471,11 @@ function JSonSafePrase(somePotentialJasan)
 function safeZaaval(txtCode)
 {
    if(!txtCode)return null;
+   if(txtCode.includes("await"))
+   {
+      txtCode = txtCode.replace(/await/gm,"");
+   }
+
    try
    {
      var someZu = null; 
@@ -466,8 +485,23 @@ function safeZaaval(txtCode)
    catch(error)
    {
      console.log("..err during EVAL of:%s, err:%o",txtCode,error);
-     return null;
+     return error; //null;
    }
+}
+
+function aboutAsiVlasy(txtHandl) {
+  //https://rostacik.net/2023/01/21/async-eval-in-javascript/
+  const AsyncFunction = Object.getPrototypeOf(async function () { }).constructor;
+  function awaitFromString(handler) {
+    return new Promise((resolve, reject) => {
+      new AsyncFunction(
+        "resolve",
+        "reject",
+        `try { await ${handler}; resolve(); } catch (e) { reject(e); }`,
+      )(resolve, reject)
+    })
+  }
+  return awaitFromString(txtHandl);
 }
 
 function printToLogScreen(whaat)
@@ -509,7 +543,7 @@ function printMessageOnScreen(msgData) {
    if (tamtoCpat.innerHTML.length > 3500) tamtoCpat.innerHTML = "";
 
    let user = msgData.name;
-   let msg = msgData.value;
+   let msg = msgData.value || "";
    var timestumpa = new Date().toLocaleTimeString().split(" ")[0];
     
 if (msg.includes("<") || msg.includes(">")) 
@@ -617,9 +651,11 @@ function SendMsgToSelectedUser(brutalSlandersToSend, desiredUserName)
 }
 
 function SendEvalTaskToOneOrMultiUsers(somePoisonToDeal, specificName)
-{
+{  
    if(!somePoisonToDeal)return;
+   if(!specificName || specificName == "")specificName = GetSelectedUserOrAnybody();
    if(!specificName)specificName = "";    //..letsay that will mean to all..
+   
    var tyranosportOb = {
       type: "eval",
       name: gl_lastUsedName,
@@ -972,6 +1008,11 @@ async function onRTCxxxEvent(event, originDescr)
    {
       var stateofconection = event.explicitOriginalTarget ? event.explicitOriginalTarget : event.target;
       console.log("on: %s >> e:%o >> to:%o", originDescr, event, stateofconection.connectionState); 
+   }
+   else if("onsignalingstatechange" == originDescr)
+   {
+    var torotocopo = event.target;
+    console.log("on: %s >> val:%o",originDescr,torotocopo.signalingState);
    }
    else
       console.log("on: %s >> e:%o",originDescr,event);
@@ -1360,8 +1401,10 @@ this.ConCfg = {
         credential: "superpwd"
       }
     ],
-    iceTransportPolicy: "relay"
+    iceTransportPolicy: "relay",
+    SdpSemantic: "PlanB"
 };
+// Unified or PlanB
 
 this.origoConCfgArchiver = function()
 {
@@ -1981,15 +2024,12 @@ async function temporialWSonmsg(mesuge)
       if(mesuge.data == cipACKok)
       {
          return;
-      }
-                 
+      }     
       
       var ojebanyObjekt = JSonSafePrase(mesuge.data);
       if(ojebanyObjekt)
       {
          var tupee = ojebanyObjekt["type"]; 
-         
-      //   console.log("tmp ws msg tupe:",tupee, ojebanyObjekt);
          
          switch(tupee)
          {
@@ -1997,6 +2037,20 @@ async function temporialWSonmsg(mesuge)
          case "prepmedia":
          {
             sselectedUser = ojebanyObjekt["name"];
+          // ..sadly getting >>  A window.confirm() dialog generated by this page was suppressed because this page is not the active tab of the front... 
+          // ..so cant uuse confirm !!
+          // same gous for prompt and alert
+            if(!confirm(sselectedUser +" is calling you, do you Accept ?"))
+            {
+              sendToServer({
+                  name: gl_lastUsedName,
+                  type: "response",
+                  targetname: sselectedUser,
+                  value: "call rejected"                   
+                }); 
+              return;
+            }
+
             preSelectUserInButList(sselectedUser);
             if(localStreams != null)
                STOPallTracksInStream(localStreams);
@@ -2016,7 +2070,6 @@ async function temporialWSonmsg(mesuge)
             if(ojebanyObjekt["success"] != true)
             {
                   console.log("at respons  prepmedia-done ...REMOTE SIDE FAILED to obtain any streams !!! ");
-                  // TODO: ...again maybe ...or just fuck it...one way comms somehow ?
             }
             else
             {
@@ -2035,15 +2088,35 @@ async function temporialWSonmsg(mesuge)
                
               if(rtcp != null)
                console.log("when incoming offer.. local rtcp is NOT NULL ..!!!...");
-     
+              else
+              {
                await makePeerCon();
                console.log("local peer con made because offer...");
-             
+              }
+            
+               var cusenders = rtcp.getSenders();
+               // maybe do it like that >>>> 
+                /*  cusenders.forEach(cender => {
+                     var posiblej = localStreams.getTrackById(cender.track.id);
+                     if(!posiblej)
+                        console.log("NO tracks from local stream are on sender:",cender);  // ..therefore is safe to to add track to rtcp
+                  })   */
+                  
                localStreams.getTracks().forEach(prak => {
                  
+                  if(cusenders != null && cusenders.length > 0)
+                  {
+                     var senderWithThatTrack = cusenders.find(coho => coho.track && coho.track.id == prak.id);
+                     if(senderWithThatTrack != null)
+                     {
+                      //  console.log("this stream track:%o is already added to rtcp sendedr:%o",prak,senderWithThatTrack);
+                        return;
+                     }
+                  }
+               
+                console.log("adding local streamTrak:%o to rtcp senders",prak);
                  var zblitk = rtcp.addTrack(prak, localStreams);
-                 rtSenders.push(zblitk);
-                 
+                 rtSenders.push(zblitk);                 
                });
                
                var shalowOffer = {type: 'offer', sdp: ojebanyObjekt.sdp};      
@@ -2104,6 +2177,53 @@ async function temporialWSonmsg(mesuge)
             {
                 StopKill_rtcp();
             }break;
+
+
+            case "codec-change":
+               {
+                  if(rtcp == null)return;
+
+                  var desire = ojebanyObjekt["value"];
+                   sselectedUser = ojebanyObjekt["name"];
+
+                   if(Array.isArray(desire))
+                   {
+                   //  console.log("multi codec desure >>>  ", desire);
+                     desire.forEach(osire => {
+                       // changeVideoCodec(osire,rtcp);
+                        changeCodecRCVonly(osire,rtcp);
+                     });
+                   }
+                   else
+                   {
+                   //  changeVideoCodec(desire,rtcp);
+                     changeCodecRCVonly(desire,rtcp);
+                   }
+
+               sendToServer({
+                  name: gl_lastUsedName,
+                  type: "codec-done",
+                  targetname: sselectedUser,
+                  value: desire   
+                });
+
+               }break;
+
+            case "codec-done":
+              {
+               // then lets koroze ..??
+               if(rtcp == null)return;
+               var fromUserName = ojebanyObjekt["name"];
+               if(fromUserName != sselectedUser)
+               {
+                  console.log("recieved codec-done, ...but from diferent name than expected !! >> incomingOrigin:%s, ourSelected:%s", fromUserName,sselectedUser);
+               }
+               var desire = ojebanyObjekt["value"];
+               console.log("after remote side confirmed codec change to:%s, going to triger koroze and reconect !!",desire);
+              
+               await korozeOffer(rtcp);
+
+              }break;
          
             default:
             {
@@ -2130,20 +2250,8 @@ globalThis.halooCaal = async function halooCaal(e){
    await steppingRTC()
 }
 // hang but
-/*
-var tmphangbut = document.querySelector('#hangup_btn');
-if(tmphangbut)
-{
-   tmphangbut.outerHTML +="";    // ...most efective way how to get rid of added listeners...otherwise impossible..
-   tmphangbut.addEventListener('click', (event) =>{ 
-      event.preventDefault();
-      StopKill_rtcp();
-   });
-}
-*/ 
 // or ..just replace the func curently called by hangbut
 globalThis.halooHang = async function halooHang(e){
-
    // if conection never happend ..or already killed by already issued hang kill call...
    // the assumning its mnt to also take care of localstream !!!
    if(rtcp == null)
@@ -2179,6 +2287,8 @@ globalThis.halooHang = async function halooHang(e){
 var rtcp = null;
 var sselectedUser = "";
 var rtSenders = [];
+var rtReceivers = [];
+var rtTransivers = [];
 
 
 function makePeerCon()
@@ -2214,12 +2324,24 @@ function makePeerCon()
       console.log("gadhering:",rtcp.iceGatheringState);
       //if(rtcp.iceGatheringState == "complete")      
    }
+   rtcp.onnegotiationneeded = function(e){
+      console.log("rtcp onnegotiationneeded ..",e);
+      // here will be trigered after we set some codec preference...restart ice ? renegotiate con ?
+   }
       
    rtcp.ontrack = function(e){
    
       console.log("rtcp ontrack >>>: ",e.streams);
       incomingTrack.push(e.streams[0]);
       remote_cam.srcObject = e.streams[0];
+    
+      rtReceivers.push(e.transceiver.receiver);
+    //  if(supportsSetCodecPreferences)
+      //   resolveCudecPrefFor(e)
+   // if(rtcp.connectionState == "connected")
+      podium_inner_cam.classList.toggle("on-call",true);
+ //   else
+   //  console.log("..not yett connected...");
    }
    
    rtcp.onconnectionstatechange = function(event){
@@ -2227,7 +2349,6 @@ function makePeerCon()
       console.log("onconnectionstatechange >> to: ", relatedPeerconection.connectionState);
       if(relatedPeerconection.connectionState == "connected")
       {
-         
          localStreams.getTracks().forEach(prakk => {      
            prakk.enabled = true;
          });
@@ -2236,15 +2357,23 @@ function makePeerCon()
          {
             local_cam.srcObject = new MediaStream(localStreams.getVideoTracks());
          }
- 
+
+        setTimeout(() => {
+          if (relatedPeerconection && relatedPeerconection.connectionState == "connected" && relatedPeerconection.signalingState == "stable") {
+            setDeBandwidth(750).then(limiten => {
+                console.log("limiting bandwidth to 750");
+            });
+          }
+        }, 1100);
       }
       else if(relatedPeerconection.connectionState == "failed")
       {
-        StopKill_rtcp();
+         // ..in theory ..we can try 
+         //  >>>  rtcp.restartIce(); ...but we have to call ourselfs the ofer and whole negotiation proces again..
+         rtcp.restartIce();
+        //StopKill_rtcp();
       }
-   }
-
-   
+   }  
 }
 
 function StopKill_rtcp()
@@ -2254,6 +2383,8 @@ function StopKill_rtcp()
     console.log("colosing killing nulling...");
     rtcp.close();
     rtcp = null;
+  
+  podium_inner_cam.classList.toggle("on-call",false)
    }
    
    if(localStreams)
@@ -2271,6 +2402,8 @@ function StopKill_rtcp()
     incomingTrack = [];
     candidatess = [];
     rtSenders = [];  
+    rtReceivers = [];
+    rtTransivers = [];
 }
 
 async function steppingRTC(fejzTwo)
@@ -2290,6 +2423,7 @@ async function steppingRTC(fejzTwo)
        return;
       }
    }
+
 //MDNrtc.ConCfg.iceServers.shift();
 // or..
 //if(MDNrtc.ConCfg.iceServers.length > 1)
@@ -2346,11 +2480,48 @@ rtcp.setLocalDescription(puffer).then(() => {
 
 }
 
+// ment for trigering renegotiation///
+async function korozeOffer(sRtcp)
+{
+   var puffer = await sRtcp.createOffer();
+
+   sendToServer({
+      name: gl_lastUsedName,
+      targetname: sselectedUser,
+      type: "offer",
+      sdp: puffer.sdp  
+    });
+   rtcp.setLocalDescription(puffer).then(() => {
+      //console.log("our offer has ben set as loccal descr..to peer conn");  
+   });
+}
+// ..not used
+function reKorozeOffer(sRtcp)
+{
+  sRtcp.createOffer().then((offer) => sRtcp.setLocalDescription(offer)).then(() =>
+      sendToServer({
+         name: gl_lastUsedName,
+         targetname: sselectedUser,
+         type: "offer",
+         sdp: sRtcp.localDescription.sdp
+      })
+    ).catch((err) => {
+    console.log("reKorozeOffer Errr>> ",err);
+    });
+}
+
+
 
 // obviously not avviable in my firefox.... some is in chrome...
+
+const supportsSetCodecPreferences = window.RTCRtpTransceiver &&
+  'setCodecPreferences' in window.RTCRtpTransceiver.prototype;
 function aboutCodecPrefs()
 {
 // https://getstream.io/resources/projects/webrtc/advanced/codecs/
+
+var ssupportsSetCodecPreferences = window.RTCRtpTransceiver &&
+  'setCodecPreferences' in window.RTCRtpTransceiver.prototype;
 
 const videoTransceiver = rtcp.addTransceiver('video');
 const codecs = RTCRtpSender.getCapabilities('video').codecs.filter(
@@ -2388,9 +2559,26 @@ if (isAV1Supported()) {
     // Prioritize H.264 for hardware acceleration on low-end devices
     // ...so assuming h.264 is better for network 
     
+    function preferCodec(codecs, mimeType) {
+  let otherCodecs = [];
+  let sortedCodecs = [];
+  let count = codecs.length;
+
+  codecs.forEach((codec) => {
+    if (codec.mimeType === mimeType) {
+      sortedCodecs.push(codec);
+    } else {
+      otherCodecs.push(codec);
+    }
+  });
+
+  return sortedCodecs.concat(otherCodecs);
+}
+
 // https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/WebRTC_codecs    
- function changeVideoCodec(mimeType) {
+ async function chachange_VideoCodec(mimeType) {
   const transceivers = rtcp.getTransceivers();
+  rtTransivers = transceivers;
 
   transceivers.forEach((transceiver) => {
     const kind = transceiver.sender.track.kind;
@@ -2398,19 +2586,482 @@ if (isAV1Supported()) {
     let recvCodecs = RTCRtpReceiver.getCapabilities(kind).codecs;
 
     if (kind === "video") {
-      sendCodecs = preferCodec(mimeType);
-      recvCodecs = preferCodec(mimeType);
+      sendCodecs = preferCodec(sendCodecs, mimeType);
+      recvCodecs = preferCodec(recvCodecs, mimeType);
       transceiver.setCodecPreferences([...sendCodecs, ...recvCodecs]);
     }
   });
 
   rtcp.onnegotiationneeded();
+//  await korozeOffer(rtcp)
 }
+ // video/AV1
 
  //const [transceiver1] = rtcp.getTransceivers();
 // const codecs1 = RTCRtpReceiver.getCapabilities("video").codecs;   
 // https://blog.mozilla.org/webrtc/cross-browser-support-for-choosing-webrtc-codecs/
 }
+
+
+
+
+async function gadherAviableCodecs() {
+  if (!supportsSetCodecPreferences) {
+    console.log("..seems we cant do anything with codecs...");
+    return;
+  }
+// video part...
+  if(!globalThis.cudecsOptionsVideo)
+   globalThis.cudecsOptionsVideo = document.createElement("select");
+  if(cudecsOptionsVideo.children.length != 1)
+   {
+      cudecsOptionsVideo.innerHTML = "";
+      var prvoZmrdo = document.createElement("option");
+      prvoZmrdo.value = "Default";
+      prvoZmrdo.innerText = prvoZmrdo.value;
+      cudecsOptionsVideo.appendChild(prvoZmrdo)
+   }
+  var capas = RTCRtpReceiver.getCapabilities("video");
+  var coudes = capas.codecs;
+  var excludedCoudes = ["video/red", "video/ulpfec", "video/rtx", "video/flexfec-03"];
+  coudes.forEach((oneCudec) => {
+    if (excludedCoudes.includes(oneCudec.mimeType)) {
+      // console.log("skipping some anomalic codec?:",oneCudec);
+      return;
+    }
+   // console.log("video cudec:", oneCudec.mimeType);
+    var copotion = document.createElement("option");
+    copotion.value = (oneCudec.mimeType + " " + (oneCudec.sdpFmtpLine || "")).trim();
+    copotion.innerText = copotion.value;
+    cudecsOptionsVideo.appendChild(copotion);
+    copotion._relatedCodecOb = oneCudec;
+  });
+
+  // Audio part...
+  if(!globalThis.cudecsOptionsAudio)
+   globalThis.cudecsOptionsAudio = document.createElement("select");
+  if(cudecsOptionsAudio.children.length != 1)
+   {
+      cudecsOptionsAudio.innerHTML = "";
+      var prvoZmrdo = document.createElement("option");
+      prvoZmrdo.value = "Default";
+      prvoZmrdo.innerText = prvoZmrdo.value;
+      cudecsOptionsAudio.appendChild(prvoZmrdo)
+   }
+    capas = RTCRtpReceiver.getCapabilities("audio");
+    coudes = capas.codecs;
+    coudes.forEach((oneCudec) =>{
+   // console.log("audio cudec:", oneCudec.mimeType);
+        var copotion = document.createElement("option");
+    copotion.value = (oneCudec.mimeType + " " + (oneCudec.sdpFmtpLine || "")).trim();
+    copotion.innerText = copotion.value;
+    cudecsOptionsAudio.appendChild(copotion);
+      copotion._relatedCodecOb = oneCudec;
+    });
+}
+
+function applyPrefCodedcsSels(event)
+{
+   // like   ChangeCodecBothSides(["audio/G722", "video/H264 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1"]) 
+   if(gl_prefVidCodec != null && gl_prefAudCodec != null)
+   {
+       ChangeCodecBothSides([gl_prefAudCodec, gl_prefVidCodec]);       
+   }
+}
+
+function whenCodecOptionSel(eve) {
+  var whichSelbox = eve.target;
+  var opocnoNavalo = whichSelbox.selectedOptions[0].value;
+  // var thyyCodec = whichSelbox.selectedOptions[0]._relatedCodecOb;
+  //  console.log("for %s codec option selected:%s , thycodec:%o",whichSelbox.name, opocnoNavalo, thyyCodec);
+  if (whichSelbox.name == "video") {
+    gl_prefVidCodec = opocnoNavalo;
+    //   ChangeCodecBothSides(gl_prefVidCodec);
+  } else if (whichSelbox.name == "audio") {
+    gl_prefAudCodec = opocnoNavalo;
+  }
+}
+
+setTimeout(() => {
+  if(supportsSetCodecPreferences)
+    gadherAviableCodecs();
+   else
+    applySelCodecs.disabled = true;
+}, 10);
+
+// called from event of ontrack of peercon
+function resolveCudecPrefFor(e)
+{
+  // console.log("-------resolving pref codec for incoming track event:",e);
+    if (e.track.kind === 'video')
+    {
+      resolveCudecPrefForVideo(e);
+    }
+    else if(e.track.kind == "audio")
+    {
+   //  resolveCudecPrefForAudio(e);
+    }
+    else
+    {
+      console.log("...no track kind !!",e);
+    }
+}
+var gl_prefVidCodec = null;   // napr "video/H264 profile-level-id=42001f;level-asymmetry-allowed=1" 
+var gl_prefAudCodec = null;   // napr "audio/G722" 
+function resolveCudecPrefForVideo(e)
+{
+ var preferredVidoCodecOpotion = cudecsOptionsVideo.options[cudecsOptionsVideo.selectedIndex];
+ var [mimeType, sdpFmtpLine] = preferredVidoCodecOpotion.value.split(' ');
+ var cudecOb = null;
+ var aviabcodecs = RTCRtpReceiver.getCapabilities('video').codecs;
+ var dieCindex = -1;
+   if(preferredVidoCodecOpotion._relatedCodecOb)
+   {
+      cudecOb = preferredVidoCodecOpotion._relatedCodecOb;
+      dieCindex = aviabcodecs.findIndex(c => c.mimeType === cudecOb.mimeType && c.sdpFmtpLine === cudecOb.sdpFmtpLine);
+   }
+   else
+   {      
+        dieCindex = aviabcodecs.findIndex(c => c.mimeType === mimeType && c.sdpFmtpLine === sdpFmtpLine);       
+   }
+   
+   if(dieCindex > -1)
+    {
+        cudecOb = (cudecOb == null) ? aviabcodecs[dieCindex] : cudecOb;
+            // ..cutting it from the aviable arra and putting it on start of it ..as the transiever require whole arr of codecs..
+            // ..so by putting our pref on top ...it should be preff..
+         aviabcodecs.splice(dieCindex,1);
+         aviabcodecs.unshift(cudecOb);
+    }
+   
+   if(cudecOb != null)
+   {
+      e.transceiver.setCodecPreferences(aviabcodecs);
+      console.log('Receiver\'s preferred video codec on top of list:', aviabcodecs[0]);
+   }
+}
+function resolveCudecPrefForAudio(e)
+{
+ var preferredAudoCodecOpotion = cudecsOptionsAudio.options[cudecsOptionsAudio.selectedIndex];
+ var mimeType = preferredAudoCodecOpotion.value;
+ var cudecOb = null;
+ var aviabcodecs = RTCRtpReceiver.getCapabilities('audio').codecs;
+ var dieCindex = -1;
+   if(preferredAudoCodecOpotion._relatedCodecOb)
+   {
+      cudecOb = preferredAudoCodecOpotion._relatedCodecOb;
+      dieCindex = aviabcodecs.findIndex(c => c.mimeType === cudecOb.mimeType);
+   }
+   else
+   {      
+        dieCindex = aviabcodecs.findIndex(c => c.mimeType === mimeType);       
+   }
+   
+   if(dieCindex > -1)
+    {
+        cudecOb = (cudecOb == null) ? aviabcodecs[dieCindex] : cudecOb;
+            // ..cutting it from the aviable arra and putting it on start of it ..as the transiever require whole arr of codecs..
+            // ..so by putting our pref on top ...it should be preff..
+         aviabcodecs.splice(dieCindex,1);
+         aviabcodecs.unshift(cudecOb);
+    }
+   
+   if(cudecOb != null)
+   {
+      e.transceiver.setCodecPreferences(aviabcodecs);
+      console.log('Receiver\'s preferred audio codec on top of list:', aviabcodecs[0]);
+   }
+}
+
+
+// "video/H264 profile-level-id=42e01f;level-asymmetry-allowed=1" 
+
+
+function preferCodec(codecs, mimeType) {
+  let otherCodecs = [];
+  let sortedCodecs = [];
+  let count = codecs.length;
+  var posible_dpFmtpLine = null;
+  // if passed mime with sdpFmtpLine and so oon...
+  if(mimeType.includes(" "))
+  {
+      var mimAsdpFmtpLine = mimeType.split(" ").filter(tho => tho);
+      posible_dpFmtpLine = mimAsdpFmtpLine[1];
+      mimeType = mimAsdpFmtpLine[0]; 
+  }
+
+  codecs.forEach((codec) => {
+    if (codec.mimeType === mimeType) {
+      sortedCodecs.push(codec);
+    } else {
+      otherCodecs.push(codec);
+    }
+  });
+
+  if(posible_dpFmtpLine != null)
+  {
+     var specifex = sortedCodecs.findIndex(spenz => spenz.sdpFmtpLine && spenz.sdpFmtpLine == posible_dpFmtpLine);
+     if(specifex > -1)
+     {
+      var vipBuzerant = sortedCodecs.splice(specifex,1);
+      sortedCodecs.unshift(vipBuzerant[0]);
+     }
+  }
+
+  return sortedCodecs.concat(otherCodecs);
+}
+
+// changeCodecRCVonly("video/H264",rtcp);
+
+function changeCodecRCVonly(mimeType, ofThatRtcp){
+  const transceivers = ofThatRtcp.getTransceivers();
+    transceivers.forEach((transceiver) => {
+    const kind = transceiver.sender.track.kind;
+    let recvCodecs = RTCRtpReceiver.getCapabilities(kind).codecs;
+
+      if (kind === "video" && mimeType.includes("video")) {
+        recvCodecs = preferCodec(recvCodecs, mimeType);
+        transceiver.setCodecPreferences([...recvCodecs]);
+      }
+      else if(kind == "audio" && mimeType.includes("audio")){
+        recvCodecs = preferCodec(recvCodecs, mimeType);
+        transceiver.setCodecPreferences([...recvCodecs]);
+      }
+    });
+    ofThatRtcp.onnegotiationneeded();
+}
+
+function changeVideoCodec(mimeType, ofThatRtcp) {
+  const transceivers = ofThatRtcp.getTransceivers();
+
+  transceivers.forEach((transceiver) => {
+    const kind = transceiver.sender.track.kind;
+    // ..on the mobile side this will caus killing the video stream..
+    let sendCodecs = RTCRtpSender.getCapabilities(kind).codecs;
+    let recvCodecs = RTCRtpReceiver.getCapabilities(kind).codecs;
+
+    if (kind === "video" && mimeType.includes("video")) {
+      sendCodecs = preferCodec(sendCodecs, mimeType);
+      recvCodecs = preferCodec(recvCodecs, mimeType);
+        console.log("++setting VIDEO codecs pref to:%o , with send:%o, rec:%o",transceiver, sendCodecs, recvCodecs);
+      transceiver.setCodecPreferences([...sendCodecs, ...recvCodecs]);
+    }
+    else if(kind == "audio" && mimeType.includes("audio"))
+    {
+      sendCodecs = preferCodec(sendCodecs, mimeType);
+      recvCodecs = preferCodec(recvCodecs, mimeType);
+        console.log("++setting AUDIO codecs pref to:%o , with send:%o, rec:%o",transceiver, sendCodecs, recvCodecs);
+      transceiver.setCodecPreferences([...sendCodecs, ...recvCodecs]);
+    }
+
+  });
+  ofThatRtcp.onnegotiationneeded();
+  // ..or maybe directly  
+ // korozeOffer(rtcp)
+ //  await getOutboundCodecStat(rtcp)
+}
+// ..like  changeVideoCodec("video/H264",rtcp)    
+// ..or  changeVideoCodec("video/VP8",rtcp)     
+// ..or  changeVideoCodec("video/AV1",rtcp) 
+ // ChangeCodecBothSides(["audio/G722", "video/H264 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1"]) 
+ // ChangeCodecBothSides(["audio/G722", "video/H264"]);
+
+// uses signaling ws to made same change on remote..then 
+// on incoming codec-done should triger the reconnect nego
+function ChangeCodecBothSides(mimeTypeDesire)
+{
+   if(rtcp == null)return;
+
+   if(Array.isArray(mimeTypeDesire))
+   {
+      mimeTypeDesire.forEach(oneMyme => {
+          //changeVideoCodec(oneMyme,rtcp);
+          changeCodecRCVonly(oneMyme, rtcp);
+      });
+   }
+   else
+   {
+      //changeVideoCodec(mimeTypeDesire,rtcp);
+      changeCodecRCVonly(mimeTypeDesire, rtcp);
+   }
+    sselectedUser = GetSelectedUserOrAnybody();
+            sendToServer({
+                  name: gl_lastUsedName,
+                  type: "codec-change",
+                  targetname: sselectedUser,
+                  value: mimeTypeDesire   
+                });
+
+}
+//  ChangeCodecBothSides(["audio/G722", "video/H264"]) 
+//  ChangeCodecBothSides(["audio/G722", "video/H264 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1"]) 
+//  ChangeCodecBothSides("video/H264") 
+ // ChangeCodecBothSides("video/AV1") 
+  // ChangeCodecBothSides("video/VP8") 
+    // ChangeCodecBothSides("video/VP9") 
+ // "video/H264 profile-level-id=42e01f;level-asymmetry-allowed=1"
+  // ChangeCodecBothSides("video/H264 profile-level-id=42001f;level-asymmetry-allowed=1;packetization-mode=1") 
+  // ChangeCodecBothSides("video/H264 profile-level-id=42e01f;level-asymmetry-allowed=1;packetization-mode=1");
+
+// ..for checking if the codec setting actualy take off...
+async function getOutboundCodecStat(pc) {
+  const stats = await pc.getStats();
+  var arredStats = [...stats.values()];
+  var filtredToOutbond = arredStats.filter(tupee => tupee.type == "outbound-rtp");
+  var otbondovyKoudelky = filtredToOutbond.map(naa => stats.get(naa.codecId));  
+   //console.log("sss",theyrIdes)
+  return otbondovyKoudelky;
+}
+// like >> await getOutboundCodecStat(rtcp)
+
+
+// ....bandwithing..
+
+async function aboutBandwith(desirBandwithKB)
+{
+if(!desirBandwithKB)desirBandwithKB = 50;
+
+var zunders = rtcp.getSenders()
+var oprans1 = zunders[0].getParameters();
+var oprans2 = zunders[1].getParameters();
+oprans1.encodings[0].maxBitrate = (desirBandwithKB * 1000)
+oprans2.encodings[0].maxBitrate = (desirBandwithKB * 1000)
+
+var cozby1 = zunders[0].setParameters(oprans1);
+var cozby2 = zunders[1].setParameters(oprans2);
+console.log("zbylo ",cozby1,cozby2)
+
+//var specSDP = updateBandwidthRestriction(rtcp.remoteDescription.sdp, desirBandwith);
+ //await korozeOffer(rtcp);
+
+   return rtcp.createOffer()
+      .then(offer => rtcp.setLocalDescription(offer))
+      .then(() => {
+        const desc = {
+          type: rtcp.remoteDescription.type,
+          sdp: desirBandwithKB === 'unlimited' ?
+          removeBandwidthRestriction(rtcp.remoteDescription.sdp) :
+          updateBandwidthRestriction(rtcp.remoteDescription.sdp, desirBandwithKB)
+        };
+        console.log('Applying bandwidth restriction to setRemoteDescription:\n' + desc.sdp);
+        return rtcp.setRemoteDescription(desc);
+      })
+      .catch(onSetSessionDescriptionError);
+}
+
+function onSetSessionDescriptionError(error) {
+  console.log('Failed to set session description: ', error.toString());
+}
+
+function updateBandwidthRestriction(sdp, bandwidth) {
+  let modifier = 'AS';
+  if (adapter.browserDetails.browser === 'firefox') {
+    bandwidth = (bandwidth >>> 0) * 1000;
+    modifier = 'TIAS';
+  }
+  if (sdp.indexOf('b=' + modifier + ':') === -1) {
+    // insert b= after c= line.
+    sdp = sdp.replace(/c=IN (.*)\r\n/, 'c=IN $1\r\nb=' + modifier + ':' + bandwidth + '\r\n');
+  } else {
+    sdp = sdp.replace(new RegExp('b=' + modifier + ':.*\r\n'), 'b=' + modifier + ':' + bandwidth + '\r\n');
+  }
+  return sdp;
+}
+function removeBandwidthRestriction(sdp) {
+  return sdp.replace(/b=AS:.*\r\n/, '').replace(/b=TIAS:.*\r\n/, '');
+}
+
+function setDeBandwidth(bandwidthInKbps) {
+  // In modern browsers, use RTCRtpSender.setParameters to change bandwidth without
+  // (local) renegotiation. Note that this will be within the envelope of
+  // the initial maximum bandwidth negotiated via SDP.
+  if(!rtcp)return null;
+  if ((adapter.browserDetails.browser === 'chrome' ||
+       adapter.browserDetails.browser === 'safari' ||
+       (adapter.browserDetails.browser === 'firefox' &&
+        adapter.browserDetails.version >= 64)) &&
+      'RTCRtpSender' in window &&
+      'setParameters' in window.RTCRtpSender.prototype) {
+    const sender = rtcp.getSenders()[1];
+    const parameters = sender.getParameters();
+    if (!parameters.encodings) {
+      parameters.encodings = [{}];
+    }
+    if (bandwidthInKbps === 'unlimited') {
+      delete parameters.encodings[0].maxBitrate;
+    } else {
+      parameters.encodings[0].maxBitrate = bandwidthInKbps * 1000;
+    }
+    console.log("seting budwih... ",parameters.encodings);
+    return sender.setParameters(parameters);
+  }
+  else
+  {
+    console.log("...toto zde neeni podprdovanee...");
+    return null;
+  }
+}
+// await setDeBandwidth(500)
+
+
+var peece1 = null;
+var peece2 = null;
+Object.defineProperty(globalThis,"preece2",{  
+  get(){ 
+    return window.location; 
+  }, 
+  set(xv){  },
+  configurable:true
+});
+
+function rtcpRestart(someRtcp) {
+  if (!someRtcp) someRtcp = rtcp;
+  if (someRtcp == null) return;
+  peece1 = someRtcp;
+
+  var specofferOptions = {
+    offerToReceiveAudio: 1,
+    offerToReceiveVideo: 1,
+    iceRestart: true
+  };
+  someRtcp.createOffer(specofferOptions).then(onhooCreateOfferSuccess,(elEr) =>{ console.log("during ice restart er:",elEr); });
+}
+function onhooCreateOfferSuccess(desc)
+{
+  console.log("offer from pc1 localrtcp:",desc.sdp);
+  console.log('pc1 local setLocalDescription start');
+  rtcp.setLocalDescription(desc).then(() => { console.log("pc1 setLocalDescription OK"); }, (elEr) =>{ console.log("during pc1 setLocalDescription er:",elEr);} );
+
+
+  console.log('pc2 setRemoteDescription start');
+  peece2.setRemoteDescription(desc).then(() => { console.log("pc2 setLocalDescription OK"); }, (elEr) =>{ console.log("during pc2 setLocalDescription er:",elEr);} );
+  console.log('pc2 createAnswer start');
+  // Since the 'remote' side has no media stream we need
+  // to pass in the right constraints in order for it to
+  // accept the incoming offer of audio and video.
+  peece2.createAnswer().then(onhooCreateAnswerSuccess, (elEr) =>{ console.log("during pc2 createAnswer er:",elEr);});
+}
+
+function onhooCreateAnswerSuccess(desc) {
+  console.log(`Answer from peece2:\n${desc.sdp}`);
+  console.log('peece2 setLocalDescription start');
+  peece2.setLocalDescription(desc).then(() => onSetLocalSuccess(peece2), onSetSessionDescriptionError);
+  console.log('pc1 setRemoteDescription start');
+  peece1.setRemoteDescription(desc).then(() => onSetRemoteSuccess(peece1), onSetSessionDescriptionError);
+
+  if (useSelectedCandidatePairChange) {
+    peece1.getSenders()[0].transport.iceTransport.onselectedcandidatepairchange = () => {
+      checkStats(peece1);
+      if (peece1.iceConnectionState === 'connected') {
+        restartButton.disabled = false;
+      }
+    };
+    peece2.getSenders()[0].transport.iceTransport.onselectedcandidatepairchange = () => {
+      checkStats(peece2);
+    };
+  }
+}
+
 
 
 
@@ -2517,5 +3168,6 @@ if(globalThis.gl_autConnect == true)
 {
    setTimeout(()=>{
        OopenWSS(); 
+        //OopenWSS("wss://91.139.6.78:9995/kunda"); 
    },700);
 }
